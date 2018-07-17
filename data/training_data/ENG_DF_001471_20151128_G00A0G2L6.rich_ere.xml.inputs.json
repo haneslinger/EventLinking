@@ -1,0 +1,431 @@
+[
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacking",
+            "propbank": "attack.01",
+            "mentionid": "em-579",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "his wife"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "beating up",
+            "propbank": "beating up.XX",
+            "mentionid": "em-630",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacking",
+            "propbank": "attack.01",
+            "mentionid": "em-658",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "his wife"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "beat",
+            "propbank": "UNK",
+            "mentionid": "em-857",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "his wife"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "violence",
+            "propbank": "UNK",
+            "mentionid": "em-1281",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-201",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "shoot",
+            "propbank": "UNK",
+            "mentionid": "em-686",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-147",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-156",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who we want"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "call",
+            "propbank": "call.07",
+            "mentionid": "em-716",
+            "modality": "other",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-186",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the cops"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "called",
+            "propbank": "call.07",
+            "mentionid": "em-739",
+            "modality": "other",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-186",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the cops"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "call",
+            "propbank": "call.07",
+            "mentionid": "em-885",
+            "modality": "other",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-186",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the cops"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "gone",
+            "propbank": "go.03",
+            "mentionid": "em-767",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-201",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-243",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-915",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-201",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the brother"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "shoot",
+            "propbank": "UNK",
+            "mentionid": "em-607",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-201",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "murdered",
+            "propbank": "murdered.XX",
+            "mentionid": "em-797",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "they guy"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-201",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murdered",
+            "propbank": "murder.01",
+            "mentionid": "em-827",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "they guy"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-201",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "use",
+            "propbank": "UNK",
+            "mentionid": "em-978",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-456",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "few wines"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-489",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their husbands"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1369",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "guns"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-1006",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-504",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "felons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-1029",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-504",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "felons"
+            }
+        ]
+    }
+]

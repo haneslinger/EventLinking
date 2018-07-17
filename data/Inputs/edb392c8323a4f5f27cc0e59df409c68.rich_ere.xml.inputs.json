@@ -1,0 +1,472 @@
+[
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-398",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Afghan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-558",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A man in Afghanistan"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-68",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Afghanistan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "execute",
+            "lemma": "death",
+            "propbank": "UNK",
+            "mentionid": "em-426",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Afghan"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-451",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "conversion"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "execute",
+            "lemma": "death",
+            "propbank": "UNK",
+            "mentionid": "em-593",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-77",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a Kabul court"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A man in Afghanistan"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-625",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "converting from Islam to Christianity"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-68",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Afghanistan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "prosecuted",
+            "propbank": "prosecuted.XX",
+            "mentionid": "em-456",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A man in Afghanistan"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-77",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a Kabul court"
+            },
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-68",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the country"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-495",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "converting from Islam to Christianity"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-686",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The defendant"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-714",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "His"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-739",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-779",
+            "modality": "other",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the man"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-507",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A man in Afghanistan"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-77",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a Kabul court"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-539",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-546",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "converting from Islam to Christianity"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-86",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Kabul"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "UNK",
+            "mentionid": "em-635",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A man in Afghanistan"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-77",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a Kabul court"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-68",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the country"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-674",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "converting from Islam to Christianity"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-68",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Afghanistan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-865",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rahman"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-890",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "rejecting Islam"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-742",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Abdul Rahman"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-767",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last month"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-774",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "becoming a Christian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "radio",
+            "propbank": "UNK",
+            "mentionid": "em-835",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-260",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-860",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this morning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-893",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a judge"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-930",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sunday"
+            }
+        ]
+    }
+]

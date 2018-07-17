@@ -1,0 +1,1649 @@
+[
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "dispersed",
+            "propbank": "disperse.01",
+            "mentionid": "em-1318",
+            "modality": "actual",
+            "framenet": "fn::Dispersal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "several hundred protesters"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-93",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the center of this roiled capital"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1357",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Saturday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "dispersed",
+            "propbank": "dispersed.XX",
+            "mentionid": "em-1360",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "several hundred protesters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-93",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the center of this roiled capital"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1399",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Saturday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "brutality",
+            "propbank": "UNK",
+            "mentionid": "em-1710",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-204",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "broke up",
+            "propbank": "broke up.XX",
+            "mentionid": "em-1731",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Riot police officers"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1763",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "tear gas"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Independence Square"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the crowd in Independence Square"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "beaten",
+            "propbank": "beaten.XX",
+            "mentionid": "em-2071",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-363",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "At least three dozen people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "beating",
+            "propbank": "UNK",
+            "mentionid": "em-2189",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "violence",
+            "propbank": "UNK",
+            "mentionid": "em-2847",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Independence Square"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-648",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the government of Ukraine"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2879",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this morning"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters on Independence Square"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-1404",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "several hundred protesters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-93",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the center of this roiled capital"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1436",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Saturday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "demonstrators",
+            "propbank": "demonstrators.XX",
+            "mentionid": "em-1599",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-108",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "demonstrators"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-186",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the cobblestone streets outside the centuries-old St. Michael\u2019s Golden-Domed Monastery"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-1877",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Several hundred protesters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-2444",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "demonstrators",
+            "propbank": "demonstrators.XX",
+            "mentionid": "em-2465",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the demonstrators"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-2685",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the square"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-2766",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-2896",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters on Independence Square"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Independence Square"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2928",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this morning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-3208",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-108",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "IN STREET",
+            "propbank": "in street.XX",
+            "mentionid": "em-1441",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "UKRAINIANS"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "STREET"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "gathered",
+            "propbank": "gathered.XX",
+            "mentionid": "em-1803",
+            "modality": "actual",
+            "framenet": "fn::Escaping"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-303",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "A crowd of about 10,000 people"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "there"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1835",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "demonstrate",
+            "lemma": "denounce",
+            "propbank": "UNK",
+            "mentionid": "em-1501",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-177",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "thousands more"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-30",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the streets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Exchange",
+            "ere": "transaction",
+            "lemma": "trade",
+            "propbank": "trade.01",
+            "mentionid": "em-1531",
+            "modality": "generic",
+            "framenet": "fn::Exchange"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Ukraine"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "swirled",
+            "propbank": "swirled.XX",
+            "mentionid": "em-1627",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-108",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "demonstrators"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-186",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the cobblestone streets outside the centuries-old St. Michael\u2019s Golden-Domed Monastery"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1664",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-108",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "shouted",
+            "propbank": "shouted.XX",
+            "mentionid": "em-1687",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-108",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protest",
+            "propbank": "protest.01",
+            "mentionid": "em-1780",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the main protest site"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "took to",
+            "propbank": "take.35",
+            "mentionid": "em-1471",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-177",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "thousands more"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-30",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the streets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meeting",
+            "propbank": "meet.03",
+            "mentionid": "em-1840",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-318",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Vilnius"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1865",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            },
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-123",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Yanukovich"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "chanting",
+            "propbank": "chanting.XX",
+            "mentionid": "em-1905",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Several hundred protesters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "resignation",
+            "propbank": "resign.01",
+            "mentionid": "em-1935",
+            "modality": "other",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-123",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Yanukovich"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "moved",
+            "propbank": "moved.XX",
+            "mentionid": "em-1958",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "posted",
+            "propbank": "posted.XX",
+            "mentionid": "em-1988",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-354",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "witnesses"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "carrying",
+            "propbank": "carry.01",
+            "mentionid": "em-2034",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-2059",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "body shields"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-2092",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-372",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Roman Sharan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "welt",
+            "propbank": "welt.XX",
+            "mentionid": "em-2115",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Cause",
+                "ere": "agent",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-372",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a veterinary student who was in the crowd and had a deep red welt on his knee from having been hit with a truncheon"
+            },
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-2147",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "truncheon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "hit",
+            "propbank": "hit.01",
+            "mentionid": "em-2152",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-2169",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "truncheon"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-372",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a veterinary student who was in the crowd and had a deep red welt on his knee from having been hit with a truncheon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "knocked",
+            "propbank": "knocked.XX",
+            "mentionid": "em-2300",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-372",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "injure",
+            "lemma": "beating",
+            "propbank": "UNK",
+            "mentionid": "em-2217",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "warning",
+            "propbank": "UNK",
+            "mentionid": "em-2247",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "leave",
+            "propbank": "leave.11",
+            "mentionid": "em-2277",
+            "modality": "other",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "detention",
+            "propbank": "UNK",
+            "mentionid": "em-2342",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-429",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "others"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "ran",
+            "propbank": "ran.XX",
+            "mentionid": "em-2372",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-444",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Some of the demonstrators"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-195",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the ornate monastery"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-2486",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Kiev"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-2516",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-84",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificGroup",
+                "entity-text": "cities across the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-2567",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-555",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Kiev metropolitan police"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-2590",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-570",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "at least 35 people"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-555",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Kiev metropolitan police"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2629",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "resisting law enforcement authorities"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Kiev"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "statement",
+            "propbank": "UNK",
+            "mentionid": "em-2641",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-555",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "police"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "asked",
+            "propbank": "asked.XX",
+            "mentionid": "em-2706",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "officers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "clear",
+            "propbank": "clear.01",
+            "mentionid": "em-2729",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "officers"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-258",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the square"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "statement",
+            "propbank": "UNK",
+            "mentionid": "em-2794",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-633",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "U.S. Embassy in Kiev"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2819",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Saturday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "demonstrators",
+            "propbank": "demonstrators.XX",
+            "mentionid": "em-2824",
+            "modality": "generic",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "demonstrators"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "speech",
+            "propbank": "speak.01",
+            "mentionid": "em-2931",
+            "modality": "generic",
+            "framenet": "fn::Chatting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-717",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "civil society"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Ukraine"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "assembly",
+            "propbank": "UNK",
+            "mentionid": "em-2954",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-717",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "civil society"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Ukraine"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "issued",
+            "propbank": "issued.XX",
+            "mentionid": "em-2991",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-726",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Jen Psaki"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-657",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Washington"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "issued",
+            "propbank": "issued.XX",
+            "mentionid": "em-3021",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-759",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Senior EU officials"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meeting",
+            "propbank": "meet.03",
+            "mentionid": "em-3044",
+            "modality": "other",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-780",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "John Kerry"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "here"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-3076",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this week"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "arriving",
+            "propbank": "arrive.01",
+            "mentionid": "em-3095",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-816",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "other Western officials"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "here"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-3125",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-123",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Yanukovich"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "called",
+            "propbank": "called.XX",
+            "mentionid": "em-3148",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-123",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiations",
+            "propbank": "negotiate.01",
+            "mentionid": "em-3171",
+            "modality": "other",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "EU"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Exchange",
+            "ere": "transaction",
+            "lemma": "trade",
+            "propbank": "trade.01",
+            "mentionid": "em-1561",
+            "modality": "generic",
+            "framenet": "fn::Exchange"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "European Union"
+            }
+        ]
+    }
+]

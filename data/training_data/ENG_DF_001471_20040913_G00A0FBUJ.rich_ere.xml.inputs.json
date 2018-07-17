@@ -1,0 +1,389 @@
+[
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-885",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-30",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the Fab Four's company"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-910",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1991"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1319",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$26.5 million"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-913",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-144",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Paul McCartney"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "bring",
+            "propbank": "UNK",
+            "mentionid": "em-953",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-144",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Paul McCartney"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-159",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the Apple board of directors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-993",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-144",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-270",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "michael"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-1036",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-270",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-1059",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-270",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "michael"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1084",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "your music"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-144",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "making",
+            "propbank": "UNK",
+            "mentionid": "em-1096",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-8",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "them"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1121",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "great products"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "make",
+            "propbank": "UNK",
+            "mentionid": "em-1126",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-30",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Apple UK"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1379",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "computers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sell",
+            "propbank": "sell.01",
+            "mentionid": "em-1149",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Apple US"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sales",
+            "propbank": "sell.01",
+            "mentionid": "em-1193",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-144",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-1216",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Apple computer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "announcing",
+            "propbank": "UNK",
+            "mentionid": "em-1322",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-30",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Apple Corps"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "opining",
+            "propbank": "opining.XX",
+            "mentionid": "em-1352",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-105",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "A lawyer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sell",
+            "propbank": "sell.01",
+            "mentionid": "em-1382",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Apple US"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1407",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "music"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sales",
+            "propbank": "sell.01",
+            "mentionid": "em-1412",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-144",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "his"
+            }
+        ]
+    }
+]

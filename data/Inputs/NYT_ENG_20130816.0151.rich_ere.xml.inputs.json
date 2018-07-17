@@ -1,0 +1,526 @@
+[
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "leave",
+            "propbank": "leave.11",
+            "mentionid": "em-1431",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "protesters"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-25",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Capitol"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "leaving",
+            "propbank": "leave.11",
+            "mentionid": "em-1491",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-25",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Capitol"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "left",
+            "propbank": "leave.11",
+            "mentionid": "em-1844",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-25",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Capitol"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1876",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "departure",
+            "propbank": "depart.01",
+            "mentionid": "em-2002",
+            "modality": "other",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the group"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "demonstrate",
+            "lemma": "demonstration",
+            "propbank": "UNK",
+            "mentionid": "em-1459",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-25",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Florida Capitol"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protest",
+            "propbank": "protest.01",
+            "mentionid": "em-1925",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-1946",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "protesters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-25",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Capitol"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-1974",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the protesters"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1999",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July 18"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "shooting",
+            "propbank": "UNK",
+            "mentionid": "em-1816",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-220",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "George Zimmerman"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-229",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Trayvon Martin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "acquit",
+            "lemma": "acquitted",
+            "propbank": "acquit.01",
+            "mentionid": "em-1570",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-220",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "George Zimmerman"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1595",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "three days after"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1602",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "the shooting death of Trayvon Martin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "return",
+            "propbank": "return.01",
+            "mentionid": "em-1521",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-25",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Capitol"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-1607",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-229",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Trayvon Martin"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-220",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "George Zimmerman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "met",
+            "propbank": "meet.03",
+            "mentionid": "em-1637",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the protesters"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1669",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July 18"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "hearing",
+            "propbank": "hearing.02",
+            "mentionid": "em-1674",
+            "modality": "other",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1691",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this fall"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meetings",
+            "propbank": "meet.03",
+            "mentionid": "em-1699",
+            "modality": "other",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-478",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Florida Department of Law Enforcement"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "dialogue",
+            "propbank": "dialogue.01",
+            "mentionid": "em-1727",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-499",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Department of Juvenile Justice"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protest",
+            "propbank": "protest.01",
+            "mentionid": "em-1750",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "spent",
+            "propbank": "spent.XX",
+            "mentionid": "em-1780",
+            "modality": "actual",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-124",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "The state"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1805",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$153,630"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announced",
+            "propbank": "announced.XX",
+            "mentionid": "em-1881",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-811",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Department of Management Services"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announced",
+            "propbank": "announced.XX",
+            "mentionid": "em-1902",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-2054",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the Miami-based group"
+            }
+        ]
+    }
+]

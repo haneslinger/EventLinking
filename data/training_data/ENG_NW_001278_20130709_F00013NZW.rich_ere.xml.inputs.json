@@ -1,0 +1,437 @@
+[
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ex",
+            "propbank": "ex.XX",
+            "mentionid": "em-1047",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Hazem al-Beblawi"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1072",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "finance minister"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1077",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-192",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Essam Sharaf"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1102",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "prime minister"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "resigned",
+            "propbank": "resign.01",
+            "mentionid": "em-1107",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-192",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1132",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "November 2011"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ousted",
+            "propbank": "oust.01",
+            "mentionid": "em-1135",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-228",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Mohamed Morsi"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1160",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ousted",
+            "propbank": "oust.01",
+            "mentionid": "em-1195",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-228",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Morsi"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1220",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1165",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the former head of the International Agency for Atomic Energy"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-249",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "International Agency for Atomic Energy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protest",
+            "propbank": "protest.01",
+            "mentionid": "em-1223",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-273",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "millions of people"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-282",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the streets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "took office",
+            "propbank": "took office.XX",
+            "mentionid": "em-1253",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-228",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1278",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "a year ago"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "handed",
+            "propbank": "handed.XX",
+            "mentionid": "em-1283",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Adli Mansour"
+            },
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "appointed",
+            "propbank": "appoint.01",
+            "mentionid": "em-1306",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-342",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egypt's newly-appointed presidential media adviser"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1331",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "adviser"
+            },
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egypt"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "denied",
+            "propbank": "denied.XX",
+            "mentionid": "em-1429",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-342",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egypt's newly-appointed presidential media adviser"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1454",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Saturday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1527",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the finance minister in the cabinet of former prime minister Essam Sharaf"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1552",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "finance minister"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-183",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the cabinet of former prime minister Essam Sharaf"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "took to",
+            "propbank": "take.35",
+            "mentionid": "em-1571",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-273",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "millions of people"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-282",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the streets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "objected",
+            "propbank": "objected.XX",
+            "mentionid": "em-1608",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-363",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "al-Nour Party"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "rejected",
+            "propbank": "rejected.XX",
+            "mentionid": "em-1631",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-399",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "which"
+            }
+        ]
+    }
+]

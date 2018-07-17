@@ -1,0 +1,186 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "married",
+            "propbank": "UNK",
+            "mentionid": "em-974",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gingrich"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "married",
+            "propbank": "UNK",
+            "mentionid": "em-995",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "married",
+            "propbank": "UNK",
+            "mentionid": "em-1016",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-69",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Calista"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1069",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "for 13 years"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorced",
+            "propbank": "divorce.01",
+            "mentionid": "em-1037",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominating",
+            "propbank": "UNK",
+            "mentionid": "em-1072",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1137",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a Ken Doll"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "married",
+            "propbank": "UNK",
+            "mentionid": "em-1468",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-69",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "one woman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "debates",
+            "propbank": "debates.XX",
+            "mentionid": "em-1503",
+            "modality": "actual",
+            "framenet": "fn::Social_event_collective"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gingrich"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "debates",
+            "propbank": "debates.XX",
+            "mentionid": "em-1526",
+            "modality": "actual",
+            "framenet": "fn::Social_event_collective"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    }
+]

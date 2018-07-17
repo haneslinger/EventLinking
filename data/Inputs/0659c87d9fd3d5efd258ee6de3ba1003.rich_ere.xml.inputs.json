@@ -1,0 +1,81 @@
+[
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-312",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a whole bunch of hacks at the Sun"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "mergeorg",
+            "lemma": "merge",
+            "propbank": "UNK",
+            "mentionid": "em-333",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-78",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ABN Amro"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "given",
+            "propbank": "give.01",
+            "mentionid": "em-369",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Stephen Hester"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-394",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "\u00a36.5M"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-401",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2010"
+            }
+        ]
+    }
+]

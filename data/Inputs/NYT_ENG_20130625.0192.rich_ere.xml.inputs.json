@@ -1,0 +1,1416 @@
+[
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "EXECUTION",
+            "propbank": "execute.01",
+            "mentionid": "em-1357",
+            "modality": "other",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "DETECTIVES' KILLER"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "executed",
+            "propbank": "execute.01",
+            "mentionid": "em-1547",
+            "modality": "other",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-1399",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1424",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "seven years ago"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1431",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murdering two undercover police detectives"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-2156",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2181",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2006"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-2270",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murdering",
+            "propbank": "murder.01",
+            "mentionid": "em-1466",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two undercover police detectives"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-1494",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-1519",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-1797",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-1822",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-71",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the state"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-2184",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-2209",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-71",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "New York"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-2242",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-2259",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-1526",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-2806",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-3120",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-152",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the lead prosecutor on the case"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-116",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a packed courtroom in U.S. District Court in Brooklyn"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "shot",
+            "propbank": "UNK",
+            "mentionid": "em-2494",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "each of them"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-233",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "a secluded neighborhood where he shot each of them in the back of the head"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2625",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "March 10, 2003"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "blasted",
+            "propbank": "blasted.XX",
+            "mentionid": "em-2663",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2697",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "that night"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "driven",
+            "propbank": "driven.XX",
+            "mentionid": "em-1612",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a member of the Bloods gang"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-212",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Staten Island"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2611",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "March 10, 2003"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "led",
+            "propbank": "lead.01",
+            "mentionid": "em-1649",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the two men"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-233",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "a secluded neighborhood where he shot each of them in the back of the head"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2618",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "March 10, 2003"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-1686",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-260",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the jury"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-1727",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "life in prison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-2075",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-3166",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-2529",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-2554",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "parole",
+            "propbank": "UNK",
+            "mentionid": "em-1730",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murdering",
+            "propbank": "UNK",
+            "mentionid": "em-1438",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two undercover police detectives"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "execute",
+            "propbank": "execute.01",
+            "mentionid": "em-1832",
+            "modality": "generic",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-335",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people convicted of federal crimes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "convicted",
+            "propbank": "convicted.XX",
+            "mentionid": "em-1857",
+            "modality": "generic",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-335",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people convicted of federal crimes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "point at",
+            "propbank": "point at.XX",
+            "mentionid": "em-1878",
+            "modality": "actual",
+            "framenet": "fn::Assemble"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "talked",
+            "propbank": "talked.XX",
+            "mentionid": "em-1915",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-260",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the jury"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "murdered",
+            "propbank": "murdered.XX",
+            "mentionid": "em-1945",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-197",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "placed",
+            "propbank": "place.01",
+            "mentionid": "em-2019",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-599",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a psychiatric hospital, where he told a worker that he wanted to die"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-2047",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-2219",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-2236",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-2314",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-773",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "cost",
+            "propbank": "UNK",
+            "mentionid": "em-3069",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-3094",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$1.6 million"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "given birth",
+            "propbank": "given birth.XX",
+            "mentionid": "em-2388",
+            "modality": "actual",
+            "framenet": "fn::Giving_birth"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-857",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their son"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-2411",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-821",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gonzalez"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "interview",
+            "propbank": "UNK",
+            "mentionid": "em-2434",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-881",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mechelle King"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-1323",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "outside of the courtroom"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-2464",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "detectives who had driven to Staten Island as part of a sting operation to buy illegal guns"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2489",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "illegal guns"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-2135",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-2578",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-2827",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-2848",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-2869",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "whose"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-2890",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-2997",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-734",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the jury"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "EXECUTION",
+            "propbank": "UNK",
+            "mentionid": "em-1378",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "DETECTIVES' KILLER"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "executed",
+            "propbank": "executed.XX",
+            "mentionid": "em-1568",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murdered",
+            "propbank": "murder.01",
+            "mentionid": "em-1968",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-197",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "execute",
+            "propbank": "UNK",
+            "mentionid": "em-2557",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-335",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people convicted of federal crimes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "drove off",
+            "propbank": "drove off.XX",
+            "mentionid": "em-2628",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-233",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "a secluded neighborhood where he shot each of them in the back of the head"
+            },
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2660",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "March 10, 2003"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "statement",
+            "propbank": "UNK",
+            "mentionid": "em-2700",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-551",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "abandoned",
+            "propbank": "abandon.01",
+            "mentionid": "em-2723",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-584",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his crack-addicted mother"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "told",
+            "propbank": "told.XX",
+            "mentionid": "em-2746",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-620",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a worker"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-599",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a psychiatric hospital, where he told a worker that he wanted to die"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "hospitalized",
+            "propbank": "hospitalized.XX",
+            "mentionid": "em-2783",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "ruled",
+            "propbank": "ruled.XX",
+            "mentionid": "em-2953",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2970",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2010"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-713",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "an appellate court"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Wilson"
+            },
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "prosecutors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "written",
+            "propbank": "written.XX",
+            "mentionid": "em-3018",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-752",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Justice Department"
+            }
+        ]
+    }
+]

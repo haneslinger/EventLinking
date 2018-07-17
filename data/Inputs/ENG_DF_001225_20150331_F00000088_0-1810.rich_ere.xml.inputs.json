@@ -1,0 +1,115 @@
+[
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_81_410",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-NIL01259",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "My dad"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_81_435",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "free tickets to the move"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "say",
+            "propbank": "say.01",
+            "mentionid": "em-568eb23c_81_438",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_81_180",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "hate on",
+            "propbank": "hate on.XX",
+            "mentionid": "em-568eb23c_81_461",
+            "modality": "generic",
+            "framenet": "fn::Reveal_secret"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-NIL01266",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-568eb23c_81_489",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_81_210",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "most people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "went",
+            "propbank": "went.XX",
+            "mentionid": "em-568eb23c_81_600",
+            "modality": "generic",
+            "framenet": "fn::Affirm_or_deny"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_81_351",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            }
+        ]
+    }
+]

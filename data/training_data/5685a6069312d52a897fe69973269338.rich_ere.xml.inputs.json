@@ -1,0 +1,734 @@
+[
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-900",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my mother"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-921",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-1789",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "your Mum"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "went",
+            "propbank": "go.03",
+            "mentionid": "em-942",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my father"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-75",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the bank"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1023",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "today"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-963",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my Dad"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-984",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my Dad"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "inform",
+            "propbank": "UNK",
+            "mentionid": "em-1366",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "gets",
+            "propbank": "get.01",
+            "mentionid": "em-1396",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-66",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the bank"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2205",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the proper death certificate"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "provided",
+            "propbank": "provide.01",
+            "mentionid": "em-1433",
+            "modality": "actual",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-66",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the bank"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2212",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the one from the Coroner we provided"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transaction",
+            "lemma": "giving",
+            "propbank": "give.01",
+            "mentionid": "em-1470",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my dad"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Change_possession",
+            "ere": "transfermoney",
+            "lemma": "transferring",
+            "propbank": "transfer.01",
+            "mentionid": "em-1507",
+            "modality": "other",
+            "framenet": "fn::Transfer"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-63",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the credit card companies"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "money",
+                "entity": "f-1539",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "money"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "telling",
+            "propbank": "UNK",
+            "mentionid": "em-1544",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "take",
+            "propbank": "take.01",
+            "mentionid": "em-1574",
+            "modality": "other",
+            "framenet": "fn::Taking"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-63",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1599",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "it"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "tell",
+            "propbank": "UNK",
+            "mentionid": "em-1646",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "seeing",
+            "propbank": "UNK",
+            "mentionid": "em-1676",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the solicitor"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-1710",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "where my Dad made his will"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "cost",
+            "propbank": "UNK",
+            "mentionid": "em-1752",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the solicitor"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-1784",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "3 - 5k"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "send",
+            "propbank": "UNK",
+            "mentionid": "em-1810",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-1110",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "organisations"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "write",
+            "propbank": "UNK",
+            "mentionid": "em-1847",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-1125",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-1877",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2226",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "envelopes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "cost",
+            "propbank": "UNK",
+            "mentionid": "em-1943",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "You"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-1968",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "the cost"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "calls",
+            "propbank": "call.07",
+            "mentionid": "em-1920",
+            "modality": "other",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "got",
+            "propbank": "get.01",
+            "mentionid": "em-2163",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2261",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "five copies"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "sending",
+            "propbank": "sending.XX",
+            "mentionid": "em-2006",
+            "modality": "other",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-1143",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the other companies"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "gives",
+            "propbank": "give.01",
+            "mentionid": "em-1971",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "your dad"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2233",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the letters your dad gives you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "phone",
+            "propbank": "phone.01",
+            "mentionid": "em-2040",
+            "modality": "other",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-2070",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2240",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the official death certificate"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-2100",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2247",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "several certified copies"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-2121",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2254",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "them"
+            }
+        ]
+    }
+]

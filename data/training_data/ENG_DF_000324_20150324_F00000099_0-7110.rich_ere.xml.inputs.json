@@ -1,0 +1,444 @@
+[
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "trumpets",
+            "propbank": "trumpets.XX",
+            "mentionid": "em-568eb23c_30_1002",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Clinton"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "trumpets",
+            "propbank": "trumpets.XX",
+            "mentionid": "em-568eb23c_30_1025",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Clinton"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Hiring",
+            "ere": "startposition",
+            "lemma": "Prez",
+            "propbank": "prez.XX",
+            "mentionid": "em-568eb23c_30_1067",
+            "modality": "other",
+            "framenet": "fn::Hiring"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-m.01_gbv",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Bernie \"Mothafuckin'\" Sanders"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_30_1092",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Prez"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_30_1106",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2016"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-568eb23c_30_1111",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL00899",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "income",
+            "propbank": "income.XX",
+            "mentionid": "em-568eb23c_30_1134",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_30_450",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "your household"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-568eb23c_30_1159",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "over a half-million $US or so"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "complaints",
+            "propbank": "complain.01",
+            "mentionid": "em-568eb23c_30_1164",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_30_525",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-568eb23c_30_1187",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_30_417",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "ent-568eb23c_30_534",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "that third vacation home in the Hamptons"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.011wsc",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Hamptons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-568eb23c_30_1224",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-568eb23c_30_417",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "talking",
+            "propbank": "talk.01",
+            "mentionid": "em-568eb23c_30_1268",
+            "modality": "generic",
+            "framenet": "fn::Chatting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.01rxqd",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_30_1291",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_30_684",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "middle classes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "says",
+            "propbank": "says.XX",
+            "mentionid": "em-568eb23c_30_1321",
+            "modality": "other",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-568eb23c_30_693",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "anyone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "redistributed",
+            "propbank": "redistributed.XX",
+            "mentionid": "em-568eb23c_30_1365",
+            "modality": "generic",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_30_417",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The wealthy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "speeches",
+            "propbank": "speeches.XX",
+            "mentionid": "em-568eb23c_30_1388",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-568eb23c_30_714",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "groups of bankers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "money",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_30_1418",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-568eb23c_30_714",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "groups of bankers"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the same person that was giving speeches to groups of bankers for outrageous amounts of money"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "divorce",
+            "lemma": "leave",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_30_1469",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_30_789",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her husband"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "comments",
+            "propbank": "comments.XX",
+            "mentionid": "em-568eb23c_30_1520",
+            "modality": "generic",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL00899",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "pick",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_30_1593",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.01qh39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Warren"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_30_1625",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "VP"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "lip service",
+            "propbank": "lip service.XX",
+            "mentionid": "em-568eb23c_30_1247",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Clinton"
+            }
+        ]
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-518",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "tell",
+            "propbank": "tell.01",
+            "mentionid": "em-645",
+            "modality": "other",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "tell",
+            "propbank": "tell.01",
+            "mentionid": "em-722",
+            "modality": "other",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-560",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "transported",
+            "propbank": "transport.01",
+            "mentionid": "em-685",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-608",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a processing facility"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-632",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the plants\u0092"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-954",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "The reactor core"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "listening",
+            "propbank": "UNK",
+            "mentionid": "em-756",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-786",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-811",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last night"
+            }
+        ]
+    }
+]

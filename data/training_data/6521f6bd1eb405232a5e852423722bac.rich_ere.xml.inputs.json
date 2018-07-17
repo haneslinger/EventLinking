@@ -1,0 +1,52 @@
+[
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-222",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the ancient Romans"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-177",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "so many Christians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-250",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    }
+]

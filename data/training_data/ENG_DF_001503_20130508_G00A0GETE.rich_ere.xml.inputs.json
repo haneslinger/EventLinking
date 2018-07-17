@@ -1,0 +1,339 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "report",
+            "propbank": "UNK",
+            "mentionid": "em-688",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "left",
+            "propbank": "left.XX",
+            "mentionid": "em-1100",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1050",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "every one of those people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paying",
+            "propbank": "pay.01",
+            "mentionid": "em-732",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-129",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "how many people would be happy paying the increased price for more ethically sound manufacturing"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "paying",
+            "propbank": "pay.01",
+            "mentionid": "em-1121",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-129",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "how many people would be happy paying the increased price for more ethically sound manufacturing"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-871",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-183",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "nobody"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-896",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "cheap clothes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-901",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-183",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "nobody"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "sourced",
+            "propbank": "sourced.XX",
+            "mentionid": "em-924",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-222",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Primark"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-949",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "garments"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-255",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a factory in this building"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "manufacturing",
+            "propbank": "UNK",
+            "mentionid": "em-961",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-978",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "clothes"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-363",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "it"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "making",
+            "propbank": "UNK",
+            "mentionid": "em-984",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-363",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1009",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "high value goods"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "built",
+            "propbank": "UNK",
+            "mentionid": "em-1014",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-432",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the cheapest workers"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-417",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "themselves"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buying",
+            "propbank": "buy.01",
+            "mentionid": "em-778",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-1053",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-803",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "ethically sound\" clothing"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "buying",
+            "propbank": "buy.01",
+            "mentionid": "em-808",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-1053",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "manufacturing",
+            "propbank": "UNK",
+            "mentionid": "em-1162",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Bangladesh"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1187",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "clothes"
+            }
+        ]
+    }
+]

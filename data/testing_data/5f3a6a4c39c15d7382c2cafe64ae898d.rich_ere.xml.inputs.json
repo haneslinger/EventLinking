@@ -1,0 +1,529 @@
+[
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "got",
+            "propbank": "get.01",
+            "mentionid": "em-1012",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a guy who used to be a stock broker, then retired from that and started a non-profit to build affordable houses"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1621",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "my house"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retired",
+            "propbank": "retire.02",
+            "mentionid": "em-1033",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a guy who used to be a stock broker, then retired from that and started a non-profit to build affordable houses"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1107",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "broker"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "started",
+            "propbank": "UNK",
+            "mentionid": "em-1054",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a guy who used to be a stock broker, then retired from that and started a non-profit to build affordable houses"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-111",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a non-profit"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "bought",
+            "propbank": "buy.01",
+            "mentionid": "em-1075",
+            "modality": "actual",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-114",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Bank of America"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "make",
+            "propbank": "UNK",
+            "mentionid": "em-1624",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-1132",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the people who make $250k+/yr."
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-1649",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$250k+/yr"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "get",
+            "propbank": "UNK",
+            "mentionid": "em-1654",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-1123",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "that"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-1677",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-1222",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "programmers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-1707",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-1249",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the average programmer/engineer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "for",
+            "propbank": "for.XX",
+            "mentionid": "em-1730",
+            "modality": "actual",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "somebody working as a web developer in a small company for $14/hr"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "money",
+                "entity": "f-1755",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$14/hr"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "make",
+            "propbank": "UNK",
+            "mentionid": "em-1770",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-1333",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "many teachers who make more than $75-80k/yr. from my old high school due to ed cuts"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-108",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "my old high school"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-1802",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$75-80k/yr"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-1807",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1832",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a house"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "getting",
+            "propbank": "get.01",
+            "mentionid": "em-1837",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "ent-1429",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "one"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "move",
+            "propbank": "UNK",
+            "mentionid": "em-1865",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my g/f"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Origin",
+                "entity": "ent-144",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Minnesota"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-141",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Vegas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "renting",
+            "propbank": "rent.01",
+            "mentionid": "em-1907",
+            "modality": "generic",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "making",
+            "propbank": "UNK",
+            "mentionid": "em-1930",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-1957",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$33k/yr"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-1962",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1987",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a house"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "worked",
+            "propbank": "worked.XX",
+            "mentionid": "em-1992",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2017",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "security"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-2040",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "bought",
+            "propbank": "buy.01",
+            "mentionid": "em-2063",
+            "modality": "actual",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-114",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Bank of America"
+            }
+        ]
+    }
+]

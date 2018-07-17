@@ -1,0 +1,743 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "Rape",
+            "propbank": "UNK",
+            "mentionid": "em-768",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rape Victim"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "raped",
+            "propbank": "raped.XX",
+            "mentionid": "em-789",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "those 2 punks that raped her"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Texas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "raped",
+            "propbank": "raped.XX",
+            "mentionid": "em-810",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "those 2 punks that raped her"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Texas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "rape",
+            "propbank": "UNK",
+            "mentionid": "em-943",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his friend"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "this girl"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "Victim",
+            "propbank": "victim.XX",
+            "mentionid": "em-2098",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rape Victim"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "raped",
+            "propbank": "raped.XX",
+            "mentionid": "em-831",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the guy that did it"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-72",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A cousin of mine"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "suicide",
+            "propbank": "suicide.XX",
+            "mentionid": "em-852",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the guy that did it"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the guy that did it"
+            },
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-1346",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a shotgun"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "blew",
+            "propbank": "blew.XX",
+            "mentionid": "em-873",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "jail",
+            "propbank": "UNK",
+            "mentionid": "em-2211",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1142",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "these punks"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-2250",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "rape"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-1009",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-1006",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Players these days"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1034",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a t shirt"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "throw",
+            "propbank": "UNK",
+            "mentionid": "em-1145",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1142",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "these punks"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-1133",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "jail"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "rape",
+            "propbank": "UNK",
+            "mentionid": "em-1367",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-1355",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "guys"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-1364",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "women"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "rape",
+            "propbank": "UNK",
+            "mentionid": "em-1463",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-2071",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "gang"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1573",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-1218",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the same people who don't not like Obama because of his race"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1596",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-1218",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the same people who don't not like Obama because of his race"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "party",
+            "propbank": "party.01",
+            "mentionid": "em-1639",
+            "modality": "generic",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-1088",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "an adult"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "bullet",
+            "propbank": "UNK",
+            "mentionid": "em-1697",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1729",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a bullet"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "bullet",
+            "propbank": "UNK",
+            "mentionid": "em-1965",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1997",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a bullet"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "bullet",
+            "propbank": "UNK",
+            "mentionid": "em-1734",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1766",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a bullet"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "bullet",
+            "propbank": "UNK",
+            "mentionid": "em-2000",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-2032",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a bullet"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "bullet",
+            "propbank": "UNK",
+            "mentionid": "em-1801",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1818",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a bullet"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-1242",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "bullet",
+            "propbank": "UNK",
+            "mentionid": "em-1879",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-1242",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1904",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a bullet"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "bullet",
+            "propbank": "UNK",
+            "mentionid": "em-1831",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-1242",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1856",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a bullet"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "bullet",
+            "propbank": "UNK",
+            "mentionid": "em-1907",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-1242",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1932",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a bullet"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-2119",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-1006",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Players these days"
+            }
+        ]
+    }
+]

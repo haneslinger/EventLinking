@@ -1,0 +1,903 @@
+[
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "SAYS",
+            "propbank": "says.XX",
+            "mentionid": "em-913",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "PUTIN"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "conference",
+            "propbank": "UNK",
+            "mentionid": "em-1281",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Putin"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1306",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "broadcast",
+            "lemma": "appear",
+            "propbank": "appear.01",
+            "mentionid": "em-934",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-951",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "tomorrow"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "revealed",
+            "propbank": "revealed.XX",
+            "mentionid": "em-957",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-96",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "an official"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1051",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-980",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-117",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "National Security Agency"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the former National Security Agency contractor wanted by the United States"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1012",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "contractor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "request",
+            "propbank": "UNK",
+            "mentionid": "em-1017",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Russia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "request",
+            "propbank": "UNK",
+            "mentionid": "em-1637",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Russian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "application",
+            "propbank": "UNK",
+            "mentionid": "em-1915",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Kremlin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "traveling",
+            "propbank": "travel.01",
+            "mentionid": "em-1075",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Snowden"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "hand-delivered",
+            "propbank": "hand-delivered.XX",
+            "mentionid": "em-1105",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-159",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Snowden\u2019s traveling companion"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-180",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a Russian consulate in Terminal F of the airport"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1137",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "Snowden\u2019s request"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1144",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "late Sunday evening"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "passed",
+            "propbank": "passed.XX",
+            "mentionid": "em-1149",
+            "modality": "actual",
+            "framenet": "fn::Amassing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-216",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Foreign Ministry"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1174",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "it"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "landed",
+            "propbank": "land.01",
+            "mentionid": "em-1221",
+            "modality": "actual",
+            "framenet": "fn::Vehicle_landing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Snowden"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-150",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Sheremetyevo airport"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1253",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "eight days ago"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "capture",
+            "propbank": "UNK",
+            "mentionid": "em-1258",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "his"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "publishing",
+            "propbank": "UNK",
+            "mentionid": "em-1309",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "work",
+            "propbank": "UNK",
+            "mentionid": "em-1827",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-1332",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-348",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "somewhere"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Hiring",
+            "ere": "startposition",
+            "lemma": "recruited",
+            "propbank": "recruit.01",
+            "mentionid": "em-1362",
+            "modality": "other",
+            "framenet": "fn::Hiring"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-447",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Russian intelligence"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Snowden"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1392",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-483",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Putin\u2019s spokesman"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1417",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "as recently as Sunday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "transit",
+            "propbank": "UNK",
+            "mentionid": "em-1422",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Origin",
+                "entity": "ent-510",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Sheremetyevo\u2019s transit zone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "discussion",
+            "propbank": "discuss.01",
+            "mentionid": "em-1452",
+            "modality": "generic",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Russia"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1477",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "the last several days"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "forum",
+            "propbank": "forum.XX",
+            "mentionid": "em-1482",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "here"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1507",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday morning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiate",
+            "propbank": "negotiate.01",
+            "mentionid": "em-1512",
+            "modality": "other",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-582",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Nicol\u00e1s Maduro"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "leave",
+            "propbank": "leave.11",
+            "mentionid": "em-1542",
+            "modality": "other",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Snowden"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-150",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the Russian airport"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transferownership",
+            "lemma": "customer",
+            "propbank": "customer.XX",
+            "mentionid": "em-1572",
+            "modality": "actual",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-591",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a major arms customer and energy partner"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1597",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "arms"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "giver",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Russia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "hand-delivered",
+            "propbank": "hand-delivered.XX",
+            "mentionid": "em-1693",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-159",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Snowden\u2019s traveling companion"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-180",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a Russian consulate in Terminal F of the airport"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1725",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "Snowden\u2019s request"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1732",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "late Sunday evening"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "passed",
+            "propbank": "passed.XX",
+            "mentionid": "em-1737",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1754",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "it"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "confirmed",
+            "propbank": "confirm.01",
+            "mentionid": "em-1767",
+            "modality": "other",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "No high-level officials"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1792",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "publishing",
+            "propbank": "UNK",
+            "mentionid": "em-1804",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "work",
+            "propbank": "UNK",
+            "mentionid": "em-1848",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "say",
+            "propbank": "say.01",
+            "mentionid": "em-1869",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "teller",
+            "propbank": "teller.XX",
+            "mentionid": "em-1892",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a truth-teller"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "speculated",
+            "propbank": "UNK",
+            "mentionid": "em-1952",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-567",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "analysts"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1977",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday morning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "customer",
+            "propbank": "customer.XX",
+            "mentionid": "em-1982",
+            "modality": "actual",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "giver",
+                "entity": "ent-591",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a major arms customer and energy partner"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Russia"
+            }
+        ]
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "Loss",
+            "propbank": "UNK",
+            "mentionid": "em-592",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-39",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Pfizer"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Sandwich"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "2,400"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announced",
+            "propbank": "announced.XX",
+            "mentionid": "em-683",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-39",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "travel",
+            "propbank": "travel.01",
+            "mentionid": "em-715",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-81",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Ireland"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "payments",
+            "propbank": "pay.01",
+            "mentionid": "em-853",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-48",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "this government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "production",
+            "propbank": "UNK",
+            "mentionid": "em-960",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-977",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "pharmaceutics"
+            }
+        ]
+    }
+]

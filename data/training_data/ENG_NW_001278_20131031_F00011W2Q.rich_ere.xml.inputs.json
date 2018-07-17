@@ -1,0 +1,2084 @@
+[
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protest",
+            "propbank": "protest.01",
+            "mentionid": "em-1145",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Egyptian students"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egyptian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protest",
+            "propbank": "protest.01",
+            "mentionid": "em-1230",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Egyptian students"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egyptian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protest",
+            "propbank": "protest.01",
+            "mentionid": "em-1279",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Egyptian students"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egyptian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "stormed",
+            "propbank": "stormed.XX",
+            "mentionid": "em-1987",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Students who support the Muslim Brotherhood"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-60",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "an administrative building at Al-Azhar University in eastern Cairo's Nasr City district"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2019",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "storming",
+            "propbank": "storming.XX",
+            "mentionid": "em-2071",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the students"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-240",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the university 's offices"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2103",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-1173",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Muslim Brotherhood leaders"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2054",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-1258",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Muslim Brotherhood leaders"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2061",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-1307",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Muslim Brotherhood leaders"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2068",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-2022",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the MB's senior members"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2047",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "stormed",
+            "propbank": "storm.02",
+            "mentionid": "em-1950",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Students who support the Muslim Brotherhood"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-60",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "an administrative building at Al-Azhar University in eastern Cairo's Nasr City district"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1982",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "storming",
+            "propbank": "storm.02",
+            "mentionid": "em-2106",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the students"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-240",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the university 's offices"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2138",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "entered",
+            "propbank": "enter.01",
+            "mentionid": "em-2141",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-273",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Police"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-357",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the university"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2173",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "disperse",
+            "propbank": "disperse.01",
+            "mentionid": "em-2182",
+            "modality": "other",
+            "framenet": "fn::Dispersal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-273",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Police"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the MB supporters"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-357",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the university"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "request",
+            "propbank": "UNK",
+            "mentionid": "em-2217",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-273",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Police"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2249",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-2258",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2275",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            },
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-276",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Twenty-five people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "clashes",
+            "propbank": "clashes.XX",
+            "mentionid": "em-2286",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-279",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "security at the university"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-357",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the university"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2367",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "quotes",
+            "propbank": "quotes.XX",
+            "mentionid": "em-2395",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "state"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "saying",
+            "propbank": "say.01",
+            "mentionid": "em-2370",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-282",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "judicial officials"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "cleared",
+            "propbank": "clear.01",
+            "mentionid": "em-2416",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2433",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Aug. 14"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-369",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "authorities"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-366",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Morsi's supporters"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-360",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the main spot for Morsi's supporters where they had camped before authorities cleared out their sit-ins on Aug. 14"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ousted",
+            "propbank": "oust.01",
+            "mentionid": "em-2460",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-363",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Mohamed Morsi"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2485",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3180",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July 3"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ouster",
+            "propbank": "ouster.XX",
+            "mentionid": "em-3148",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-363",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Morsi"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3173",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July 3"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-2494",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the students supporting the Brotherhood group and demanding the reinstatement of ousted president Mohamed Morsi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "reinstatement",
+            "propbank": "UNK",
+            "mentionid": "em-2522",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-363",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Mohamed Morsi"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-2547",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesting",
+            "propbank": "protest.01",
+            "mentionid": "em-2550",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-375",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Islamists"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-372",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Mansoura"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "urged",
+            "propbank": "urged.XX",
+            "mentionid": "em-2584",
+            "modality": "actual",
+            "framenet": "fn::Quarreling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-486",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police forces"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2616",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Tuesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "disperse",
+            "propbank": "disperse.01",
+            "mentionid": "em-2619",
+            "modality": "other",
+            "framenet": "fn::Dispersal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-486",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police forces"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-375",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "them"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-489",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the buildings"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2658",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Tuesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "orders",
+            "propbank": "orders.XX",
+            "mentionid": "em-2661",
+            "modality": "other",
+            "framenet": "fn::Chatting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-537",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prosecution"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-2730",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "supporters and opponents of Brotherhood"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egyptian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "them",
+            "propbank": "them.XX",
+            "mentionid": "em-4306",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egyptian"
+            },
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "supporters and opponents of Brotherhood"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "clashes",
+            "propbank": "clashes.XX",
+            "mentionid": "em-2758",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egyptian"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-579",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "supporters and opponents of Brotherhood"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injured",
+            "propbank": "injure.01",
+            "mentionid": "em-2832",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-582",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "27 people"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-2860",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "universities around Egypt"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2867",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "clashes",
+            "propbank": "clashes.XX",
+            "mentionid": "em-2878",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-2860",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "universities around Egypt"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2938",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "injured",
+            "propbank": "injured.XX",
+            "mentionid": "em-2899",
+            "modality": "actual",
+            "framenet": "fn::Invading"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-582",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "27 people"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-2860",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "universities around Egypt"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2931",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "saying",
+            "propbank": "saying.XX",
+            "mentionid": "em-2941",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-621",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Hazem Beblawi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "quoted",
+            "propbank": "quoted.XX",
+            "mentionid": "em-2962",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "state"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-2983",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-621",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Hazem Beblawi"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3008",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-3019",
+            "modality": "other",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-48",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-618",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificGroup",
+                "entity-text": "universities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-3050",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "demonstrations",
+            "propbank": "demonstrations.XX",
+            "mentionid": "em-3732",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-48",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the group that still continues their demonstrations"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-3838",
+            "modality": "other",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-996",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "demonstrations",
+            "propbank": "demonstrations.XX",
+            "mentionid": "em-4065",
+            "modality": "other",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Brotherhood supporters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arresting",
+            "propbank": "arrest.01",
+            "mentionid": "em-3071",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-714",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Egyptian authorities"
+            },
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-759",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "MB leaders and members"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egyptian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-3113",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-771",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "More than 2,000 Brotherhood members and leaders"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-3183",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-804",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "an apartment in the New Cairo district, where he was hiding"
+            },
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-774",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "deputy president of the MB's Freedom and Justice Party"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3215",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "custody",
+            "propbank": "UNK",
+            "mentionid": "em-3280",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-3305",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "killing"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3312",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrest",
+            "propbank": "arrest.01",
+            "mentionid": "em-3683",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-774",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "al-Arian"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3708",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "transferred",
+            "propbank": "transferred.XX",
+            "mentionid": "em-3224",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-774",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Al-Erian"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-810",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the Tora prison complex in southern Cairo"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "detained",
+            "propbank": "detained.XX",
+            "mentionid": "em-3252",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-879",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "many of the Brotherhood's leaders"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-810",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "where"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "violence",
+            "propbank": "UNK",
+            "mentionid": "em-3372",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-936",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "local residents"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "supporters of Brotherhood"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-945",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Beyn el-Sarayat"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3411",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "injure",
+            "lemma": "violence",
+            "propbank": "UNK",
+            "mentionid": "em-3414",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-774",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "supporters of Brotherhood"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-948",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Al-Istiqama Mosque"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3467",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "August"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "violence",
+            "propbank": "UNK",
+            "mentionid": "em-3470",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "supporters of Brotherhood"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-936",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "local residents"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-945",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Beyn el-Sarayat"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3509",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "violence",
+            "propbank": "UNK",
+            "mentionid": "em-3516",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-936",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "local residents"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "supporters of Brotherhood"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-948",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Al-Istiqama Mosque"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3555",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "August"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "violence",
+            "propbank": "UNK",
+            "mentionid": "em-3562",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "supporters of Brotherhood"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-936",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "local residents"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-948",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Al-Istiqama Mosque"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3601",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "August"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-3604",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-774",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-945",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Beyn el-Sarayat"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3636",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "messages",
+            "propbank": "messages.XX",
+            "mentionid": "em-3753",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-774",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "al-Erian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "messages",
+            "propbank": "messages.XX",
+            "mentionid": "em-3797",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-993",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "university students and professors who supports Morsi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-3639",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-774",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-948",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Al-Istiqama Mosque"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3678",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "August"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "aired",
+            "propbank": "aired.XX",
+            "mentionid": "em-3774",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-951",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Al-Jazeera"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "demonstrations",
+            "propbank": "demonstrations.XX",
+            "mentionid": "em-3859",
+            "modality": "other",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Brotherhood supporters"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-3884",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Nov. 4"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-3897",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-363",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Morsi"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1101",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters in front of the Presidential Palace"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-1104",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Presidential Palace"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3943",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last December"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "killing",
+            "propbank": "UNK",
+            "mentionid": "em-3946",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-1101",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters in front of the Presidential Palace"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-1104",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Presidential Palace"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3978",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last December"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "torturing",
+            "propbank": "torturing.XX",
+            "mentionid": "em-3981",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Cause",
+                "ere": "agent",
+                "entity": "ent-363",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Morsi"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1101",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters in front of the Presidential Palace"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-1104",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Presidential Palace"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-4020",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last December"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "torturing",
+            "propbank": "torturing.XX",
+            "mentionid": "em-4023",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1101",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "protesters in front of the Presidential Palace"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-1104",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Presidential Palace"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-4055",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last December"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "holding",
+            "propbank": "UNK",
+            "mentionid": "em-4262",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the students"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-246",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "his office"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-243",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "its chairman"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-4301",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "some",
+            "propbank": "some.XX",
+            "mentionid": "em-4334",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "supporters and opponents of Brotherhood"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egyptian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiations",
+            "propbank": "negotiate.01",
+            "mentionid": "em-4364",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-675",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the interim government"
+            }
+        ]
+    }
+]

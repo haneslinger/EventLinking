@@ -1,0 +1,815 @@
+[
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "consorting",
+            "propbank": "consorting.XX",
+            "mentionid": "em-1546",
+            "modality": "actual",
+            "framenet": "fn::Assemble"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-93",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "suspected gang members"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "rip",
+            "propbank": "UNK",
+            "mentionid": "em-1574",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-96",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "some real or imagined political enemy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "injure",
+            "lemma": "rip",
+            "propbank": "UNK",
+            "mentionid": "em-1604",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-96",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "some real or imagined political enemy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "pancaked",
+            "propbank": "pancaked.XX",
+            "mentionid": "em-1634",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Cause",
+                "ere": "agent",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ford"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-99",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Pam McConnell"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1673",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "rush",
+            "propbank": "rush.01",
+            "mentionid": "em-1685",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-207",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "council chamber"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1717",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "confront",
+            "propbank": "UNK",
+            "mentionid": "em-1722",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-204",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "jeering members of the public"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-207",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "council chamber"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1761",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "commandeered",
+            "propbank": "commandeered.XX",
+            "mentionid": "em-1766",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-216",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1791",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2011"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-222",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the Lithuanian capital"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "f-1826",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "an armored personnel carrier"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "commandeered",
+            "propbank": "commandeered.XX",
+            "mentionid": "em-1831",
+            "modality": "actual",
+            "framenet": "fn::Taking"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-216",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1856",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2011"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1863",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "an armored personnel carrier"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-222",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the Lithuanian capital"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "crushed",
+            "propbank": "crushed.XX",
+            "mentionid": "em-1875",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-216",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1900",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "an armored personnel carrier"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-222",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the Lithuanian capital"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1914",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2011"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "f-1921",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a Mercedes Benz that was illegally parked in a bike lane in the Lithuanian capital"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "rode",
+            "propbank": "rode.XX",
+            "mentionid": "em-1926",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-339",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-375",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the streets"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-375",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the streets"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1965",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Last year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "locked up",
+            "propbank": "locked up.XX",
+            "mentionid": "em-1970",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-1196",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "leader"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-393",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Siberia"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2002",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "protest"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protest",
+            "propbank": "protest.01",
+            "mentionid": "em-2007",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-1196",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "leader"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elect",
+            "propbank": "elect.01",
+            "mentionid": "em-2030",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "agent",
+                "entity": "ent-540",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "voters"
+            },
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2062",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "mayor"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2069",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2010"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-2141",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ford"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "remove",
+            "propbank": "UNK",
+            "mentionid": "em-2074",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ford"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-2099",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "mayor"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Canada\u2019s largest city"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "resignation",
+            "propbank": "resign.01",
+            "mentionid": "em-2346",
+            "modality": "other",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "spending",
+            "propbank": "UNK",
+            "mentionid": "em-2111",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-567",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a progressive city administration"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "city"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiated",
+            "propbank": "negotiate.01",
+            "mentionid": "em-2192",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-1512",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "union"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Toronto"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Change_possession",
+            "ere": "transfermoney",
+            "lemma": "taxpayers",
+            "propbank": "taxpayers.XX",
+            "mentionid": "em-2238",
+            "modality": "generic",
+            "framenet": "fn::Transfer"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-672",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Toronto taxpayers"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Toronto"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Toronto"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "calls",
+            "propbank": "call.07",
+            "mentionid": "em-2275",
+            "modality": "generic",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-687",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "call",
+            "propbank": "call.07",
+            "mentionid": "em-2318",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "calls",
+            "propbank": "call.07",
+            "mentionid": "em-2367",
+            "modality": "generic",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ford"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Response",
+            "ere": "contact",
+            "lemma": "responds",
+            "propbank": "respond.01",
+            "mentionid": "em-2414",
+            "modality": "generic",
+            "framenet": "fn::Communication_response"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-750",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "them"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the city"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elect",
+            "propbank": "elect.01",
+            "mentionid": "em-2451",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-849",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marty Walsh"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-69",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Boston"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2483",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Mayor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "election",
+            "propbank": "elect.01",
+            "mentionid": "em-2488",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "agent",
+                "entity": "ent-876",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "48 percent of voters"
+            },
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-849",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Walsh"
+            }
+        ]
+    }
+]

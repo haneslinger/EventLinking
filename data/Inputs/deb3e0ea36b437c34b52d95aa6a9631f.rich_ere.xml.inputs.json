@@ -1,0 +1,747 @@
+[
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-842",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A Tennessee security trainer"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-867",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-870",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A Tennessee security trainer"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-895",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-1313",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Manning"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1345",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "aggravated assault"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-900",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A Tennessee security trainer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "pulled the trigger",
+            "propbank": "pulled the trigger.XX",
+            "mentionid": "em-946",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Richard Manning"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-116",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "South Moore Road and North Terrace Road"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killer",
+            "propbank": "killer.XX",
+            "mentionid": "em-1037",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The alleged killer"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The victim"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "shot",
+            "propbank": "UNK",
+            "mentionid": "em-1127",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a stranger furious over a car accident"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "shoots",
+            "propbank": "shoots.XX",
+            "mentionid": "em-1285",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The guy"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "homicide",
+            "propbank": "UNK",
+            "mentionid": "em-1348",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Manning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "shooter",
+            "propbank": "shooter.XX",
+            "mentionid": "em-1413",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the shooter"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1517",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a firearm"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "taken",
+            "propbank": "taken.XX",
+            "mentionid": "em-1457",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a father and husband"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-923",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A Tennessee security trainer"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-116",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "South Moore Road and North Terrace Road"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "didn't make it",
+            "propbank": "didn't make it.XX",
+            "mentionid": "em-988",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gallman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killer",
+            "propbank": "killer.XX",
+            "mentionid": "em-1009",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The alleged killer"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The victim"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-1155",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a stranger furious over a car accident"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "homicide",
+            "propbank": "homicide.01",
+            "mentionid": "em-1369",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Manning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1065",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a former sheriff's deputy"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1090",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "deputy"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-584",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "sheriff"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "walked",
+            "propbank": "walk.01",
+            "mentionid": "em-1183",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-92",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his kids"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-230",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "school"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "walking",
+            "propbank": "walk.01",
+            "mentionid": "em-1250",
+            "modality": "generic",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-92",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his two boys"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-299",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "school"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "tuition",
+            "propbank": "tuition.XX",
+            "mentionid": "em-1220",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-278",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gallmans"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-269",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Brainerd Baptist School"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "assault",
+            "propbank": "assault.01",
+            "mentionid": "em-1390",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Manning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-1434",
+            "modality": "other",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "drove away",
+            "propbank": "drove away.XX",
+            "mentionid": "em-1520",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Manning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "went",
+            "propbank": "go.03",
+            "mentionid": "em-1543",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "may not live",
+            "propbank": "may not live.XX",
+            "mentionid": "em-1566",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "let out",
+            "propbank": "UNK",
+            "mentionid": "em-1589",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "drive",
+            "propbank": "UNK",
+            "mentionid": "em-1619",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-239",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-1642",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-386",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Corcoran"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1665",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-53",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "You"
+            }
+        ]
+    }
+]

@@ -1,0 +1,840 @@
+[
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "moved",
+            "propbank": "moved.XX",
+            "mentionid": "em-569981f4_40_258",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-569981f4_40_1303",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-569981f4_40_290",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1997"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "bought",
+            "propbank": "buy.01",
+            "mentionid": "em-569981f4_40_293",
+            "modality": "generic",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-569981f4_40_1673",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "many medicines that cannot be found at a pharmacy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "smuggle",
+            "propbank": "smuggle.01",
+            "mentionid": "em-569981f4_40_352",
+            "modality": "generic",
+            "framenet": "fn::Smuggling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-569981f4_40_340",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Some doctors, nurses and cleaning staff"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-569981f4_40_377",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the medicine"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-569981f4_40_349",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the hospitals"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "bring",
+            "propbank": "UNK",
+            "mentionid": "em-569981f4_40_487",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-569981f4_40_469",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "many patients"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-569981f4_40_478",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their doctors"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-569981f4_40_528",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "other gifts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "bring",
+            "propbank": "UNK",
+            "mentionid": "em-569981f4_40_545",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-569981f4_40_469",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "many patients"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-569981f4_40_478",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their doctors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-569981f4_40_575",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-569981f4_40_1166",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-569981f4_40_756",
+            "modality": "generic",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-569981f4_40_743",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Thousands of Cuban doctors"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.07ylj",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Venezuela"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuban"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-569981f4_40_798",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-569981f4_40_743",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-569981f4_40_823",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$50 a month, plus expenses"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sends",
+            "propbank": "sends.XX",
+            "mentionid": "em-569981f4_40_828",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0d1b_",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Venezuela's president"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-569981f4_40_860",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "petrol"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-569981f4_40_937",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-569981f4_40_934",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "spent",
+            "propbank": "spent.XX",
+            "mentionid": "em-569981f4_40_991",
+            "modality": "generic",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.05vz3zq",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USSR"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "building",
+            "propbank": "UNK",
+            "mentionid": "em-569981f4_40_1036",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.05vz3zq",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USSR"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-569981f4_40_1372",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "all kind of infrastructure"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "export",
+            "propbank": "UNK",
+            "mentionid": "em-569981f4_40_1178",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-569981f4_40_734",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "dentists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "make",
+            "propbank": "UNK",
+            "mentionid": "em-569981f4_40_1595",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-569981f4_40_340",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Some doctors, nurses and cleaning staff"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "bring",
+            "propbank": "bring.01",
+            "mentionid": "em-569981f4_40_1632",
+            "modality": "generic",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-569981f4_40_469",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "many patients"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-569981f4_40_1664",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "other gifts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "smuggle",
+            "propbank": "UNK",
+            "mentionid": "em-569981f4_40_1699",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-569981f4_40_340",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Some doctors, nurses and cleaning staff"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-569981f4_40_349",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the hospitals"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-569981f4_40_1745",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the medicine"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "appointment",
+            "propbank": "UNK",
+            "mentionid": "em-569981f4_40_1750",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-569981f4_40_478",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their doctors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "complain",
+            "propbank": "complain.01",
+            "mentionid": "em-569981f4_40_1789",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569981f4_40_604",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Many Cubans"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cubans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "sends",
+            "propbank": "sends.XX",
+            "mentionid": "em-569981f4_40_1838",
+            "modality": "generic",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-m.0d1b_",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Venezuela's president"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-569981f4_40_1863",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "petrol"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-m.07ylj",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Venezuela"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-569981f4_40_1889",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "complaint",
+            "propbank": "complain.01",
+            "mentionid": "em-569981f4_40_1912",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569981f4_40_1303",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "tourism",
+            "propbank": "tourism.XX",
+            "mentionid": "em-569981f4_40_1935",
+            "modality": "generic",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-569981f4_40_1276",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "foreigners"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Question",
+            "ere": "contact",
+            "lemma": "question",
+            "propbank": "question.01",
+            "mentionid": "em-569981f4_40_1965",
+            "modality": "generic",
+            "framenet": "fn::Questioning"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569981f4_40_1363",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "some"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visitors",
+            "propbank": "visitors.XX",
+            "mentionid": "em-569981f4_40_1988",
+            "modality": "generic",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-569981f4_40_934",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "visitors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "article",
+            "propbank": "article.XX",
+            "mentionid": "em-569981f4_40_2017",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.0pdbv90",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Al Jazeara"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "owned",
+            "propbank": "owned.XX",
+            "mentionid": "em-569981f4_40_2089",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.05vz3zq",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USSR"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-569981f4_40_2121",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "30 something billion dollars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "expenses",
+            "propbank": "UNK",
+            "mentionid": "em-569981f4_40_2140",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Beneficiary",
+                "entity": "ent-569981f4_40_1381",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Military"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "saying",
+            "propbank": "say.01",
+            "mentionid": "em-569981f4_40_2163",
+            "modality": "other",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569981f4_40_1420",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "afford",
+            "propbank": "afford.02",
+            "mentionid": "em-569981f4_40_2192",
+            "modality": "other",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-569981f4_40_1420",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "afford",
+            "propbank": "afford.02",
+            "mentionid": "em-569981f4_40_2215",
+            "modality": "other",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-569981f4_40_1420",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-569981f4_40_2240",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a car"
+            }
+        ]
+    }
+]

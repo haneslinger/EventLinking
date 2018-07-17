@@ -1,0 +1,549 @@
+[
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "debates",
+            "propbank": "debates.XX",
+            "mentionid": "em-1007",
+            "modality": "actual",
+            "framenet": "fn::Social_event_collective"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the other candidates"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "election",
+            "propbank": "elect.01",
+            "mentionid": "em-1028",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Barack Oteleprompter"
+            },
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "agent",
+                "entity": "ent-60",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "Exodus",
+            "propbank": "exodus.XX",
+            "mentionid": "em-1049",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Campaign Staff"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "exodus",
+            "propbank": "exodus.XX",
+            "mentionid": "em-1070",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "staffers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "jumping",
+            "propbank": "UNK",
+            "mentionid": "em-1091",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "aides"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "resign",
+            "propbank": "resign.01",
+            "mentionid": "em-1112",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-87",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "numerous members of the presidential candidate's team"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-105",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the presidential candidate's team"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "Exodus",
+            "propbank": "exodus.XX",
+            "mentionid": "em-1809",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Campaign Staff"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "exodus",
+            "propbank": "exodus.XX",
+            "mentionid": "em-1836",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "staffers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "impeached",
+            "propbank": "impeached.XX",
+            "mentionid": "em-1133",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Bill Clinton"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "resign",
+            "propbank": "resign.01",
+            "mentionid": "em-1724",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1741",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "manager"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-81",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rob Johnson"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-105",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the presidential candidate's team"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "postings",
+            "propbank": "postings.XX",
+            "mentionid": "em-1398",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-1509",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-1506",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the people duly elected or appointed in accordance with law"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "appointed",
+            "propbank": "appoint.01",
+            "mentionid": "em-1534",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-1506",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the people duly elected or appointed in accordance with law"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "debate",
+            "propbank": "UNK",
+            "mentionid": "em-1585",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Obama"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "spending",
+            "propbank": "UNK",
+            "mentionid": "em-1634",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a deficit spending President in a fortunate economy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "appearance",
+            "propbank": "UNK",
+            "mentionid": "em-1687",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Newt Gingrich"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "resign",
+            "propbank": "resign.01",
+            "mentionid": "em-2098",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the presidential candidate"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two of numerous members of the presidential candidate's team"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "resign",
+            "propbank": "resign.01",
+            "mentionid": "em-1754",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-105",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the presidential candidate's team"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-84",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rick Tyler"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1786",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "spokesman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "lied",
+            "propbank": "lied.XX",
+            "mentionid": "em-1884",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a grand jury"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "abolishing",
+            "propbank": "abolishing.XX",
+            "mentionid": "em-1957",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-102",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the federal government"
+            },
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-1470",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "all \"czars\" in the federal government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "abolish",
+            "propbank": "UNK",
+            "mentionid": "em-1987",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-1470",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "czars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "abolishing",
+            "propbank": "abolishing.XX",
+            "mentionid": "em-2008",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-1470",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the czars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Question",
+            "ere": "contact",
+            "lemma": "Interrogating",
+            "propbank": "interrogate.01",
+            "mentionid": "em-2075",
+            "modality": "generic",
+            "framenet": "fn::Questioning"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-1250",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            }
+        ]
+    }
+]

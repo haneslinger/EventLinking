@@ -1,0 +1,568 @@
+[
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "war.01",
+            "mentionid": "em-863",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-39",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Middle Eastern"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "kill",
+            "propbank": "UNK",
+            "mentionid": "em-890",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-907",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "most chemical weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "kill",
+            "propbank": "kill.01",
+            "mentionid": "em-911",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-928",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "most chemical weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "raised",
+            "propbank": "raised.XX",
+            "mentionid": "em-932",
+            "modality": "actual",
+            "framenet": "fn::Judgment_communication"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Israel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "fall",
+            "propbank": "UNK",
+            "mentionid": "em-981",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-998",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "Assad's chemical weapons"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-195",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Hez"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "deadly",
+            "propbank": "deadly.XX",
+            "mentionid": "em-1015",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Assad"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1040",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "more deadly weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "use",
+            "propbank": "UNK",
+            "mentionid": "em-1497",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1514",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "chemical weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "uses",
+            "propbank": "uses.XX",
+            "mentionid": "em-1532",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1557",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "chemical weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "use",
+            "propbank": "UNK",
+            "mentionid": "em-1560",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1585",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "chemical weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "deadly",
+            "propbank": "deadly.XX",
+            "mentionid": "em-1043",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Assad"
+            },
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-1068",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "more deadly weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "warn",
+            "propbank": "warn.01",
+            "mentionid": "em-1078",
+            "modality": "generic",
+            "framenet": "fn::Judgment_direct_address"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-1417",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Western powers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "coming",
+            "propbank": "come.01",
+            "mentionid": "em-1126",
+            "modality": "generic",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-324",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who is coming in from abroad to \"freedom\" fight"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "raving",
+            "propbank": "raving.XX",
+            "mentionid": "em-1158",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-399",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1190",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last night"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "turn",
+            "propbank": "UNK",
+            "mentionid": "em-1200",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-294",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the rebels"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1225",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "the weapons"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "skirmishes",
+            "propbank": "skirmishes.XX",
+            "mentionid": "em-1235",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-498",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Lebanon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "quashes",
+            "propbank": "quashes.XX",
+            "mentionid": "em-1276",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Assad"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-294",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the rebels"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "urging",
+            "propbank": "UNK",
+            "mentionid": "em-1304",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-504",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "2 Lebanese Sunni Sheiks"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-315",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Sunni Lebanese"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fight",
+            "propbank": "UNK",
+            "mentionid": "em-1334",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-315",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Sunni Lebanese"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Assad"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "heading",
+            "propbank": "head.02",
+            "mentionid": "em-1362",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-684",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Bearded Jihadists from all corners of the Globe"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-687",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "all corners of the Globe"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fight",
+            "propbank": "UNK",
+            "mentionid": "em-1588",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-324",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who is coming in from abroad to \"freedom\" fight"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "skirmishes",
+            "propbank": "skirmishes.XX",
+            "mentionid": "em-1611",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-501",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "border"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "Jihadists",
+            "propbank": "jihadists.XX",
+            "mentionid": "em-1634",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-684",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Bearded Jihadists from all corners of the Globe"
+            }
+        ]
+    }
+]

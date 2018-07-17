@@ -1,0 +1,1204 @@
+[
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "WARNS",
+            "propbank": "warns.XX",
+            "mentionid": "em-1180",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "EGYPT'S GENERALS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "statement",
+            "propbank": "UNK",
+            "mentionid": "em-1208",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-177",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a senior American diplomat"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1233",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "told",
+            "propbank": "told.XX",
+            "mentionid": "em-1336",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-180",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "journalists"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1590",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "statement",
+            "propbank": "UNK",
+            "mentionid": "em-1558",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-177",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Burns"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "spoke",
+            "propbank": "speak.04",
+            "mentionid": "em-2286",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-177",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the first senior U.S. official to visit Cairo since the takeover"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "Leaving",
+            "propbank": "leave.11",
+            "mentionid": "em-1593",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-105",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-381",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "their main encampment"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-384",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a major square"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ouster",
+            "propbank": "ouster.XX",
+            "mentionid": "em-1238",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egyptian"
+            },
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Mohammed Morsi"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1277",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ouster",
+            "propbank": "ouster.XX",
+            "mentionid": "em-1465",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Morsi"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1490",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egypt"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ouster",
+            "propbank": "ouster.XX",
+            "mentionid": "em-1998",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Morsi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ouster",
+            "propbank": "ouster.XX",
+            "mentionid": "em-2622",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Morsi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "detained",
+            "propbank": "detained.XX",
+            "mentionid": "em-1294",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "representatives of some of the largest parties in Egypt"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "dialogue",
+            "propbank": "dialogue.01",
+            "mentionid": "em-1315",
+            "modality": "other",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "representatives of some of the largest parties in Egypt"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meeting",
+            "propbank": "meet.03",
+            "mentionid": "em-1364",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-207",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the interim officials they have appointed"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visit",
+            "propbank": "visit.01",
+            "mentionid": "em-1399",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-177",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the first senior U.S. official to visit Cairo since the takeover"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cairo"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protest",
+            "propbank": "protest.01",
+            "mentionid": "em-1427",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-213",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "tens of thousands of Islamists who have staged a two-week sit-in to protest the ouster of Morsi, Egypt\u2019s first freely elected president"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egypt"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "clashes",
+            "propbank": "clashes.XX",
+            "mentionid": "em-1500",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-213",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Islamists"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-219",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "clashes",
+            "propbank": "clashes.XX",
+            "mentionid": "em-1530",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-219",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-213",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Islamists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fray",
+            "propbank": "UNK",
+            "mentionid": "em-1705",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-447",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "opponents of the Islamists"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-105",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Islamists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "dragged",
+            "propbank": "dragged.XX",
+            "mentionid": "em-1735",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-447",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "opponents of the Islamists"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-450",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "some"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-477",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a police station"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injured",
+            "propbank": "injure.01",
+            "mentionid": "em-1831",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-567",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "At least 22 people"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cairo"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attack",
+            "propbank": "attack.01",
+            "mentionid": "em-1859",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-573",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Islamist militants in the Sinai Peninsula"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-612",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Sinai Peninsula"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1891",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "rocket-propelled grenades"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1898",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "f-1905",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a bus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-1912",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-573",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Islamist militants in the Sinai Peninsula"
+            },
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-1937",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "rocket-propelled grenades"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-615",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "three people"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1993",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-612",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Sinai Peninsula"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1806",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "state"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-2019",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-684",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "officials of the Muslim Brotherhood"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meet",
+            "propbank": "meet.03",
+            "mentionid": "em-2058",
+            "modality": "other",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-177",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Burns"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "saying",
+            "propbank": "say.01",
+            "mentionid": "em-2121",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-726",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "anonymous military officials"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "crack down",
+            "propbank": "UNK",
+            "mentionid": "em-2235",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-63",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "their new interim government"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-360",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Morsi\u2019s Islamist supporters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-2307",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egypt\u2019s first freely elected president"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egypt"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2341",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "hurled",
+            "propbank": "hurled.XX",
+            "mentionid": "em-1628",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-105",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-405",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "police officers who tried to displace them"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1660",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "rocks"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "displace",
+            "propbank": "UNK",
+            "mentionid": "em-2346",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-405",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "police officers who tried to displace them"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-105",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "showered",
+            "propbank": "showered.XX",
+            "mentionid": "em-1663",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-444",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Riot police"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1688",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "tear gas"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-105",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Morsi supporters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "firing",
+            "propbank": "UNK",
+            "mentionid": "em-1772",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-219",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the police"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1797",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "birdshot"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "gathered",
+            "propbank": "gathered.XX",
+            "mentionid": "em-2403",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-513",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Crowds of Morsi supporters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-519",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cairo University"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "gathered",
+            "propbank": "gathered.XX",
+            "mentionid": "em-2440",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-513",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Crowds of Morsi supporters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-564",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificGroup",
+                "entity-text": "other cities around the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "clashes",
+            "propbank": "clashes.XX",
+            "mentionid": "em-2470",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cairo"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Declarational",
+            "ere": "contact",
+            "lemma": "according to",
+            "propbank": "according to.XX",
+            "mentionid": "em-2493",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-570",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the city\u2019s ambulance authority"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "killing",
+            "propbank": "UNK",
+            "mentionid": "em-2516",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-615",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "three people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "injuring",
+            "propbank": "injuring.XX",
+            "mentionid": "em-1947",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-618",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "17"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injuring",
+            "propbank": "injure.01",
+            "mentionid": "em-2541",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-618",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "17"
+            },
+            {
+                "reo": "reo::Cause",
+                "ere": "agent",
+                "entity": "ent-573",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Islamist militants in the Sinai Peninsula"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-612",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Sinai Peninsula"
+            },
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-2580",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "rocket-propelled grenades"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2587",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reported",
+            "propbank": "reported.XX",
+            "mentionid": "em-2100",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "state"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reported",
+            "propbank": "reported.XX",
+            "mentionid": "em-1968",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "state"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "aid",
+            "propbank": "UNK",
+            "mentionid": "em-2647",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-759",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "American military"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Egyptian"
+            }
+        ]
+    }
+]

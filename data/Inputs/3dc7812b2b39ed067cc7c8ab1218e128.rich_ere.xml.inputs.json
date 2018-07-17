@@ -1,0 +1,344 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "interview",
+            "propbank": "UNK",
+            "mentionid": "em-550",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-87",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a Jobcentre In London"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-582",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-585",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-608",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-120",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "found guilty",
+            "propbank": "find.02",
+            "mentionid": "em-629",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-756",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "found Guilty",
+            "propbank": "find.02",
+            "mentionid": "em-821",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-846",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "Benefit Fraud"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-849",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "appealed",
+            "propbank": "appeal.01",
+            "mentionid": "em-650",
+            "modality": "actual",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-135",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the high court"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "say",
+            "propbank": "say.01",
+            "mentionid": "em-680",
+            "modality": "other",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-180",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convictions",
+            "propbank": "convict.01",
+            "mentionid": "em-710",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-243",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "many"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "acquit",
+            "lemma": "acquited",
+            "propbank": "acquit.01",
+            "mentionid": "em-777",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "acquit",
+            "lemma": "overturned",
+            "propbank": "overturned.XX",
+            "mentionid": "em-800",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "acquit",
+            "lemma": "overturned",
+            "propbank": "overturned.XX",
+            "mentionid": "em-877",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-399",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a high judge"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "working",
+            "propbank": "UNK",
+            "mentionid": "em-905",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-351",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a Jobcentre"
+            }
+        ]
+    }
+]

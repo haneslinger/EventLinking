@@ -1,0 +1,139 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "co-founded",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_6_425",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.03pczf",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Robert Kagan"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-m.01c4wz",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "PNAC"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-568eb23c_6_464",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1997"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endorg",
+            "lemma": "was",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_6_471",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-m.01c4wz",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a neo-conservative think tank (1997-2006) that had strong ties to the American Enterprise Institute"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-568eb23c_6_496",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2006"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "became",
+            "propbank": "became.XX",
+            "mentionid": "em-568eb23c_6_499",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.09b6zr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Bush"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_6_524",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-568eb23c_6_529",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-568eb23c_6_546",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "September 11, 2001"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "propaganda",
+            "propbank": "propaganda.XX",
+            "mentionid": "em-568eb23c_6_602",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-568eb23c_6_243",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    }
+]

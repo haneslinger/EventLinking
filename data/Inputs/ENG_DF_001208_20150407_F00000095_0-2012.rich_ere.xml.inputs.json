@@ -1,0 +1,234 @@
+[
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "going",
+            "propbank": "go.03",
+            "mentionid": "em-568eb23c_59_264",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-NIL00102",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "James Borrego"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retired",
+            "propbank": "retire.02",
+            "mentionid": "em-568eb23c_59_890",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-m.01yqrk",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Recently retired two-time MVP"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "bring back",
+            "propbank": "bring.01",
+            "mentionid": "em-568eb23c_59_911",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-NIL00102",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Borrego"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-568eb23c_59_936",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a case of cigars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "gift",
+            "propbank": "gift.01",
+            "mentionid": "em-568eb23c_59_606",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-NIL00102",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former coach"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_59_489",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "his former players"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_59_880",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "cigars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "distribute",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_59_939",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-NIL00102",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Borrego"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-568eb23c_59_489",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the Magic players"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-568eb23c_59_971",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "cigars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visit",
+            "propbank": "visit.01",
+            "mentionid": "em-568eb23c_59_656",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-568eb23c_59_685",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the first U.S. professional sports league to visit Cuba since President Barack Obama ordered diplomatic relations between the countries to be restored"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meeting",
+            "propbank": "meet.03",
+            "mentionid": "em-568eb23c_59_974",
+            "modality": "other",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-568eb23c_59_489",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the Magic players"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-568eb23c_59_1004",
+            "modality": "other",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-NIL00102",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former coach"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_59_1029",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "coach"
+            }
+        ]
+    }
+]

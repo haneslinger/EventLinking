@@ -1,0 +1,252 @@
+[
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "given",
+            "propbank": "give.01",
+            "mentionid": "em-434",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Boys Town"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "funds",
+            "propbank": "fund.01",
+            "mentionid": "em-455",
+            "modality": "actual",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-72",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "It"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-1231",
+            "modality": "actual",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-522",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people who have already been born"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "have",
+            "propbank": "have.05",
+            "mentionid": "em-1254",
+            "modality": "generic",
+            "framenet": "fn::Giving_birth"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-555",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "children they may not want"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Marry",
+            "ere": "marry",
+            "lemma": "unwed",
+            "propbank": "unwed.XX",
+            "mentionid": "em-1300",
+            "modality": "other",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-636",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "unwed mothers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-1323",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-849",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "themselves"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-831",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a nice sterile hospital room"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-1383",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-870",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "them"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-831",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "sterile hospital rooms"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-1353",
+            "modality": "other",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-870",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "so many kids"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-831",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "sterile hospital rooms"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "violence",
+            "propbank": "UNK",
+            "mentionid": "em-1411",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-546",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the victims of domestic violence"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "move",
+            "propbank": "UNK",
+            "mentionid": "em-1434",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-87",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "P-town"
+            }
+        ]
+    }
+]

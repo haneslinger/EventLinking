@@ -1,0 +1,1131 @@
+[
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "Protests",
+            "propbank": "protest.01",
+            "mentionid": "em-1051",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Bolivia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "Protests",
+            "propbank": "protest.01",
+            "mentionid": "em-1077",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Bolivia"
+            },
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "thousands of demonstrators"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2373",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "filled",
+            "propbank": "filled.XX",
+            "mentionid": "em-1103",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Demonstrators"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-90",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the streets in La Paz and other cities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protest",
+            "propbank": "protest.01",
+            "mentionid": "em-2055",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Demonstrators"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-2129",
+            "modality": "other",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-594",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "demonstrators",
+            "propbank": "demonstrators.XX",
+            "mentionid": "em-2149",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-594",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "demonstrators"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "message",
+            "propbank": "UNK",
+            "mentionid": "em-2343",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the government"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-585",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the population"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "subsidized",
+            "propbank": "subsidized.XX",
+            "mentionid": "em-2197",
+            "modality": "actual",
+            "framenet": "fn::Taking"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "resignation",
+            "propbank": "resign.01",
+            "mentionid": "em-1185",
+            "modality": "other",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Morales"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "strike",
+            "propbank": "strike.02",
+            "mentionid": "em-1207",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-174",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Taxi drivers"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "La Paz"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2380",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-1241",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-189",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the cities of Cochabamba, Santa Cruz, Potosi and Oruro"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "filled",
+            "propbank": "filled.XX",
+            "mentionid": "em-1263",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Demonstrators"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "La Paz"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "demonstrate",
+            "lemma": "march",
+            "propbank": "march.01",
+            "mentionid": "em-1385",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the capital"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "disturbances",
+            "propbank": "disturbances.XX",
+            "mentionid": "em-1673",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "La Paz"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "filled",
+            "propbank": "filled.XX",
+            "mentionid": "em-1285",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Demonstrators"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-108",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "other cities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-1319",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-207",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Santa Cruz"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-1341",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-216",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Potosi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-1363",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-225",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Oruro"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "clashes",
+            "propbank": "clashes.XX",
+            "mentionid": "em-1411",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "police"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-279",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "demonstrators"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announced",
+            "propbank": "announced.XX",
+            "mentionid": "em-1439",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2387",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sunday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "enter",
+            "propbank": "enter.01",
+            "mentionid": "em-1481",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-279",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "demonstrators"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-255",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the main plaza where the government palace is located"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "used",
+            "propbank": "used.XX",
+            "mentionid": "em-1509",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Police"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-279",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the protesters, who hurled stones at officers, the vice president's office, a union headquarters and two ministry buildings"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1539",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "tear gas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "hurled",
+            "propbank": "hurled.XX",
+            "mentionid": "em-1543",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-279",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the protesters, who hurled stones at officers, the vice president's office, a union headquarters and two ministry buildings"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-330",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "two ministry buildings"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "afire",
+            "propbank": "afire.XX",
+            "mentionid": "em-1589",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-363",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "demonstrators"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-348",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "El Alto"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "f-1625",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a car"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "raised",
+            "propbank": "raised.XX",
+            "mentionid": "em-1629",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-363",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "protesters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1651",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-405",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Sacha Llorenti"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "disturbances",
+            "propbank": "disturbances.XX",
+            "mentionid": "em-1693",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-348",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "El Alto"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "disturbances",
+            "propbank": "disturbances.XX",
+            "mentionid": "em-1715",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-198",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cochabamba"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-1737",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-198",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cochabamba"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injured",
+            "propbank": "injure.01",
+            "mentionid": "em-1757",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-432",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "15 police officers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injured",
+            "propbank": "injure.01",
+            "mentionid": "em-1779",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-441",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "burned",
+            "propbank": "burned.XX",
+            "mentionid": "em-1801",
+            "modality": "actual",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-450",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A group of protesters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "told",
+            "propbank": "told.XX",
+            "mentionid": "em-1823",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-405",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Llorenti"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "subsidize",
+            "propbank": "UNK",
+            "mentionid": "em-1845",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "it"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "smuggled",
+            "propbank": "smuggle.01",
+            "mentionid": "em-1873",
+            "modality": "actual",
+            "framenet": "fn::Smuggling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-498",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "neighboring countries"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1897",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "Fuel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "disperse",
+            "propbank": "disperse.01",
+            "mentionid": "em-1901",
+            "modality": "actual",
+            "framenet": "fn::Dispersal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Police"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-279",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the protesters, who hurled stones at officers, the vice president's office, a union headquarters and two ministry buildings"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "increases",
+            "propbank": "increases.XX",
+            "mentionid": "em-1949",
+            "modality": "other",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-519",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "public workers"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1979",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "20 percent salary"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announced",
+            "propbank": "announced.XX",
+            "mentionid": "em-1983",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "The government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announced",
+            "propbank": "announced.XX",
+            "mentionid": "em-2005",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Morales' government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "assistance",
+            "propbank": "UNK",
+            "mentionid": "em-2027",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "The government"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-534",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "rice, corn and wheat farmers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-2075",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-549",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Claudio Luna"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "La Paz"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-2169",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-615",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Bus drivers"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2394",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this week"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "lined",
+            "propbank": "lined.XX",
+            "mentionid": "em-2223",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-669",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "People seeking bargains"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-678",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a state-run food store in La Paz"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2401",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-2277",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Morales"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "patrol",
+            "propbank": "UNK",
+            "mentionid": "em-2319",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-471",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "police"
+            }
+        ]
+    }
+]

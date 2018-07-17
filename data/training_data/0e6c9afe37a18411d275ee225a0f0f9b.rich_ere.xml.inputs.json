@@ -1,0 +1,671 @@
+[
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "crowded",
+            "propbank": "crowded.XX",
+            "mentionid": "em-935",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "several hundred students"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-120",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Paterno's house"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retired",
+            "propbank": "retire.02",
+            "mentionid": "em-956",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Sandusky"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retirement",
+            "propbank": "retire.02",
+            "mentionid": "em-1572",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-84",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "PSU"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "contacting",
+            "propbank": "contacting.XX",
+            "mentionid": "em-977",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-90",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "South Bend police"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "notify",
+            "propbank": "UNK",
+            "mentionid": "em-2167",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-87",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-90",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the police"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "suicide",
+            "propbank": "suicide.XX",
+            "mentionid": "em-998",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the alleged victim"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the alleged victim"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "assault",
+            "propbank": "assault.01",
+            "mentionid": "em-1019",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an adult"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a minor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "assault",
+            "propbank": "assault.01",
+            "mentionid": "em-1040",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a 10-year-old"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "assault",
+            "propbank": "assault.01",
+            "mentionid": "em-1061",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an adult"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a minor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "rape",
+            "propbank": "UNK",
+            "mentionid": "em-1152",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an adult"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a minor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "molester",
+            "propbank": "molester.XX",
+            "mentionid": "em-1600",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a child molester"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "child"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "rape",
+            "propbank": "UNK",
+            "mentionid": "em-1711",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an adult"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a minor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "profit",
+            "propbank": "profit.01",
+            "mentionid": "em-1082",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-81",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-2282",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$50 million"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "get",
+            "propbank": "UNK",
+            "mentionid": "em-1542",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1567",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "head coaching"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "assaulting",
+            "propbank": "assault.01",
+            "mentionid": "em-1639",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an unidentified athlete"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a freshman girl"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1678",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "victim",
+            "propbank": "victim.XX",
+            "mentionid": "em-1683",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the alleged victim"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "mugged",
+            "propbank": "mugged.XX",
+            "mentionid": "em-1865",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1524",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone on my campus"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-129",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "my campus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transaction",
+            "lemma": "mugged",
+            "propbank": "UNK",
+            "mentionid": "em-1895",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-1524",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone on my campus"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-129",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "my campus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reported",
+            "propbank": "reported.XX",
+            "mentionid": "em-1977",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Paterno"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reported",
+            "propbank": "reported.XX",
+            "mentionid": "em-2000",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-66",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the police"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-2060",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-1464",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "kids selling homemade cookies by the side of the road"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-1467",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the side of the road"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2092",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "homemade cookies"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-2097",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-1464",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "kids selling homemade cookies by the side of the road"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-1467",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the side of the road"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "counsel",
+            "propbank": "UNK",
+            "mentionid": "em-2195",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the victim"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "broadcast",
+            "lemma": "complaint",
+            "propbank": "complain.01",
+            "mentionid": "em-2225",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2242",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2009"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-2248",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-84",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    }
+]

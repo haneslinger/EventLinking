@@ -1,0 +1,549 @@
+[
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "Talked",
+            "propbank": "talked.XX",
+            "mentionid": "em-593",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-45",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Fedex"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-618",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this morning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "Delivery",
+            "propbank": "UNK",
+            "mentionid": "em-710",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1449",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "FedEx Ground"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "Delivery",
+            "propbank": "UNK",
+            "mentionid": "em-733",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1449",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Ground"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "deliver",
+            "propbank": "UNK",
+            "mentionid": "em-798",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1449",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Ground"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "delivers",
+            "propbank": "delivers.XX",
+            "mentionid": "em-754",
+            "modality": "generic",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-1490",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Express"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "deliver",
+            "propbank": "UNK",
+            "mentionid": "em-905",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-45",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-932",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "package"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-78",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the wrong address"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "delivered",
+            "propbank": "delivered.XX",
+            "mentionid": "em-944",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-969",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "package"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "shipped",
+            "propbank": "shipped.XX",
+            "mentionid": "em-972",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-45",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Fedex"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-997",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "another package"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "Delivers",
+            "propbank": "delivers.XX",
+            "mentionid": "em-1002",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Tom Hanks"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1036",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Tuesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "deliver",
+            "propbank": "UNK",
+            "mentionid": "em-1039",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-45",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "Sent",
+            "propbank": "sent.XX",
+            "mentionid": "em-1071",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Washington"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1096",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a couple of glass items"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "Sent",
+            "propbank": "sent.XX",
+            "mentionid": "em-1101",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-60",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "California"
+            },
+            {
+                "reo": "reo::ModeOfTransportation",
+                "ere": "instrument",
+                "entity": "f-1126",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a couple of glass items"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "arrived",
+            "propbank": "arrived.XX",
+            "mentionid": "em-1131",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1148",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "received",
+            "propbank": "received.XX",
+            "mentionid": "em-1154",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1171",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "items"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "delivery",
+            "propbank": "UNK",
+            "mentionid": "em-1177",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1194",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "item"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "shipping",
+            "propbank": "UNK",
+            "mentionid": "em-1200",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-60",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "California"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1227",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "8 cups/8 saucers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "ship",
+            "propbank": "UNK",
+            "mentionid": "em-1230",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-1253",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "loses",
+            "propbank": "loses.XX",
+            "mentionid": "em-1361",
+            "modality": "generic",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-1352",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a neighbor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "lose",
+            "propbank": "UNK",
+            "mentionid": "em-1399",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-1390",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "Delivery",
+            "propbank": "UNK",
+            "mentionid": "em-1561",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1536",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Home"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "deliver",
+            "propbank": "UNK",
+            "mentionid": "em-1584",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1536",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Home"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "Delivery",
+            "propbank": "UNK",
+            "mentionid": "em-1605",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1536",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "FedEx Home"
+            }
+        ]
+    }
+]

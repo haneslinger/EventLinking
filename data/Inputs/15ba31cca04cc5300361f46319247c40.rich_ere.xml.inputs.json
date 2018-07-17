@@ -1,0 +1,123 @@
+[
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "fired",
+            "propbank": "fire.02",
+            "mentionid": "em-935",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-138",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "DMV"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elect",
+            "propbank": "elect.01",
+            "mentionid": "em-993",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "agent",
+                "entity": "ent-978",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-969",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone we dont' fundamentally like"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1080",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rdean"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1156",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-1206",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    }
+]

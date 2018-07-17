@@ -1,0 +1,409 @@
+[
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "released",
+            "propbank": "released.XX",
+            "mentionid": "em-569959cf_39_1209",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.03nr1np",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Anonymous"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "Publish",
+            "propbank": "UNK",
+            "mentionid": "em-569959cf_39_1416",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.03nr1np",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "say",
+            "propbank": "say.01",
+            "mentionid": "em-569959cf_39_1230",
+            "modality": "other",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569959cf_39_543",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verbal_Communication",
+            "ere": "contact",
+            "lemma": "communicate",
+            "propbank": "communicate.01",
+            "mentionid": "em-569959cf_39_1253",
+            "modality": "other",
+            "framenet": "fn::Communication"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569959cf_39_534",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "express",
+            "propbank": "UNK",
+            "mentionid": "em-569959cf_39_1719",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-569959cf_39_534",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "terrorist",
+            "propbank": "terrorist.XX",
+            "mentionid": "em-569959cf_39_1330",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-569959cf_39_639",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a blood thirsty terrorist"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "spitting fire",
+            "propbank": "spitting fire.XX",
+            "mentionid": "em-569959cf_39_1437",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.03nr1np",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Anonymous"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "saying",
+            "propbank": "saying.XX",
+            "mentionid": "em-569959cf_39_1523",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-569959cf_39_849",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "contacting",
+            "propbank": "contact.01",
+            "mentionid": "em-569959cf_39_1546",
+            "modality": "generic",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-569959cf_39_888",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who they are contacting"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-569959cf_39_1576",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-569959cf_39_714",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "communicating",
+            "propbank": "UNK",
+            "mentionid": "em-569959cf_39_1599",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.07jqh",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Taliban"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "payroll",
+            "propbank": "payroll.XX",
+            "mentionid": "em-569959cf_39_1645",
+            "modality": "generic",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0d6qjf",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-569959cf_39_1870",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "so many on their payroll"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "place",
+            "propbank": "UNK",
+            "mentionid": "em-569959cf_39_1805",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-569959cf_39_1149",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "known individuals"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Response",
+            "ere": "contact",
+            "lemma": "response",
+            "propbank": "respond.01",
+            "mentionid": "em-569959cf_39_1946",
+            "modality": "other",
+            "framenet": "fn::Communication_response"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.03nr1np",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Anonymous"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "terrorism",
+            "propbank": "UNK",
+            "mentionid": "em-569959cf_39_1374",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.03nr1np",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a notorious organisation which is often associated with terrorism"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "terrorism",
+            "propbank": "UNK",
+            "mentionid": "em-569959cf_39_1460",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.03nr1np",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a notorious organisation which is often associated with terrorism"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "terrorism",
+            "propbank": "UNK",
+            "mentionid": "em-569959cf_39_1395",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a notorious organisation which is often associated with terrorism"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "spamming",
+            "propbank": "UNK",
+            "mentionid": "em-569959cf_39_1971",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-569959cf_39_534",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paying",
+            "propbank": "pay.01",
+            "mentionid": "em-569959cf_39_1782",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    }
+]

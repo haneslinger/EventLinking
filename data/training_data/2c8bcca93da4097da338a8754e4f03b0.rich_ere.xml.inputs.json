@@ -1,0 +1,595 @@
+[
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-1308",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1325",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1956"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "demonstrate",
+            "lemma": "uprising",
+            "propbank": "rise_up.03",
+            "mentionid": "em-1329",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1346",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1956"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "demonstrate",
+            "lemma": "uprising",
+            "propbank": "rise_up.03",
+            "mentionid": "em-1350",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1367",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1956"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Hungary"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-751",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former Hungarian Interior Minister during communism"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-776",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "war crimes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "found guilty",
+            "propbank": "find.02",
+            "mentionid": "em-946",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Biszku"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-971",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "today"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-978",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "denying the crimes committed during the communist regime"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-1162",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The ex-minister"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-786",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-811",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "five and a half years"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-84",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "A court in Hungary"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Hungary"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "indictment",
+            "propbank": "indict.01",
+            "mentionid": "em-828",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The once-eminent pro-Soviet functionary"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-855",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "the death of dozens of Hungarians shot dead during the anti-Communist and anti-Soviet uprising in 1956"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-860",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-123",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "dozens of Hungarians shot dead during the anti-Communist and anti-Soviet uprising in 1956"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-885",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1956"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "dead",
+            "propbank": "dead.XX",
+            "mentionid": "em-918",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-123",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "dozens of Hungarians shot dead during the anti-Communist and anti-Soviet uprising in 1956"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-943",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1956"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "appeal",
+            "propbank": "appeal.01",
+            "mentionid": "em-1009",
+            "modality": "other",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The former politician"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-1030",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-213",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "civilians"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1057",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1956"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-1088",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "His"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1115",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "mid-March"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-1183",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-288",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Several thousand people"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1208",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1956"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Hungary"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "executed",
+            "propbank": "execute.01",
+            "mentionid": "em-1220",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-333",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "more than 200 people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "ended up in prison",
+            "propbank": "ended up in prison.XX",
+            "mentionid": "em-1264",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-342",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "22 000"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "emigrated",
+            "propbank": "emigrate.01",
+            "mentionid": "em-1285",
+            "modality": "actual",
+            "framenet": "fn::Quitting_a_place"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-372",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "210 00"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1471",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Interior"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former Hungarian Interior Minister during communism"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1503",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Minister"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Hungarian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "shot",
+            "propbank": "UNK",
+            "mentionid": "em-888",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-123",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "dozens of Hungarians shot dead during the anti-Communist and anti-Soviet uprising in 1956"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-915",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1956"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "killing",
+            "propbank": "UNK",
+            "mentionid": "em-1060",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-213",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "civilians"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1085",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1956"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "executed",
+            "propbank": "executed.XX",
+            "mentionid": "em-1241",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-333",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "more than 200 people"
+            }
+        ]
+    }
+]

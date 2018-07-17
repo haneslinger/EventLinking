@@ -1,0 +1,858 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "prosecute",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_1277",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-568eb23c_4_651",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "those that committed war crimes"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-568eb23c_4_1302",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "war crimes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_1305",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_4_651",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "those that committed war crimes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "overthrow",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_1337",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.09b6zr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Bush"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.04gqr",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Libya"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "overthrow",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_1369",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.09b6zr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Bush"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.06vbd",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Syria"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "report",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_1397",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "hold",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_1420",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_4_696",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "no bush"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "birthed",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_1443",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.0d6qjf",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "CIA"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the large multi national Islamic fighting force that first formed in Afghanistan, then moved to the former Yugoslavia, and finally wound up in Iraq and Syria"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "formed",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_2207",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.0jdd",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Afghanistan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "invasion",
+            "propbank": "invade.01",
+            "mentionid": "em-568eb23c_4_1480",
+            "modality": "actual",
+            "framenet": "fn::Invading"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.0d05q4",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "sending",
+            "propbank": "sending.XX",
+            "mentionid": "em-568eb23c_4_1510",
+            "modality": "generic",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.04wsz",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "middle east"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-568eb23c_4_1535",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "arms"
+            },
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-568eb23c_4_1540",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-568eb23c_4_765",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who we originally give them to"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_4_1572",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "arms"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-568eb23c_4_1579",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_4_765",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who we originally give them to"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "give",
+            "propbank": "give.01",
+            "mentionid": "em-568eb23c_4_1607",
+            "modality": "generic",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_4_765",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who we originally give them to"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_4_1645",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "arms"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "War",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_1673",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.0661z",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Gulf"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "War",
+            "propbank": "war.01",
+            "mentionid": "em-568eb23c_4_1696",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0661z",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Gulf"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "war.01",
+            "mentionid": "em-568eb23c_4_1717",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.047yc",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Kuwait"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "telling",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_1759",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_4_915",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "us"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fight",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_1782",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-568eb23c_4_924",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "them"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-568eb23c_4_2194",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "over here"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killed",
+            "propbank": "killed.XX",
+            "mentionid": "em-568eb23c_4_1848",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.034ls",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "more young people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-568eb23c_4_1871",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-m.034ls",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "more young people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "beheaded",
+            "propbank": "beheaded.XX",
+            "mentionid": "em-568eb23c_4_1894",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.034ls",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "more young people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "beheaded",
+            "propbank": "behead.01",
+            "mentionid": "em-568eb23c_4_1917",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-m.034ls",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "more young people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "THIRD TERM",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_2007",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_4_2118",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "'s"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Obama"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_4_2039",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "run",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_2067",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Obama"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bomb",
+            "propbank": "bomb.02",
+            "mentionid": "em-568eb23c_4_2044",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-568eb23c_4_1068",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "some place that republicans hate"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "invasion",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_2249",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-m.0d05q4",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "captured",
+            "propbank": "captured.XX",
+            "mentionid": "em-568eb23c_4_2279",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_4_2296",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "arms"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "put",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_2302",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_4_858",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Papa"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-568eb23c_4_873",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the airfields"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.01z215",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Saudi land"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "propaganda",
+            "propbank": "propaganda.XX",
+            "mentionid": "em-568eb23c_4_2339",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.06bnz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Russian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "put",
+            "propbank": "put.01",
+            "mentionid": "em-568eb23c_4_2362",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "U.S."
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-568eb23c_4_714",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "U.S. troops"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.04wsz",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the ground"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "posting",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_4_2408",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL02811",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "My"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "let go",
+            "propbank": "let go.XX",
+            "mentionid": "em-568eb23c_4_2431",
+            "modality": "other",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_4_2456",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    }
+]

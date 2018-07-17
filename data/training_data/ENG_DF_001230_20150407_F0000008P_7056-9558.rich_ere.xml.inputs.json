@@ -1,0 +1,652 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "message",
+            "propbank": "UNK",
+            "mentionid": "em-56b027ff_26_841",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.098v21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Goodluck"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-m.02p45h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Buhari"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "wished",
+            "propbank": "wished.XX",
+            "mentionid": "em-56b027ff_26_892",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-m.02p45h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his opponent"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "message",
+            "propbank": "UNK",
+            "mentionid": "em-56b027ff_26_1254",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-m.02p45h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.098v21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "that same man that defeated.him in 2011 but got a congratulatory message instead of threats"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "wished",
+            "propbank": "UNK",
+            "mentionid": "em-56b027ff_26_1400",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.02p45h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "lost",
+            "propbank": "UNK",
+            "mentionid": "em-56b027ff_26_869",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.098v21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "defeat",
+            "propbank": "UNK",
+            "mentionid": "em-56b027ff_26_920",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.098v21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "won",
+            "propbank": "UNK",
+            "mentionid": "em-56b027ff_26_1233",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.02p45h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "defeat",
+            "propbank": "UNK",
+            "mentionid": "em-56b027ff_26_1449",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.098v21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "election",
+            "propbank": "elect.01",
+            "mentionid": "em-56b027ff_26_1542",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.098v21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "You"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "lost",
+            "propbank": "UNK",
+            "mentionid": "em-56b027ff_26_985",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.02p45h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-56b027ff_26_1010",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2011"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "defeated",
+            "propbank": "UNK",
+            "mentionid": "em-56b027ff_26_1198",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.02p45h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-56b027ff_26_1230",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2011"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "promised",
+            "propbank": "promise.01",
+            "mentionid": "em-56b027ff_26_1015",
+            "modality": "actual",
+            "framenet": "fn::Commitment"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.098v21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jonathan"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-56b027ff_26_1047",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2011"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "took",
+            "propbank": "take.35",
+            "mentionid": "em-56b027ff_26_1052",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-56b027ff_26_333",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "His supporters"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-56b027ff_26_336",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the streets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "slaughtered",
+            "propbank": "slaughtered.XX",
+            "mentionid": "em-56b027ff_26_1082",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-56b027ff_26_333",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "His supporters"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-56b027ff_26_339",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "innocent Nigerians"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-56b027ff_26_336",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the streets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "slaughtered",
+            "propbank": "slaughter.01",
+            "mentionid": "em-56b027ff_26_1119",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-56b027ff_26_333",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "His supporters"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56b027ff_26_339",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "innocent Nigerians"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-56b027ff_26_336",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the streets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "threats",
+            "propbank": "threats.XX",
+            "mentionid": "em-56b027ff_26_1275",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-m.098v21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "that same man that defeated.him in 2011 but got a congratulatory message instead of threats"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "threats",
+            "propbank": "threats.XX",
+            "mentionid": "em-56b027ff_26_1319",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-56b027ff_26_345",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the people we call our leaders"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "left",
+            "propbank": "leave.11",
+            "mentionid": "em-56b027ff_26_1349",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-56b027ff_26_450",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Some people"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-56b027ff_26_342",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-56b027ff_26_1512",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-m.098v21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-56b027ff_26_543",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "where ever"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "gone",
+            "propbank": "go.03",
+            "mentionid": "em-56b027ff_26_1563",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-m.0gff0sh",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "bolt",
+            "propbank": "bolt.01",
+            "mentionid": "em-56b027ff_26_1586",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-m.0gff0sh",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "first to bolt/flee"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "flee",
+            "propbank": "flee.05",
+            "mentionid": "em-56b027ff_26_1613",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-m.0gff0sh",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "first to bolt/flee"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "come",
+            "propbank": "come.01",
+            "mentionid": "em-56b027ff_26_1634",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-m.0gff0sh",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mama P"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-56b027ff_26_342",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "home"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "next",
+            "propbank": "next.XX",
+            "mentionid": "em-56b027ff_26_1664",
+            "modality": "other",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-NIL01330",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Bode G"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "follow",
+            "propbank": "follow.02",
+            "mentionid": "em-56b027ff_26_1687",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-m.08v2cb",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "FAyose"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "administration",
+            "propbank": "UNK",
+            "mentionid": "em-56b027ff_26_1743",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.02p45h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his opponent"
+            }
+        ]
+    }
+]

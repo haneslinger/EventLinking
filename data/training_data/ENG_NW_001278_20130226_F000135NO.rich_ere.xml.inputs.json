@@ -1,0 +1,679 @@
+[
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elect",
+            "propbank": "elect.01",
+            "mentionid": "em-1126",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus president-elect"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2026",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elect",
+            "propbank": "elect.01",
+            "mentionid": "em-1154",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus president-elect"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2054",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elect",
+            "propbank": "elect.01",
+            "mentionid": "em-1182",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Nicos Anastasiades"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1207",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "election",
+            "propbank": "elect.01",
+            "mentionid": "em-1316",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Anastasiades"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1341",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "presidential"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1348",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sunday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiations",
+            "propbank": "negotiate.01",
+            "mentionid": "em-1210",
+            "modality": "other",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-132",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Michael Sarris"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bailout",
+            "propbank": "bailout.XX",
+            "mentionid": "em-1233",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-165",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "International Monetary Fund"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bailout",
+            "propbank": "bailout.XX",
+            "mentionid": "em-1351",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-441",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "international lenders"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bailout",
+            "propbank": "bailout.XX",
+            "mentionid": "em-1462",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "saying",
+            "propbank": "say.01",
+            "mentionid": "em-1263",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-132",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1288",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Two years ago"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiated",
+            "propbank": "negotiate.01",
+            "mentionid": "em-1293",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiated",
+            "propbank": "negotiate.01",
+            "mentionid": "em-1372",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-441",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "international lenders"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "lenders",
+            "propbank": "lenders.XX",
+            "mentionid": "em-1402",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-441",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "international lenders"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meeting",
+            "propbank": "meet.03",
+            "mentionid": "em-1425",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-1941",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Eurogroup"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-456",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Brussels"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1457",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "recapitalization",
+            "propbank": "recapitalization.XX",
+            "mentionid": "em-1483",
+            "modality": "other",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-480",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "bank"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "depositors",
+            "propbank": "depositors.XX",
+            "mentionid": "em-1506",
+            "modality": "generic",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-507",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "bank depositors"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-480",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "bank"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "depositors",
+            "propbank": "depositors.XX",
+            "mentionid": "em-1719",
+            "modality": "generic",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-507",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "depositors"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-480",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the banks"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "Announcing",
+            "propbank": "UNK",
+            "mentionid": "em-1557",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Anastasiades"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "withdraw",
+            "propbank": "UNK",
+            "mentionid": "em-1691",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-480",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the banks"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-507",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "depositors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "loss",
+            "propbank": "lose.01",
+            "mentionid": "em-1626",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-507",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "bank depositors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "takes office",
+            "propbank": "takes office.XX",
+            "mentionid": "em-1774",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1799",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "hand over",
+            "propbank": "UNK",
+            "mentionid": "em-1841",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1866",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "presidency"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "oath",
+            "propbank": "UNK",
+            "mentionid": "em-1804",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "He"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-642",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "parliament"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1836",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday afternoon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "outgoing",
+            "propbank": "UNK",
+            "mentionid": "em-1869",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-651",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the outgoing president"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1894",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "expressed",
+            "propbank": "expressed.XX",
+            "mentionid": "em-1603",
+            "modality": "actual",
+            "framenet": "fn::Reveal_secret"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-522",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificGroup",
+                "entity-text": "many other member states"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announced",
+            "propbank": "announced.XX",
+            "mentionid": "em-1899",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Anastasiades"
+            }
+        ]
+    }
+]

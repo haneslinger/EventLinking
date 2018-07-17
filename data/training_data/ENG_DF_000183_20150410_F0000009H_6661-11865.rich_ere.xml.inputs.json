@@ -1,0 +1,563 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "voted",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1005",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-NIL02865",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.02qg4z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hollande"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.0f8l9c",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "candidate",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1033",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_25_735",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the Democratic candidate"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-568eb23c_25_1058",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2016"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.0d075m",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Democratic"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominee",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1063",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_25_735",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the party's nominee"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.0d075m",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the party"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "became",
+            "propbank": "became.XX",
+            "mentionid": "em-568eb23c_25_1084",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Obama"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_25_1119",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominee",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1124",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_25_909",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the pile of manure who will be the Republican nominee"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.07wbk",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Republican"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1342",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-NIL02865",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a \"Dem"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "ask",
+            "propbank": "ask.03",
+            "mentionid": "em-568eb23c_25_1395",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL02865",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "have",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1425",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL02865",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "OPs",
+            "propbank": "ops.XX",
+            "mentionid": "em-568eb23c_25_1465",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL02865",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "posts",
+            "propbank": "posts.XX",
+            "mentionid": "em-568eb23c_25_1488",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL02884",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "talking",
+            "propbank": "talk.01",
+            "mentionid": "em-568eb23c_25_1511",
+            "modality": "generic",
+            "framenet": "fn::Chatting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_25_1538",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "RW"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "Vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1549",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_25_696",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1579",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_25_696",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "your"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1609",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_25_633",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "folks who would rather sit on their hands than cast a vote for her"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1722",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_25_633",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those who have repeatedly said that they will refuse to vote for her if she's the party's nominee"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1639",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-NIL02884",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_25_735",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the Democratic candidate"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-568eb23c_25_1671",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2016"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1750",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-NIL02884",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_25_735",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "any Democrat"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "primaries",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_25_1676",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-568eb23c_25_1699",
+            "modality": "generic",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-568eb23c_25_633",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those who have repeatedly said that they will refuse to vote for her if she's the party's nominee"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "berating",
+            "propbank": "berating.XX",
+            "mentionid": "em-568eb23c_25_1889",
+            "modality": "generic",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-568eb23c_25_633",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the anti-Hillary crowd"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "written",
+            "propbank": "written.XX",
+            "mentionid": "em-568eb23c_25_1912",
+            "modality": "other",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL02865",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    }
+]

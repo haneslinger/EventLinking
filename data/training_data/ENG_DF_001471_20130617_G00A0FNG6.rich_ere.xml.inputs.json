@@ -1,0 +1,673 @@
+[
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "war.01",
+            "mentionid": "em-906",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Syrian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "overthrow",
+            "propbank": "UNK",
+            "mentionid": "em-1003",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-123",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the assad government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-1160",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1177",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2011"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "says",
+            "propbank": "says.XX",
+            "mentionid": "em-950",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "approached",
+            "propbank": "approached.XX",
+            "mentionid": "em-973",
+            "modality": "actual",
+            "framenet": "fn::Judgment_direct_address"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1976",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-54",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "french"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Roland Dumas"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2008",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "foreign minister"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "crushed",
+            "propbank": "crushed.XX",
+            "mentionid": "em-1033",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-162",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those who do not cooperate with israel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "told",
+            "propbank": "tell.01",
+            "mentionid": "em-1056",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "overthrow",
+            "propbank": "UNK",
+            "mentionid": "em-1100",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-99",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "US"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-483",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "democratically elected governments"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "same",
+            "propbank": "same.XX",
+            "mentionid": "em-1130",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-99",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-498",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "dictatorships"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "firing",
+            "propbank": "UNK",
+            "mentionid": "em-1190",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-513",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Assad forces"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1215",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2011"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-522",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "civilians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "sent",
+            "propbank": "sent.XX",
+            "mentionid": "em-1227",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1252",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "benign equipment"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "armed",
+            "propbank": "arm.01",
+            "mentionid": "em-1257",
+            "modality": "actual",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-531",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "rebels"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2038",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "automatic rifles"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "arming",
+            "propbank": "arm.01",
+            "mentionid": "em-1339",
+            "modality": "other",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-573",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "FSA"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "calling",
+            "propbank": "UNK",
+            "mentionid": "em-1362",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-558",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "syrian national council"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "call",
+            "propbank": "UNK",
+            "mentionid": "em-1385",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-615",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "hollande"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "resignation",
+            "propbank": "resign.01",
+            "mentionid": "em-1422",
+            "modality": "other",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-132",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Assad"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "resigns",
+            "propbank": "resign.01",
+            "mentionid": "em-1445",
+            "modality": "other",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-132",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Assad"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "chopping",
+            "propbank": "chopping.XX",
+            "mentionid": "em-1466",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-651",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "rebels with foreign accents"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-678",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "cutting",
+            "propbank": "UNK",
+            "mentionid": "em-1600",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-651",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "rebels with foreign accents"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-678",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "chopping",
+            "propbank": "chopping.XX",
+            "mentionid": "em-1503",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-678",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "people"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-651",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "rebels with foreign accents"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombings",
+            "propbank": "bomb.02",
+            "mentionid": "em-1533",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-651",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "rebels with foreign accents"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "suicide",
+            "propbank": "suicide.XX",
+            "mentionid": "em-1563",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-651",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "rebels with foreign accents"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-651",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "rebels with foreign accents"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "used",
+            "propbank": "used.XX",
+            "mentionid": "em-1628",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-123",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the government"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1653",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "sarin gas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "use",
+            "propbank": "UNK",
+            "mentionid": "em-1718",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-531",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "rebels"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1743",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "chemical weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "claim",
+            "propbank": "UNK",
+            "mentionid": "em-1688",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-54",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "france"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "dead",
+            "propbank": "dead.XX",
+            "mentionid": "em-1769",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-774",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "90,000 + people"
+            }
+        ]
+    }
+]

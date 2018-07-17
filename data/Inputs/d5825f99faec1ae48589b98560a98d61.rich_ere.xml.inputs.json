@@ -1,0 +1,627 @@
+[
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "taking off",
+            "propbank": "take.35",
+            "mentionid": "em-575",
+            "modality": "generic",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-1285",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "wherever"
+            },
+            {
+                "reo": "reo::ModeOfTransportation",
+                "ere": "instrument",
+                "entity": "f-607",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "public transportation"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-620",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-645",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "possession"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-660",
+            "modality": "generic",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-685",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "possession"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-98",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "somewhere"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "caught",
+            "propbank": "caught.XX",
+            "mentionid": "em-736",
+            "modality": "generic",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-761",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "possess drugs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "felonies",
+            "propbank": "felonies.XX",
+            "mentionid": "em-690",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1409",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "possession"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "misdemeanors",
+            "propbank": "misdemeanors.XX",
+            "mentionid": "em-713",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1402",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "possession"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "prison",
+            "propbank": "prison.XX",
+            "mentionid": "em-861",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-239",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "prison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "got out",
+            "propbank": "UNK",
+            "mentionid": "em-794",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-239",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "prison"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-1475",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "possess drugs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "smuggling",
+            "propbank": "smuggle.01",
+            "mentionid": "em-889",
+            "modality": "other",
+            "framenet": "fn::Smuggling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-239",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "prison"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1482",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "something"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "parole",
+            "propbank": "UNK",
+            "mentionid": "em-926",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-1416",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "possession"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "parole",
+            "propbank": "UNK",
+            "mentionid": "em-949",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-296",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "illinois"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "parole",
+            "propbank": "UNK",
+            "mentionid": "em-1007",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "myself"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-296",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "here"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "parole",
+            "propbank": "UNK",
+            "mentionid": "em-1086",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-368",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "another state"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "parole",
+            "propbank": "UNK",
+            "mentionid": "em-1264",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "bought",
+            "propbank": "buy.01",
+            "mentionid": "em-977",
+            "modality": "actual",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-320",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "greyhound"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Declarational",
+            "ere": "contact",
+            "lemma": "call",
+            "propbank": "call.01",
+            "mentionid": "em-1056",
+            "modality": "generic",
+            "framenet": "fn::Name_conferral"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-353",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "sent",
+            "propbank": "send.01",
+            "mentionid": "em-1114",
+            "modality": "other",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "destination",
+                "entity": "ent-248",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "prison",
+            "propbank": "prison.XX",
+            "mentionid": "em-1144",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-248",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prison"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1176",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "violate"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Extradite",
+            "ere": "extradite",
+            "lemma": "extradited",
+            "propbank": "extradite.01",
+            "mentionid": "em-1181",
+            "modality": "actual",
+            "framenet": "fn::Extradition"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "extradited",
+            "propbank": "extradited.XX",
+            "mentionid": "em-1204",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-1227",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-449",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "it"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-98",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "somewhere"
+            }
+        ]
+    }
+]

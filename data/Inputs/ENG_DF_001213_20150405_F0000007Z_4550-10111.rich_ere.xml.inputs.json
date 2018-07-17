@@ -1,0 +1,626 @@
+[
+    {
+        "event": {
+            "reo": "reo::Question",
+            "ere": "contact",
+            "lemma": "questions",
+            "propbank": "question.01",
+            "mentionid": "em-568eb23c_64_917",
+            "modality": "generic",
+            "framenet": "fn::Questioning"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_64_429",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "How much of Parliament"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_64_949",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1938"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "admitted",
+            "propbank": "admit.01",
+            "mentionid": "em-568eb23c_64_952",
+            "modality": "generic",
+            "framenet": "fn::Reveal_secret"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_64_450",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "how many"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "gave",
+            "propbank": "give.01",
+            "mentionid": "em-568eb23c_64_977",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A guy who gave Queen Elizabeth, a woman who knew Churchill and listened to his war time speeches....live....an iPod with his vacuous campaign speeches written by staffers"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0d1_f",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Elizabeth"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_64_1016",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "an iPod"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "gave",
+            "propbank": "give.01",
+            "mentionid": "em-568eb23c_64_1064",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A guy who gave Queen Elizabeth, a woman who knew Churchill and listened to his war time speeches....live....an iPod with his vacuous campaign speeches written by staffers"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0d1_f",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Elizabeth"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_64_1096",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "an iPod"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "speeches",
+            "propbank": "speeches.XX",
+            "mentionid": "em-568eb23c_64_1120",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-m.0d1_f",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a woman who knew Churchill and listened to his war time speeches"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "speeches",
+            "propbank": "speeches.XX",
+            "mentionid": "em-568eb23c_64_1141",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-m.0d1_f",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a woman who knew Churchill and listened to his war time speeches"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "speeches",
+            "propbank": "speeches.XX",
+            "mentionid": "em-568eb23c_64_1162",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A guy who gave Queen Elizabeth, a woman who knew Churchill and listened to his war time speeches....live....an iPod with his vacuous campaign speeches written by staffers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "speeches",
+            "propbank": "speeches.XX",
+            "mentionid": "em-568eb23c_64_1185",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A guy who gave Queen Elizabeth, a woman who knew Churchill and listened to his war time speeches....live....an iPod with his vacuous campaign speeches written by staffers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "Orator",
+            "propbank": "orator.XX",
+            "mentionid": "em-568eb23c_64_1206",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The Great Orator"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-568eb23c_64_1231",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-568eb23c_64_561",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the moon"
+            },
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-568eb23c_64_426",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "build",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_64_1252",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_64_615",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "You"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "next",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_64_1286",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_64_636",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the next President"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_64_1311",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "candidates",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_64_1314",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_64_639",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the establishment candidates"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "launch",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_64_1335",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.03spz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Israel"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-568eb23c_64_1367",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuke"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "nuke",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_64_1666",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iran"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.03spz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Israel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "detonate",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_64_1374",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_64_642",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "their own country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "deploy",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_64_1402",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iran"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-568eb23c_64_1427",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuke"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "deal",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_64_1594",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_64_426",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "telling",
+            "propbank": "tell.01",
+            "mentionid": "em-568eb23c_64_1457",
+            "modality": "generic",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_64_693",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Iranian and Obama stooges"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "created",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_64_1520",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iranian"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-568eb23c_64_1545",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "enriched nuclear material"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-568eb23c_64_1622",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Netanyahu"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bomb",
+            "propbank": "bomb.02",
+            "mentionid": "em-568eb23c_64_1643",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-568eb23c_64_1660",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "the bomb"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "why not",
+            "propbank": "why not.XX",
+            "mentionid": "em-568eb23c_64_1731",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_64_1756",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a photo of himself"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "himself"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "inspections",
+            "propbank": "inspections.XX",
+            "mentionid": "em-568eb23c_64_1768",
+            "modality": "generic",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-568eb23c_64_726",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the inspectors"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-568eb23c_64_696",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a single Iranian Nuke Facility"
+            }
+        ]
+    }
+]

@@ -1,0 +1,532 @@
+[
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "INFIGHTING",
+            "propbank": "infighting.XX",
+            "mentionid": "em-1016",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-279",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "REBEL"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacking",
+            "propbank": "attack.01",
+            "mentionid": "em-1037",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-639",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Competing rebel factions in Syria"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-69",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Syria"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacking",
+            "propbank": "attack.01",
+            "mentionid": "em-1291",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-279",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "rebels"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-300",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "their supporters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-1846",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndeterminate",
+                "entity-text": "the battlefield in Syria"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "topple",
+            "propbank": "topple.01",
+            "mentionid": "em-1210",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-84",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Bashar Assad"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1235",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killers",
+            "propbank": "killers.XX",
+            "mentionid": "em-1240",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-438",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a prominent commander who was shot down Thursday"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-165",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the suspected killers of a prominent commander who was shot down Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "eliminate",
+            "propbank": "eliminate.01",
+            "mentionid": "em-1356",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-216",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Islamic State"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-345",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Free Syrian Army higher command"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "interview",
+            "propbank": "UNK",
+            "mentionid": "em-1386",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-360",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a Free Syrian Army lieutenant"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-387",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the central city"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "assault",
+            "propbank": "assault.01",
+            "mentionid": "em-1416",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-30",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "government"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-408",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "rebels"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-387",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "where"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killed",
+            "propbank": "killed.XX",
+            "mentionid": "em-1453",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-438",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the Free Syrian Army commander killed Thursday in the coastal province of Latakia"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1478",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-465",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the coastal province"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "shot",
+            "propbank": "UNK",
+            "mentionid": "em-1638",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-612",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Abu Ayman al-Iraqi"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-438",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Hamami"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-1490",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-438",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the Free Syrian Army commander killed Thursday in the coastal province of Latakia"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1515",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-465",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the coastal province"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "dead",
+            "propbank": "dead.XX",
+            "mentionid": "em-1668",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-612",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Abu Ayman al-Iraqi"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-438",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Hamami"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "met",
+            "propbank": "meet.03",
+            "mentionid": "em-1527",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-480",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "others in the group"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "getting",
+            "propbank": "get.01",
+            "mentionid": "em-1557",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-438",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the Free Syrian Army commander killed Thursday in the coastal province of Latakia"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-480",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "others in the group"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1589",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-1615",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-537",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Anas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fighting",
+            "propbank": "UNK",
+            "mentionid": "em-1696",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-8",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "groups fighting the government"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-30",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "battle",
+            "propbank": "UNK",
+            "mentionid": "em-1726",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-660",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-675",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the more radical groups"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-1756",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-720",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Sheik Jassem al-Awad"
+            }
+        ]
+    }
+]

@@ -1,0 +1,118 @@
+[
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-725",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gandhi"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-42",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Bombay"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-757",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "4th January 1932"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arressted",
+            "propbank": "arressted.XX",
+            "mentionid": "em-1222",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-769",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "deported",
+            "propbank": "deported.XX",
+            "mentionid": "em-1245",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-769",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-102",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Dover"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "booted",
+            "propbank": "booted.XX",
+            "mentionid": "em-1290",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-1407",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "us"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-1015",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "separate or politically independent territories' devoted to their interests"
+            }
+        ]
+    }
+]

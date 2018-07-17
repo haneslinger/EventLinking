@@ -1,0 +1,775 @@
+[
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "answered",
+            "propbank": "answered.XX",
+            "mentionid": "em-1453",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "replied",
+            "propbank": "replied.XX",
+            "mentionid": "em-1474",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "exchanges",
+            "propbank": "exchanges.XX",
+            "mentionid": "em-1497",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my friend"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "heard",
+            "propbank": "heard.XX",
+            "mentionid": "em-1560",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-1639",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-1697",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1724",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "The day before she was supposed to arrive"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "communicating",
+            "propbank": "UNK",
+            "mentionid": "em-1913",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a women"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Change_possession",
+            "ere": "transfermoney",
+            "lemma": "transfer",
+            "propbank": "transfer.01",
+            "mentionid": "em-1518",
+            "modality": "other",
+            "framenet": "fn::Transfer"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "money",
+                "entity": "f-1535",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "\u00a3450 + \u00a350"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "sent",
+            "propbank": "sent.XX",
+            "mentionid": "em-1539",
+            "modality": "actual",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "come",
+            "propbank": "come.01",
+            "mentionid": "em-1588",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1613",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "christmas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "show",
+            "propbank": "UNK",
+            "mentionid": "em-1869",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transaction",
+            "lemma": "shopping",
+            "propbank": "UNK",
+            "mentionid": "em-1618",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Beneficiary",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "My friend"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "wired",
+            "propbank": "wired.XX",
+            "mentionid": "em-1662",
+            "modality": "actual",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "her"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1694",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$1500 or \u00a3900"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visiting",
+            "propbank": "visit.01",
+            "mentionid": "em-1727",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-327",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the bank"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "mugged",
+            "propbank": "mugged.XX",
+            "mentionid": "em-1757",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "mugged",
+            "propbank": "mugged.XX",
+            "mentionid": "em-1780",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meet",
+            "propbank": "meet.03",
+            "mentionid": "em-1803",
+            "modality": "other",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-1839",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "rake",
+            "propbank": "UNK",
+            "mentionid": "em-1890",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-1907",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "several BILLION"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "send",
+            "propbank": "UNK",
+            "mentionid": "em-1941",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-630",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "topeople you don't know and have never met"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "send",
+            "propbank": "UNK",
+            "mentionid": "em-1964",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-1987",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "send",
+            "propbank": "UNK",
+            "mentionid": "em-2010",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-2035",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "1000"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visit",
+            "propbank": "visit.01",
+            "mentionid": "em-2040",
+            "modality": "generic",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a Russian women"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-714",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "UK"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visit",
+            "propbank": "visit.01",
+            "mentionid": "em-2194",
+            "modality": "generic",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a Russian women"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-714",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "UK"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "mugged",
+            "propbank": "mugged.XX",
+            "mentionid": "em-2093",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-801",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "mugged",
+            "propbank": "mugged.XX",
+            "mentionid": "em-2116",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-801",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "send",
+            "propbank": "UNK",
+            "mentionid": "em-2139",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-786",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "turn",
+            "propbank": "UNK",
+            "mentionid": "em-2162",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-801",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "this one"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-714",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "over here"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "marry",
+            "propbank": "UNK",
+            "mentionid": "em-2222",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-372",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-714",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "UK"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "checked",
+            "propbank": "UNK",
+            "mentionid": "em-2250",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-252",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "someone eastern european he was acquainted with"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "checked",
+            "propbank": "UNK",
+            "mentionid": "em-2280",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-252",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "someone Eastern european he was aquainted with"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "run",
+            "propbank": "UNK",
+            "mentionid": "em-2308",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-1122",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "anyone else"
+            }
+        ]
+    }
+]

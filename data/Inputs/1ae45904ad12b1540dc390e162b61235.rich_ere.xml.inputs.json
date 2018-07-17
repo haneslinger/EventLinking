@@ -1,0 +1,368 @@
+[
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "assassinate",
+            "propbank": "assassinate.01",
+            "mentionid": "em-662",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-696",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Iranian scientists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "developing",
+            "propbank": "UNK",
+            "mentionid": "em-720",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-745",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuclear weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-774",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-51",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iran"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-797",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-51",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iran"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "war.01",
+            "mentionid": "em-843",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-60",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "getting",
+            "propbank": "get.01",
+            "mentionid": "em-923",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Israel"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-955",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nukes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get hold",
+            "propbank": "get.01",
+            "mentionid": "em-978",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-975",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "terrorists"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1003",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "nuclear material"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "went",
+            "propbank": "go.03",
+            "mentionid": "em-1017",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-1014",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "getting",
+            "propbank": "get.01",
+            "mentionid": "em-1091",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1108",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuclear weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "blowing",
+            "propbank": "UNK",
+            "mentionid": "em-1123",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-51",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-756",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people they dont like"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "blowing",
+            "propbank": "UNK",
+            "mentionid": "em-1159",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-51",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-756",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people they dont like"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "blowing",
+            "propbank": "UNK",
+            "mentionid": "em-1265",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-51",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "f-1297",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "things"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "blowing",
+            "propbank": "UNK",
+            "mentionid": "em-1302",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-51",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "f-1334",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "things"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "assassinate",
+            "propbank": "UNK",
+            "mentionid": "em-1337",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-696",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Iranian scientists"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    }
+]

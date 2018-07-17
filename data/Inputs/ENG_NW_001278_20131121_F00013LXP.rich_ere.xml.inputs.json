@@ -1,0 +1,916 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "import",
+            "propbank": "UNK",
+            "mentionid": "em-503",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippine"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-528",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-535",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2014"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "import",
+            "propbank": "UNK",
+            "mentionid": "em-596",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippine"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-621",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-628",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2014"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "import",
+            "propbank": "UNK",
+            "mentionid": "em-666",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippine"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-691",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-698",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2014"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "imports",
+            "propbank": "imports.XX",
+            "mentionid": "em-736",
+            "modality": "other",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the country"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-761",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-768",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2014"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "import",
+            "propbank": "UNK",
+            "mentionid": "em-806",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippines"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-831",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-838",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "next year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "import",
+            "propbank": "UNK",
+            "mentionid": "em-913",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the country"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-938",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-945",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "next year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "imports",
+            "propbank": "imports.XX",
+            "mentionid": "em-1027",
+            "modality": "other",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippine"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1052",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1059",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2014"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "import",
+            "propbank": "UNK",
+            "mentionid": "em-538",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippine"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-563",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-570",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2014"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "import",
+            "propbank": "UNK",
+            "mentionid": "em-631",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippine"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-656",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-663",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2014"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "import",
+            "propbank": "UNK",
+            "mentionid": "em-701",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippine"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-726",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-733",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2014"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "imports",
+            "propbank": "imports.XX",
+            "mentionid": "em-771",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the country"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-796",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-803",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2014"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "import",
+            "propbank": "UNK",
+            "mentionid": "em-841",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippines"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-866",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-873",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "next year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "import",
+            "propbank": "UNK",
+            "mentionid": "em-948",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the country"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-973",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-980",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "next year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "imports",
+            "propbank": "imports.XX",
+            "mentionid": "em-1062",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippine"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1087",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1094",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2014"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "message",
+            "propbank": "UNK",
+            "mentionid": "em-876",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Delima"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-81",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Xinhua News Agency"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-908",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "statement",
+            "propbank": "UNK",
+            "mentionid": "em-983",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "The DA official"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1442",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-114",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Department of Agriculture"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1467",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "report",
+            "propbank": "UNK",
+            "mentionid": "em-1004",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-162",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "FAO"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "output",
+            "propbank": "UNK",
+            "mentionid": "em-1097",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippine"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1122",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "imports",
+            "propbank": "imports.XX",
+            "mentionid": "em-1155",
+            "modality": "generic",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "beneficiary",
+                "entity": "ent-276",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "state food agency"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1187",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "imports",
+            "propbank": "imports.XX",
+            "mentionid": "em-1192",
+            "modality": "generic",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-261",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "The Philippine government"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1217",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "rice"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Philippine"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "provides",
+            "propbank": "provide.01",
+            "mentionid": "em-1229",
+            "modality": "generic",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-276",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "which"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-303",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "areas affected by natural calamities"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1261",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the staple"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "provides",
+            "propbank": "provides.XX",
+            "mentionid": "em-1266",
+            "modality": "generic",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-276",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "which"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1291",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the staple"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-303",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "areas affected by natural calamities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "imported",
+            "propbank": "imported.XX",
+            "mentionid": "em-1303",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-72",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Manila"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-318",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Vietnam"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1335",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "205,700 metric tons"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1342",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2013"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Change_possession",
+            "ere": "transferownership",
+            "lemma": "transaction",
+            "propbank": "transact.01",
+            "mentionid": "em-1391",
+            "modality": "actual",
+            "framenet": "fn::Commercial_transaction"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-327",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "government"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-336",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "imported",
+            "propbank": "imported.XX",
+            "mentionid": "em-1347",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-72",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Manila"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1372",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "205,700 metric tons"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-318",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Vietnam"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1388",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2013"
+            }
+        ]
+    }
+]

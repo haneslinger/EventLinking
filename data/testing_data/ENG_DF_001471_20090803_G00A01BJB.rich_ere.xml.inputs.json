@@ -1,0 +1,490 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "re-election",
+            "propbank": "UNK",
+            "mentionid": "em-567",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "their president"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-599",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "confirmation",
+            "propbank": "UNK",
+            "mentionid": "em-602",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Iran"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Ahmadinejad"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Hiring",
+            "ere": "startposition",
+            "lemma": "confirmed",
+            "propbank": "confirmed.XX",
+            "mentionid": "em-632",
+            "modality": "actual",
+            "framenet": "fn::Hiring"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Ahmadinejad"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-657",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Iranian"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-671",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Today"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "tell",
+            "propbank": "UNK",
+            "mentionid": "em-674",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-111",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Iranian TV"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-126",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Iranian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "told",
+            "propbank": "told.XX",
+            "mentionid": "em-794",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-126",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "viewers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "show up",
+            "propbank": "UNK",
+            "mentionid": "em-711",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-144",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "assorted important leaders and former leaders"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "turmoil",
+            "propbank": "turmoil.01",
+            "mentionid": "em-741",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-177",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the streets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "meet",
+            "lemma": "swearing in",
+            "propbank": "swear_in.06",
+            "mentionid": "em-764",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-201",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the parliament"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-789",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-815",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a former prime minister"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-840",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "prime minister"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-845",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-234",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "two former presidents"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-870",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "presidents"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-875",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-261",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "two former speakers of parliament"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-900",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "speakers"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-270",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "parliament"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-912",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-279",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a former national security advisor"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-937",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "national security advisor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "revolution",
+            "propbank": "UNK",
+            "mentionid": "em-965",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-330",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the leader of the 1979 Iranian revolution"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Iranian"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-997",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1979"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visiting",
+            "propbank": "visit.01",
+            "mentionid": "em-1002",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-315",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the grandson of Ayatollah Khomeini"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-345",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "somewhere in Pakistan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "kissing",
+            "propbank": "UNK",
+            "mentionid": "em-1133",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "my"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1158",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Today"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Iranian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "hugging",
+            "propbank": "hugging.XX",
+            "mentionid": "em-1177",
+            "modality": "other",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "pal"
+            }
+        ]
+    }
+]

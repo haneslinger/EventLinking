@@ -1,0 +1,302 @@
+[
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "hurt",
+            "propbank": "hurt.02",
+            "mentionid": "em-461",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Cause",
+                "ere": "agent",
+                "entity": "ent-81",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a student"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-81",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "himself"
+            },
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-493",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a gun"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-96",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the KUAF building"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "injure",
+            "lemma": "hit",
+            "propbank": "UNK",
+            "mentionid": "em-510",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-81",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Williamson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "told",
+            "propbank": "tell.01",
+            "mentionid": "em-531",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-81",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Williamson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "was",
+            "propbank": "was.XX",
+            "mentionid": "em-582",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-81",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-195",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a shooting range"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "headed",
+            "propbank": "head.02",
+            "mentionid": "em-612",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-81",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-195",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the range"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-663",
+            "modality": "other",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-81",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-688",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "attempted murder"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-640",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-231",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "kill",
+            "propbank": "kill.01",
+            "mentionid": "em-739",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-231",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "kill",
+            "propbank": "kill.01",
+            "mentionid": "em-844",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-231",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "kill",
+            "propbank": "UNK",
+            "mentionid": "em-760",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-231",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "kill",
+            "propbank": "UNK",
+            "mentionid": "em-823",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-231",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "hurt",
+            "propbank": "hurt.02",
+            "mentionid": "em-865",
+            "modality": "other",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-336",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "no one else"
+            }
+        ]
+    }
+]

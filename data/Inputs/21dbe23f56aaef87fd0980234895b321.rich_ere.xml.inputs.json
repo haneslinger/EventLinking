@@ -1,0 +1,481 @@
+[
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "overthrew",
+            "propbank": "overthrow.01",
+            "mentionid": "em-1018",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hussein"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endorg",
+            "lemma": "abolished",
+            "propbank": "UNK",
+            "mentionid": "em-1039",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-72",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the political party which had held power"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "gone",
+            "propbank": "go.03",
+            "mentionid": "em-1203",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-1200",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-102",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Afghanistan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "gone",
+            "propbank": "go.03",
+            "mentionid": "em-1233",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-1200",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-90",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "made statements",
+            "propbank": "made statements.XX",
+            "mentionid": "em-1325",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-1453",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "soldiers in Iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-1479",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "fought",
+            "propbank": "fought.XX",
+            "mentionid": "em-1508",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the Empire of Japan"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2277",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1941"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-1536",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-1566",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-93",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Germany"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "fought",
+            "propbank": "fought.XX",
+            "mentionid": "em-1663",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-81",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the army which had fought in the Iran-Iraq War and the Gulf War"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-1722",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "civilians"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-90",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-1776",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1476",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "how many American"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-1867",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1864",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "how many people"
+            },
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-2300",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "weapons of mass destruction"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-2035",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-108",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "United States"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-2109",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1575",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "American civilians and soldiers"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-1607",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Japanese"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-2139",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1575",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "American civilians and soldiers"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-1610",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Germans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-2169",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1584",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "American civilians"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-1607",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Japanese"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-2201",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1584",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "American civilians"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-1610",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Germans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fighting",
+            "propbank": "UNK",
+            "mentionid": "em-2235",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-2262",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "30 times as many enemies"
+            }
+        ]
+    }
+]

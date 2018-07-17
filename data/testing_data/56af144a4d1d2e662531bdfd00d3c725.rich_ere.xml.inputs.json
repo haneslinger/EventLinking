@@ -1,0 +1,437 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "lose",
+            "propbank": "UNK",
+            "mentionid": "em-790",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-60",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-918",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-54",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-1279",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-54",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "deployment",
+            "propbank": "UNK",
+            "mentionid": "em-948",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-54",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "deployment",
+            "propbank": "UNK",
+            "mentionid": "em-1313",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-54",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "send",
+            "propbank": "send.01",
+            "mentionid": "em-1017",
+            "modality": "generic",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-54",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "send",
+            "propbank": "send.01",
+            "mentionid": "em-1912",
+            "modality": "generic",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-54",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "invades",
+            "propbank": "invade.01",
+            "mentionid": "em-1437",
+            "modality": "generic",
+            "framenet": "fn::Invading"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-54",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "America"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1113",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "invades",
+            "propbank": "invade.01",
+            "mentionid": "em-1467",
+            "modality": "generic",
+            "framenet": "fn::Invading"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-54",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "America"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1113",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-1561",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1558",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their loved ones"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transaction",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-1584",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-1549",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "countless other families who can't get the truth from the Military about their loved ones death or get the benefits that they well deserve"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "went",
+            "propbank": "go.03",
+            "mentionid": "em-1644",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-1641",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-60",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-1723",
+            "modality": "generic",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-1696",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a parent who has to go to a pawn shop to get body armor for your son because the government is too cheap to provide it because they feel it is not cost effective for your son to be worth a couple extra hundred dollars"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-1705",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a pawn shop"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "provide",
+            "propbank": "provide.01",
+            "mentionid": "em-1797",
+            "modality": "generic",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-51",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the government"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-1714",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "your son"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1829",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "body armor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-1755",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "beneficiary",
+                "entity": "ent-1714",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "your son"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-1705",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a pawn shop"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1794",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "body armor"
+            }
+        ]
+    }
+]

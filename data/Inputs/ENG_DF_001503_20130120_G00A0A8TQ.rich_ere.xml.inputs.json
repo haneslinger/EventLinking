@@ -1,0 +1,728 @@
+[
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "purchased",
+            "propbank": "purchase.01",
+            "mentionid": "em-830",
+            "modality": "actual",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "My husband"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Portugal"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "ent-42",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a retirement home in Portugal"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "purchased",
+            "propbank": "purchase.01",
+            "mentionid": "em-874",
+            "modality": "actual",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "My husband"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Portugal"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "Income",
+            "propbank": "income.XX",
+            "mentionid": "em-919",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "taxes",
+            "propbank": "taxes.XX",
+            "mentionid": "em-940",
+            "modality": "generic",
+            "framenet": "fn::Taking"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "talked",
+            "propbank": "talked.XX",
+            "mentionid": "em-961",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bailout",
+            "propbank": "bailout.XX",
+            "mentionid": "em-982",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "EU"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bailout",
+            "propbank": "bailout.XX",
+            "mentionid": "em-1037",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bailout",
+            "propbank": "bailout.XX",
+            "mentionid": "em-1241",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bail-out",
+            "propbank": "bail-out.XX",
+            "mentionid": "em-1329",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bailout",
+            "propbank": "bailout.XX",
+            "mentionid": "em-1010",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the other bailout recipients"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bailouts",
+            "propbank": "bailouts.XX",
+            "mentionid": "em-1058",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the other countries that have had bailouts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "bailed",
+            "propbank": "bailed.XX",
+            "mentionid": "em-1121",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the other bailed out countries"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "money",
+            "propbank": "UNK",
+            "mentionid": "em-1079",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the island"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "reply",
+            "propbank": "UNK",
+            "mentionid": "em-1100",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-246",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "coming",
+            "propbank": "come.01",
+            "mentionid": "em-1142",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-255",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "We"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the island"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elections",
+            "propbank": "elect.01",
+            "mentionid": "em-1167",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1184",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "early February this year"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the island"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "reply",
+            "propbank": "UNK",
+            "mentionid": "em-1195",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-351",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "question",
+            "propbank": "UNK",
+            "mentionid": "em-1216",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "export",
+            "propbank": "UNK",
+            "mentionid": "em-1262",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1279",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the oil and gas"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1287",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2017"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "talks",
+            "propbank": "talk.01",
+            "mentionid": "em-1290",
+            "modality": "other",
+            "framenet": "fn::Chatting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-465",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "laundering",
+            "propbank": "UNK",
+            "mentionid": "em-1350",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Beneficiary",
+                "entity": "ent-552",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Russian"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "here"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sales",
+            "propbank": "sell.01",
+            "mentionid": "em-1412",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-555",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Starbucks"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-600",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Europe"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sales",
+            "propbank": "sell.01",
+            "mentionid": "em-1442",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-555",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Starbucks"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-600",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Europe"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "transfermoney",
+            "lemma": "tax",
+            "propbank": "tax.01",
+            "mentionid": "em-1470",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-597",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Netherlands"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "tax",
+            "propbank": "UNK",
+            "mentionid": "em-1491",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-657",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "all"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-1516",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-657",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "these companies"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-669",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "how many people these companies employ and pay PAYE"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retirement",
+            "propbank": "retire.02",
+            "mentionid": "em-1559",
+            "modality": "other",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retirement",
+            "propbank": "retire.02",
+            "mentionid": "em-1582",
+            "modality": "other",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bailout",
+            "propbank": "bailout.XX",
+            "mentionid": "em-1610",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Portugal"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "export",
+            "propbank": "UNK",
+            "mentionid": "em-1661",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-1678",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the oil and gas"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1686",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2017"
+            }
+        ]
+    }
+]

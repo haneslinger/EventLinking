@@ -1,0 +1,273 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "share",
+            "propbank": "UNK",
+            "mentionid": "em-379",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "leave",
+            "propbank": "leave.15",
+            "mentionid": "em-423",
+            "modality": "other",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-132",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "last",
+            "propbank": "UNK",
+            "mentionid": "em-506",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Ballmer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-529",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-117",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-554",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "free machines"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "ended up",
+            "propbank": "ended up.XX",
+            "mentionid": "em-580",
+            "modality": "other",
+            "framenet": "fn::Surrendering_possession"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-117",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "my"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-605",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the Surface"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "spent",
+            "propbank": "spent.XX",
+            "mentionid": "em-610",
+            "modality": "generic",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-817",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$200+"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-261",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "You"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transferownership",
+            "lemma": "spent",
+            "propbank": "spent.XX",
+            "mentionid": "em-633",
+            "modality": "generic",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-261",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "You"
+            },
+            {
+                "reo": "reo::Artifact",
+                "ere": "thing",
+                "entity": "f-658",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a console that is basically a HUGE ad"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "article",
+            "propbank": "article.XX",
+            "mentionid": "em-670",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "saying",
+            "propbank": "saying.XX",
+            "mentionid": "em-737",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-117",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "throw",
+            "propbank": "UNK",
+            "mentionid": "em-760",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-117",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-785",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the Surface"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "subscription",
+            "propbank": "UNK",
+            "mentionid": "em-790",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-261",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            }
+        ]
+    }
+]

@@ -1,0 +1,450 @@
+[
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-472",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the two folks that died"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-493",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Two people"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-686",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Oct. 8"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-72",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Angel Valley Retreat Center"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "homicide",
+            "propbank": "homicide.01",
+            "mentionid": "em-980",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-997",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Oct. 8"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-514",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the two folks that died"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-894",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "nearly 10,000 dollars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "critical condition",
+            "propbank": "critical condition.XX",
+            "mentionid": "em-535",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "one more"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-700",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "tonight"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "into",
+            "propbank": "into.XX",
+            "mentionid": "em-556",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "over 60 people"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a non-Native American"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-87",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the sweat 'lodge'"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "in",
+            "propbank": "in.XX",
+            "mentionid": "em-577",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "too many people"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-87",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "too small a space"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "ill",
+            "propbank": "ill.XX",
+            "mentionid": "em-598",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "20 people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "attend",
+            "propbank": "UNK",
+            "mentionid": "em-619",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two time Oprah guest"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "left",
+            "propbank": "leave.11",
+            "mentionid": "em-640",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ray"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-75",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the state"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "found",
+            "propbank": "UNK",
+            "mentionid": "em-661",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Crews"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-87",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "sweat lodge"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-763",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Oct. 8"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "called to",
+            "propbank": "called to.XX",
+            "mentionid": "em-832",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Verde Valley Fire District personnel"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-864",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Oct. 8"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-87",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "sweat lodge"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "posted",
+            "propbank": "posted.XX",
+            "mentionid": "em-867",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-772",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "No one"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-897",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-924",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "tonight"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Question",
+            "ere": "contact",
+            "lemma": "question",
+            "propbank": "question.01",
+            "mentionid": "em-950",
+            "modality": "other",
+            "framenet": "fn::Questioning"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the guy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "homicide",
+            "propbank": "homicide.01",
+            "mentionid": "em-1001",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1018",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Oct. 8"
+            }
+        ]
+    }
+]

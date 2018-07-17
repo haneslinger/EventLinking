@@ -1,0 +1,894 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "talking",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1130",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_34_246",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "trialhearing",
+            "lemma": "testimony",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1151",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the killer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killer",
+            "propbank": "killer.XX",
+            "mentionid": "em-568eb23c_34_1197",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the killer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1860",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "killing",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1932",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-568eb23c_34_747",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two men"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killer",
+            "propbank": "killer.XX",
+            "mentionid": "em-568eb23c_34_1220",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the killer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-568eb23c_34_1786",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_34_600",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the guy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-568eb23c_34_1881",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-568eb23c_34_1960",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_34_747",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two men"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "joined",
+            "propbank": "joined.XX",
+            "mentionid": "em-568eb23c_34_1243",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-m.01skqzw",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Marine Corps"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_34_1275",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "June 2006"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Hiring",
+            "ere": "startposition",
+            "lemma": "served",
+            "propbank": "served.XX",
+            "mentionid": "em-568eb23c_34_1280",
+            "modality": "actual",
+            "framenet": "fn::Hiring"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a small arms repairer/technician"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-m.01skqzw",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Marine Corps"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_34_1312",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "small arms repairer/technician"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "an armory"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "assault",
+            "propbank": "assault.01",
+            "mentionid": "em-568eb23c_34_1345",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-568eb23c_34_1362",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "USS Bataan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "receive",
+            "propbank": "receive.01",
+            "mentionid": "em-568eb23c_34_1368",
+            "modality": "other",
+            "framenet": "fn::Receiving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Routh"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_34_1393",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "Combat Action Ribbon"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.07wg3",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Navy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "Combat",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1405",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.07wg3",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Navy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "combat",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1442",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-NIL00063",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those who \u201cdirectly and actively participate in ground or surface combat"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_34_1463",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_34_339",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Marines"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_34_1488",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "Combat Action Ribbon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_34_1493",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_34_354",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "sailors"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_34_1518",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "Combat Action Ribbon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "firefight",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1523",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_34_339",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Marines"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "firefight",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1546",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_34_354",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "sailors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "detonation",
+            "propbank": "detonation.XX",
+            "mentionid": "em-568eb23c_34_1569",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-568eb23c_34_339",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Marines"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-568eb23c_34_1594",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "improvised explosive device"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "detonation",
+            "propbank": "detonation.XX",
+            "mentionid": "em-568eb23c_34_1599",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-568eb23c_34_354",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "sailors"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-568eb23c_34_1624",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "improvised explosive device"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fire",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1629",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_34_363",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacked",
+            "propbank": "attack.01",
+            "mentionid": "em-568eb23c_34_1652",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-568eb23c_34_363",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verbal_Communication",
+            "ere": "contact",
+            "lemma": "contacted",
+            "propbank": "contacted.XX",
+            "mentionid": "em-568eb23c_34_1673",
+            "modality": "generic",
+            "framenet": "fn::Communication"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_34_492",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the other side"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "examination",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1703",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_34_510",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "one expert"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "examination",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1733",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_34_519",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the other"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "encountered",
+            "propbank": "encountered.XX",
+            "mentionid": "em-568eb23c_34_1756",
+            "modality": "other",
+            "framenet": "fn::Encounter"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-568eb23c_34_573",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "an insane person"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1807",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_34_708",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a war hero"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-568eb23c_34_1830",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-568eb23c_34_1855",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-568eb23c_34_1902",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-568eb23c_34_1927",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "driving",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_1988",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-568eb23c_34_2005",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "bulldozer"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_34_867",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The guy driving a bulldozer under fire in WW2 building an airstrip"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fire",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_2018",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-568eb23c_34_867",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The guy driving a bulldozer under fire in WW2 building an airstrip"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "building",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_2064",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-568eb23c_34_1045",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "an airstrip"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_34_867",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The guy driving a bulldozer under fire in WW2 building an airstrip"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "sniper",
+            "propbank": "sniper.XX",
+            "mentionid": "em-568eb23c_34_2094",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-568eb23c_34_600",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "American sniper"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "combat",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_34_2117",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_34_882",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a combat soldier w/ multiple deployments"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "deployments",
+            "propbank": "deployments.XX",
+            "mentionid": "em-568eb23c_34_2140",
+            "modality": "generic",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-568eb23c_34_882",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a combat soldier w/ multiple deployments"
+            }
+        ]
+    }
+]

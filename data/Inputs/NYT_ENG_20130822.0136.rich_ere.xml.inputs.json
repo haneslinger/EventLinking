@@ -1,0 +1,957 @@
+[
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meeting",
+            "propbank": "meet.03",
+            "mentionid": "em-1553",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-88",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "baseball\u2019s arbitrator"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1761",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "two days before Christmas 1975"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meeting",
+            "propbank": "meet.03",
+            "mentionid": "em-1635",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-88",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meeting",
+            "propbank": "meet.03",
+            "mentionid": "em-1687",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-127",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "summoned",
+            "propbank": "summoned.XX",
+            "mentionid": "em-1655",
+            "modality": "actual",
+            "framenet": "fn::Judgment_communication"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-127",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "telegraphed",
+            "propbank": "telegraph.01",
+            "mentionid": "em-1771",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-88",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Seitz"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "fired",
+            "propbank": "fire.02",
+            "mentionid": "em-1794",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-88",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "You"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "written",
+            "propbank": "written.XX",
+            "mentionid": "em-1817",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-127",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the two men"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "fire",
+            "propbank": "fire.02",
+            "mentionid": "em-1847",
+            "modality": "generic",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-202",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "them"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-229",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the union"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Hiring",
+            "ere": "startposition",
+            "lemma": "hired",
+            "propbank": "hire.01",
+            "mentionid": "em-1884",
+            "modality": "generic",
+            "framenet": "fn::Hiring"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-244",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "managers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "fired",
+            "propbank": "fire.02",
+            "mentionid": "em-1914",
+            "modality": "generic",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-202",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "interview",
+            "propbank": "UNK",
+            "mentionid": "em-1944",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-265",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Peter\u2019s son"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "latest",
+            "propbank": "latest.XX",
+            "mentionid": "em-1977",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-340",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a 64-year-old lawyer from Santa Monica, Calif."
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "traded",
+            "propbank": "traded.XX",
+            "mentionid": "em-2000",
+            "modality": "generic",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-319",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-526",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "his team"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2032",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "player"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "sold",
+            "propbank": "sold.XX",
+            "mentionid": "em-2037",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-319",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-526",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "his team"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2069",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "player"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "released",
+            "propbank": "released.XX",
+            "mentionid": "em-2074",
+            "modality": "generic",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-319",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-526",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "his team"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2106",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "player"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-2111",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-499",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Finley"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-490",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hunter"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "conversations",
+            "propbank": "converse.01",
+            "mentionid": "em-2141",
+            "modality": "generic",
+            "framenet": "fn::Chatting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-775",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "traded",
+            "propbank": "traded.XX",
+            "mentionid": "em-2185",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-841",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "St. Louis Cardinals"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-472",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-856",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "St. Louis"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sue",
+            "lemma": "sue",
+            "propbank": "UNK",
+            "mentionid": "em-2222",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Plaintiff",
+                "entity": "ent-472",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-880",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the commissioner"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sue",
+            "lemma": "lawsuit",
+            "propbank": "UNK",
+            "mentionid": "em-2299",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Plaintiff",
+                "entity": "ent-472",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Flood"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sue",
+            "lemma": "lawsuit",
+            "propbank": "UNK",
+            "mentionid": "em-2341",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Plaintiff",
+                "entity": "ent-472",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sue",
+            "lemma": "suit",
+            "propbank": "UNK",
+            "mentionid": "em-2454",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Plaintiff",
+                "entity": "ent-472",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Flood"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sue",
+            "lemma": "lawsuit",
+            "propbank": "UNK",
+            "mentionid": "em-2688",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Plaintiff",
+                "entity": "ent-472",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Curt Flood"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-43",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "baseball"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2938",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1970"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sue",
+            "lemma": "suit",
+            "propbank": "UNK",
+            "mentionid": "em-2739",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Plaintiff",
+                "entity": "ent-472",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Flood"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "appealed",
+            "propbank": "appealed.XX",
+            "mentionid": "em-2362",
+            "modality": "actual",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-304",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "fired",
+            "propbank": "fire.02",
+            "mentionid": "em-2385",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-1045",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Das"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "arrived",
+            "propbank": "arrive.01",
+            "mentionid": "em-2408",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the chief labor negotiator for Major League Baseball"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "grievance",
+            "propbank": "UNK",
+            "mentionid": "em-2517",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-88",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "appeal",
+            "propbank": "appeal.01",
+            "mentionid": "em-2612",
+            "modality": "actual",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-340",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-379",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Alex Rodriguez"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "appealed",
+            "propbank": "appeal.01",
+            "mentionid": "em-3036",
+            "modality": "actual",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-379",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rodriguez"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "grievance",
+            "propbank": "UNK",
+            "mentionid": "em-2642",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-448",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Andy Messersmith-Dave McNally"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "grievance",
+            "propbank": "UNK",
+            "mentionid": "em-2825",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-448",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Messersmith-McNally"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "grievance",
+            "propbank": "UNK",
+            "mentionid": "em-2992",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-448",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Messersmith-McNally"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "complain",
+            "propbank": "complain.01",
+            "mentionid": "em-2665",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marvin Miller"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "grievance",
+            "propbank": "UNK",
+            "mentionid": "em-2716",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-490",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Catfish Hunter"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2945",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1974"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "grievance",
+            "propbank": "UNK",
+            "mentionid": "em-2760",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-490",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hunter"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "argued",
+            "propbank": "argue.02",
+            "mentionid": "em-2948",
+            "modality": "generic",
+            "framenet": "fn::Quarreling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-1171",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The owners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-3059",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-379",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rodriguez"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-340",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Horowitz"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-3089",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-340",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    }
+]

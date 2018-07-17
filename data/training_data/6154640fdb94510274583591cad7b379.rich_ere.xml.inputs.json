@@ -1,0 +1,349 @@
+[
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "mining",
+            "propbank": "mine.01",
+            "mentionid": "em-1182",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-138",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the harbors in Nicaragua"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "mined",
+            "propbank": "mined.XX",
+            "mentionid": "em-1203",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-138",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "The harbor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "pulled",
+            "propbank": "pulled.XX",
+            "mentionid": "em-1224",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-132",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Russia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorcing",
+            "propbank": "divorce.01",
+            "mentionid": "em-1245",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his wife"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorce",
+            "propbank": "divorce.01",
+            "mentionid": "em-1266",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorce",
+            "propbank": "divorce.01",
+            "mentionid": "em-1287",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-69",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-1308",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-1639",
+            "modality": "other",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-1378",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "no one"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1664",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "outing an agent"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-1831",
+            "modality": "other",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-1378",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "no one"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "going",
+            "propbank": "UNK",
+            "mentionid": "em-1669",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "contras"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "going",
+            "propbank": "UNK",
+            "mentionid": "em-1692",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-1713",
+            "modality": "other",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-1378",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "no one"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1738",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "sending arms to the Contras"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "sending",
+            "propbank": "sending.XX",
+            "mentionid": "em-1743",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1775",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "arms"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "impeach",
+            "propbank": "UNK",
+            "mentionid": "em-1780",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-105",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Congress"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "impeach",
+            "propbank": "UNK",
+            "mentionid": "em-1803",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-105",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a president"
+            }
+        ]
+    }
+]

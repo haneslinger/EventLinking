@@ -1,0 +1,639 @@
+[
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "taken",
+            "propbank": "take.35",
+            "mentionid": "em-454",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Charles"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-78",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "that route"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "taken",
+            "propbank": "take.35",
+            "mentionid": "em-768",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "beat",
+            "propbank": "UNK",
+            "mentionid": "em-789",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-72",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the Army"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-69",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "police officers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "injure",
+            "lemma": "beat",
+            "propbank": "UNK",
+            "mentionid": "em-819",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-72",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the Army"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-69",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "police officers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "demonstrate",
+            "lemma": "rioting",
+            "propbank": "UNK",
+            "mentionid": "em-849",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-69",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "strikes",
+            "propbank": "strike.02",
+            "mentionid": "em-946",
+            "modality": "other",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-69",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "laid off",
+            "propbank": "laid off.XX",
+            "mentionid": "em-872",
+            "modality": "other",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-610",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "police"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-920",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "officers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "cost",
+            "propbank": "UNK",
+            "mentionid": "em-976",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-973",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the taxpayer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Change_possession",
+            "ere": "transfermoney",
+            "lemma": "taxpayer",
+            "propbank": "taxpayer.XX",
+            "mentionid": "em-999",
+            "modality": "generic",
+            "framenet": "fn::Transfer"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-973",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the taxpayer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "get out",
+            "propbank": "get.05",
+            "mentionid": "em-1022",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-75",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "this **** hole"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-1056",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "where people respect students for trying to learn"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paying",
+            "propbank": "pay.01",
+            "mentionid": "em-1077",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paying",
+            "propbank": "pay.01",
+            "mentionid": "em-1130",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-1100",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-1056",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "where people respect students for trying to learn"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-1160",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-1157",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "other students"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "kidnap",
+            "propbank": "UNK",
+            "mentionid": "em-1183",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-655",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a protester"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "kidnap",
+            "propbank": "UNK",
+            "mentionid": "em-1213",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-655",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a protester"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "pointing out",
+            "propbank": "pointing out.XX",
+            "mentionid": "em-1250",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "someone"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1275",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "today"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "kicked off",
+            "propbank": "kicked off.XX",
+            "mentionid": "em-1280",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1305",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "petrol"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-66",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "shoot",
+            "propbank": "UNK",
+            "mentionid": "em-1317",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protestors",
+            "propbank": "protestors.XX",
+            "mentionid": "em-1347",
+            "modality": "generic",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-691",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the protestors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protestors",
+            "propbank": "protestors.XX",
+            "mentionid": "em-1370",
+            "modality": "generic",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-691",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "protestors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesting",
+            "propbank": "protest.01",
+            "mentionid": "em-1391",
+            "modality": "generic",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-520",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacked",
+            "propbank": "attack.01",
+            "mentionid": "em-1412",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "f-1429",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "their car"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacking",
+            "propbank": "attack.01",
+            "mentionid": "em-1435",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "f-1452",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a car"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "give",
+            "propbank": "give.01",
+            "mentionid": "em-1462",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-706",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "all those who oppose the tuition fee rises"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1487",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "blood"
+            }
+        ]
+    }
+]

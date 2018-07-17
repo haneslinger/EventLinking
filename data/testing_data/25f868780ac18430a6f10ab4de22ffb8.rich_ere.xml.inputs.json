@@ -1,0 +1,533 @@
+[
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombings",
+            "propbank": "bomb.02",
+            "mentionid": "em-890",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-69",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "African embassy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombings",
+            "propbank": "bomb.02",
+            "mentionid": "em-911",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-69",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "African embassy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombing",
+            "propbank": "bomb.02",
+            "mentionid": "em-932",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the embassies"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "dead",
+            "propbank": "dead.XX",
+            "mentionid": "em-953",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-60",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the 3000 dead in the gaza war"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-105",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "gaza"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "kill",
+            "propbank": "kill.01",
+            "mentionid": "em-1320",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-996",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "some innocent civillians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "strikes",
+            "propbank": "strike.01",
+            "mentionid": "em-1343",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-72",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "CIA"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1368",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "drone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "strikes",
+            "propbank": "strike.01",
+            "mentionid": "em-1682",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1699",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "drone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "dropping",
+            "propbank": "UNK",
+            "mentionid": "em-1406",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1423",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "random bombs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-1429",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "specifically muslim terrorists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "wipe out",
+            "propbank": "UNK",
+            "mentionid": "em-1461",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-1458",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "everyone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-1507",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-87",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attack",
+            "propbank": "attack.01",
+            "mentionid": "em-1569",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1586",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9/11"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacking",
+            "propbank": "attack.01",
+            "mentionid": "em-1592",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-87",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "war.01",
+            "mentionid": "em-1659",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "invaded",
+            "propbank": "invade.01",
+            "mentionid": "em-1726",
+            "modality": "actual",
+            "framenet": "fn::Invading"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-87",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "America"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-108",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Muslim lands"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "withdrew",
+            "propbank": "withdraw.01",
+            "mentionid": "em-1756",
+            "modality": "other",
+            "framenet": "fn::Quitting_a_place"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "all troops"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attack",
+            "propbank": "attack.01",
+            "mentionid": "em-1786",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-87",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "us"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "suicide",
+            "propbank": "suicide.XX",
+            "mentionid": "em-1825",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-1822",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "beautiful countries like iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombings",
+            "propbank": "bomb.02",
+            "mentionid": "em-1848",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-1822",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "beautiful countries like iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-1871",
+            "modality": "generic",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-1107",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-1206",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "another country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "to",
+            "propbank": "to.XX",
+            "mentionid": "em-1901",
+            "modality": "generic",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-1107",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-1218",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "parts of your own country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "chucked",
+            "propbank": "chucked.XX",
+            "mentionid": "em-1931",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1948",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "white phosphorous bombs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "war.01",
+            "mentionid": "em-1954",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-105",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "gaza"
+            }
+        ]
+    }
+]

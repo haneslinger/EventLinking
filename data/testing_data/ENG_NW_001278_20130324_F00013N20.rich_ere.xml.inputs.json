@@ -1,0 +1,520 @@
+[
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "insisting",
+            "propbank": "insist.01",
+            "mentionid": "em-554",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "IMF"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reported",
+            "propbank": "reported.XX",
+            "mentionid": "em-582",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-45",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus News Agency"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-607",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Saturday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "quoted",
+            "propbank": "quoted.XX",
+            "mentionid": "em-628",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-150",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a senior official of the Cypriot side in the negotiations with international lenders"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "saying",
+            "propbank": "saying.XX",
+            "mentionid": "em-712",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-150",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "The official"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "raising",
+            "propbank": "UNK",
+            "mentionid": "em-733",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-162",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "She"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "directions",
+            "propbank": "directions.XX",
+            "mentionid": "em-796",
+            "modality": "actual",
+            "framenet": "fn::Judgment_communication"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-270",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Christine Lagarde"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Declarational",
+            "ere": "contact",
+            "lemma": "accepted",
+            "propbank": "accepted.XX",
+            "mentionid": "em-824",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-24",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cypriot"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Declarational",
+            "ere": "contact",
+            "lemma": "accepted",
+            "propbank": "accepted.XX",
+            "mentionid": "em-852",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-24",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cypriot"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiations",
+            "propbank": "negotiate.01",
+            "mentionid": "em-656",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-153",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "international lenders"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "agreement",
+            "propbank": "UNK",
+            "mentionid": "em-684",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-159",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the troika"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Exchange",
+            "ere": "transfermoney",
+            "lemma": "exchanged",
+            "propbank": "exchange.01",
+            "mentionid": "em-918",
+            "modality": "other",
+            "framenet": "fn::Exchange_currency"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-273",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "bank"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-943",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "20 percent of deposits over 100,000 euros"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "exchanged",
+            "propbank": "exchanged.XX",
+            "mentionid": "em-953",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-273",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Bank of Cyprus"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-978",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "bank stock"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "insists",
+            "propbank": "insist.01",
+            "mentionid": "em-981",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "IMF"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "insists",
+            "propbank": "insist.01",
+            "mentionid": "em-1110",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "IMF"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "take over",
+            "propbank": "take.01",
+            "mentionid": "em-1009",
+            "modality": "other",
+            "framenet": "fn::Taking"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-372",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a good bank"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-273",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the bank"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1041",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "deposits of under 100,000 euros"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "take over",
+            "propbank": "take.01",
+            "mentionid": "em-1054",
+            "modality": "other",
+            "framenet": "fn::Taking"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-273",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the bank"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-372",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a good bank"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1086",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "good loans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "insists",
+            "propbank": "insist.01",
+            "mentionid": "em-1222",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-24",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "insists",
+            "propbank": "insist.01",
+            "mentionid": "em-1250",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-24",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "agreement",
+            "propbank": "UNK",
+            "mentionid": "em-1159",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-24",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "agreement",
+            "propbank": "UNK",
+            "mentionid": "em-1180",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-24",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "agreement",
+            "propbank": "UNK",
+            "mentionid": "em-1201",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-24",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Cyprus"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "deposits",
+            "propbank": "deposits.XX",
+            "mentionid": "em-1394",
+            "modality": "actual",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "money",
+                "entity": "f-1411",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "over 100,000 euros"
+            }
+        ]
+    }
+]

@@ -1,0 +1,463 @@
+[
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-297",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-117",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Mao Zedong"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-322",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1976"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "taking",
+            "propbank": "take.35",
+            "mentionid": "em-380",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-207",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "astronauts"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-30",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the moon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "landing",
+            "propbank": "land.01",
+            "mentionid": "em-1314",
+            "modality": "other",
+            "framenet": "fn::Vehicle_landing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "China"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "mission",
+            "propbank": "UNK",
+            "mentionid": "em-1342",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-485",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "sent",
+            "propbank": "send.01",
+            "mentionid": "em-417",
+            "modality": "actual",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "China"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-444",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "its first astronaut"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-474",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2003"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reported",
+            "propbank": "reported.XX",
+            "mentionid": "em-892",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-644",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "state television"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "carried",
+            "propbank": "carry.01",
+            "mentionid": "em-869",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-886",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a solar-powered, robotic rover called the Jade Rabbit, or Yutu in Mandarin Chinese"
+            },
+            {
+                "reo": "reo::ModeOfTransportation",
+                "ere": "instrument",
+                "entity": "f-1214",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "The Chang\u2019e-3 landing craft"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "carrying",
+            "propbank": "carry.01",
+            "mentionid": "em-997",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1014",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a payload more than a dozen times the weight of the 309-pound rover"
+            },
+            {
+                "reo": "reo::ModeOfTransportation",
+                "ere": "instrument",
+                "entity": "f-1244",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "The landing craft"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "delivery",
+            "propbank": "UNK",
+            "mentionid": "em-1049",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1066",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "payload"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-1020",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-144",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a scientist at the Lunar and Planetary Institute in Houston"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "bring",
+            "propbank": "bring.01",
+            "mentionid": "em-1070",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1095",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "other samples from the moon"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-30",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the moon"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1207",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "before 2020"
+            },
+            {
+                "reo": "reo::ModeOfTransportation",
+                "ere": "instrument",
+                "entity": "f-1251",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "Chang\u2019e"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "sending",
+            "propbank": "sending.XX",
+            "mentionid": "em-1114",
+            "modality": "other",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1131",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a vehicle"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-177",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Earth"
+            },
+            {
+                "reo": "reo::ModeOfTransportation",
+                "ere": "instrument",
+                "entity": "f-1258",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a much larger craft capable of sending a vehicle back to Earth"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "developing",
+            "propbank": "UNK",
+            "mentionid": "em-1144",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "China"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1169",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a more powerful launch rocket"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1180",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-288",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Joan Johnson-Freese"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-1217",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-331",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "experts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "missions",
+            "propbank": "missions.XX",
+            "mentionid": "em-1261",
+            "modality": "actual",
+            "framenet": "fn::Dispersal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "China"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "paper",
+            "propbank": "UNK",
+            "mentionid": "em-1284",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "China"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1309",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2011"
+            }
+        ]
+    }
+]

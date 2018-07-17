@@ -1,0 +1,668 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "rape",
+            "propbank": "UNK",
+            "mentionid": "em-569ed237_19_300",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-569ed237_19_336",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "1000s of women and children"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "burn",
+            "propbank": "UNK",
+            "mentionid": "em-569ed237_19_346",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-569ed237_19_1377",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "behead",
+            "propbank": "behead.01",
+            "mentionid": "em-569ed237_19_378",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569ed237_19_405",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "innocents"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-569ed237_19_516",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569ed237_19_513",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-569ed237_19_566",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569ed237_19_1224",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "wars",
+            "propbank": "wars.XX",
+            "mentionid": "em-569ed237_19_795",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "American"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "wars",
+            "propbank": "wars.XX",
+            "mentionid": "em-569ed237_19_834",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-569ed237_19_906",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "blew up/shot up",
+            "propbank": "blew up/shot up.XX",
+            "mentionid": "em-569ed237_19_950",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-569ed237_19_1004",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "tens of Drs and nurses"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.0jdd",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Afghanistan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "took out",
+            "propbank": "took out.XX",
+            "mentionid": "em-569ed237_19_1027",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569ed237_19_1004",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "tens of Drs and nurses"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-569ed237_19_977",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a hospital"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-569ed237_19_1079",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-569ed237_19_649",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those assholes"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569ed237_19_1233",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "injure",
+            "lemma": "rape",
+            "propbank": "UNK",
+            "mentionid": "em-569ed237_19_1624",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-569ed237_19_336",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "1000s of women and children"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "behead",
+            "propbank": "UNK",
+            "mentionid": "em-569ed237_19_1675",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-569ed237_19_405",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "innocents"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-569ed237_19_1728",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "terror",
+            "propbank": "UNK",
+            "mentionid": "em-569ed237_19_1751",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "violence",
+            "propbank": "UNK",
+            "mentionid": "em-569ed237_19_1908",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "these guys"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killed",
+            "propbank": "killed.XX",
+            "mentionid": "em-569ed237_19_1788",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-569ed237_19_649",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those assholes"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-569ed237_19_1233",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injuries",
+            "propbank": "injure.01",
+            "mentionid": "em-569ed237_19_1818",
+            "modality": "other",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569ed237_19_649",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injured",
+            "propbank": "injure.01",
+            "mentionid": "em-569ed237_19_1841",
+            "modality": "generic",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569ed237_19_935",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "all injured"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "unleash",
+            "propbank": "UNK",
+            "mentionid": "em-569ed237_19_1864",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-569ed237_19_1903",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "DARPA stuff"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "these fuckers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "lies",
+            "propbank": "lies.XX",
+            "mentionid": "em-569ed237_19_1929",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-569ed237_19_733",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the US populace"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "fund",
+            "propbank": "fund.01",
+            "mentionid": "em-569ed237_19_1959",
+            "modality": "generic",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-569ed237_19_1989",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-569ed237_19_2014",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "fuel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-569ed237_19_2019",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "posted",
+            "propbank": "posted.XX",
+            "mentionid": "em-569ed237_19_2042",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL02728",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "report",
+            "propbank": "UNK",
+            "mentionid": "em-569ed237_19_2065",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-569ed237_19_1356",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-569ed237_19_373",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            }
+        ]
+    }
+]

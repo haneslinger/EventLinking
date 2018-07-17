@@ -1,0 +1,1117 @@
+[
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-1391",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The men"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-179",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Americans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-1619",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the men"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "UNK",
+            "mentionid": "em-1219",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-71",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Prosecutors"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "three foreign men"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-1251",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "supporting a Somali terrorist group"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "allegations",
+            "propbank": "UNK",
+            "mentionid": "em-1299",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-107",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the men"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-1477",
+            "modality": "generic",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-584",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those suspects"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-53",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "United States"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1509",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "material support of terrorism"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "chargeindict",
+            "lemma": "pleaded",
+            "propbank": "pleaded.XX",
+            "mentionid": "em-1698",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-1256",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "three foreign men"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1287",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "supporting a Somali terrorist group"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-320",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "overseas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-1719",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-320",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Africa"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "court",
+            "propbank": "UNK",
+            "mentionid": "em-1354",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-8",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the federal court"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-140",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the government"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "foreign terrorists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "consorting",
+            "propbank": "consorting.XX",
+            "mentionid": "em-1447",
+            "modality": "actual",
+            "framenet": "fn::Commitment"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-188",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "others"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "hearing",
+            "propbank": "hearing.02",
+            "mentionid": "em-1561",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "associated",
+            "propbank": "associated.XX",
+            "mentionid": "em-1533",
+            "modality": "generic",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-1586",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "accused terrorists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "assisted",
+            "propbank": "assisted.XX",
+            "mentionid": "em-1589",
+            "modality": "actual",
+            "framenet": "fn::Assemble"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-221",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Swedish counsel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "traveling",
+            "propbank": "travel.01",
+            "mentionid": "em-1668",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-329",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Yemen"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "traveled",
+            "propbank": "travel.01",
+            "mentionid": "em-1768",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-80",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-98",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Somalia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "travel",
+            "propbank": "travel.01",
+            "mentionid": "em-2069",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-455",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the men"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-98",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Somalia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "join",
+            "propbank": "UNK",
+            "mentionid": "em-1798",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-356",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "al-Shabab"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-98",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Somalia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "join",
+            "propbank": "UNK",
+            "mentionid": "em-2097",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-356",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "al-Shabab"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "linked",
+            "propbank": "linked.XX",
+            "mentionid": "em-1835",
+            "modality": "actual",
+            "framenet": "fn::Quarreling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-365",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "al-Qaida"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verbal_Communication",
+            "ere": "contact",
+            "lemma": "connected",
+            "propbank": "connected.XX",
+            "mentionid": "em-1865",
+            "modality": "other",
+            "framenet": "fn::Communication"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-760",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two U.S. citizens from Minnesota\u2019s Somali community"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombers",
+            "propbank": "bombers.XX",
+            "mentionid": "em-1895",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-760",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "suicide bombers who died in recent years in Somalia"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-98",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Somalia"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2379",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "recent years"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-1997",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-760",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "suicide bombers who died in recent years in Somalia"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-760",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "suicide bombers who died in recent years in Somalia"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-98",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Somalia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-2125",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-455",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the men"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "calls",
+            "propbank": "call.07",
+            "mentionid": "em-2032",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-248",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Yusuf"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2064",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "October 2008"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "conversation",
+            "propbank": "UNK",
+            "mentionid": "em-2146",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-455",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the two men"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "suicide",
+            "propbank": "suicide.XX",
+            "mentionid": "em-2304",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-482",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "two Somali cities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombings",
+            "propbank": "bomb.02",
+            "mentionid": "em-2276",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-482",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "two Somali cities"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-497",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-2382",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-482",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "suicide",
+            "propbank": "suicide.XX",
+            "mentionid": "em-2331",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-760",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "suicide bombers who died in recent years in Somalia"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-760",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "suicide bombers who died in recent years in Somalia"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-98",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Somalia"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2370",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "recent years"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attack",
+            "propbank": "attack.01",
+            "mentionid": "em-2403",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-512",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Mogadishu"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2428",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2009"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-533",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the suicide bomber responsible for that bombing"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombing",
+            "propbank": "bomb.02",
+            "mentionid": "em-2484",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-434",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an associate of the suicide bomber responsible for that bombing"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-512",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Mogadishu"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2516",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2009"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "phone call",
+            "propbank": "call.07",
+            "mentionid": "em-2447",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-533",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the suicide bomber responsible for that bombing"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2479",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2009"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "suicide",
+            "propbank": "suicide.XX",
+            "mentionid": "em-2519",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-533",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the suicide bomber responsible for that bombing"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-533",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the suicide bomber responsible for that bombing"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2551",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2009"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-512",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Mogadishu"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombed",
+            "propbank": "bomb.02",
+            "mentionid": "em-2563",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-404",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-512",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Mogadishu"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2609",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "that year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombings",
+            "propbank": "bomb.02",
+            "mentionid": "em-2614",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-98",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Somalia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombings",
+            "propbank": "bomb.02",
+            "mentionid": "em-2644",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-605",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Burundi"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1098",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "several more"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-2688",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-629",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "one American"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-605",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Burundi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombings",
+            "propbank": "bomb.02",
+            "mentionid": "em-2718",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-614",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Uganda"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injured",
+            "propbank": "injure.01",
+            "mentionid": "em-2794",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1098",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "several more"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-605",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Burundi"
+            }
+        ]
+    }
+]

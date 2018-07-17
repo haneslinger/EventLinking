@@ -1,0 +1,1847 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "charge",
+            "propbank": "UNK",
+            "mentionid": "em-1749",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marc Emery"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-77",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "U.S."
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-1781",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "drug"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charge",
+            "propbank": "charge.06",
+            "mentionid": "em-1944",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1969",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "drug distribution"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "charge",
+            "propbank": "UNK",
+            "mentionid": "em-2060",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Emery"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-197",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the U.S. district attorney"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "count",
+            "propbank": "UNK",
+            "mentionid": "em-2120",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-2145",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "marijuana distribution"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-197",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the U.S. district attorney"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "prosecuted",
+            "propbank": "prosecuted.XX",
+            "mentionid": "em-3026",
+            "modality": "other",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-77",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USA"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-3688",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marc Emery"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-3713",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "selling marijuana seeds by mail order to customers in the U.S."
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Extradite",
+            "ere": "extradite",
+            "lemma": "extradition",
+            "propbank": "extradite.01",
+            "mentionid": "em-1807",
+            "modality": "other",
+            "framenet": "fn::Extradition"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marc Emery"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1832",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "selling marijuana seeds by mail order to customers in the U.S."
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Extradite",
+            "ere": "extradite",
+            "lemma": "extradition",
+            "propbank": "extradite.01",
+            "mentionid": "em-1909",
+            "modality": "other",
+            "framenet": "fn::Extradition"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-77",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "U.S."
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1941",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "drug distribution"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Extradite",
+            "ere": "extradite",
+            "lemma": "extradition",
+            "propbank": "extradite.01",
+            "mentionid": "em-1979",
+            "modality": "other",
+            "framenet": "fn::Extradition"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Emery"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Extradite",
+            "ere": "extradite",
+            "lemma": "extradition",
+            "propbank": "extradite.01",
+            "mentionid": "em-2425",
+            "modality": "other",
+            "framenet": "fn::Extradition"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Extradite",
+            "ere": "extradite",
+            "lemma": "extradite",
+            "propbank": "extradite.01",
+            "mentionid": "em-3082",
+            "modality": "other",
+            "framenet": "fn::Extradition"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::Authority",
+                "ere": "agent",
+                "entity": "ent-509",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the ones who're gonna agree to extradite him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Extradite",
+            "ere": "extradite",
+            "lemma": "extradite",
+            "propbank": "extradite.01",
+            "mentionid": "em-3201",
+            "modality": "other",
+            "framenet": "fn::Extradition"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Authority",
+                "ere": "agent",
+                "entity": "ent-509",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the ones who're gonna agree to extradite him"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "extradite",
+            "lemma": "pass",
+            "propbank": "UNK",
+            "mentionid": "em-3916",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-308",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-77",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USA"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-1835",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marc Emery"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "customers in the U.S."
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1867",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "marijuana seeds"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "providing",
+            "propbank": "provide.01",
+            "mentionid": "em-2729",
+            "modality": "actual",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2768",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "seeds"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a large player providing a lot of marijuana to people"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-644",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-3392",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The marijuana activist"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "U.S. customers"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-3431",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "pot seeds"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-3462",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-3487",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "seeds"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-3511",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-3536",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "seeds"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "mail",
+            "propbank": "UNK",
+            "mentionid": "em-1872",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1889",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "marijuana seeds"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marc Emery"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-77",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "U.S."
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "hearing",
+            "propbank": "hearing.02",
+            "mentionid": "em-2000",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Emery"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-53",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Vancouver"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2032",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "jail",
+            "propbank": "UNK",
+            "mentionid": "em-2037",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Emery"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "jail",
+            "propbank": "UNK",
+            "mentionid": "em-2337",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "penitentiary",
+            "propbank": "penitentiary.XX",
+            "mentionid": "em-2680",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-218",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a U.S. federal penitentiary"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "prison",
+            "propbank": "prison.XX",
+            "mentionid": "em-2940",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the man who once spent more than two months in a Canadian prison for passing a joint to an undercover officer"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-218",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a U.S. prison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "jail",
+            "propbank": "UNK",
+            "mentionid": "em-3054",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the prince"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "transferred",
+            "propbank": "transferred.XX",
+            "mentionid": "em-2279",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-299",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a Canadian jail"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "UNK",
+            "mentionid": "em-2092",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Emery"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-197",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the U.S. district attorney"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-2162",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-2187",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "marijuana distribution"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-2194",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "five to eight years in a federal U.S. penitentiary"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-2251",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2276",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "August or September"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-3166",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-3191",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "a few years in jail"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-3198",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "selling seeds"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-3257",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-3282",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "a few years in jail"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-3289",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "selling seeds"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "told",
+            "propbank": "tell.01",
+            "mentionid": "em-2199",
+            "modality": "actual",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-1280",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "CBC News"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2246",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "interview",
+            "propbank": "UNK",
+            "mentionid": "em-2794",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-1280",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "CBC News"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-680",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the busy downtown Vancouver hemp store he still operates"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "passing",
+            "propbank": "UNK",
+            "mentionid": "em-3138",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the man who once spent more than two months in a Canadian prison for passing a joint to an undercover officer"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-3163",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a joint"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-2358",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The marijuana activist"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2383",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": " selling pot seeds to U.S. customers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "busted",
+            "propbank": "busted.XX",
+            "mentionid": "em-2388",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-458",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "both U.S. and Canadian law enforcement agencies"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2420",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2005"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "trialhearing",
+            "lemma": "plead",
+            "propbank": "UNK",
+            "mentionid": "em-3539",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marc Emery"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-3564",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "drug"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "trialhearing",
+            "lemma": "plead",
+            "propbank": "UNK",
+            "mentionid": "em-3590",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-3615",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "drug distribution"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-152",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a Seattle courtroom"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3629",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "next month"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "trialhearing",
+            "lemma": "plea",
+            "propbank": "UNK",
+            "mentionid": "em-3632",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-3657",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "marijuana distribution"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3664",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this summer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "trialhearing",
+            "lemma": "plea",
+            "propbank": "UNK",
+            "mentionid": "em-3667",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Emery"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "extradition",
+            "propbank": "UNK",
+            "mentionid": "em-2446",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "extradition",
+            "propbank": "UNK",
+            "mentionid": "em-2492",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marc Emery"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "extradition",
+            "propbank": "UNK",
+            "mentionid": "em-2513",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-77",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "U.S."
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "extradition",
+            "propbank": "UNK",
+            "mentionid": "em-2562",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Emery"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "pass",
+            "propbank": "UNK",
+            "mentionid": "em-2991",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-77",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USA"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-308",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "extradite",
+            "propbank": "UNK",
+            "mentionid": "em-3110",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-509",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the ones who're gonna agree to extradite him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "extradite",
+            "propbank": "UNK",
+            "mentionid": "em-3229",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-509",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the ones who're gonna agree to extradite him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Extradite",
+            "ere": "extradite",
+            "lemma": "extradition",
+            "propbank": "extradite.01",
+            "mentionid": "em-2604",
+            "modality": "generic",
+            "framenet": "fn::Extradition"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-77",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "United States"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "extradition",
+            "propbank": "UNK",
+            "mentionid": "em-2627",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-77",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "United States"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "free",
+            "propbank": "UNK",
+            "mentionid": "em-2650",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2675",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "in two or three or four years"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "transferownership",
+            "lemma": "It",
+            "propbank": "it.01",
+            "mentionid": "em-2771",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-308",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Canada"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "gave",
+            "propbank": "give.01",
+            "mentionid": "em-2829",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-716",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "activist groups around the world"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "prison",
+            "propbank": "prison.XX",
+            "mentionid": "em-2903",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the man who once spent more than two months in a Canadian prison for passing a joint to an undercover officer"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-299",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a Canadian prison"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2935",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "passing a joint to an undercover officer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "jail",
+            "propbank": "UNK",
+            "mentionid": "em-2968",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-542",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "You"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-3292",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The marijuana activist"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "U.S. customers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-3313",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marc Emery"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-101",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "customers in the U.S."
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-3434",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-3490",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "distribution",
+            "propbank": "UNK",
+            "mentionid": "em-3716",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-3733",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "drug"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiate",
+            "propbank": "negotiate.01",
+            "mentionid": "em-3739",
+            "modality": "other",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-197",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the U.S. district attorney"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "distribution",
+            "propbank": "UNK",
+            "mentionid": "em-3769",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-3786",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "marijuana"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-3798",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the marijuana activist"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-3851",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Emery"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "deal",
+            "propbank": "UNK",
+            "mentionid": "em-3821",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-350",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "U.S. prosecutors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "speaking",
+            "propbank": "speak.04",
+            "mentionid": "em-3893",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-62",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    }
+]

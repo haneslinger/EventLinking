@@ -1,0 +1,486 @@
+[
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "raped",
+            "propbank": "raped.XX",
+            "mentionid": "em-56a95f4d_16_540",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-56a95f4d_16_531",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a woman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-56a95f4d_16_892",
+            "modality": "actual",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-m.07j6ty",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the son of a Cuban immigrant"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0d060g",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Canada"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "kill",
+            "propbank": "kill.01",
+            "mentionid": "em-56a95f4d_16_1251",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56a95f4d_16_1206",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "homosexuals"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.07j6ty",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "announce",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_1497",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.07j6ty",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "raped",
+            "propbank": "raped.XX",
+            "mentionid": "em-56a95f4d_16_2352",
+            "modality": "generic",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56a95f4d_16_531",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a woman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endorg",
+            "lemma": "Scrap",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_2373",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-m.03z19",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "IRS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "kill",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_2402",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.07j6ty",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-56a95f4d_16_1206",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "homosexuals"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "land",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_2439",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.07j6ty",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-56a95f4d_16_2464",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "presidency"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announces",
+            "propbank": "announces.XX",
+            "mentionid": "em-56a95f4d_16_2469",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.05pdb7q",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rand Paul"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announces",
+            "propbank": "announces.XX",
+            "mentionid": "em-56a95f4d_16_2492",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.05pdb7q",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rand Paul"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "voters",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_2513",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-56a95f4d_16_1943",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "voters"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-56a95f4d_16_2538",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2012"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "voters",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_2557",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-56a95f4d_16_1943",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "voters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiating",
+            "propbank": "negotiate.01",
+            "mentionid": "em-56a95f4d_16_2578",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iran"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "comments",
+            "propbank": "comments.XX",
+            "mentionid": "em-56a95f4d_16_2608",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-56a95f4d_16_1701",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "random people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "win",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_2631",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hillary"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-56a95f4d_16_2656",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "POTUS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "win",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_2661",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.019x9z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jeb Bush"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-56a95f4d_16_2686",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "POTUS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "win the bid",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_2714",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hillary"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "donors",
+            "propbank": "donors.XX",
+            "mentionid": "em-56a95f4d_16_2737",
+            "modality": "generic",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-56a95f4d_16_1808",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a better group of donors"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-56a95f4d_16_2087",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "it"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "winner",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_2790",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.05pdb7q",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rand Paul"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "spout",
+            "propbank": "UNK",
+            "mentionid": "em-56a95f4d_16_2813",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56a95f4d_16_732",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    }
+]

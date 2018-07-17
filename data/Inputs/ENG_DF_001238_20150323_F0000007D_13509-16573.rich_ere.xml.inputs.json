@@ -1,0 +1,189 @@
+[
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elections",
+            "propbank": "elect.01",
+            "mentionid": "em-56bb9a5b_1_513",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.07wbk",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Rebublicans"
+            },
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "agent",
+                "entity": "ent-56bb9a5b_1_255",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "new voters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "voters",
+            "propbank": "UNK",
+            "mentionid": "em-56bb9a5b_1_541",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-56bb9a5b_1_255",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "new voters"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d075m",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Democrats"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elections",
+            "propbank": "elect.01",
+            "mentionid": "em-56bb9a5b_1_569",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "run",
+            "propbank": "UNK",
+            "mentionid": "em-56bb9a5b_1_592",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-56bb9a5b_1_617",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "presidency"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-56bb9a5b_1_622",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "a nation who traditionally vote for the most trusted and promising people"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56bb9a5b_1_333",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the most trusted and promising people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "saying",
+            "propbank": "saying.XX",
+            "mentionid": "em-56bb9a5b_1_652",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-NIL02738",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-56bb9a5b_1_675",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-56bb9a5b_1_423",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.07j6ty",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    }
+]

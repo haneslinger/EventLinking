@@ -1,0 +1,410 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-576",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-60",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-75",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Middle East"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-597",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who caused the 9/11 attacks"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "bailed",
+            "propbank": "bailed.XX",
+            "mentionid": "em-1192",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-703",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the elite bankers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "payed",
+            "propbank": "pay.01",
+            "mentionid": "em-1222",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-658",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-1274",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "agent",
+                "entity": "ent-682",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the people they were elected by"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "slapping",
+            "propbank": "slapping.XX",
+            "mentionid": "em-1371",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-982",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a child"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "slaps",
+            "propbank": "slaps.XX",
+            "mentionid": "em-1422",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1009",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a parent"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1018",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their child"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "slaps",
+            "propbank": "slaps.XX",
+            "mentionid": "em-1512",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1009",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a parent"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1018",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their child"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "tortured",
+            "propbank": "tortured.XX",
+            "mentionid": "em-1452",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1039",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "parents who have tortured, starved and raped their children"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1048",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their children"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "tortured",
+            "propbank": "tortured.XX",
+            "mentionid": "em-1540",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1039",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "parents who have tortured, starved and raped their children"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "raped",
+            "propbank": "raped.XX",
+            "mentionid": "em-1482",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1039",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "parents who have tortured, starved and raped their children"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1048",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their children"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "raped",
+            "propbank": "raped.XX",
+            "mentionid": "em-1561",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1039",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "parents who have tortured, starved and raped their children"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1048",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their children"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "tortured",
+            "propbank": "tortured.XX",
+            "mentionid": "em-1612",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-66",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-838",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "our prisoners of war"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "unelected",
+            "propbank": "UNK",
+            "mentionid": "em-1642",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "deaths",
+            "propbank": "die.01",
+            "mentionid": "em-1665",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1692",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "protestors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "punched",
+            "propbank": "punched.XX",
+            "mentionid": "em-1394",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-991",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "about 100 people who would have punched him"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-982",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "him"
+            }
+        ]
+    }
+]

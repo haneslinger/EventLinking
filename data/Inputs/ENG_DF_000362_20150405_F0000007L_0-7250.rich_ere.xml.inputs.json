@@ -1,0 +1,768 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fighting",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_583",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.01z88t",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Yemen"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_37_1163",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "our allies"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "A country that other powers in the mideast (including our allies) have taken the amazing step of uniting against and actively fighting in Yemen"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "speech",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_1002",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Commander in Chief"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-568eb23c_37_856",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "everybody"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_1036",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "tell",
+            "propbank": "tell.01",
+            "mentionid": "em-568eb23c_37_1057",
+            "modality": "actual",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_37_1946",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "getting",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_37_1193",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iran"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_37_1218",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuclear weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bomb",
+            "propbank": "bomb.02",
+            "mentionid": "em-568eb23c_37_1229",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-568eb23c_37_760",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the Israelis"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-568eb23c_37_784",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their facilities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "production",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_1295",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iran"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-568eb23c_37_1320",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "weapons-grade uranium"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-568eb23c_37_2453",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "centrifuges"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "cranking out",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_2414",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-568eb23c_37_2431",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "enriched uranium"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-568eb23c_37_2446",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "6000 centrifuges"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "cranking away",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_2456",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-568eb23c_37_2481",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "centrifuges"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "Negotiations",
+            "propbank": "negotiations.XX",
+            "mentionid": "em-568eb23c_37_1970",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "America"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "negotiating",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_1998",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "negotiate",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_2349",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "negotiations",
+            "propbank": "negotiations.XX",
+            "mentionid": "em-568eb23c_37_2393",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "negotiations",
+            "propbank": "negotiations.XX",
+            "mentionid": "em-568eb23c_37_2484",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-m.0d3qd0",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kerry"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "negotiated",
+            "propbank": "negotiated.XX",
+            "mentionid": "em-568eb23c_37_2540",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iran"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transaction",
+            "lemma": "gave",
+            "propbank": "give.01",
+            "mentionid": "em-568eb23c_37_1460",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "America"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transaction",
+            "lemma": "got",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_37_1483",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "America"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "get",
+            "propbank": "get.05",
+            "mentionid": "em-568eb23c_37_1548",
+            "modality": "generic",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-568eb23c_37_948",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "teenagers"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-568eb23c_37_847",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "home"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transaction",
+            "lemma": "sponsors",
+            "propbank": "sponsors.XX",
+            "mentionid": "em-568eb23c_37_2049",
+            "modality": "generic",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "a country that openly sponsors terrorism, openly calls for the complete destruction of one of its neighbors, and is right now wreaking havoc in Syria, Lebanon and Yemen, while infiltrating Iraq under the guise of fighting ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "destruction",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_2072",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-568eb23c_37_769",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "one of its neighbors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "calls",
+            "propbank": "calls.XX",
+            "mentionid": "em-568eb23c_37_2095",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "a country that openly sponsors terrorism, openly calls for the complete destruction of one of its neighbors, and is right now wreaking havoc in Syria, Lebanon and Yemen, while infiltrating Iraq under the guise of fighting ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "infiltrating",
+            "propbank": "infiltrating.XX",
+            "mentionid": "em-568eb23c_37_2118",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "a country that openly sponsors terrorism, openly calls for the complete destruction of one of its neighbors, and is right now wreaking havoc in Syria, Lebanon and Yemen, while infiltrating Iraq under the guise of fighting ISIS"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.0d05q4",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fighting",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_2148",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.0d05q4",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "a country that openly sponsors terrorism, openly calls for the complete destruction of one of its neighbors, and is right now wreaking havoc in Syria, Lebanon and Yemen, while infiltrating Iraq under the guise of fighting ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "answer",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_2185",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL02404",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Brad"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "answer",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_2215",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL01153",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "talk",
+            "propbank": "talk.01",
+            "mentionid": "em-568eb23c_37_2236",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "say",
+            "propbank": "say.01",
+            "mentionid": "em-568eb23c_37_2259",
+            "modality": "other",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_37_667",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "ANYONE who can say with a straight face Iran intends to mothball any and all production of weapons-grade uranium for the next 10 years"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "spend",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_2282",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.06mzp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Switzerland"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "spend",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_2319",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.06mzp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Switzerland"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endorg",
+            "lemma": "dying",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_37_2568",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-568eb23c_37_1750",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Iran's theocracy"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iran"
+            }
+        ]
+    }
+]

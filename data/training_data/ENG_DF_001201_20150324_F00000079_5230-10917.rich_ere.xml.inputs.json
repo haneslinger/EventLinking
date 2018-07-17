@@ -1,0 +1,596 @@
+[
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "say",
+            "propbank": "say.01",
+            "mentionid": "em-568eb23c_48_1087",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_48_276",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "supporters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "say",
+            "propbank": "say.01",
+            "mentionid": "em-568eb23c_48_1248",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_48_435",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Dems"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "correspondence",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_48_1135",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "talking",
+            "propbank": "talk.01",
+            "mentionid": "em-568eb23c_48_1156",
+            "modality": "generic",
+            "framenet": "fn::Chatting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_48_345",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "my user"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "e-mail",
+            "propbank": "e-mail.XX",
+            "mentionid": "em-568eb23c_48_1177",
+            "modality": "generic",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-568eb23c_48_345",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "my user"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "emails",
+            "propbank": "emails.XX",
+            "mentionid": "em-568eb23c_48_1227",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "emails",
+            "propbank": "emails.XX",
+            "mentionid": "em-568eb23c_48_1290",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "was",
+            "propbank": "was.XX",
+            "mentionid": "em-568eb23c_48_1331",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-NIL00931",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a private"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-m.07wh1",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "US Army"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_48_1363",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "private"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_48_1372",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL00931",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verbal_Communication",
+            "ere": "contact",
+            "lemma": "communication",
+            "propbank": "communicate.01",
+            "mentionid": "em-568eb23c_48_1414",
+            "modality": "generic",
+            "framenet": "fn::Communication"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_48_552",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "cost",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_48_1439",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-568eb23c_48_1464",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "collaborate",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_48_1485",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_48_693",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "other politicians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "visits",
+            "propbank": "visits.XX",
+            "mentionid": "em-568eb23c_48_1534",
+            "modality": "generic",
+            "framenet": "fn::Assemble"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-568eb23c_48_738",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "secretaries"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_48_1555",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_48_774",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the rest of the 2016 field"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-568eb23c_48_1578",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-m.02nlj_",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "former Texas Gov"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-m.07b_l",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Texas"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_48_1617",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Gov"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "emails",
+            "propbank": "emails.XX",
+            "mentionid": "em-568eb23c_48_1622",
+            "modality": "generic",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-568eb23c_48_789",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "all"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "contacted",
+            "propbank": "contact.01",
+            "mentionid": "em-568eb23c_48_1927",
+            "modality": "generic",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL00931",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "issued",
+            "propbank": "issue.01",
+            "mentionid": "em-568eb23c_48_1948",
+            "modality": "actual",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-NIL00931",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_48_1973",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a BlackBerry"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-568eb23c_48_1976",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.03kf8m",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Martin O'Malley"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "emails",
+            "propbank": "emails.XX",
+            "mentionid": "em-568eb23c_48_1718",
+            "modality": "generic",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-568eb23c_48_810",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their staff"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "Gmail",
+            "propbank": "gmail.XX",
+            "mentionid": "em-568eb23c_48_1739",
+            "modality": "generic",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-m.03kf8m",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_48_1760",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.01_pdg",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "one potential contender"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_48_1783",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.01_pdg",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-568eb23c_48_1804",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-568eb23c_48_864",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an elected official that only used his personal email address to avoid putting anything on public record"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-568eb23c_48_849",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "my county"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_48_1836",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_48_864",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an elected official that only used his personal email address to avoid putting anything on public record"
+            }
+        ]
+    }
+]

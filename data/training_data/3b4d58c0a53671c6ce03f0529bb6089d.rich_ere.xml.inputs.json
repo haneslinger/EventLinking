@@ -1,0 +1,574 @@
+[
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-1025",
+            "modality": "actual",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "this country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-1046",
+            "modality": "actual",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "this country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "having",
+            "propbank": "have.05",
+            "mentionid": "em-1067",
+            "modality": "actual",
+            "framenet": "fn::Giving_birth"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a child"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "here"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "sent",
+            "propbank": "send.01",
+            "mentionid": "em-1088",
+            "modality": "actual",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-60",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their best forces"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "sent",
+            "propbank": "send.01",
+            "mentionid": "em-1109",
+            "modality": "actual",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-60",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their best forces"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "annihilated",
+            "propbank": "annihilated.XX",
+            "mentionid": "em-1130",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their best forces"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "annihilated",
+            "propbank": "annihilated.XX",
+            "mentionid": "em-1822",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their best forces"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-1349",
+            "modality": "other",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "here"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-2465",
+            "modality": "other",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "here"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "expenditure",
+            "propbank": "UNK",
+            "mentionid": "em-1417",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-1434",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "5 billion dollars"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-51",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Argentinian military"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "expenditure",
+            "propbank": "UNK",
+            "mentionid": "em-2128",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-51",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Argentinian military"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-2163",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "5 billion dollars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "expenditure",
+            "propbank": "UNK",
+            "mentionid": "em-1455",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "British"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-1484",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "60 billion dollars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "expenditure",
+            "propbank": "UNK",
+            "mentionid": "em-2166",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "British"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-2191",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "60 billion dollars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "send",
+            "propbank": "send.01",
+            "mentionid": "em-1523",
+            "modality": "other",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-1505",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "forces"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "destination",
+                "entity": "ent-1520",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the garrison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "send",
+            "propbank": "UNK",
+            "mentionid": "em-1560",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1585",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "frigate"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-69",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attack",
+            "propbank": "attack.01",
+            "mentionid": "em-1597",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-54",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "our Armed Forces"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "send",
+            "propbank": "send.01",
+            "mentionid": "em-1873",
+            "modality": "other",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-1870",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a high profile member of the Royal Family"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "destination",
+                "entity": "ent-69",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "send",
+            "propbank": "UNK",
+            "mentionid": "em-1948",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1914",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1973",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "ships"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "moved",
+            "propbank": "moved.XX",
+            "mentionid": "em-2030",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "this country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "spent",
+            "propbank": "spent.XX",
+            "mentionid": "em-2196",
+            "modality": "actual",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-2213",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "60 billion dollars"
+            }
+        ]
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "followed",
+            "propbank": "follow.02",
+            "mentionid": "em-281",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "One uncle"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-51",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Ft. Wayne"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retirement",
+            "propbank": "retire.02",
+            "mentionid": "em-302",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "One uncle"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-42",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "GM"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-51",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Ft. Wayne"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endorg",
+            "lemma": "closures",
+            "propbank": "UNK",
+            "mentionid": "em-323",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-33",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Fairbank"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endorg",
+            "lemma": "closures",
+            "propbank": "UNK",
+            "mentionid": "em-344",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-30",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Beloit Corp"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "bail out",
+            "propbank": "UNK",
+            "mentionid": "em-365",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-36",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the major employers"
+            }
+        ]
+    }
+]

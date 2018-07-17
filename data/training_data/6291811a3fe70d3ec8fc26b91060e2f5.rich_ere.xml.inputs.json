@@ -1,0 +1,532 @@
+[
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "removed",
+            "propbank": "remove.01",
+            "mentionid": "em-703",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the islanders"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-84",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "expelled",
+            "propbank": "expel.01",
+            "mentionid": "em-724",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-78",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "British"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-84",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Diego Garcia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sell",
+            "propbank": "sell.01",
+            "mentionid": "em-745",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-78",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "British"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Americans"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-84",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Diego Garcia"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1221",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the land"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "move",
+            "propbank": "UNK",
+            "mentionid": "em-766",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-84",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "here"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "forcibly expelled",
+            "propbank": "forcibly expelled.XX",
+            "mentionid": "em-1173",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-84",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Diego Garcia"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-78",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "British"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "taken off",
+            "propbank": "take.35",
+            "mentionid": "em-1240",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-84",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-69",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "libya"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "americans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "remove",
+            "propbank": "remove.01",
+            "mentionid": "em-1300",
+            "modality": "generic",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-936",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an entire population"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "force",
+            "propbank": "UNK",
+            "mentionid": "em-1323",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-945",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "every territory on earth which has been populated by force"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-960",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "there original inhabitants"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "build",
+            "propbank": "UNK",
+            "mentionid": "em-1353",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1434",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-84",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a torture centre/military base"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-42",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "return",
+            "propbank": "return.01",
+            "mentionid": "em-1390",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "saying",
+            "propbank": "say.01",
+            "mentionid": "em-1489",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "im"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "populate",
+            "propbank": "UNK",
+            "mentionid": "em-1512",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "these people"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-42",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "BIOT"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "topple",
+            "propbank": "UNK",
+            "mentionid": "em-1542",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-1434",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the americans"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-888",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "dictators"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "topple",
+            "propbank": "topple.01",
+            "mentionid": "em-1572",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-888",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "dictators"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "spending",
+            "propbank": "UNK",
+            "mentionid": "em-1595",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Beneficiary",
+                "entity": "ent-30",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "military"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "telling",
+            "propbank": "tell.01",
+            "mentionid": "em-1655",
+            "modality": "other",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "torture",
+            "propbank": "UNK",
+            "mentionid": "em-1794",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-1434",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-84",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a torture centre/military base"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "injure",
+            "lemma": "torture",
+            "propbank": "UNK",
+            "mentionid": "em-1824",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1434",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-84",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a torture centre/military base"
+            }
+        ]
+    }
+]

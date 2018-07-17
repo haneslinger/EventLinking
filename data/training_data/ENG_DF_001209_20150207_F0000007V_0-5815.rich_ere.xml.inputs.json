@@ -1,0 +1,310 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "Speech",
+            "propbank": "UNK",
+            "mentionid": "em-56957706_6_375",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Benjamin Netanyahu"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-m.07t31",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Congress"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "speech",
+            "propbank": "UNK",
+            "mentionid": "em-56957706_6_396",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "address",
+            "propbank": "address.01",
+            "mentionid": "em-56957706_6_1894",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-m.07t31",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "U.S. Congress"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-56957706_6_1926",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "next month"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "speech",
+            "propbank": "UNK",
+            "mentionid": "em-56957706_6_1929",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-56957706_6_1099",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "any republicans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-56957706_6_793",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Obama"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "told",
+            "propbank": "tell.01",
+            "mentionid": "em-56957706_6_855",
+            "modality": "other",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.039rwf",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Beanhead"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "told",
+            "propbank": "tell.01",
+            "mentionid": "em-56957706_6_1147",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.03nkdm",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Tzachi Hanegbi"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-56957706_6_1796",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "suggested",
+            "propbank": "suggest.01",
+            "mentionid": "em-56957706_6_1866",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.03nkdm",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A senior Israeli official"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-56957706_6_1891",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "Urges",
+            "propbank": "urges.XX",
+            "mentionid": "em-56957706_6_1799",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Benjamin Netanyahu"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "telling",
+            "propbank": "UNK",
+            "mentionid": "em-56957706_6_1829",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56957706_6_934",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the people here leaning right"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "here"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-56957706_6_943",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "us"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "demonstrate",
+            "lemma": "boycott",
+            "propbank": "UNK",
+            "mentionid": "em-56957706_6_1964",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56957706_6_1099",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "any republicans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "demonstrate",
+            "lemma": "boycott",
+            "propbank": "UNK",
+            "mentionid": "em-56957706_6_2004",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.0d075m",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Democratic"
+            }
+        ]
+    }
+]

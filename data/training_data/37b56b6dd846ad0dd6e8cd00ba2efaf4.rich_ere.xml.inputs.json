@@ -1,0 +1,181 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "ask",
+            "propbank": "UNK",
+            "mentionid": "em-276",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "travels",
+            "propbank": "travel.01",
+            "mentionid": "em-297",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-61",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Europe"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "lift",
+            "propbank": "UNK",
+            "mentionid": "em-392",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-124",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "any of you French hipforumers"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "texted",
+            "propbank": "texted.XX",
+            "mentionid": "em-355",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-387",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "just"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "heading",
+            "propbank": "head.02",
+            "mentionid": "em-325",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-94",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Pyrennees"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "heading",
+            "propbank": "head.02",
+            "mentionid": "em-420",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-445",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "December 7"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "get in touch",
+            "propbank": "get in touch.XX",
+            "mentionid": "em-450",
+            "modality": "other",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a fellow hipforumer"
+            }
+        ]
+    }
+]

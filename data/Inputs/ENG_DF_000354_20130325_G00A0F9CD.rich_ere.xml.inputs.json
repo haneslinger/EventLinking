@@ -1,0 +1,802 @@
+[
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "ask",
+            "propbank": "ask.03",
+            "mentionid": "em-1344",
+            "modality": "other",
+            "framenet": "fn::Questioning"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the (now which one was it) Argentinean or Brazilians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-1372",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-291",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "John Citizen"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "transfermoney",
+            "lemma": "move",
+            "propbank": "move.01",
+            "mentionid": "em-1395",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-315",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the world"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "left",
+            "propbank": "leave.02",
+            "mentionid": "em-1425",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-348",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Cyprus' banks"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "withdrawals",
+            "propbank": "withdrawals.XX",
+            "mentionid": "em-1455",
+            "modality": "generic",
+            "framenet": "fn::Amassing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-450",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "units in London which remained open throughout the week and placed no limits on withdrawals"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-459",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "London"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "withdrawals",
+            "propbank": "withdrawals.XX",
+            "mentionid": "em-1485",
+            "modality": "generic",
+            "framenet": "fn::Amassing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-486",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "which"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-324",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Russia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "depositors",
+            "propbank": "depositors.XX",
+            "mentionid": "em-1515",
+            "modality": "generic",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-516",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Cypriot banks' largest depositors"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-348",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Cypriot banks"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiations",
+            "propbank": "negotiate.01",
+            "mentionid": "em-1559",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-525",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "one participant in the negotiations"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-1582",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-525",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "one participant in the negotiations"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1605",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-393",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Laiki"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-552",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Pavlou"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1637",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "vice chairman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "disagreed",
+            "propbank": "disagree.01",
+            "mentionid": "em-1642",
+            "modality": "actual",
+            "framenet": "fn::Quarreling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-552",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Pavlou"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "deposits",
+            "propbank": "deposits.XX",
+            "mentionid": "em-1665",
+            "modality": "actual",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "money",
+                "entity": "f-1682",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "2.5 billion euros"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-393",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Laiki"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "deposits",
+            "propbank": "deposits.XX",
+            "mentionid": "em-1695",
+            "modality": "generic",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-615",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "bank"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "here"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "depositors",
+            "propbank": "depositors.XX",
+            "mentionid": "em-1845",
+            "modality": "generic",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-687",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "depositors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-1718",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-624",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Our famed lesbo ding dong wong"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1743",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "the other day"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "dipping",
+            "propbank": "dipping.XX",
+            "mentionid": "em-1748",
+            "modality": "other",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-639",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "giver",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "bail out",
+            "propbank": "UNK",
+            "mentionid": "em-1778",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-639",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Our government"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-687",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "depositors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "re-cap",
+            "propbank": "re-cap.XX",
+            "mentionid": "em-1815",
+            "modality": "other",
+            "framenet": "fn::Receiving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-39",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "our banks"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "re-election",
+            "propbank": "UNK",
+            "mentionid": "em-1875",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-624",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Gillard"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "re-election",
+            "propbank": "UNK",
+            "mentionid": "em-1903",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-624",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Gillard"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "wins",
+            "propbank": "UNK",
+            "mentionid": "em-1933",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-624",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "ditch",
+            "propbank": "UNK",
+            "mentionid": "em-1954",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-639",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-624",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-1991",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-738",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "funding",
+            "propbank": "fund.01",
+            "mentionid": "em-2051",
+            "modality": "other",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-39",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-918",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "overseas sources"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "bail",
+            "propbank": "bail.XX",
+            "mentionid": "em-2086",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-639",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-933",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "everyone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "investors",
+            "propbank": "investors.XX",
+            "mentionid": "em-2123",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-966",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "equity and bond investors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "depositors",
+            "propbank": "depositors.XX",
+            "mentionid": "em-2153",
+            "modality": "generic",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-975",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "depositors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "print",
+            "propbank": "UNK",
+            "mentionid": "em-2213",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-39",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Australian banks"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-2238",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "money"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "print",
+            "propbank": "UNK",
+            "mentionid": "em-2287",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-39",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "print",
+            "propbank": "UNK",
+            "mentionid": "em-2250",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1023",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the US banks"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-2275",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "money"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "grabbing",
+            "propbank": "grab.01",
+            "mentionid": "em-2354",
+            "modality": "actual",
+            "framenet": "fn::Taking"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-639",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "gains",
+            "propbank": "gain.02",
+            "mentionid": "em-2434",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-306",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those Fat Cats who move thei ill gotten gains around the world"
+            }
+        ]
+    }
+]

@@ -1,0 +1,436 @@
+[
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-568eb23c_77_1383",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-568eb23c_77_723",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "55 percent of Cubans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "saying",
+            "propbank": "saying.XX",
+            "mentionid": "em-568eb23c_77_1404",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-568eb23c_77_753",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "52 percent of that group"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meet",
+            "propbank": "meet.03",
+            "mentionid": "em-568eb23c_77_1427",
+            "modality": "other",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-m.01gcjq",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Raoul Castro"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.05qx1",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Panama"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-568eb23c_77_1466",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "tomorrow"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "visit",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_77_1478",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_77_801",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "comment",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_77_1520",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL01023",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "comment",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_77_1543",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL01023",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "toppling",
+            "propbank": "topple.01",
+            "mentionid": "em-568eb23c_77_1564",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-568eb23c_77_855",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Castros"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "out",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_77_1587",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.01gcjq",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Raul"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "overthrow",
+            "propbank": "overthrow.01",
+            "mentionid": "em-568eb23c_77_1705",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-568eb23c_77_855",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their commie bosses"
+            },
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "vacations",
+            "propbank": "vacations.XX",
+            "mentionid": "em-568eb23c_77_1622",
+            "modality": "generic",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-568eb23c_77_963",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a Canadian cousin that vacations there and says its near paradise"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "says",
+            "propbank": "say.01",
+            "mentionid": "em-568eb23c_77_1652",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_77_963",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a Canadian cousin that vacations there and says its near paradise"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "vacation",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_77_1675",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_77_990",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "canadians"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "interview",
+            "propbank": "interview.01",
+            "mentionid": "em-568eb23c_77_1733",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_77_1846",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "NPR"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visit",
+            "propbank": "visit.01",
+            "mentionid": "em-568eb23c_77_1784",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-m.09889g",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Michael Jackson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-568eb23c_77_1979",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-NIL01098",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-568eb23c_77_1837",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Where"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "ask",
+            "propbank": "ask.03",
+            "mentionid": "em-568eb23c_77_2009",
+            "modality": "other",
+            "framenet": "fn::Questioning"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-NIL01030",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Exchange",
+            "ere": "transaction",
+            "lemma": "trade",
+            "propbank": "trade.01",
+            "mentionid": "em-568eb23c_77_2039",
+            "modality": "other",
+            "framenet": "fn::Exchange"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Exchange",
+            "ere": "transaction",
+            "lemma": "trade",
+            "propbank": "trade.01",
+            "mentionid": "em-568eb23c_77_2069",
+            "modality": "other",
+            "framenet": "fn::Exchange"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            }
+        ]
+    }
+]

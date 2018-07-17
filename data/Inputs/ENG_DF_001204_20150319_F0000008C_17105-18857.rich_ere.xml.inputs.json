@@ -1,0 +1,218 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "argue",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_57_399",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL00949",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "CD"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "immigration",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_57_427",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-568eb23c_57_105",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "exported",
+            "propbank": "exported.XX",
+            "mentionid": "em-568eb23c_57_450",
+            "modality": "generic",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-568eb23c_57_174",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "illegals"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "return",
+            "propbank": "return.01",
+            "mentionid": "em-568eb23c_57_473",
+            "modality": "generic",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-568eb23c_57_174",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "move",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_57_538",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_57_201",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "large armies"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-m.02j7k",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Channel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "infiltrate",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_57_575",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-568eb23c_57_105",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "assemble",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_57_615",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIL"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-568eb23c_57_640",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "very dangerous toxins of a bacterial or viral nature"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-568eb23c_57_649",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "There"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "casualties",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_57_661",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIL"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-568eb23c_57_686",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "very dangerous toxins of a bacterial or viral nature"
+            }
+        ]
+    }
+]

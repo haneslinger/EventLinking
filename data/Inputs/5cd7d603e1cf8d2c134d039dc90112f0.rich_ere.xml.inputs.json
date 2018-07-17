@@ -1,0 +1,684 @@
+[
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "fired",
+            "propbank": "fire.02",
+            "mentionid": "em-833",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the program manager"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-879",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "yesterday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "given",
+            "propbank": "give.01",
+            "mentionid": "em-854",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-78",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Space-X"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "Funding",
+            "propbank": "fund.01",
+            "mentionid": "em-1850",
+            "modality": "other",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1867",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$50 Million"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "spending",
+            "propbank": "UNK",
+            "mentionid": "em-1113",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Beneficiary",
+                "entity": "ent-51",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "defense"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "spending",
+            "propbank": "UNK",
+            "mentionid": "em-1283",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Beneficiary",
+                "entity": "ent-51",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "defense"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Obama"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "bitch",
+            "propbank": "bitch.01",
+            "mentionid": "em-1136",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-888",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "some"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "hang",
+            "propbank": "UNK",
+            "mentionid": "em-1159",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-888",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "them"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1184",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a new rope"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "wars",
+            "propbank": "wars.XX",
+            "mentionid": "em-1189",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "permission",
+            "propbank": "UNK",
+            "mentionid": "em-1230",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "communicate",
+            "propbank": "UNK",
+            "mentionid": "em-1260",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "install",
+            "propbank": "UNK",
+            "mentionid": "em-1318",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-108",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "moon"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1946",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "WMD"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "blowing",
+            "propbank": "UNK",
+            "mentionid": "em-1355",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-927",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "certain countries"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "point out",
+            "propbank": "UNK",
+            "mentionid": "em-1385",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "explain",
+            "propbank": "UNK",
+            "mentionid": "em-1464",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-1491",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "anyone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "speech",
+            "propbank": "UNK",
+            "mentionid": "em-1503",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "talks",
+            "propbank": "talks.XX",
+            "mentionid": "em-1533",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Change_possession",
+            "ere": "transfermoney",
+            "lemma": "raised",
+            "propbank": "raised.XX",
+            "mentionid": "em-1554",
+            "modality": "actual",
+            "framenet": "fn::Transfer"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the President"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "money",
+                "entity": "f-1581",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "the funding"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "costs",
+            "propbank": "costs.XX",
+            "mentionid": "em-1586",
+            "modality": "generic",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "giver",
+                "entity": "ent-72",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "US Navy"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "money",
+                "entity": "f-1611",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "operating costs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "production",
+            "propbank": "UNK",
+            "mentionid": "em-1614",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1960",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "the F-35"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "funding",
+            "propbank": "fund.01",
+            "mentionid": "em-1653",
+            "modality": "other",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1670",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "614 million"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gates"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "flight",
+            "propbank": "fly.01",
+            "mentionid": "em-1683",
+            "modality": "other",
+            "framenet": "fn::Escaping"
+        },
+        "arguments": [
+            {
+                "reo": "reo::ModeOfTransportation",
+                "ere": "instrument",
+                "entity": "f-1700",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "the shuttles"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-105",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "space"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "investment",
+            "propbank": "UNK",
+            "mentionid": "em-1720",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-1737",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "a several billion dollar"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "flight",
+            "propbank": "fly.01",
+            "mentionid": "em-1750",
+            "modality": "generic",
+            "framenet": "fn::Escaping"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-105",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "space"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "Spaceflight",
+            "propbank": "spaceflight.XX",
+            "mentionid": "em-1784",
+            "modality": "generic",
+            "framenet": "fn::Quitting_a_place"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-1014",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Human"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-105",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Space"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "Announces",
+            "propbank": "announces.XX",
+            "mentionid": "em-1827",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-66",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "NASA"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1884",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former director of NASA"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-66",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "NASA"
+            }
+        ]
+    }
+]

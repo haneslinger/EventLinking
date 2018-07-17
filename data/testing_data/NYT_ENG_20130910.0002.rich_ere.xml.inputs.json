@@ -1,0 +1,1761 @@
+[
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "EX-",
+            "propbank": "ex-.XX",
+            "mentionid": "em-1477",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "SOUTH KOREAN"
+            },
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "EX-SOUTH KOREAN DICTATOR"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1509",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "DICTATOR"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "SOUTH KOREAN"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1572",
+            "modality": "generic",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a former military dictator"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-93",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "military"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1604",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "dictator"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "South Korea"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1677",
+            "modality": "generic",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "its"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "one of its most brutal former leaders"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1709",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "leaders"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "its"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "succeeded",
+            "propbank": "succeeded.XX",
+            "mentionid": "em-1904",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1929",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1988"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-2839",
+            "modality": "generic",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former president"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2864",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "PAY",
+            "propbank": "pay.01",
+            "mentionid": "em-1519",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "FAMILY OF EX-SOUTH KOREAN DICTATOR"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-1614",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-132",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the government"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1646",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "167 billion won ($154 million)"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-3099",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-585",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "FINES",
+            "propbank": "UNK",
+            "mentionid": "em-1549",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "HIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "fines",
+            "propbank": "UNK",
+            "mentionid": "em-1649",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their father"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-1674",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "167 billion won ($154 million)"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "fined",
+            "propbank": "UNK",
+            "mentionid": "em-2522",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chun"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-2547",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "220.5 billion won ($203 million)"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "fine",
+            "propbank": "UNK",
+            "mentionid": "em-2603",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "fine",
+            "propbank": "UNK",
+            "mentionid": "em-2985",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their father"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "fine",
+            "propbank": "UNK",
+            "mentionid": "em-3252",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chun"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "then",
+            "propbank": "then.XX",
+            "mentionid": "em-1719",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-174",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "army"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1744",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "major general"
+            },
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chun"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1758",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1979"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "coup",
+            "propbank": "UNK",
+            "mentionid": "em-1763",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1780",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1979"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "South Korean"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chun"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "another military-backed strongman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "coup",
+            "propbank": "UNK",
+            "mentionid": "em-1962",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his partner in the 1979 coup"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1994",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1979"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "coup",
+            "propbank": "UNK",
+            "mentionid": "em-2085",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-258",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "assassination",
+            "propbank": "UNK",
+            "mentionid": "em-1807",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "another military-backed strongman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "assassination",
+            "propbank": "assassinate.01",
+            "mentionid": "em-1837",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "another military-backed strongman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "assassination",
+            "propbank": "UNK",
+            "mentionid": "em-1860",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "another military-backed strongman"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "South Korean"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1892",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "South Korean"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "succeeded",
+            "propbank": "succeeded.XX",
+            "mentionid": "em-1932",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Roh Tae-woo"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1957",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1988"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-1997",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Roh"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2029",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "treason"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "South Korea"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-2041",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Roh"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2073",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "treason"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "South Korea"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "crackdown",
+            "propbank": "UNK",
+            "mentionid": "em-2106",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-174",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "military"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-273",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the southern city"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2145",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1980"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "demonstrate",
+            "lemma": "uprising",
+            "propbank": "rise_up.03",
+            "mentionid": "em-2150",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-273",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the southern city"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2175",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1980"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "dead",
+            "propbank": "dead.XX",
+            "mentionid": "em-2180",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1034",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "hundreds"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-258",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-273",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Kwangju"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2226",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1980"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "dead",
+            "propbank": "dead.XX",
+            "mentionid": "em-2231",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-258",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1034",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "hundreds"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-273",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Kwangju"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2277",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1980"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-2282",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-258",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2307",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "collecting huge bribes from big business while in office"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transaction",
+            "lemma": "bribes",
+            "propbank": "bribe.01",
+            "mentionid": "em-2312",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-258",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-2342",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chun"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-2367",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "life in prison"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2374",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1997"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-2379",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Roh"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2404",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1997"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-2411",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "17 years"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "pardoned",
+            "propbank": "pardon.01",
+            "mentionid": "em-2416",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-258",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Discharge",
+            "ere": "releaseparole",
+            "lemma": "freed",
+            "propbank": "freed.XX",
+            "mentionid": "em-2439",
+            "modality": "actual",
+            "framenet": "fn::Releasing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Captive",
+                "ere": "person",
+                "entity": "ent-258",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-2462",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chun"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-2487",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "220.5 billion won ($203 million)"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-2492",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Roh"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-2517",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "268.8 billion won ($248 million)"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-3273",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Roh"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3298",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Earlier this month"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-3476",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "his fine"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-3354",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-747",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a businessman whose daughter divorced Roh\u2019s son"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-132",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the government"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-3400",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "23 billion won ($21 million)"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "fined",
+            "propbank": "UNK",
+            "mentionid": "em-2552",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Roh"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-2577",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "268.8 billion won ($248 million)"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "fine",
+            "propbank": "UNK",
+            "mentionid": "em-3303",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "fines",
+            "propbank": "UNK",
+            "mentionid": "em-3403",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-2582",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chun"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-3469",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "a quarter of his fine"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "confiscating",
+            "propbank": "confiscating.XX",
+            "mentionid": "em-2624",
+            "modality": "other",
+            "framenet": "fn::Commerce_collect"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transaction",
+            "lemma": "collect",
+            "propbank": "UNK",
+            "mentionid": "em-2668",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "confiscating",
+            "propbank": "confiscating.XX",
+            "mentionid": "em-2698",
+            "modality": "actual",
+            "framenet": "fn::Commerce_collect"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-402",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Chun family members"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-435",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "90 facilities"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2730",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "assets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "confiscating",
+            "propbank": "confiscating.XX",
+            "mentionid": "em-2735",
+            "modality": "actual",
+            "framenet": "fn::Smuggling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-381",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Prosecutors"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-2760",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "assets"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-435",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "90 facilities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-2772",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-462",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chun\u2019s brother-in-law"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2797",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "tax evasion"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2804",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "earlier this month"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-2809",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-462",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chun\u2019s brother-in-law"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2834",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "tax evasion"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-2867",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-462",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "one of the former president\u2019s three sons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "read",
+            "propbank": "UNK",
+            "mentionid": "em-2890",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-510",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-549",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the prosecutors\u2019 office"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2922",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Tuesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "give up",
+            "propbank": "give.01",
+            "mentionid": "em-2927",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "daughter"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2980",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "other assets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "secured",
+            "propbank": "secure.01",
+            "mentionid": "em-3168",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-402",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chun\u2019s family members"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-3193",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "assets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "give up",
+            "propbank": "give.01",
+            "mentionid": "em-3203",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-402",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-3006",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "ent-606",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the house where Chun and his wife live"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-3043",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-621",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his wife"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-3122",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-651",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "told",
+            "propbank": "tell.01",
+            "mentionid": "em-3145",
+            "modality": "actual",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-678",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a senior prosecutor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorced",
+            "propbank": "divorce.01",
+            "mentionid": "em-3324",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-756",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "daughter"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "came",
+            "propbank": "came.XX",
+            "mentionid": "em-3431",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an army major general"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3462",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1979"
+            }
+        ]
+    }
+]

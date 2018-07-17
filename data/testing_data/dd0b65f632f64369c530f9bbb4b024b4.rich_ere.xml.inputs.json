@@ -1,0 +1,126 @@
+[
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "ex-DEA",
+            "propbank": "ex-dea.XX",
+            "mentionid": "em-361",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-222",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "DEA"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-60",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the ex-DEA cop who now makes documentaries based around marijuana"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-410",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "cop"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "met",
+            "propbank": "meet.03",
+            "mentionid": "em-413",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-60",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-90",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Dallas"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-452",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this past Saturday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "makes",
+            "propbank": "UNK",
+            "mentionid": "em-457",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-60",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the ex-DEA cop who now makes documentaries based around marijuana"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-482",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "documentaries based around marijuana"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "married",
+            "propbank": "UNK",
+            "mentionid": "em-487",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-141",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his soulmate"
+            }
+        ]
+    }
+]

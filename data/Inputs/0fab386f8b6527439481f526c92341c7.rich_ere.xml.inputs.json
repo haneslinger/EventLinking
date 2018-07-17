@@ -1,0 +1,507 @@
+[
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-533",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a guy in the USA"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USA"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-554",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a guy in the USA"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USA"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meet",
+            "propbank": "meet.03",
+            "mentionid": "em-987",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a \"14 year old girl\" who was actually an undercover cop"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USA"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meet",
+            "propbank": "meet.03",
+            "mentionid": "em-1052",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a 14 year old"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meet",
+            "propbank": "meet.03",
+            "mentionid": "em-1179",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a \"14 year old girl\" who was actually an undercover cop"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "met",
+            "propbank": "meet.03",
+            "mentionid": "em-1207",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-696",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "met",
+            "propbank": "meet.03",
+            "mentionid": "em-1228",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-696",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meet",
+            "propbank": "meet.03",
+            "mentionid": "em-1279",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": " a 14 year old"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrest",
+            "propbank": "arrest.01",
+            "mentionid": "em-1080",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-732",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrest",
+            "propbank": "arrest.01",
+            "mentionid": "em-1325",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-732",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-1103",
+            "modality": "other",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-42",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "raped",
+            "propbank": "raped.XX",
+            "mentionid": "em-1133",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-765",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a child"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "raped",
+            "propbank": "raped.XX",
+            "mentionid": "em-1156",
+            "modality": "other",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-765",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a child"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "suggested",
+            "propbank": "suggested.XX",
+            "mentionid": "em-1024",
+            "modality": "other",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "suggested",
+            "propbank": "suggested.XX",
+            "mentionid": "em-1249",
+            "modality": "other",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buying",
+            "propbank": "buy.01",
+            "mentionid": "em-1346",
+            "modality": "generic",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-825",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "an undercover cop"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1371",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "drugs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buying",
+            "propbank": "buy.01",
+            "mentionid": "em-1436",
+            "modality": "generic",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-825",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "an undercover cop"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1461",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "drugs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buying",
+            "propbank": "buy.01",
+            "mentionid": "em-1376",
+            "modality": "generic",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-834",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a civilian"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1401",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "drugs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buying",
+            "propbank": "buy.01",
+            "mentionid": "em-1464",
+            "modality": "generic",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-834",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a civilian"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1489",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "drugs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "chatting",
+            "propbank": "chat.01",
+            "mentionid": "em-1406",
+            "modality": "other",
+            "framenet": "fn::Chatting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "defendant",
+            "propbank": "defendant.XX",
+            "mentionid": "em-1492",
+            "modality": "generic",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-948",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the defendant"
+            }
+        ]
+    }
+]

@@ -1,0 +1,350 @@
+[
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-956",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "38th President of the United States"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "lost",
+            "propbank": "lost.XX",
+            "mentionid": "em-1245",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a good man"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "lost",
+            "propbank": "lost.XX",
+            "mentionid": "em-1266",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a good president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "pardoning",
+            "propbank": "pardon.01",
+            "mentionid": "em-977",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nixon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "pardon",
+            "propbank": "pardon.01",
+            "mentionid": "em-998",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nixon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "during",
+            "propbank": "during.XX",
+            "mentionid": "em-1019",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1079",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "park ranger"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-120",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Yellowstone"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1093",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1936"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "during",
+            "propbank": "during.XX",
+            "mentionid": "em-1040",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1100",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "park ranger"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-120",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Yellowstone"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1114",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1936"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-1192",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1217",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visiting",
+            "propbank": "visit.01",
+            "mentionid": "em-1220",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "visiting American politicians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "leave",
+            "propbank": "leave.11",
+            "mentionid": "em-1297",
+            "modality": "generic",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::ModeOfTransportation",
+                "ere": "instrument",
+                "entity": "f-1322",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "his plane"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1340",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ford"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1367",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1372",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "GHW Bush"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1397",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    }
+]

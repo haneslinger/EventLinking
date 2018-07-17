@@ -1,0 +1,281 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "Vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_67_910",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a conservative Republican"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "Vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_67_931",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hillary Clinton"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "proclaim",
+            "propbank": "proclaim.01",
+            "mentionid": "em-568eb23c_67_605",
+            "modality": "other",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_67_171",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the right"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_67_952",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-NIL00605",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_67_207",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a democrat"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_67_987",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-NIL00607",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_67_243",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "either"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "stealing",
+            "propbank": "steal.01",
+            "mentionid": "em-568eb23c_67_688",
+            "modality": "other",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_67_273",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the state"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "giver",
+                "entity": "ent-NIL00605",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "selecting",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_67_718",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-NIL00602",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_67_420",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a ruler"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_67_750",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "ruler"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "choose",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_67_755",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_67_450",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the sheep"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "bitch",
+            "propbank": "bitch.01",
+            "mentionid": "em-568eb23c_67_808",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-NIL00602",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-568eb23c_67_330",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "home"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "advocates",
+            "propbank": "advocates.XX",
+            "mentionid": "em-568eb23c_67_850",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-568eb23c_67_360",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Neither"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "advocates",
+            "propbank": "advocates.XX",
+            "mentionid": "em-568eb23c_67_873",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-568eb23c_67_360",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "neither"
+            }
+        ]
+    }
+]

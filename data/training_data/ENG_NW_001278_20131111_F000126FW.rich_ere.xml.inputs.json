@@ -1,0 +1,741 @@
+[
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reported",
+            "propbank": "reported.XX",
+            "mentionid": "em-1678",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-138",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Vietnamese and Chinese observatories"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1703",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "report",
+            "propbank": "UNK",
+            "mentionid": "em-1713",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-153",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "CMA"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-129",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "China"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1745",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "report",
+            "propbank": "UNK",
+            "mentionid": "em-1750",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-153",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "CMA"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "report",
+            "propbank": "UNK",
+            "mentionid": "em-1771",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-306",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "its"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Vietnam"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "warming",
+            "propbank": "UNK",
+            "mentionid": "em-1808",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-306",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "NCHMF"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Vietnam"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "report",
+            "propbank": "UNK",
+            "mentionid": "em-1836",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-306",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "NCHMF"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1861",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "asked",
+            "propbank": "ask.03",
+            "mentionid": "em-1866",
+            "modality": "actual",
+            "framenet": "fn::Questioning"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-510",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "those in coastal areas"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-519",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndeterminate",
+                "entity-text": "coastal areas"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1898",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sunday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reported",
+            "propbank": "reported.XX",
+            "mentionid": "em-1903",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-549",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "VNA"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Vietnam"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1935",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "evacuated",
+            "propbank": "evacuate.01",
+            "mentionid": "em-1940",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-576",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "about 1,000 households in Ha Long Bay and by the coast dykes in Quang Ninh"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Quang Ninh"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-615",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndeterminate",
+                "entity-text": "higher places"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "toured",
+            "propbank": "tour.01",
+            "mentionid": "em-1984",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-624",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Hoang Trung Hai"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Quang Ninh Province"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "urged",
+            "propbank": "urged.XX",
+            "mentionid": "em-2014",
+            "modality": "actual",
+            "framenet": "fn::Quarreling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-654",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "local authorities"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-96",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Quang Ninh Province"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "call",
+            "propbank": "UNK",
+            "mentionid": "em-2051",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-654",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "local authorities"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-663",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "all fishermen"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-2081",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-663",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "all fishermen"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-672",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndeterminate",
+                "entity-text": "ashore"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "evacuate",
+            "propbank": "evacuate.01",
+            "mentionid": "em-2111",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-654",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "local authorities"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-681",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "residents living in coastal areas"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-519",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndeterminate",
+                "entity-text": "coastal areas"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-696",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndeterminate",
+                "entity-text": "safer places"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "ordered",
+            "propbank": "ordered.XX",
+            "mentionid": "em-2155",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-726",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "All soldiers and officials of the Capital High Command"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-72",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Hanoi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "requested",
+            "propbank": "requested.XX",
+            "mentionid": "em-2192",
+            "modality": "actual",
+            "framenet": "fn::Affirm_or_deny"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-759",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "agencies located in the city"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-72",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the city"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-2229",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-774",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Hanoi Steering Committee for Flood and Storm Control"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-72",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Hanoi"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2261",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sunday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "warned",
+            "propbank": "warn.01",
+            "mentionid": "em-2266",
+            "modality": "actual",
+            "framenet": "fn::Judgment_direct_address"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-804",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Bui Minh Tang"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2291",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sunday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reported",
+            "propbank": "reported.XX",
+            "mentionid": "em-2296",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-936",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Vietnamese media"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Vietnamese"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2328",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sunday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "deaths",
+            "propbank": "die.01",
+            "mentionid": "em-2333",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Vietnamese"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2397",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "As of Sunday"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-2549",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "10"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-2363",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-804",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Bui Minh Tang"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2388",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Declarational",
+            "ere": "contact",
+            "lemma": "called on",
+            "propbank": "call.01",
+            "mentionid": "em-2400",
+            "modality": "actual",
+            "framenet": "fn::Name_conferral"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-1014",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Vietnamese"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2439",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "losses",
+            "propbank": "losses.XX",
+            "mentionid": "em-2444",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1023",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "human"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Vietnamese"
+            }
+        ]
+    }
+]

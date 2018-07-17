@@ -1,0 +1,363 @@
+[
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "released",
+            "propbank": "released.XX",
+            "mentionid": "em-1210",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-87",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the city's environmental monitor center"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1231",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-102",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the bureau"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "sending",
+            "propbank": "send.01",
+            "mentionid": "em-1277",
+            "modality": "actual",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-159",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "some people"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "destination",
+                "entity": "ent-168",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the hospital"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "deaths",
+            "propbank": "die.01",
+            "mentionid": "em-1307",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-243",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Four deaths"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "hit",
+            "propbank": "UNK",
+            "mentionid": "em-1330",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-177",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "two high school students who were hit by a train due to low visibility in the city of Chaohu in east China's Anhui province on Monday"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1355",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a train"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-195",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the city"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1369",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-1374",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-234",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Another two"
+            },
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-1399",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a pileup involving 20 vehicles"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-252",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Zhejiang"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1413",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "early Tuesday morning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injured",
+            "propbank": "injure.01",
+            "mentionid": "em-1418",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-261",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Eight others"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "called",
+            "propbank": "call.07",
+            "mentionid": "em-1441",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-303",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "firefighters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-252",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Zhejiang"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1480",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "late Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "advised",
+            "propbank": "advised.XX",
+            "mentionid": "em-1531",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-321",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Residents in many cities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "artifact",
+            "lemma": "production",
+            "propbank": "produce.01",
+            "mentionid": "em-1582",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-357",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "factory"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "drive",
+            "propbank": "UNK",
+            "mentionid": "em-1612",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-432",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "even-numbered license plate owners"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-423",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the road"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "drive",
+            "propbank": "UNK",
+            "mentionid": "em-1649",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-441",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "odd-number drivers"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-423",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the road"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-1686",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-468",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Ma Jun"
+            }
+        ]
+    }
+]

@@ -1,0 +1,426 @@
+[
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "captures",
+            "propbank": "captures.XX",
+            "mentionid": "em-474",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Free Syrian Army"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-499",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "5000 STG44s"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fighting",
+            "propbank": "UNK",
+            "mentionid": "em-509",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-99",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the forces of Syrian \u0093President\u0094 Bashar al-Assad"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "revolution",
+            "propbank": "UNK",
+            "mentionid": "em-717",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "claimed",
+            "propbank": "claim.01",
+            "mentionid": "em-599",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-123",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "The rebel member who posted the video"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "posted",
+            "propbank": "posted.XX",
+            "mentionid": "em-576",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-123",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "The rebel member who posted the video"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-620",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-168",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "colletors"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-652",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "5,000 German WWII STG-44 rifles"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-657",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-168",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "colletors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "fund",
+            "propbank": "fund.01",
+            "mentionid": "em-694",
+            "modality": "other",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sell",
+            "propbank": "sell.01",
+            "mentionid": "em-738",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-219",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "what countries"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-770",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "5,000 German WWII STG-44 rifles"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sell",
+            "propbank": "sell.01",
+            "mentionid": "em-775",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-219",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "what countries"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "going",
+            "propbank": "UNK",
+            "mentionid": "em-819",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-964",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "these things"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "going",
+            "propbank": "UNK",
+            "mentionid": "em-842",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-859",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$20K each"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "made",
+            "propbank": "UNK",
+            "mentionid": "em-888",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-288",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the germans"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-913",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "about 150k of those"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "made",
+            "propbank": "UNK",
+            "mentionid": "em-925",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-288",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-950",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "400k of them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "target",
+            "propbank": "UNK",
+            "mentionid": "em-967",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-303",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "a b17 group"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-324",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "its secondary"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "factory",
+            "propbank": "UNK",
+            "mentionid": "em-1034",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1051",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "ammo"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-324",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the ammo factory for the stg44"
+            }
+        ]
+    }
+]

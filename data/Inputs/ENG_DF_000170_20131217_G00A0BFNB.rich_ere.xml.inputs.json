@@ -1,0 +1,842 @@
+[
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "rides",
+            "propbank": "rides.XX",
+            "mentionid": "em-1109",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-156",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Russians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "ride",
+            "propbank": "UNK",
+            "mentionid": "em-1220",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-99",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "U.S. astronauts"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1245",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "Russian spacecraft"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-120",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "International Space Station"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Russian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "rides",
+            "propbank": "rides.XX",
+            "mentionid": "em-1415",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-156",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Russians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "rides",
+            "propbank": "rides.XX",
+            "mentionid": "em-1459",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-156",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Russians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "ride",
+            "propbank": "UNK",
+            "mentionid": "em-1622",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Russian"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-99",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "U.S. astronauts"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-1654",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "Russian spacecraft"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-120",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "International Space Station"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "rides",
+            "propbank": "rides.XX",
+            "mentionid": "em-1839",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-156",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Russians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1132",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-72",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Investor's Business Daily"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1538",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-72",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Investor's Business Daily"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visit",
+            "propbank": "visit.01",
+            "mentionid": "em-1190",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-30",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "moon"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the third country to land a spacecraft on the moon in preparation for a manned visit"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visit",
+            "propbank": "visit.01",
+            "mentionid": "em-1594",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the third country to land a spacecraft on the moon in preparation for a manned visit"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-30",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "moon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visiting",
+            "propbank": "visit.01",
+            "mentionid": "em-1262",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-129",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Tourists visiting the Kennedy Space Center in Florida"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-138",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Kennedy Space Center"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visiting",
+            "propbank": "visit.01",
+            "mentionid": "em-1664",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-129",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Tourists visiting the Kennedy Space Center in Florida"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-138",
+                "entity-ner": "FAC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Kennedy Space Center"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reports",
+            "propbank": "reports.XX",
+            "mentionid": "em-1292",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-129",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Tourists visiting the Kennedy Space Center in Florida"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reports",
+            "propbank": "reports.XX",
+            "mentionid": "em-1692",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-129",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Tourists visiting the Kennedy Space Center in Florida"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1350",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "my"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1375",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "today"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1748",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "my"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1773",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "today"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "flight",
+            "propbank": "fly.01",
+            "mentionid": "em-1436",
+            "modality": "generic",
+            "framenet": "fn::Escaping"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "US"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "begging",
+            "propbank": "begging.XX",
+            "mentionid": "em-1480",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-156",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Russians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "begging",
+            "propbank": "begging.XX",
+            "mentionid": "em-1510",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-156",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Russians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "begging",
+            "propbank": "begging.XX",
+            "mentionid": "em-1811",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-156",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Russians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "begging",
+            "propbank": "begging.XX",
+            "mentionid": "em-2159",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-156",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the Russians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "put",
+            "propbank": "put.01",
+            "mentionid": "em-1860",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "US"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-564",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "a man"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-30",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "moon"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1899",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1969"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-1904",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-669",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "Made",
+            "propbank": "UNK",
+            "mentionid": "em-1927",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "China"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-1954",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "that rover"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "Made",
+            "propbank": "UNK",
+            "mentionid": "em-1999",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-2016",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "that rover"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "China"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "borrowed",
+            "propbank": "borrow.01",
+            "mentionid": "em-2050",
+            "modality": "other",
+            "framenet": "fn::Borrowing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "bought",
+            "propbank": "buy.01",
+            "mentionid": "em-2080",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2097",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "how many food stamps"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "America"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "bought",
+            "propbank": "buy.01",
+            "mentionid": "em-2103",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "America"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-2187",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "longknife"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2212",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2013-12-17"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-2226",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-345",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "rightwinger"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2251",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2013-12-17"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-2256",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-684",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Mr. H."
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2281",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2013-12-17"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "says",
+            "propbank": "says.XX",
+            "mentionid": "em-2286",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-48",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "We"
+            }
+        ]
+    }
+]

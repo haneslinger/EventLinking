@@ -1,0 +1,415 @@
+[
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "Calls",
+            "propbank": "call.07",
+            "mentionid": "em-568eb23c_84_507",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Netanyahu"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "Congratulate",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_84_535",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "His"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "called",
+            "propbank": "call.07",
+            "mentionid": "em-568eb23c_84_556",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Israeli Prime Minister"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-568eb23c_84_588",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "congratulate",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_84_591",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Barack Obama"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "spoke",
+            "propbank": "spoke.XX",
+            "mentionid": "em-568eb23c_84_670",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Israeli leader"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "congratulate",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_84_698",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Barack Obama"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "emphasized",
+            "propbank": "emphasized.XX",
+            "mentionid": "em-568eb23c_84_765",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "Election",
+            "propbank": "elect.01",
+            "mentionid": "em-568eb23c_84_614",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "election",
+            "propbank": "elect.01",
+            "mentionid": "em-568eb23c_84_635",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_84_660",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Prime Minister"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.03spz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Israeli"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "elect",
+            "lemma": "winning",
+            "propbank": "win.01",
+            "mentionid": "em-568eb23c_84_719",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.03spz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Israeli"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-568eb23c_84_742",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.081sq",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "White House"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "congratulate",
+            "propbank": "congratulate.01",
+            "mentionid": "em-568eb23c_84_786",
+            "modality": "generic",
+            "framenet": "fn::Judgment_direct_address"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a Nazi shit"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "dies",
+            "propbank": "die.01",
+            "mentionid": "em-568eb23c_84_809",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-m.0fm2h",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "it"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "ranting",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_84_832",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL02487",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Stormx"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "shot",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_84_899",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.07_m9_",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Your hero"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.07_m9_",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Your hero"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-568eb23c_84_931",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1945"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "shot",
+            "propbank": "shoot.02",
+            "mentionid": "em-568eb23c_84_936",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.07_m9_",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Your hero"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-m.07_m9_",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Your hero"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_84_968",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1945"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "message",
+            "propbank": "message.01",
+            "mentionid": "em-568eb23c_84_1157",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_84_369",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Republican thickoes"
+            }
+        ]
+    }
+]

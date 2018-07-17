@@ -1,0 +1,410 @@
+[
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murders",
+            "propbank": "murder.01",
+            "mentionid": "em-394",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Manson Family"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Tate and LaBianca families"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "talking",
+            "propbank": "UNK",
+            "mentionid": "em-415",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-744",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-761",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "a crime"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-769",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "21 years"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentences",
+            "propbank": "UNK",
+            "mentionid": "em-774",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-791",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "around 14 years"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "homicides",
+            "propbank": "homicide.01",
+            "mentionid": "em-818",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-42",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Norway"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "incarcerated",
+            "propbank": "incarcerated.XX",
+            "mentionid": "em-841",
+            "modality": "generic",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-475",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "60 out of 10,000 Norwegians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentences",
+            "propbank": "UNK",
+            "mentionid": "em-862",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-511",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-887",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-532",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a person"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-912",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "a life sentence"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Discharge",
+            "ere": "releaseparole",
+            "lemma": "releasing",
+            "propbank": "release.01",
+            "mentionid": "em-917",
+            "modality": "generic",
+            "framenet": "fn::Releasing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Captive",
+                "ere": "person",
+                "entity": "ent-547",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prisoners"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-42",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "going",
+            "propbank": "go.03",
+            "mentionid": "em-947",
+            "modality": "generic",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-565",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prison"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-547",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prisoners"
+            },
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-42",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "held",
+            "propbank": "held.XX",
+            "mentionid": "em-984",
+            "modality": "generic",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "criminals"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "parole",
+            "propbank": "UNK",
+            "mentionid": "em-1024",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "parole",
+            "propbank": "UNK",
+            "mentionid": "em-1075",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "pleas",
+            "propbank": "pleas.XX",
+            "mentionid": "em-1047",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1072",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murders"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "requests",
+            "propbank": "requests.XX",
+            "mentionid": "em-1098",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1123",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "her crimes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "incarcerated",
+            "propbank": "incarcerated.XX",
+            "mentionid": "em-1126",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    }
+]

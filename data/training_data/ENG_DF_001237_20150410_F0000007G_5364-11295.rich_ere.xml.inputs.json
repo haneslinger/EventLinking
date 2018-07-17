@@ -1,0 +1,352 @@
+[
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transaction",
+            "lemma": "sell",
+            "propbank": "sell.01",
+            "mentionid": "em-56be3255_9_842",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-56be3255_9_967",
+            "modality": "generic",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0d060g",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Canada"
+            },
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-56be3255_9_1789",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-56be3255_9_1054",
+            "modality": "generic",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0d060g",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Canada"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-56be3255_9_990",
+            "modality": "generic",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0b90_r",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Mexico"
+            },
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-56be3255_9_1804",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-56be3255_9_1013",
+            "modality": "actual",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-m.07j6ty",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "beborn",
+            "lemma": "birth",
+            "propbank": "UNK",
+            "mentionid": "em-56be3255_9_1825",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.07j6ty",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "came",
+            "propbank": "come.01",
+            "mentionid": "em-56be3255_9_1281",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-56be3255_9_1258",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rubio's family"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "taking",
+            "propbank": "take.01",
+            "mentionid": "em-56be3255_9_1398",
+            "modality": "actual",
+            "framenet": "fn::Taking"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-NIL01422",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "one uncle who was in prison for 4 years for taking 2 steaks from his job on Christmas"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-56be3255_9_1425",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Christmas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sell",
+            "propbank": "sell.01",
+            "mentionid": "em-56be3255_9_1496",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-56be3255_9_1493",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "everyone willing to sell cars"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-56be3255_9_1521",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "cars"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murdering",
+            "propbank": "UNK",
+            "mentionid": "em-56be3255_9_2156",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.09k0f",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a mass murdering piece of shit"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "murderer",
+            "propbank": "murderer.XX",
+            "mentionid": "em-56be3255_9_2202",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.09k0f",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a mass murderer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murdering",
+            "propbank": "murder.01",
+            "mentionid": "em-56be3255_9_2179",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.09k0f",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a mass murdering piece of shit"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murderer",
+            "propbank": "murderer.XX",
+            "mentionid": "em-56be3255_9_2223",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.09k0f",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a mass murderer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "instill",
+            "propbank": "UNK",
+            "mentionid": "em-56be3255_9_2244",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56be3255_9_632",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the regime"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56be3255_9_1574",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their hand picked future cronies"
+            }
+        ]
+    }
+]

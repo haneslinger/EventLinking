@@ -1,0 +1,528 @@
+[
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "talking",
+            "propbank": "talk.01",
+            "mentionid": "em-569eb249_18_1672",
+            "modality": "generic",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569eb249_18_441",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "foreigners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "going",
+            "propbank": "go.03",
+            "mentionid": "em-569eb249_18_1693",
+            "modality": "generic",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-569eb249_18_489",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Young British Muslims"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-m.07ssc",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "British"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fight",
+            "propbank": "UNK",
+            "mentionid": "em-569eb249_18_1716",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-569eb249_18_489",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Young British Muslims"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "going",
+            "propbank": "go.03",
+            "mentionid": "em-569eb249_18_1739",
+            "modality": "generic",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-569eb249_18_504",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "young British Muslim women"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-m.07ssc",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "British"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "brides",
+            "propbank": "UNK",
+            "mentionid": "em-569eb249_18_1762",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-569eb249_18_2261",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the fighters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attack",
+            "propbank": "attack.01",
+            "mentionid": "em-569eb249_18_1815",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-569eb249_18_417",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "British Muslims"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bomber",
+            "propbank": "bomber.XX",
+            "mentionid": "em-569eb249_18_1838",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.017_qg",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the shoe bomber"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bomber",
+            "propbank": "bomber.XX",
+            "mentionid": "em-569eb249_18_1861",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.0b6fdr1",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the underwear bomber"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "terrorist",
+            "propbank": "terrorist.XX",
+            "mentionid": "em-569eb249_18_1884",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-NIL03609",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the most prominent Islamic terrorist in the world right now"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-569eb249_18_549",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the world"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "executed",
+            "propbank": "executed.XX",
+            "mentionid": "em-569eb249_18_1914",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-NIL03609",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mohammed Emwazi"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-569eb249_18_558",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "innocent people of various nationalities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "murderer",
+            "propbank": "murderer.XX",
+            "mentionid": "em-569eb249_18_2196",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-NIL03609",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a guy who is a cold-blooded murderer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "executed",
+            "propbank": "executed.XX",
+            "mentionid": "em-569eb249_18_1944",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-NIL03609",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mohammed Emwazi"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569eb249_18_558",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "innocent people of various nationalities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murderer",
+            "propbank": "murderer.XX",
+            "mentionid": "em-569eb249_18_2217",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-NIL03609",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a guy who is a cold-blooded murderer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "say",
+            "propbank": "say.01",
+            "mentionid": "em-569eb249_18_1974",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569eb249_18_600",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "High profile hate preachers like Anjem Choudary and Abu Hamza"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.07ssc",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "speech",
+            "propbank": "speak.01",
+            "mentionid": "em-569eb249_18_1997",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.07ssc",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Declarational",
+            "ere": "contact",
+            "lemma": "called",
+            "propbank": "call.01",
+            "mentionid": "em-569eb249_18_2020",
+            "modality": "actual",
+            "framenet": "fn::Name_conferral"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-NIL00370",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "one CAGE activist"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-569eb249_18_2043",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-569eb249_18_639",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Jews in the UK"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.07ssc",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "UK"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-569eb249_18_462",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Muslims"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "execution",
+            "propbank": "UNK",
+            "mentionid": "em-569eb249_18_2080",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-569eb249_18_711",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "adulterers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "execution",
+            "propbank": "UNK",
+            "mentionid": "em-569eb249_18_2117",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-569eb249_18_711",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "adulterers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "voice",
+            "propbank": "UNK",
+            "mentionid": "em-569eb249_18_2238",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-569eb249_18_1026",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the ones who voice their radical views publicly"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Declarational",
+            "ere": "contact",
+            "lemma": "called",
+            "propbank": "call.01",
+            "mentionid": "em-569eb249_18_2175",
+            "modality": "actual",
+            "framenet": "fn::Name_conferral"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569eb249_18_2288",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Asim Qureshi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "spewing",
+            "propbank": "spewing.XX",
+            "mentionid": "em-569eb249_18_2360",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-NIL03609",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mohammed Emwazi"
+            }
+        ]
+    }
+]

@@ -1,0 +1,1053 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "speech",
+            "propbank": "UNK",
+            "mentionid": "em-1375",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gadhafi"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Italy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "addressed",
+            "propbank": "address.01",
+            "mentionid": "em-1457",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-129",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Italian lawmakers he addressed"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2496",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "the second day of a trip to Italy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "speech",
+            "propbank": "UNK",
+            "mentionid": "em-1573",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gadhafi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "speech",
+            "propbank": "UNK",
+            "mentionid": "em-2302",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-129",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "lawmakers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "speak",
+            "propbank": "speak.04",
+            "mentionid": "em-2322",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-693",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Italian Senate"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "broadcast",
+            "lemma": "speech",
+            "propbank": "speak.01",
+            "mentionid": "em-2348",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-726",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a palazzo next door"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "strikes",
+            "propbank": "strike.01",
+            "mentionid": "em-1401",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "U.S."
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Libya"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2503",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1986"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "airstrikes",
+            "propbank": "airstrikes.XX",
+            "mentionid": "em-1637",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-30",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "U.S."
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-261",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "our homes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "airstrikes",
+            "propbank": "airstrikes.XX",
+            "mentionid": "em-1709",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-306",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ronald Reagan"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-330",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Benghazi"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2510",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "April 1986"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-1825",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-381",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The Libyans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killed",
+            "propbank": "killed.XX",
+            "mentionid": "em-1863",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-405",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gadhafi's adopted daughter"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "injured",
+            "propbank": "injured.XX",
+            "mentionid": "em-2035",
+            "modality": "actual",
+            "framenet": "fn::Invading"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-420",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "226 others"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-1435",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-108",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Osama bin Laden"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "actions",
+            "propbank": "actions.XX",
+            "mentionid": "em-1663",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-108",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "bin Laden"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "trip",
+            "propbank": "trip.04",
+            "mentionid": "em-1489",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gadhafi"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Italy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visit",
+            "propbank": "visit.01",
+            "mentionid": "em-2220",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gadhafi"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Italy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "chase",
+            "propbank": "chase.01",
+            "mentionid": "em-1517",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-87",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "terrorists"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-174",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the Afghan mountains"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "chase",
+            "propbank": "chase.01",
+            "mentionid": "em-1545",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-87",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "terrorists"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-183",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "central Asia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "dialogue",
+            "propbank": "dialogue.01",
+            "mentionid": "em-1593",
+            "modality": "other",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-87",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "terrorists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "talk to",
+            "propbank": "talk.01",
+            "mentionid": "em-1615",
+            "modality": "other",
+            "framenet": "fn::Chatting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-240",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "One"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "Former",
+            "propbank": "former.XX",
+            "mentionid": "em-1683",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-306",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ronald Reagan"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1707",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attack",
+            "propbank": "attack.01",
+            "mentionid": "em-1749",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-339",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a disco in Germany"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killed",
+            "propbank": "killed.XX",
+            "mentionid": "em-1771",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-366",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two U.S. servicemen"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-1797",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-366",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two U.S. servicemen"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-1889",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-405",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gadhafi's adopted daughter"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injured",
+            "propbank": "injure.01",
+            "mentionid": "em-1917",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-420",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "226 others"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "abandoning",
+            "propbank": "abandoning.XX",
+            "mentionid": "em-1939",
+            "modality": "other",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gadhafi"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1963",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "weapons of mass destruction"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-1967",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Libya"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-504",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the families of the victims of the 1988 Pan Am 103 bombing over Lockerbie, Scotland, which killed 270 people, including 189 Americans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-2007",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-570",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Abdel Basset Ali al-Megrahi"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2031",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "blowing up the plane"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killed",
+            "propbank": "killed.XX",
+            "mentionid": "em-2055",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-549",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "189 Americans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombing",
+            "propbank": "bomb.02",
+            "mentionid": "em-2089",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "f-2106",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "the 1988 Pan Am 103"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-522",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Lockerbie"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-2125",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "bombing"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2517",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1988"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "blowing up",
+            "propbank": "UNK",
+            "mentionid": "em-2194",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-570",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Abdel Basset Ali al-Megrahi"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "f-2218",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "the plane"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-2136",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-549",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "189 Americans"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-570",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Abdel Basset Ali al-Megrahi"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-522",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Lockerbie"
+            },
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-2192",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "bombing"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2524",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1988"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protests",
+            "propbank": "protest.01",
+            "mentionid": "em-2246",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-645",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "La Sapienza university"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "addressing",
+            "propbank": "address.01",
+            "mentionid": "em-2268",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-666",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a group of few hundred students"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-645",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "La Sapienza university"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "speak",
+            "propbank": "speak.04",
+            "mentionid": "em-2368",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-795",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Parliament"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "told",
+            "propbank": "tell.01",
+            "mentionid": "em-2396",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-810",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "La Repubblica newspaper"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "send",
+            "propbank": "send.01",
+            "mentionid": "em-2422",
+            "modality": "other",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Italy"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-849",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "immigrants"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-870",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "sea"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "destination",
+                "entity": "ent-57",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Libya"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visiting",
+            "propbank": "visit.01",
+            "mentionid": "em-2464",
+            "modality": "generic",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-708",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "visiting dignitaries"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-39",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Italian"
+            }
+        ]
+    }
+]

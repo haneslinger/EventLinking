@@ -1,0 +1,891 @@
+[
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "payment",
+            "propbank": "pay.01",
+            "mentionid": "em-2415",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-602",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Patriot Coal"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2454",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Last month"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "demonstrate",
+            "lemma": "Encircle",
+            "propbank": "UNK",
+            "mentionid": "em-1752",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-89",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Supporters"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-98",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Peabody HQ in Downtown St. Louis"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "demonstrate",
+            "lemma": "march",
+            "propbank": "UNK",
+            "mentionid": "em-1819",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-71",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Thousands of mine workers and supporters"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-98",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the headquarters of Peabody Energy in St. Louis"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1851",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Tuesday, Sept. 24th"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "demonstrate",
+            "lemma": "March",
+            "propbank": "march.01",
+            "mentionid": "em-2056",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-98",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Peabody Headquarters"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2081",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Tuesday, September 24th"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "demonstrate",
+            "lemma": "March",
+            "propbank": "march.01",
+            "mentionid": "em-2189",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-422",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Crowne Plaza Hotel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "Marchers",
+            "propbank": "marchers.XX",
+            "mentionid": "em-2916",
+            "modality": "other",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-488",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marchers"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-563",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Market, Eighth, Chestnut and Seventh Streets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "Marchers",
+            "propbank": "marchers.XX",
+            "mentionid": "em-3056",
+            "modality": "other",
+            "framenet": "fn::Political_actions"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-488",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marchers"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-587",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Kiener Plaza"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retirees",
+            "propbank": "retire.02",
+            "mentionid": "em-1789",
+            "modality": "generic",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-107",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "company"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-143",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "retirees"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retired",
+            "propbank": "retire.02",
+            "mentionid": "em-2021",
+            "modality": "generic",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-107",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the company\u0092s"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-143",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "retired miners"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2053",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "miners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retired",
+            "propbank": "retire.02",
+            "mentionid": "em-2154",
+            "modality": "generic",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-107",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "its"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-143",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "retired miners"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2186",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "miners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retired",
+            "propbank": "retire.02",
+            "mentionid": "em-2459",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-143",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "retired miners"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2484",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "miners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retirees",
+            "propbank": "retire.02",
+            "mentionid": "em-2573",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-143",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "these retirees"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-815",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retired",
+            "propbank": "retire.02",
+            "mentionid": "em-2643",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-143",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "affected retired miners"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2668",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "miners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retired",
+            "propbank": "retire.02",
+            "mentionid": "em-2715",
+            "modality": "generic",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-1010",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "retired miners"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2740",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "miners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "retiree",
+            "propbank": "retiree.XX",
+            "mentionid": "em-3154",
+            "modality": "generic",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-2813",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "retiree"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "Encircle",
+            "propbank": "UNK",
+            "mentionid": "em-1854",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-89",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Supporters"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-98",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Peabody HQ in Downtown St. Louis"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "march",
+            "propbank": "march.01",
+            "mentionid": "em-1891",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-71",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Thousands of mine workers and supporters"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-98",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the headquarters of Peabody Energy in St. Louis"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1923",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Tuesday, Sept. 24th"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-98",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the headquarters of Peabody Energy in St. Louis"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "March",
+            "propbank": "march.01",
+            "mentionid": "em-2126",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-98",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Peabody Headquarters"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2151",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Tuesday, September 24th"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "March",
+            "propbank": "march.01",
+            "mentionid": "em-2294",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-422",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Crowne Plaza Hotel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "Marchers",
+            "propbank": "marchers.XX",
+            "mentionid": "em-2986",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-488",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marchers"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-563",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Market, Eighth, Chestnut and Seventh Streets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "Marchers",
+            "propbank": "marchers.XX",
+            "mentionid": "em-3084",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-488",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Marchers"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-587",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Kiener Plaza"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "income",
+            "propbank": "income.XX",
+            "mentionid": "em-1949",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-107",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "which"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1974",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$90 million"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1981",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "the second quarter of 2013"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "created",
+            "propbank": "UNK",
+            "mentionid": "em-2378",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-602",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a company created by Peabody in 2007"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2403",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2007"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-107",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Peabody"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "spinoff",
+            "propbank": "UNK",
+            "mentionid": "em-2487",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-107",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Peabody"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-602",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Patriot"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "acquired",
+            "propbank": "acquire.01",
+            "mentionid": "em-2515",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-602",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Patriot"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "ent-731",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Magnum"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "declarebankruptcy",
+            "lemma": "bankruptcy",
+            "propbank": "UNK",
+            "mentionid": "em-2545",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-602",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "which"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2570",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sue",
+            "lemma": "lawsuit",
+            "propbank": "UNK",
+            "mentionid": "em-2671",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Plaintiff",
+                "entity": "ent-167",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "The union\u0092s"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-626",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Arch"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-968",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "West Virginia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "kill jobs",
+            "propbank": "kill jobs.XX",
+            "mentionid": "em-2743",
+            "modality": "generic",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-860",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "nationwide"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sue",
+            "lemma": "court",
+            "propbank": "UNK",
+            "mentionid": "em-3112",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Plaintiff",
+                "entity": "ent-167",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "The union"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-107",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Peabody\u0092s"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3144",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "August"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-671",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "court"
+            }
+        ]
+    }
+]

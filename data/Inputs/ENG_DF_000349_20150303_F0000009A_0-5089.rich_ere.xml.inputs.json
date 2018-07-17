@@ -1,0 +1,560 @@
+[
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-568eb23c_32_1027",
+            "modality": "generic",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-568eb23c_32_177",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the Defendant"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "tried",
+            "propbank": "try.02",
+            "mentionid": "em-568eb23c_32_1048",
+            "modality": "generic",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-568eb23c_32_186",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a board of state-approved DNA experts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "tried",
+            "propbank": "try.02",
+            "mentionid": "em-568eb23c_32_1069",
+            "modality": "other",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-568eb23c_32_213",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Enron guys"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-568eb23c_32_222",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "12 state-approved finance experts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "tried",
+            "propbank": "try.02",
+            "mentionid": "em-568eb23c_32_1099",
+            "modality": "other",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-NIL03595",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Darren Wilson"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-568eb23c_32_237",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "12 state-approved police procedure experts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-568eb23c_32_1129",
+            "modality": "generic",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-568eb23c_32_252",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "state-approved expert"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killed",
+            "propbank": "killed.XX",
+            "mentionid": "em-568eb23c_32_1152",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-568eb23c_32_300",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a war hero"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-568eb23c_32_1182",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-568eb23c_32_300",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a war hero"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "weigh in",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_32_1212",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_32_324",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "some Shag attorneys"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "kill",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_32_1242",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-568eb23c_32_354",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killer",
+            "propbank": "killer.XX",
+            "mentionid": "em-568eb23c_32_1489",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The killer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "kill",
+            "propbank": "kill.01",
+            "mentionid": "em-568eb23c_32_1272",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_32_354",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killer",
+            "propbank": "killer.XX",
+            "mentionid": "em-568eb23c_32_1510",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The killer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "presented",
+            "propbank": "presented.XX",
+            "mentionid": "em-568eb23c_32_1390",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-568eb23c_32_333",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the jury"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "appointed",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_32_1436",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_32_462",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "state appointed experts"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_32_204",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "state"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_32_1466",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a war hero"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "send",
+            "propbank": "send.01",
+            "mentionid": "em-568eb23c_32_1531",
+            "modality": "generic",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-568eb23c_32_513",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "these guys"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "destination",
+                "entity": "ent-568eb23c_32_540",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "over there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fight",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_32_1568",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "their country"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-568eb23c_32_540",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "over there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "presented",
+            "propbank": "presented.XX",
+            "mentionid": "em-568eb23c_32_1605",
+            "modality": "other",
+            "framenet": "fn::Assemble"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-568eb23c_32_333",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The jury"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "opined",
+            "propbank": "opined.XX",
+            "mentionid": "em-568eb23c_32_1642",
+            "modality": "other",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-568eb23c_32_636",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "put on",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_32_1665",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_32_333",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The jury"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "testified",
+            "propbank": "testified.XX",
+            "mentionid": "em-568eb23c_32_1702",
+            "modality": "other",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-568eb23c_32_678",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "testified",
+            "propbank": "testified.XX",
+            "mentionid": "em-568eb23c_32_1725",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-568eb23c_32_651",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the state"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-568eb23c_32_333",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The jury"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-NIL03593",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    }
+]

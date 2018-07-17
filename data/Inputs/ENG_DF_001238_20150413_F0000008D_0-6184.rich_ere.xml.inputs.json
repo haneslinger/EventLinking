@@ -1,0 +1,447 @@
+[
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "saying",
+            "propbank": "say.01",
+            "mentionid": "em-56a65694_2_1184",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "be",
+            "propbank": "UNK",
+            "mentionid": "em-56a65694_2_1235",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-56a65694_2_1260",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "be",
+            "propbank": "UNK",
+            "mentionid": "em-56a65694_2_1265",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-56a65694_2_1290",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "win",
+            "propbank": "UNK",
+            "mentionid": "em-56a65694_2_1293",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-56a65694_2_1878",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-56a65694_2_1316",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-NIL00536",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "shaking hands",
+            "propbank": "shaking hands.XX",
+            "mentionid": "em-56a65694_2_1344",
+            "modality": "other",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-56a65694_2_450",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "some people who have just lived through a war"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "selected",
+            "propbank": "UNK",
+            "mentionid": "em-56a65694_2_1397",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56a65694_2_489",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "who candidates"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "job",
+            "propbank": "job.XX",
+            "mentionid": "em-56a65694_2_1535",
+            "modality": "generic",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-56a65694_2_1861",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "any one"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "hung",
+            "propbank": "hang.01",
+            "mentionid": "em-56a65694_2_1558",
+            "modality": "other",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-56a65694_2_714",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "your beloved country"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-56a65694_2_705",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "How many gays"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-56a65694_2_1590",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this week"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "hung",
+            "propbank": "hung.XX",
+            "mentionid": "em-56a65694_2_1595",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-56a65694_2_714",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "your beloved country"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56a65694_2_705",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "How many gays"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-56a65694_2_1627",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this week"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "run",
+            "propbank": "UNK",
+            "mentionid": "em-56a65694_2_1665",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-56a65694_2_891",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the airport"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "under fire",
+            "propbank": "under fire.XX",
+            "mentionid": "em-56a65694_2_1702",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-56a65694_2_891",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the airport"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "sexual relations",
+            "propbank": "sexual relations.XX",
+            "mentionid": "em-56a65694_2_1732",
+            "modality": "other",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-m.0509p",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "that woman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "lie",
+            "propbank": "UNK",
+            "mentionid": "em-56a65694_2_1881",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hillary clinton"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "telling",
+            "propbank": "tell.01",
+            "mentionid": "em-56a65694_2_1902",
+            "modality": "actual",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "be",
+            "propbank": "UNK",
+            "mentionid": "em-56a65694_2_1828",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "America"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56a65694_2_675",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "question",
+            "propbank": "UNK",
+            "mentionid": "em-56a65694_2_1923",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL00534",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    }
+]

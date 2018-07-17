@@ -1,0 +1,81 @@
+[
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-262",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A Palestinian source"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "told",
+            "propbank": "tell.01",
+            "mentionid": "em-283",
+            "modality": "actual",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The source, who refused to be identified"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-315",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Tuesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominate",
+            "propbank": "UNK",
+            "mentionid": "em-348",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mishaal"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-373",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "chairmanship"
+            }
+        ]
+    }
+]

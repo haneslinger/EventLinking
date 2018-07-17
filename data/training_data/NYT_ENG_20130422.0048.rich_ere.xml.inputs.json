@@ -1,0 +1,1045 @@
+[
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "EX-DEFENSE",
+            "propbank": "ex-defense.XX",
+            "mentionid": "em-930",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "EX-DEFENSE MINISTER"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-955",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "MINISTER"
+            },
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-964",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "DEFENSE"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1202",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1219",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "minister"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-964",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "defense"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a former defense minister"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-53",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Greece"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "between",
+            "propbank": "between.XX",
+            "mentionid": "em-1376",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-964",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "defense"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1408",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "minister"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1415",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2001"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1622",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The former minister"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1647",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "minister"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "TRIAL",
+            "propbank": "try.02",
+            "mentionid": "em-974",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "EX-DEFENSE MINISTER"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-999",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "CORRUPTION"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-53",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "GREEK"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-1011",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a politician"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1161",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "setting up a complex money laundering network to cover the trail of millions of euros in bribes"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-62",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "here"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1178",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Monday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "trialhearing",
+            "lemma": "prosecution",
+            "propbank": "UNK",
+            "mentionid": "em-1714",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-2029",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he most senior government official to stand trial since the former prime minister and Pasok founder, Andreas Papandreou, was acquitted in 1991 on charges of accepting bribes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-1244",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Akis Tsochatzopoulos"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1269",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "setting up a complex money laundering network to cover the trail of millions of euros in bribes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "accused",
+            "propbank": "accuse.01",
+            "mentionid": "em-1304",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Tsochatzopoulos"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1329",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "using a network of offshore companies during his stint as defense minister between 1996 and 2001, and for several years after that, to siphon off millions of euros in bribes he is said to have taken in exchange for procurement contracts, including the purchase of a Russian missile defense system and German submarines"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-1687",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a founding member of the country\u2019s once dominant socialist party"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bribes",
+            "propbank": "bribe.01",
+            "mentionid": "em-1274",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Akis Tsochatzopoulos"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1299",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "millions of euros"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bribes",
+            "propbank": "bribe.01",
+            "mentionid": "em-1439",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1464",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "millions of euros"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1492",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "several years after that"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Hiring",
+            "ere": "startposition",
+            "lemma": "between",
+            "propbank": "between.XX",
+            "mentionid": "em-1332",
+            "modality": "actual",
+            "framenet": "fn::Hiring"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-964",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "defense"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1364",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "minister"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1371",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1996"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "purchase",
+            "propbank": "purchase.01",
+            "mentionid": "em-1495",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1512",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "Russian missile defense system"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "purchase",
+            "propbank": "purchase.01",
+            "mentionid": "em-1518",
+            "modality": "other",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1535",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "German submarines"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "received",
+            "propbank": "receive.01",
+            "mentionid": "em-1541",
+            "modality": "actual",
+            "framenet": "fn::Receiving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Tsochatzopoulos"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1573",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$210 million"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "worth",
+            "propbank": "worth.XX",
+            "mentionid": "em-1599",
+            "modality": "actual",
+            "framenet": "fn::Amassing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1616",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "3 billion euros"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "founding",
+            "propbank": "UNK",
+            "mentionid": "em-1650",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-290",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the country\u2019s once dominant socialist party"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a founding member of the country\u2019s once dominant socialist party"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-53",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "founder",
+            "propbank": "UNK",
+            "mentionid": "em-2094",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-290",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Pasok"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-422",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former prime minister and Pasok founder"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-1735",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-95",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a court in Salonika"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-365",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former mayor"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-1767",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "life in prison"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-1774",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "embezzling at least 18 million euros from city coffers"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-350",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Salonika"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1788",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "February"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-1793",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-95",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a court in Salonika"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-365",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former mayor"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1825",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "embezzling at least 18 million euros from city coffers"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-350",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Salonika"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1837",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-350",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Greece\u2019s second-largest city"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-365",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former mayor"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1869",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "mayor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "embezzling",
+            "propbank": "embezzle.01",
+            "mentionid": "em-1874",
+            "modality": "actual",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "giver",
+                "entity": "ent-350",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "city"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-365",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Vassilis Papageorgopoulos"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "money",
+                "entity": "f-1906",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "18 million euros"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-350",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "city"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "UNK",
+            "mentionid": "em-1918",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-386",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "more than 30 politicians"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-1950",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "other crimes"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-269",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Greek authorities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-1962",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-401",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "three former ministers"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1987",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Last month"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1994",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "submitting false income declarations"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1999",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-401",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "three former ministers"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2024",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "ministers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-2057",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-422",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former prime minister and Pasok founder"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-305",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "government"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-2089",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "prime minister"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "acquit",
+            "lemma": "acquitted",
+            "propbank": "acquit.01",
+            "mentionid": "em-2122",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-422",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Andreas Papandreou"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2147",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1991"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2154",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "accepting bribes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-2159",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-422",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Andreas Papandreou"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2184",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "accepting bribes"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "bribes",
+            "propbank": "bribe.01",
+            "mentionid": "em-2189",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-422",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Andreas Papandreou"
+            }
+        ]
+    }
+]

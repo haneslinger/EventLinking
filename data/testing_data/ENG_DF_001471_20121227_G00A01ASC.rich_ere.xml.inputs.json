@@ -1,0 +1,168 @@
+[
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "Died",
+            "propbank": "die.01",
+            "mentionid": "em-505",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Norman Schwarzkopf"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-541",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "The leader of the coalition army that drove Saddam Hussein's forces out of Kuwait in 1991"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "drove",
+            "propbank": "drove.XX",
+            "mentionid": "em-562",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-579",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1991"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-36",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificGroup",
+                "entity-text": "the coalition army"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Kuwait"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Saddam Hussein's forces"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-653",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-120",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "A friend of my Dad's whose husband served with Norman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "open",
+            "propbank": "UNK",
+            "mentionid": "em-761",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-117",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "drove",
+            "propbank": "drove.XX",
+            "mentionid": "em-835",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specificGroup",
+                "entity-text": "Saddam Hussein's forces"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-45",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Kuwait"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-867",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1991"
+            }
+        ]
+    }
+]

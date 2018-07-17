@@ -1,0 +1,237 @@
+[
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "appeal",
+            "propbank": "appeal.01",
+            "mentionid": "em-656",
+            "modality": "actual",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-42",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Supreme court"
+            },
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a representative of the Justice Department"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-772",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1939"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "idictment",
+            "propbank": "idictment.XX",
+            "mentionid": "em-677",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two men"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1075",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "transporting a sawed-off shotgun"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "versus",
+            "propbank": "versus.XX",
+            "mentionid": "em-698",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-42",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Court"
+            },
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-60",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "United States"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Miller"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "versus",
+            "propbank": "versus.XX",
+            "mentionid": "em-719",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-60",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "United States"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Miller"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-42",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Court"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "v.",
+            "propbank": "v..XX",
+            "mentionid": "em-740",
+            "modality": "actual",
+            "framenet": "fn::Try_defendant"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-63",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "State"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Aymette"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-63",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Tennessee"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "transporting",
+            "propbank": "transport.01",
+            "mentionid": "em-1078",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "two men"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-1103",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "sawed-off shotgun"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "set up",
+            "propbank": "UNK",
+            "mentionid": "em-1108",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-69",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the states"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-859",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "militia"
+            }
+        ]
+    }
+]

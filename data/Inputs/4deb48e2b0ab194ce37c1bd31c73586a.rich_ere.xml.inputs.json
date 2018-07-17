@@ -1,0 +1,1301 @@
+[
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "executed",
+            "propbank": "execute.01",
+            "mentionid": "em-960",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-135",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Virginia"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Joseph O'Dell"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1139",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July 23, 1997"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "executed",
+            "propbank": "execute.01",
+            "mentionid": "em-981",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-132",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Texas"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jesse Jacobs"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1153",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "January 4, 1995"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-3020",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-1002",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jacobs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-1023",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jacobs' co-defendant"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-1044",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Drew"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-1065",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "executed",
+            "propbank": "execute.01",
+            "mentionid": "em-1202",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-1199",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Innocent people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "acquit",
+            "lemma": "exonerated",
+            "propbank": "exonerate.01",
+            "mentionid": "em-1228",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-90",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "22 from the state of Florida alone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "executed",
+            "propbank": "execute.01",
+            "mentionid": "em-1257",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-123",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the government"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-1225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a person with an extraordinarily strong case of innocence"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-1310",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jacobs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-1333",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his co-defendant"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-1356",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the co-defendant"
+            },
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-132",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the state"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-3116",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "trialhearing",
+            "lemma": "testimony",
+            "propbank": "UNK",
+            "mentionid": "em-1425",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jacobs' co-defendant"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-3123",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Prosecutor",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The prosecution"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "testimony",
+            "propbank": "UNK",
+            "mentionid": "em-1448",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jacobs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "pulled the trigger",
+            "propbank": "pulled the trigger.XX",
+            "mentionid": "em-1379",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his co-defendant"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "pulled the trigger",
+            "propbank": "pulled the trigger.XX",
+            "mentionid": "em-1404",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jacobs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "shooting",
+            "propbank": "UNK",
+            "mentionid": "em-1471",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-2366",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his co-defendant"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-1494",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-1519",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "hearing",
+            "propbank": "hearing.02",
+            "mentionid": "em-1524",
+            "modality": "other",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-3137",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "acquit",
+            "lemma": "exonerating",
+            "propbank": "exonerate.01",
+            "mentionid": "em-1547",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Drew"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murders",
+            "propbank": "murder.01",
+            "mentionid": "em-1631",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Manson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-1763",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-78",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "California criminals"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-1760",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "other states less stringent"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "execute",
+            "propbank": "execute.01",
+            "mentionid": "em-1972",
+            "modality": "other",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Attorney General"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-93",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "3.5% of persons whom the Attorney General has attempted to execute"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "execute",
+            "propbank": "UNK",
+            "mentionid": "em-2159",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Attorney General"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-93",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "3.5% of persons whom the Attorney General has attempted to execute"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "executed",
+            "propbank": "executed.XX",
+            "mentionid": "em-2076",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1199",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Innocent people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "executed",
+            "propbank": "executed.XX",
+            "mentionid": "em-2209",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1225",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a person with an extraordinarily strong case of innocence"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "executed",
+            "propbank": "executed.XX",
+            "mentionid": "em-2276",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-135",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Virginia"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-33",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Joseph O'Dell"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2308",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July 23, 1997"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "executed",
+            "propbank": "executed.XX",
+            "mentionid": "em-2322",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-132",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Texas"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jesse Jacobs"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2354",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "January 4, 1995"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "Texasexecuted",
+            "propbank": "texasexecuted.XX",
+            "mentionid": "em-2454",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-132",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Texasexecuted"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Robert Nelson Drew"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2486",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "August 2, 1994"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "Texasexecuted",
+            "propbank": "texasexecuted.XX",
+            "mentionid": "em-2491",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-132",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Texasexecuted"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Robert Nelson Drew"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-2523",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2530",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "August 2, 1994"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-2535",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-48",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Drew"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "execution",
+            "propbank": "execute.01",
+            "mentionid": "em-1107",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-132",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Texasexecuted"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1181",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1993"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "execution",
+            "propbank": "execute.01",
+            "mentionid": "em-1580",
+            "modality": "other",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Herrera"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "Texasexecuted",
+            "propbank": "texasexecuted.XX",
+            "mentionid": "em-2572",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-132",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Texasexecuted"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Leonel Herrera"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2604",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1993"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "Texasexecuted",
+            "propbank": "texasexecuted.XX",
+            "mentionid": "em-2609",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-132",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Texasexecuted"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Leonel Herrera"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2662",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1993"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "execution",
+            "propbank": "UNK",
+            "mentionid": "em-2679",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Herrera"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "execution",
+            "propbank": "UNK",
+            "mentionid": "em-2700",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-54",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "affidavit",
+            "propbank": "affidavit.XX",
+            "mentionid": "em-2630",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-60",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A former Texas judge"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "execution",
+            "propbank": "execute.01",
+            "mentionid": "em-1086",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-135",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "state"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1167",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1992"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "Virginiaexecuted",
+            "propbank": "virginiaexecuted.XX",
+            "mentionid": "em-2721",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-135",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Virginiaexecuted"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Roger Keith Coleman"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2753",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1992"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "Virginiaexecuted",
+            "propbank": "virginiaexecuted.XX",
+            "mentionid": "em-2758",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-135",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Virginiaexecuted"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Roger Keith Coleman"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2790",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1992"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "execution",
+            "propbank": "UNK",
+            "mentionid": "em-2805",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Victim",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2830",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1992"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-2916",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-81",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-1692",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "left",
+            "propbank": "leave.11",
+            "mentionid": "em-2976",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-2973",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "2 strikers"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-144",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the state"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "affidavit",
+            "propbank": "affidavit.XX",
+            "mentionid": "em-3023",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "another man"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "murders",
+            "propbank": "murders.XX",
+            "mentionid": "em-3053",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-75",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Manson"
+            }
+        ]
+    }
+]

@@ -1,0 +1,658 @@
+[
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murdered",
+            "propbank": "murder.01",
+            "mentionid": "em-1118",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Americans and foreigners of the muslim faith"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1227",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9/11"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacked",
+            "propbank": "attack.01",
+            "mentionid": "em-1139",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-63",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-81",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USA"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacked",
+            "propbank": "attack.01",
+            "mentionid": "em-1160",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-63",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Al Qaeda"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-81",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USA"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1248",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9-11-01"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacked",
+            "propbank": "attack.01",
+            "mentionid": "em-1181",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-63",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Al Qaeda"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-81",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USA"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1262",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9-11-01"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "victims",
+            "propbank": "victims.XX",
+            "mentionid": "em-1745",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the islamist terrorists"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1419",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "victims of the islamist terrorists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "victims",
+            "propbank": "victims.XX",
+            "mentionid": "em-1895",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "these victims of 9/11"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1920",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9/11"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "Victims",
+            "propbank": "victims.XX",
+            "mentionid": "em-1965",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1482",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "past terrorists"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Victims of past terrorists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "murdered",
+            "propbank": "murdered.XX",
+            "mentionid": "em-2269",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2286",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9/11"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Americans and foreigners of the muslim faith"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "War",
+            "propbank": "UNK",
+            "mentionid": "em-1202",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-81",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "us"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-114",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Gulf"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-1775",
+            "modality": "generic",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-2246",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Muslims in lower Manhattan"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-1389",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a mosque or prayer room there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "victims",
+            "propbank": "victims.XX",
+            "mentionid": "em-1812",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1407",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "victims of the atrocities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "victims",
+            "propbank": "victims.XX",
+            "mentionid": "em-1842",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1407",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "victims of the atrocities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "victims",
+            "propbank": "victims.XX",
+            "mentionid": "em-1863",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the islamist terrorists"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1419",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "victims of the islamist terrorists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "victims",
+            "propbank": "victims.XX",
+            "mentionid": "em-1923",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "these victims of 9/11"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "Victims",
+            "propbank": "victims.XX",
+            "mentionid": "em-1993",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-1482",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "past terrorists"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Victims of past terrorists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "victims",
+            "propbank": "victims.XX",
+            "mentionid": "em-2021",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1428",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "future terrorists"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "victims of future terrorists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "victims",
+            "propbank": "victims.XX",
+            "mentionid": "em-2051",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-1428",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "future terrorists"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "victims of future terrorists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "building",
+            "propbank": "UNK",
+            "mentionid": "em-2081",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-2108",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "this Muslim complex"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "building",
+            "propbank": "UNK",
+            "mentionid": "em-2119",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-2108",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "this Muslim complex"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-2140",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Saudi king"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "declared",
+            "propbank": "declared.XX",
+            "mentionid": "em-2163",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Saudi king"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "kill",
+            "propbank": "kill.01",
+            "mentionid": "em-2186",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-1521",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "One"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1530",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "kill",
+            "propbank": "UNK",
+            "mentionid": "em-2216",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-1521",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "One"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-1530",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "Invasion",
+            "propbank": "invade.01",
+            "mentionid": "em-2362",
+            "modality": "actual",
+            "framenet": "fn::Invading"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-81",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "USA"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-93",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Kuwait"
+            }
+        ]
+    }
+]

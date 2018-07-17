@@ -1,0 +1,805 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "beborn",
+            "lemma": "birth",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_62_1536",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Barry"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.019rg5",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the land of Barry's birth"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "deadly",
+            "propbank": "deadly.XX",
+            "mentionid": "em-568eb23c_62_1594",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.027ggxz",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Al-Shabaab"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-NIL03655",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Kenyan college"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "Death",
+            "propbank": "die.01",
+            "mentionid": "em-568eb23c_62_1867",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_62_645",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "150"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "massacre",
+            "propbank": "massacre.01",
+            "mentionid": "em-568eb23c_62_2341",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0c6xtw",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Garissa"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "massacred",
+            "propbank": "massacre.01",
+            "mentionid": "em-568eb23c_62_2455",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-NIL03655",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "where"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_62_870",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "innocent men and women"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attack",
+            "propbank": "attack.01",
+            "mentionid": "em-568eb23c_62_1631",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.027ggxz",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Al-Shabaab"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-NIL03655",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Kenyan college"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.019rg5",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Kenyan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "massacre",
+            "propbank": "massacre.01",
+            "mentionid": "em-568eb23c_62_2320",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0c6xtw",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Garissa"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "atrocities",
+            "propbank": "atrocities.XX",
+            "mentionid": "em-568eb23c_62_2406",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-NIL03655",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Garissa University College"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-568eb23c_62_861",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "innocent men and women"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "massacred",
+            "propbank": "massacred.XX",
+            "mentionid": "em-568eb23c_62_2434",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-568eb23c_62_900",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacked",
+            "propbank": "attack.01",
+            "mentionid": "em-568eb23c_62_1668",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.027ggxz",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.019c57",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Kenyon College"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "dead",
+            "propbank": "dead.XX",
+            "mentionid": "em-568eb23c_62_1698",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_62_543",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Over 70 Christians"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.019rg5",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the fatherland"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "slaughtering",
+            "propbank": "slaughtering.XX",
+            "mentionid": "em-568eb23c_62_1728",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-568eb23c_62_567",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Non-Muslims"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "slaughtering",
+            "propbank": "slaughter.01",
+            "mentionid": "em-568eb23c_62_1786",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_62_567",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Non-Muslims"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "strikes",
+            "propbank": "strike.01",
+            "mentionid": "em-568eb23c_62_1844",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.03spz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Israel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "kill",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_62_1888",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-568eb23c_62_654",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "kill",
+            "propbank": "kill.01",
+            "mentionid": "em-568eb23c_62_1911",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_62_654",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "invades",
+            "propbank": "invade.01",
+            "mentionid": "em-568eb23c_62_1980",
+            "modality": "other",
+            "framenet": "fn::Invading"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-568eb23c_62_654",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-568eb23c_62_669",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "invades",
+            "propbank": "invades.XX",
+            "mentionid": "em-568eb23c_62_2010",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-568eb23c_62_654",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-568eb23c_62_669",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "invader",
+            "propbank": "invader.XX",
+            "mentionid": "em-568eb23c_62_2040",
+            "modality": "generic",
+            "framenet": "fn::Invading"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-568eb23c_62_699",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "an invader"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "invader",
+            "propbank": "invader.XX",
+            "mentionid": "em-568eb23c_62_2063",
+            "modality": "generic",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-568eb23c_62_699",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "an invader"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "Killing",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_62_2086",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-568eb23c_62_708",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone threatening your life"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_62_1327",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "your"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "Killing",
+            "propbank": "kill.01",
+            "mentionid": "em-568eb23c_62_2123",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-568eb23c_62_1327",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "your"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_62_708",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someone threatening your life"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "killing",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_62_2202",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_62_756",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-568eb23c_62_2232",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-568eb23c_62_756",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "statement",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_62_2255",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Obama"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "expressing",
+            "propbank": "expressing.XX",
+            "mentionid": "em-568eb23c_62_2362",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-568eb23c_62_852",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "our"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reports",
+            "propbank": "reports.XX",
+            "mentionid": "em-568eb23c_62_2383",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.0c6xtw",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Garissa"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "lost",
+            "propbank": "lost.XX",
+            "mentionid": "em-568eb23c_62_2490",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_62_972",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the responders who lost their lives in the selfless protection of the students and faculty"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "message",
+            "propbank": "message.01",
+            "mentionid": "em-568eb23c_62_2557",
+            "modality": "other",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_62_1029",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the Kenyan people"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_62_2589",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.019rg5",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Kenya"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "visit",
+            "propbank": "visit.01",
+            "mentionid": "em-568eb23c_62_2601",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-m.019rg5",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Kenya"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_62_2633",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "comment",
+            "propbank": "comment.01",
+            "mentionid": "em-568eb23c_62_2638",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.02mjmr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Obama"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_62_2663",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Easter Sunday"
+            }
+        ]
+    }
+]

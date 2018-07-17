@@ -1,0 +1,152 @@
+[
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-462",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "BB"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-81",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Rawapindi"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-494",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "about an hour ago"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "speak",
+            "propbank": "speak.04",
+            "mentionid": "em-497",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "our students"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "blow up",
+            "propbank": "blow.14",
+            "mentionid": "em-549",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "kill",
+            "propbank": "kill.01",
+            "mentionid": "em-595",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Islamic extremists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elections",
+            "propbank": "elect.01",
+            "mentionid": "em-675",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-692",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Jan 9"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "publish",
+            "propbank": "UNK",
+            "mentionid": "em-752",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-60",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jim Fetzer"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-777",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a book"
+            }
+        ]
+    }
+]

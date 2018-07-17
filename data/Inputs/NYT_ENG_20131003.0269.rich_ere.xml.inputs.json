@@ -1,0 +1,1204 @@
+[
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "story",
+            "propbank": "story.XX",
+            "mentionid": "em-1341",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2997",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "tomorrow"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "JAILED",
+            "propbank": "jailed.XX",
+            "mentionid": "em-1361",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "LEADER OF FAR-RIGHT PARTY IN GREECE"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "remand",
+            "propbank": "UNK",
+            "mentionid": "em-1487",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-163",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The magistrate"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nikos Michaloliakos"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3004",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "a day after three of his fellow lawmakers facing similar charges were released from custody and told not to leave the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "custody",
+            "propbank": "UNK",
+            "mentionid": "em-1515",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The leader of the extreme-right Golden Dawn party"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3011",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "returned",
+            "propbank": "return.01",
+            "mentionid": "em-1383",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The leader of the extreme-right Golden Dawn party"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3018",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "setting up",
+            "propbank": "UNK",
+            "mentionid": "em-1465",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The leader of the extreme-right Golden Dawn party"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-103",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a criminal organization"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Discharge",
+            "ere": "releaseparole",
+            "lemma": "released",
+            "propbank": "release.01",
+            "mentionid": "em-1541",
+            "modality": "actual",
+            "framenet": "fn::Releasing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Captive",
+                "ere": "person",
+                "entity": "ent-202",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "three of his fellow lawmakers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "leave",
+            "propbank": "leave.11",
+            "mentionid": "em-1567",
+            "modality": "other",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-202",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "three of his fellow lawmakers"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-37",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "held",
+            "propbank": "held.XX",
+            "mentionid": "em-1595",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-226",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a fourth"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "trial",
+            "propbank": "try.02",
+            "mentionid": "em-1617",
+            "modality": "other",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-226",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a fourth"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "trialhearing",
+            "lemma": "testimony",
+            "propbank": "UNK",
+            "mentionid": "em-1639",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-235",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "an Athens courtroom"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Michaloliakos"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "told",
+            "propbank": "tell.01",
+            "mentionid": "em-2399",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-829",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "reporters"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-808",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the capital\u2019s court complex"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "UNK",
+            "mentionid": "em-2459",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-163",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a Greek magistrate"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The leader of the extreme-right Golden Dawn party"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-2489",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "setting up a criminal organization"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-1661",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-271",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a self-professed supporter of Golden Dawn"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3025",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last month"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "fatally",
+            "propbank": "fatally.XX",
+            "mentionid": "em-2754",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-256",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Fyssas"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-1162",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": " the spot where Fyssas was fatally stabbed"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-2812",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-256",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Fyssas"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3032",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sept. 18"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "testifying",
+            "propbank": "testifying.XX",
+            "mentionid": "em-2844",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-739",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a magistrate"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-3039",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Later Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endorg",
+            "lemma": "ended",
+            "propbank": "UNK",
+            "mentionid": "em-2590",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-193",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Greece\u2019s seven-year military dictatorship"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-37",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Greece"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3046",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1974"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "saying",
+            "propbank": "saying.XX",
+            "mentionid": "em-1849",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "testimony",
+            "propbank": "UNK",
+            "mentionid": "em-2722",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Michaloliakos"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-235",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "an Athens courtroom"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3053",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last month"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sue",
+            "lemma": "accused",
+            "propbank": "UNK",
+            "mentionid": "em-2780",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-502",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an officer from the regional police precinct accused of supplying Golden Dawn with information"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-2810",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "supplying Golden Dawn with information"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transfermoney",
+            "lemma": "money laundering",
+            "propbank": "money laundering.XX",
+            "mentionid": "em-2239",
+            "modality": "other",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "giver",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The lawmaker"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The lawmaker"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "transferred",
+            "propbank": "transferred.XX",
+            "mentionid": "em-1959",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-487",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Yiannis Lagos"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-478",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Korydallos"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3060",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "later in the day"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "taken",
+            "propbank": "take.35",
+            "mentionid": "em-1999",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-502",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an officer from the regional police precinct accused of supplying Golden Dawn with information"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-598",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "two other jails in central Greece"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "reported",
+            "propbank": "reported.XX",
+            "mentionid": "em-2033",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-622",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "state television"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "telephoned",
+            "propbank": "telephone.01",
+            "mentionid": "em-2107",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Michaloliakos"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-3067",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sept. 18"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-1683",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-256",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": " 34-year-old hip-hop artist and anti-fascist"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-271",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a self-professed supporter of Golden Dawn"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3074",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last month"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "stabbed",
+            "propbank": "stabbed.XX",
+            "mentionid": "em-1931",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-256",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Fyssas"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-1162",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": " the spot where Fyssas was fatally stabbed"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "killing",
+            "propbank": "UNK",
+            "mentionid": "em-2141",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-256",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Fyssas"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3081",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sept. 18"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "blackmail",
+            "propbank": "UNK",
+            "mentionid": "em-2169",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The lawmaker"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "leaked",
+            "propbank": "leak.01",
+            "mentionid": "em-2211",
+            "modality": "actual",
+            "framenet": "fn::Reveal_secret"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-667",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the Greek media"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3088",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this week"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "custody",
+            "propbank": "UNK",
+            "mentionid": "em-2259",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-682",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the party\u2019s second in command"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-3095",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Later Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "returned",
+            "propbank": "return.01",
+            "mentionid": "em-2287",
+            "modality": "other",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-682",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the party\u2019s second in command"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "testifying",
+            "propbank": "testifying.XX",
+            "mentionid": "em-2315",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-682",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the party\u2019s second in command"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-739",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a magistrate"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "transfer",
+            "propbank": "UNK",
+            "mentionid": "em-2343",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-682",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-1287",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "Arriving",
+            "propbank": "arrive.01",
+            "mentionid": "em-2371",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-682",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Pappas"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-808",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the capital\u2019s court complex"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "Leaving",
+            "propbank": "leave.11",
+            "mentionid": "em-2425",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Michaloliakos"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-358",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "court"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3102",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "early Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-2622",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-202",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "three of his fellow lawmakers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "custody",
+            "propbank": "UNK",
+            "mentionid": "em-2644",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-202",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "three of his fellow lawmakers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "stay",
+            "propbank": "UNK",
+            "mentionid": "em-2876",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-682",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-769",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the Athens police headquarters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verbal_Communication",
+            "ere": "contact",
+            "lemma": "cried",
+            "propbank": "cry.02",
+            "mentionid": "em-2910",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-358",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "court"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2946",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "early Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "urged",
+            "propbank": "urged.XX",
+            "mentionid": "em-2950",
+            "modality": "actual",
+            "framenet": "fn::Quarreling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-46",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-358",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "court"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-3109",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "early Thursday"
+            }
+        ]
+    }
+]

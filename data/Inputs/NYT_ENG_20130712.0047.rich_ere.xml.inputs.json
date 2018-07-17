@@ -1,0 +1,665 @@
+[
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "ESCAPE",
+            "propbank": "escape.01",
+            "mentionid": "em-1158",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "MORSI"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-34",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "PRISON"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "escape",
+            "propbank": "escape.01",
+            "mentionid": "em-1186",
+            "modality": "actual",
+            "framenet": "fn::Escaping"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-94",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-34",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "prison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "escaped",
+            "propbank": "escape.01",
+            "mentionid": "em-1422",
+            "modality": "actual",
+            "framenet": "fn::Escaping"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-94",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1447",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "two days later"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-34",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Wadi Natroun prison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrest",
+            "propbank": "arrest.01",
+            "mentionid": "em-1239",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-172",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "many Muslim Brotherhood members"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ousted",
+            "propbank": "oust.01",
+            "mentionid": "em-1260",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the ousted president"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1287",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "oust",
+            "propbank": "oust.01",
+            "mentionid": "em-1297",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ouster",
+            "propbank": "ouster.XX",
+            "mentionid": "em-1487",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1512",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July 3"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ouster",
+            "propbank": "ouster.XX",
+            "mentionid": "em-1545",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Morsi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "briefing",
+            "propbank": "UNK",
+            "mentionid": "em-1318",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-235",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1350",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "ouster",
+            "propbank": "ouster.XX",
+            "mentionid": "em-1355",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-121",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mubarak"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1380",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2011"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested",
+            "propbank": "arrest.01",
+            "mentionid": "em-1383",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-76",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "other Brotherhood leaders"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1419",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Jan. 28"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-1459",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Morsi"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1484",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-1515",
+            "modality": "other",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-76",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the others"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-1566",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-580",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Muslim extremists"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-589",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Christians they accuse of supporting his fall"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-1798",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-655",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "northern Sinai Peninsula"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-1659",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-76",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "members of the Muslim Brotherhood"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-1689",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-136",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "an appeals court"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-1710",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Morsi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-1596",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-727",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "isolated villages in upper Egypt"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-1775",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-1819",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-673",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "a resort town on the Mediterranean Coast"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-1842",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-709",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Suez Canal"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "accused",
+            "propbank": "accuse.01",
+            "mentionid": "em-1865",
+            "modality": "actual",
+            "framenet": "fn::Judgment_communication"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-385",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Morsi\u2019s opponents"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "accused",
+            "propbank": "accused.XX",
+            "mentionid": "em-1895",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-442",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "local news outlets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-1918",
+            "modality": "other",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-145",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the State Security prosecutor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "criticized",
+            "propbank": "criticized.XX",
+            "mentionid": "em-1941",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-217",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the Obama administration"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "remarks",
+            "propbank": "remark.01",
+            "mentionid": "em-1752",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-235",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a State Department spokeswoman"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1968",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Thursday"
+            }
+        ]
+    }
+]

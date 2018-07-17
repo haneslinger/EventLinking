@@ -1,0 +1,441 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "way",
+            "propbank": "UNK",
+            "mentionid": "em-1473",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1498",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "today"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "select",
+            "propbank": "UNK",
+            "mentionid": "em-1501",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-155",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-164",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "leaders who are spiritual"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "broadcasting",
+            "propbank": "broadcasting.XX",
+            "mentionid": "em-1531",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-185",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The press"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "asked",
+            "propbank": "ask.03",
+            "mentionid": "em-1554",
+            "modality": "actual",
+            "framenet": "fn::Questioning"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-200",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "some fellow Christians"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-1584",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-104",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Huckabee"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "issue",
+            "propbank": "UNK",
+            "mentionid": "em-1623",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-272",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "us"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "married",
+            "propbank": "UNK",
+            "mentionid": "em-1646",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-374",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "marriage",
+            "propbank": "UNK",
+            "mentionid": "em-1796",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-374",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Giuliani"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorced",
+            "propbank": "divorce.01",
+            "mentionid": "em-1669",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-374",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorces",
+            "propbank": "divorce.01",
+            "mentionid": "em-1722",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-374",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorce",
+            "propbank": "divorce.01",
+            "mentionid": "em-1692",
+            "modality": "generic",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-389",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those who are unchurched"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-1743",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-374",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Giuliani"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-1840",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-374",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorce",
+            "propbank": "divorce.01",
+            "mentionid": "em-1766",
+            "modality": "other",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-476",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the powerful person in the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorce",
+            "propbank": "divorce.01",
+            "mentionid": "em-1817",
+            "modality": "other",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-374",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Giuliani"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-1861",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-485",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a republican"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "speaks",
+            "propbank": "speak.04",
+            "mentionid": "em-1928",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-104",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "tell",
+            "propbank": "tell.01",
+            "mentionid": "em-1951",
+            "modality": "other",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-410",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "anyone"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1983",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "now"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Discharge",
+            "ere": "releaseparole",
+            "lemma": "paroled",
+            "propbank": "paroled.XX",
+            "mentionid": "em-2009",
+            "modality": "actual",
+            "framenet": "fn::Releasing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-104",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Captive",
+                "ere": "person",
+                "entity": "ent-1160",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "all the people he paroled while in Arkansas"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-1175",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Arkansas"
+            }
+        ]
+    }
+]

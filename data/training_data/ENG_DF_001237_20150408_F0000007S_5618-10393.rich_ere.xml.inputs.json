@@ -1,0 +1,972 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "hurt",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_771",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-56b120fc_32_805",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the many people he hurt"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentencing",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_935",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-56b120fc_32_932",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "some courts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1018",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-56b120fc_32_495",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a individual"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-56b120fc_32_222",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The Judge"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentencing",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1116",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-56b120fc_32_222",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the judges"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentencing",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1778",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-56b120fc_32_222",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "A judge"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentence",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2017",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-56b120fc_32_222",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The judge"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentencing",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_988",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the individual"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-56b120fc_32_1263",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Judge"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-56b120fc_32_1093",
+            "modality": "generic",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-56b120fc_32_495",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the defendant"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "guilty",
+            "propbank": "guilty.XX",
+            "mentionid": "em-56b120fc_32_1813",
+            "modality": "generic",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-56b120fc_32_222",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the judges"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "placing",
+            "propbank": "placing.XX",
+            "mentionid": "em-56b120fc_32_1164",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-56b120fc_32_1189",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "the backpack"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "recommendation",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1417",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56b120fc_32_222",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the judge"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "recommendation",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1449",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56b120fc_32_213",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The jury"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "recommendation",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1535",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56b120fc_32_213",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "recommendation",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1926",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56b120fc_32_213",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a jury"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "recommendation",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1470",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56b120fc_32_435",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "recommendation",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1560",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56b120fc_32_486",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The prosecutor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "recommendation",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1581",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56b120fc_32_964",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the defense"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-56b120fc_32_1602",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-56b120fc_32_1263",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Judge"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "Guilty",
+            "propbank": "guilty.XX",
+            "mentionid": "em-56b120fc_32_1639",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-56b120fc_32_1260",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Jury"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the individual"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "guilty",
+            "propbank": "guilty.XX",
+            "mentionid": "em-56b120fc_32_1743",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-56b120fc_32_1260",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the jury"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the individual"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "recommendation",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1676",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56b120fc_32_1063",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "recommendations",
+            "propbank": "recommendations.XX",
+            "mentionid": "em-56b120fc_32_1722",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-56b120fc_32_2279",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "say",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1699",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56b120fc_32_1260",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "acquit",
+            "lemma": "not guilty",
+            "propbank": "not guilty.XX",
+            "mentionid": "em-56b120fc_32_1834",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-56b120fc_32_213",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "A jury"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "penalty",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1905",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-56b120fc_32_1922",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "penalty",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2202",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-56b120fc_32_2219",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "penalty",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2445",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-56b120fc_32_2761",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "penalty",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2489",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-56b120fc_32_2768",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "saying",
+            "propbank": "saying.XX",
+            "mentionid": "em-56b120fc_32_2038",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL01379",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "execute",
+            "lemma": "death",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2086",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "execute",
+            "lemma": "death",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2580",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "this excrescence"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "execute",
+            "lemma": "death",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2673",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "penalty",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2109",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-56b120fc_32_2134",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "penalty",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2354",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-56b120fc_32_625",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-56b120fc_32_2379",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "penalty",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2552",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-56b120fc_32_2569",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "this excrescence"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "penalty",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2645",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-56b120fc_32_2670",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "death"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "stated",
+            "propbank": "stated.XX",
+            "mentionid": "em-56b120fc_32_2137",
+            "modality": "actual",
+            "framenet": "fn::Social_event_collective"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-56b120fc_32_1260",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "all of the jurors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "agree",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2256",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56b120fc_32_522",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "hurt",
+            "propbank": "hurt.02",
+            "mentionid": "em-56b120fc_32_2727",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Cause",
+                "ere": "agent",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56b120fc_32_805",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the many people he hurt"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Discharge",
+            "ere": "releaseparole",
+            "lemma": "getting out",
+            "propbank": "getting out.XX",
+            "mentionid": "em-56b120fc_32_2601",
+            "modality": "other",
+            "framenet": "fn::Releasing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Captive",
+                "ere": "person",
+                "entity": "ent-56b120fc_32_667",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "teaching",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_2694",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL01385",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentences",
+            "propbank": "UNK",
+            "mentionid": "em-56b120fc_32_1072",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-56b120fc_32_495",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the defendant"
+            }
+        ]
+    }
+]

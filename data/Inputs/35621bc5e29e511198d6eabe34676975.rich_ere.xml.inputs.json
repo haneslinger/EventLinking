@@ -1,0 +1,271 @@
+[
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "went",
+            "propbank": "go.03",
+            "mentionid": "em-1103",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-90",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Nam"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1240",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "63"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "came",
+            "propbank": "come.01",
+            "mentionid": "em-1124",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-39",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "i"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-120",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "home"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "deployments",
+            "propbank": "deployments.XX",
+            "mentionid": "em-1145",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "My"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-144",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Gulf of Tonkin"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1261",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "70"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "deployments",
+            "propbank": "deployments.XX",
+            "mentionid": "em-1166",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "My"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-144",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Gulf of Tonkin"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1275",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "'69"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "deployments",
+            "propbank": "deployments.XX",
+            "mentionid": "em-1187",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "My"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-144",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Gulf of Tonkin"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1289",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "'67"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "taught",
+            "propbank": "taught.XX",
+            "mentionid": "em-1208",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the intolerant priests of an oppressive secular faith"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-150",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "reeducation camps"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "dead",
+            "propbank": "dead.XX",
+            "mentionid": "em-1599",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1507",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "millions"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-1620",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-114",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "The killing fields"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1655",
+            "modality": "other",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-1426",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Nobody on this thread"
+            }
+        ]
+    }
+]

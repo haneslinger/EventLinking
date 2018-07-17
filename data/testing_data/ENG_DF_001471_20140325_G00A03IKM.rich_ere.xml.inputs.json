@@ -1,0 +1,213 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "attend",
+            "propbank": "UNK",
+            "mentionid": "em-1223",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-222",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Abdullah G\u00fcl"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1255",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "April 4"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-39",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Istanbul Apple Store"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "download",
+            "propbank": "UNK",
+            "mentionid": "em-1265",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-1282",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the Twitter app"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "built",
+            "propbank": "UNK",
+            "mentionid": "em-1288",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-39",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "an Apple store"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Istanbul"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "inviting",
+            "propbank": "inviting.XX",
+            "mentionid": "em-1341",
+            "modality": "other",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-393",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "the mayor or governor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-1371",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-39",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "that Apple Store"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1396",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "the iDevices that will be sold in that Apple Store"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-30",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Apple"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-1408",
+            "modality": "other",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-30",
+                "entity-ner": "ORG",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Apple"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-39",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "that Apple Store"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "voyage",
+            "propbank": "voyage.01",
+            "mentionid": "em-1438",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-777",
+                "entity-ner": "PER",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "Christopher Columbus"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-201",
+                "entity-ner": "LOC",
+                "entity-specificity": "specificIndividual",
+                "entity-text": "America"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1470",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1492"
+            }
+        ]
+    }
+]

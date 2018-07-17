@@ -1,0 +1,1312 @@
+[
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "captured",
+            "propbank": "captured.XX",
+            "mentionid": "em-3408",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-105",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "FIREBOMB",
+            "propbank": "firebomb.XX",
+            "mentionid": "em-1143",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-108",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-2648",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "most of their cities"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1590",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-2662",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "FIREBOMB"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "killing",
+            "propbank": "UNK",
+            "mentionid": "em-2790",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "hundreds of thousands of Civilians"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-2815",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "FIREBOMB"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-1164",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "hundreds of thousands of Civilians"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-2648",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "most of their cities"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-1590",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            },
+            {
+                "reo": "reo::Instrument",
+                "ere": "instrument",
+                "entity": "f-2676",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "FIREBOMB"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "confined",
+            "propbank": "confined.XX",
+            "mentionid": "em-1185",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-126",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            },
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Japanaese Americans"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-135",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "internment camps"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "arrested and confined",
+            "propbank": "arrest.01",
+            "mentionid": "em-1206",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-57",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Over 5000 German Americans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "confined",
+            "propbank": "confined.XX",
+            "mentionid": "em-2855",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-126",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            },
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-2006",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "German Americans"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-135",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "internment camps"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "message",
+            "propbank": "UNK",
+            "mentionid": "em-1227",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Sato"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1455",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "11 of July"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "lost",
+            "propbank": "lost.XX",
+            "mentionid": "em-1248",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-36",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombing",
+            "propbank": "bomb.02",
+            "mentionid": "em-1269",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-1286",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "bombing"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-114",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Hiroshima"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "atomic-bombing",
+            "propbank": "atomic-bombing.XX",
+            "mentionid": "em-1290",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-114",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Hiroshima"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-150",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "civilian area"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombed",
+            "propbank": "bomb.02",
+            "mentionid": "em-1311",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1590",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-102",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "a couple of Asian cities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombs",
+            "propbank": "bomb.02",
+            "mentionid": "em-1332",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-126",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "America"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1837",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "non combatants"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-2957",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "bombs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombed",
+            "propbank": "bomb.02",
+            "mentionid": "em-1926",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1590",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1908",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "cities full of non-whites"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-2894",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "bombed"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombs",
+            "propbank": "bomb.02",
+            "mentionid": "em-2226",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-3055",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "bombs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killed",
+            "propbank": "killed.XX",
+            "mentionid": "em-2925",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-2094",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "millions"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1590",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "lunch",
+            "propbank": "UNK",
+            "mentionid": "em-1353",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Joseph Stalin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "contact",
+            "lemma": "made",
+            "propbank": "UNK",
+            "mentionid": "em-1374",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-81",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "U.S. interceptors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Discharge",
+            "ere": "releaseparole",
+            "lemma": "released",
+            "propbank": "release.01",
+            "mentionid": "em-1395",
+            "modality": "actual",
+            "framenet": "fn::Releasing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Captive",
+                "ere": "person",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "several thousand"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1511",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1946"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-1122",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-105",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-129",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the territories which she occupied during the war"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-1593",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-1590",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "We"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "war.01",
+            "mentionid": "em-1767",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-147",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the theatre of war"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-2537",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-1722",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Japanese"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transferownership",
+            "lemma": "annexing",
+            "propbank": "annexing.XX",
+            "mentionid": "em-3149",
+            "modality": "other",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-105",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "interview",
+            "propbank": "interview.01",
+            "mentionid": "em-1636",
+            "modality": "other",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Molotov"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murderers",
+            "propbank": "murderers.XX",
+            "mentionid": "em-3282",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Joseph Stalin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_caused_change_location",
+            "ere": "transportartifact",
+            "lemma": "sneaked in",
+            "propbank": "sneaked in.XX",
+            "mentionid": "em-1802",
+            "modality": "actual",
+            "framenet": "fn::Bringing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-126",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "America"
+            },
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "artifact",
+                "entity": "f-2992",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "bombs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "evacuate",
+            "propbank": "evacuate.01",
+            "mentionid": "em-3380",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-105",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-138",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "all territory captured after December 7 1941"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announced",
+            "propbank": "announced.XX",
+            "mentionid": "em-1872",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the retinue of sailors around him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "comments",
+            "propbank": "comments.XX",
+            "mentionid": "em-3352",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-2085",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "those around him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "murderers",
+            "propbank": "murderers.XX",
+            "mentionid": "em-3247",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Joseph Stalin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "A-Bomb",
+            "propbank": "a-bomb.XX",
+            "mentionid": "em-2024",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-2015",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "SOMEPLACE"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-2999",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "A-Bomb"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1590",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "using",
+            "propbank": "UNK",
+            "mentionid": "em-3128",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-3145",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "this gruesome weapon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombing",
+            "propbank": "bomb.02",
+            "mentionid": "em-2056",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-3062",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "bombing"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killed",
+            "propbank": "kill.01",
+            "mentionid": "em-2097",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-1590",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-2094",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "millions"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-102",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "a couple of Asian cities"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "occupied",
+            "propbank": "occupied.XX",
+            "mentionid": "em-3212",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-105",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-129",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the territories which she occupied during the war"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "A bomb",
+            "propbank": "bomb.02",
+            "mentionid": "em-2191",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-108",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Germany"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-126",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-3048",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "A bomb"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombed",
+            "propbank": "bomb.02",
+            "mentionid": "em-3317",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-1590",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-108",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Germany"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-3349",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "bombed"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "occupied",
+            "propbank": "occupied.XX",
+            "mentionid": "em-3177",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-105",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "blood bath",
+            "propbank": "blood bath.XX",
+            "mentionid": "em-2284",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1571",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the 250.000 civilian population of Nagasaki"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-117",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Nagasaki"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-3097",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuclear"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "test",
+            "propbank": "UNK",
+            "mentionid": "em-2331",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-93",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-1755",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the helpless women and innocent children behind enemy lines"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-2363",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "Uranium"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "test",
+            "propbank": "UNK",
+            "mentionid": "em-2381",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-93",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-1755",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the helpless women and innocent children behind enemy lines"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-2420",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "Plutonium"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "captured",
+            "propbank": "captured.XX",
+            "mentionid": "em-3443",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-105",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-138",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "all territory captured after December 7 1941"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "confined",
+            "propbank": "confined.XX",
+            "mentionid": "em-2818",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-126",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-135",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "internment camps"
+            },
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-1987",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Italian Americans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "return",
+            "propbank": "UNK",
+            "mentionid": "em-3471",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-126",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-105",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "proceeding",
+            "propbank": "proceeding.02",
+            "mentionid": "em-3508",
+            "modality": "other",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-2322",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "international court"
+            }
+        ]
+    }
+]

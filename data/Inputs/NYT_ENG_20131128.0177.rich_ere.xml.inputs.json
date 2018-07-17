@@ -1,0 +1,463 @@
+[
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-1426",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Arik Einstein"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-58",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Tel Aviv"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1458",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Tuesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-1461",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "His"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "DIES",
+            "propbank": "die.01",
+            "mentionid": "em-1947",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "ISRAELI SINGER"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-1968",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announced",
+            "propbank": "announced.XX",
+            "mentionid": "em-1482",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-79",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gabriel Barbash"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "taken",
+            "propbank": "take.35",
+            "mentionid": "em-1507",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-34",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Einstein"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-109",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "home"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-151",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "where"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "married",
+            "propbank": "UNK",
+            "mentionid": "em-1746",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-523",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Alona Shochet"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1799",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1963"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "poured into",
+            "propbank": "poured into.XX",
+            "mentionid": "em-1614",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-160",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an estimated crowd of 10,000"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-169",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "Rabin Square"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1646",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "assassination",
+            "propbank": "assassinate.01",
+            "mentionid": "em-1651",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-184",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rabin"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1676",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1995"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-1709",
+            "modality": "actual",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Arieh Einstein"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-58",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Tel Aviv"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1743",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Jan. 3, 1939"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorced",
+            "propbank": "divorce.01",
+            "mentionid": "em-1802",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-532",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The couple"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "remarried",
+            "propbank": "UNK",
+            "mentionid": "em-1827",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-532",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The couple"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorced",
+            "propbank": "divorce.01",
+            "mentionid": "em-1848",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-532",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The couple"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-1871",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-523",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "She"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1898",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2006"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Experience_Injury",
+            "ere": "injure",
+            "lemma": "injured",
+            "propbank": "injure.01",
+            "mentionid": "em-1903",
+            "modality": "actual",
+            "framenet": "fn::Experience_bodily_harm"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Einstein"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "announced",
+            "propbank": "announced.XX",
+            "mentionid": "em-1926",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-781",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Maariv"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2036",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this week"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "assassination",
+            "propbank": "UNK",
+            "mentionid": "em-1681",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-184",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rabin"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1706",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1995"
+            }
+        ]
+    }
+]

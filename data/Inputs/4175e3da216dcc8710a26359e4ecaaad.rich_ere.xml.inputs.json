@@ -1,0 +1,734 @@
+[
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacked",
+            "propbank": "attack.01",
+            "mentionid": "em-803",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nick Griffin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attack",
+            "propbank": "attack.01",
+            "mentionid": "em-824",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the four Somali women"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the lady who was attacked"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-120",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Leicester"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1639",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "recent"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacked",
+            "propbank": "attack.01",
+            "mentionid": "em-2608",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the lady who was attacked"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "came down",
+            "propbank": "come.01",
+            "mentionid": "em-845",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-63",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "middle-class twits who came down to support \"the oppressed minority\" and boost their own sense of self-worth without considering at all the thoughts and feelings of the locals who have had to put up with an illegal travellers site for over ten years and the crime and problems that it would bring"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-126",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Dale Farm"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "fit",
+            "propbank": "UNK",
+            "mentionid": "em-1737",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-1028",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "all 7 billion people"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-117",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-117",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "UK"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "immigration",
+            "propbank": "UNK",
+            "mentionid": "em-1774",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-117",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the only country to allow mass immigration"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "evictions",
+            "propbank": "evictions.XX",
+            "mentionid": "em-1858",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-126",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Dale Farm"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-66",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the travellers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "report",
+            "propbank": "report.01",
+            "mentionid": "em-1888",
+            "modality": "other",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-947",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "liberals"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verbal_Communication",
+            "ere": "contact",
+            "lemma": "cry out",
+            "propbank": "cry.02",
+            "mentionid": "em-1911",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-947",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attack",
+            "propbank": "attack.01",
+            "mentionid": "em-1934",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1121",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "any minority"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "violence",
+            "propbank": "UNK",
+            "mentionid": "em-1957",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-1121",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "any minority"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "victim",
+            "propbank": "victim.XX",
+            "mentionid": "em-1978",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-917",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "woman"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "force",
+            "propbank": "UNK",
+            "mentionid": "em-2008",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-27",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the lady who was attacked husband"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-120",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Leicester"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the lady who was attacked"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2047",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "recent"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "immigration",
+            "propbank": "UNK",
+            "mentionid": "em-2052",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-1169",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "skilled workers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "coming to",
+            "propbank": "come.01",
+            "mentionid": "em-2075",
+            "modality": "generic",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-1196",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "accountants"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-114",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Indian"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-117",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "giving",
+            "propbank": "give.01",
+            "mentionid": "em-2126",
+            "modality": "generic",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-117",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-1205",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "any unqualified person with very few skills or qualifications"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-2158",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "a passport"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "into",
+            "propbank": "into.XX",
+            "mentionid": "em-2163",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-1232",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "factory workers"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-117",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verbal_Communication",
+            "ere": "contact",
+            "lemma": "shouted",
+            "propbank": "shout.01",
+            "mentionid": "em-2238",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-2646",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the left"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-2340",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-947",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those on the left"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1310",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "supporters of right-wing groups"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-117",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "a place where freedom of speech exists and where people should not be targetted because of their race, cultural or political beliefs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "thrown at",
+            "propbank": "thrown at.XX",
+            "mentionid": "em-2377",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-2402",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "dart"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "forced out",
+            "propbank": "forced out.XX",
+            "mentionid": "em-2407",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-42",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "BNP members"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacked",
+            "propbank": "attack.01",
+            "mentionid": "em-2428",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1310",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "men"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-2484",
+            "modality": "generic",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-1352",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "political opponents"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "forced out",
+            "propbank": "forced out.XX",
+            "mentionid": "em-2451",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-1310",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "men"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "speeches",
+            "propbank": "speeches.XX",
+            "mentionid": "em-2505",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nick Griffin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "reprisal",
+            "propbank": "reprisal.XX",
+            "mentionid": "em-2528",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-30",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nick Griffin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "reprisal",
+            "propbank": "reprisal.XX",
+            "mentionid": "em-2551",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-69",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "say",
+            "propbank": "say.01",
+            "mentionid": "em-2574",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-36",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "his group"
+            }
+        ]
+    }
+]

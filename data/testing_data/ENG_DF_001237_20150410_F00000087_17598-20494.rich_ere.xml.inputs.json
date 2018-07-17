@@ -1,0 +1,413 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "jail",
+            "propbank": "UNK",
+            "mentionid": "em-56981ff7_35_642",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56981ff7_35_240",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a lot of Cubans"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-56981ff7_35_667",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "sharing copyrighted content"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "prison",
+            "propbank": "prison.XX",
+            "mentionid": "em-56981ff7_35_670",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-56981ff7_35_258",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "arrestjail",
+            "lemma": "incarceration",
+            "propbank": "incarcerate.01",
+            "mentionid": "em-56981ff7_35_700",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "prisons",
+            "propbank": "prisons.XX",
+            "mentionid": "em-56981ff7_35_723",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-56981ff7_35_267",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-56981ff7_35_755",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "petty things like pot possession"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "imprison",
+            "propbank": "UNK",
+            "mentionid": "em-56981ff7_35_760",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56981ff7_35_267",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-56981ff7_35_792",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "complaining about breadlines and listening to American radio"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "complaining",
+            "propbank": "complain.01",
+            "mentionid": "em-56981ff7_35_837",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-56981ff7_35_267",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "Speaking",
+            "propbank": "speak.04",
+            "mentionid": "em-56981ff7_35_860",
+            "modality": "generic",
+            "framenet": "fn::Chatting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuban"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "jails",
+            "propbank": "jails.XX",
+            "mentionid": "em-56981ff7_35_881",
+            "modality": "generic",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-56981ff7_35_336",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the Castro regime"
+            },
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-56981ff7_35_393",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "dissidents"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "fund",
+            "propbank": "fund.01",
+            "mentionid": "em-56981ff7_35_911",
+            "modality": "generic",
+            "framenet": "fn::Funding"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-56981ff7_35_471",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "major Arab allies who fund ISIS"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "thrown",
+            "propbank": "thrown.XX",
+            "mentionid": "em-56981ff7_35_1016",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-56981ff7_35_240",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a lot of Cubans"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-56981ff7_35_947",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "jail"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "sent",
+            "propbank": "send.01",
+            "mentionid": "em-56981ff7_35_1046",
+            "modality": "other",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-56981ff7_35_258",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "destination",
+                "entity": "ent-56981ff7_35_947",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "packing",
+            "propbank": "UNK",
+            "mentionid": "em-56981ff7_35_1076",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56981ff7_35_267",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "people"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-56981ff7_35_803",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prisons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "bloggers",
+            "propbank": "bloggers.XX",
+            "mentionid": "em-56981ff7_35_1113",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-56981ff7_35_357",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a number of Cuban bloggers that document what's actually going on in the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "telling",
+            "propbank": "UNK",
+            "mentionid": "em-56981ff7_35_1136",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL00748",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "sharing",
+            "propbank": "UNK",
+            "mentionid": "em-56981ff7_35_1159",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-56981ff7_35_240",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a lot of Cubans"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "f-56981ff7_35_1184",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "copyrighted content"
+            }
+        ]
+    }
+]

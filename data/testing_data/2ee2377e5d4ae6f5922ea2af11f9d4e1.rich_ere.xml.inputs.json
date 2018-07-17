@@ -1,0 +1,302 @@
+[
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-208",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-57",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "World Trade Center"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-324",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "September 11, 2001"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-229",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-60",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Pentagon"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-338",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "September 11, 2001"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-250",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-345",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9/11"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "struck",
+            "propbank": "strike.01",
+            "mentionid": "em-271",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-288",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9/11"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-60",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Pentagon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-461",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-486",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9/11"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-489",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-506",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9/11"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacks",
+            "propbank": "attack.01",
+            "mentionid": "em-565",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-582",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "9/11"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "hit",
+            "propbank": "hit.01",
+            "mentionid": "em-586",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-60",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Pentagon"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-639",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "jet"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "hit",
+            "propbank": "hit.01",
+            "mentionid": "em-607",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-60",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Pentagon"
+            },
+            {
+                "reo": "reo::Weapon",
+                "ere": "instrument",
+                "entity": "f-632",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "plane"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-292",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-21",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the thousands who died that day"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-359",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "that day"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Exchange",
+            "ere": "transferownership",
+            "lemma": "traded",
+            "propbank": "trade.01",
+            "mentionid": "em-510",
+            "modality": "actual",
+            "framenet": "fn::Exchange"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-527",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "stock"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "reconstructed",
+            "propbank": "UNK",
+            "mentionid": "em-531",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-560",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the nearly empty, recently reconstructed and strengthened sector"
+            }
+        ]
+    }
+]

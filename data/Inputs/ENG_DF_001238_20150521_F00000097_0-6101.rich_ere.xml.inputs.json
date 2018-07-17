@@ -1,0 +1,1222 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_1719",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_3090",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "conflict",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_1740",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_3108",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the army on the ground"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "advance",
+            "propbank": "advance.01",
+            "mentionid": "em-56a98fa5_17_1777",
+            "modality": "other",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-56a98fa5_17_633",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "The Syrian Government Forces"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "demonstrate",
+            "lemma": "rebellion",
+            "propbank": "rebel.01",
+            "mentionid": "em-56a98fa5_17_1800",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.06vbd",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Syrian"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fire",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_1823",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-56a98fa5_17_651",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Iraqi \"army"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fight",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_1846",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_666",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "nobody"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "die",
+            "propbank": "die.01",
+            "mentionid": "em-56a98fa5_17_1869",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56a98fa5_17_666",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "nobody"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "chase out",
+            "propbank": "chase out.XX",
+            "mentionid": "em-56a98fa5_17_1892",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-56a98fa5_17_690",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "200 IS fighters"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-56a98fa5_17_699",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a much larger Iraqi force"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombed",
+            "propbank": "bomb.02",
+            "mentionid": "em-56a98fa5_17_1922",
+            "modality": "other",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.07ssc",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "UK"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.01jjk",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the entire regions"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killing",
+            "propbank": "kill.01",
+            "mentionid": "em-56a98fa5_17_1959",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.07ssc",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "UK"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.01jjk",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the entire regions"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56a98fa5_17_729",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "innocent women and children"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "dying",
+            "propbank": "die.01",
+            "mentionid": "em-56a98fa5_17_2010",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56a98fa5_17_738",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the people dying for ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "advancing",
+            "propbank": "advance.01",
+            "mentionid": "em-56a98fa5_17_2033",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fighting",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2056",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_600",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "those fighting ISIS"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fighting",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2086",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_600",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a lot of people fighting them"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "tell",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2114",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-56a98fa5_17_837",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "us"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56a98fa5_17_2141",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the western media"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "driven back",
+            "propbank": "driven back.XX",
+            "mentionid": "em-56a98fa5_17_2153",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-56a98fa5_17_2182",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "some fronts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "forced",
+            "propbank": "forced.XX",
+            "mentionid": "em-56a98fa5_17_2192",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-56a98fa5_17_888",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The Kurds in Iraq"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-56a98fa5_17_912",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "most of the Kurdish areas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "out of",
+            "propbank": "out of.XX",
+            "mentionid": "em-56a98fa5_17_2229",
+            "modality": "actual",
+            "framenet": "fn::Setting_out"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-56a98fa5_17_888",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The Kurds in Iraq"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-56a98fa5_17_912",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "most of the Kurdish areas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "driven",
+            "propbank": "driven.XX",
+            "mentionid": "em-56a98fa5_17_2259",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-56a98fa5_17_2182",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "some fronts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "attacking",
+            "propbank": "attack.01",
+            "mentionid": "em-56a98fa5_17_2289",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.059j7d",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Palmyra"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "taking",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2379",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.059j7d",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Palmyra"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fighting",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2319",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_957",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Syrian troops"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-56a98fa5_17_978",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "what they still hold of Idlib province"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "advance",
+            "propbank": "advance.01",
+            "mentionid": "em-56a98fa5_17_2349",
+            "modality": "actual",
+            "framenet": "fn::Self_motion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-56a98fa5_17_987",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "rebels"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-56a98fa5_17_978",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "there"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fighting",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2427",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_1035",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a strong and competent fighting force to fight them on the ground and force them from their territory"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fight",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2450",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_1035",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a strong and competent fighting force to fight them on the ground and force them from their territory"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-56a98fa5_17_642",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the ground"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "from",
+            "propbank": "from.XX",
+            "mentionid": "em-56a98fa5_17_2487",
+            "modality": "other",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-56a98fa5_17_1035",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a strong and competent fighting force to fight them on the ground and force them from their territory"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-56a98fa5_17_858",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "their territory"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "force",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2517",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_1035",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a strong and competent fighting force to fight them on the ground and force them from their territory"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-56a98fa5_17_858",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "their territory"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "comments",
+            "propbank": "comments.XX",
+            "mentionid": "em-56a98fa5_17_2554",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-m.03mkh",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Parliament"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "terror",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2584",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Islamic State"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "behead",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2607",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-56a98fa5_17_1140",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their own members"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "behead",
+            "propbank": "behead.01",
+            "mentionid": "em-56a98fa5_17_2637",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56a98fa5_17_1140",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their own members"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "butchered",
+            "propbank": "butchered.XX",
+            "mentionid": "em-56a98fa5_17_2667",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-56a98fa5_17_1164",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "children and innocent civilians in their thousands"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "butchered",
+            "propbank": "butcher.01",
+            "mentionid": "em-56a98fa5_17_2704",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56a98fa5_17_1164",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "children and innocent civilians in their thousands"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "put",
+            "propbank": "put.01",
+            "mentionid": "em-56a98fa5_17_2741",
+            "modality": "other",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-56a98fa5_17_3221",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "west"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-56a98fa5_17_1200",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "troops"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-56a98fa5_17_642",
+                "entity-ner": "LOC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the ground"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "conquer",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2778",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.0d05q4",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iraq"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_3221",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "west"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "behead",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2815",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-56a98fa5_17_1215",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "any non-believers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "behead",
+            "propbank": "behead.01",
+            "mentionid": "em-56a98fa5_17_2845",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-56a98fa5_17_1215",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "any non-believers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "divert",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2875",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.04n7jf6",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Syrian army"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-56a98fa5_17_1236",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "forces"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "fight",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2905",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.04n7jf6",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Syrian army"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-56a98fa5_17_1245",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the rebels in the north west of the country"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-56a98fa5_17_1254",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the north west of the country"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "wipe out",
+            "propbank": "UNK",
+            "mentionid": "em-56a98fa5_17_2942",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-56a98fa5_17_3221",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-56a98fa5_17_1275",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "every ISIS town"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "captured",
+            "propbank": "captured.XX",
+            "mentionid": "em-56a98fa5_17_3018",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.059j7d",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "a town in Syria"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "tracks",
+            "propbank": "track.04",
+            "mentionid": "em-56a98fa5_17_3055",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "its"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "chase out",
+            "propbank": "chase.01",
+            "mentionid": "em-56a98fa5_17_3161",
+            "modality": "actual",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-56a98fa5_17_699",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a much larger Iraqi force"
+            },
+            {
+                "reo": "reo::Mover",
+                "ere": "agent",
+                "entity": "ent-56a98fa5_17_690",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "200 IS fighters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "taken",
+            "propbank": "taken.XX",
+            "mentionid": "em-56a98fa5_17_3191",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Islamic State"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-56a98fa5_17_858",
+                "entity-ner": "LOC",
+                "entity-specificity": "specific",
+                "entity-text": "the areas taken by the Islamic State"
+            }
+        ]
+    }
+]

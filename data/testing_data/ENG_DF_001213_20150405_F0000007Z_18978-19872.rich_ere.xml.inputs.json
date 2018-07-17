@@ -1,0 +1,226 @@
+[
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "wiped off",
+            "propbank": "wiped off.XX",
+            "mentionid": "em-568eb23c_66_372",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-568eb23c_66_177",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "about a quarter billion Muslims"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.03spz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "your entire nation"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "acquiring",
+            "propbank": "acquire.01",
+            "mentionid": "em-568eb23c_66_446",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_66_222",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "proxies of these various governments"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_66_586",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuclear weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "got",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_66_467",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.03m6j",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Hamas"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_66_492",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuclear weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "dead",
+            "propbank": "dead.XX",
+            "mentionid": "em-568eb23c_66_497",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_66_246",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "acquiring",
+            "propbank": "acquire.01",
+            "mentionid": "em-568eb23c_66_589",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.03m7d",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Hezzbollah"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_66_616",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuclear weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "got",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_66_619",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0v74",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Al Qaeda"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_66_644",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuclear weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "got",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_66_649",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Isis"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_66_674",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "nuclear weapons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "gets",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_66_679",
+            "modality": "generic",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_66_696",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "a weapon"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_66_264",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "one of those people"
+            }
+        ]
+    }
+]

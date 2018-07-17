@@ -1,0 +1,244 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "birth",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_3_1414",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.09b6zr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the guy actually responsible for the birth of ISIS"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "birth",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_3_1442",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-m.027x630",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ISIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-568eb23c_3_1463",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.0d0vj4",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "CHeney"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-568eb23c_3_1488",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "today"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "outburst",
+            "propbank": "outburst.XX",
+            "mentionid": "em-568eb23c_3_1890",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.0d0vj4",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cheney"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-568eb23c_3_1915",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "today"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "arguing",
+            "propbank": "arguing.XX",
+            "mentionid": "em-568eb23c_3_1514",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL02781",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "was",
+            "propbank": "was.XX",
+            "mentionid": "em-568eb23c_3_1560",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-m.09b6zr",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a PR President"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_3_1968",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "verbiages",
+            "propbank": "verbiages.XX",
+            "mentionid": "em-568eb23c_3_1583",
+            "modality": "generic",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_3_657",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "kill",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_3_1627",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-568eb23c_3_888",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "former  disgruntled Iraqi military officers (under Saddam) and AQ-aligned Sunnis who were too hard to kill the first time around"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "kill",
+            "propbank": "kill.01",
+            "mentionid": "em-568eb23c_3_1657",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_3_888",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "former  disgruntled Iraqi military officers (under Saddam) and AQ-aligned Sunnis who were too hard to kill the first time around"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Question",
+            "ere": "contact",
+            "lemma": "questioning",
+            "propbank": "question.01",
+            "mentionid": "em-568eb23c_3_1941",
+            "modality": "actual",
+            "framenet": "fn::Questioning"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.0d0vj4",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    }
+]

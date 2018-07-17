@@ -1,0 +1,1257 @@
+[
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "auctioning",
+            "propbank": "auction.02",
+            "mentionid": "em-568eb23c_91_793",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Taya"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_91_818",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_91_832",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "some of his personal weapons, including one that was used by him in Iraq"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0cv3w",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Las Vegas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "raffle off",
+            "propbank": "raffle off.XX",
+            "mentionid": "em-568eb23c_91_865",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Taya"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_91_897",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_91_918",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "one of Chris Kyle\u2019s own combat rifles, which was signed by him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "raffled off",
+            "propbank": "raffled off.XX",
+            "mentionid": "em-568eb23c_91_956",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.05b551",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Americansnipers.org"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_91_981",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "The rifle"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-568eb23c_91_1069",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.05b551",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "American Snipers"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_91_1094",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "the rifle"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "raffle",
+            "propbank": "raffle.XX",
+            "mentionid": "em-568eb23c_91_1125",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.05b551",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "American Snipers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "auctioning",
+            "propbank": "auction.02",
+            "mentionid": "em-568eb23c_91_835",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Taya"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_91_860",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0cv3w",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Las Vegas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "raffle off",
+            "propbank": "raffle off.XX",
+            "mentionid": "em-568eb23c_91_921",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Taya"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_91_953",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "raffled off",
+            "propbank": "raffled off.XX",
+            "mentionid": "em-568eb23c_91_986",
+            "modality": "actual",
+            "framenet": "fn::Giving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.05b551",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Americansnipers.org"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-568eb23c_91_1104",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.05b551",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "American Snipers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "raffle",
+            "propbank": "raffle.XX",
+            "mentionid": "em-568eb23c_91_1190",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.05b551",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "American Snipers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sell",
+            "propbank": "sell.01",
+            "mentionid": "em-568eb23c_91_1241",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.05b551",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-568eb23c_91_1273",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$10.00 per ticket"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-568eb23c_91_1313",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-568eb23c_91_1330",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "a little over $62,000.00"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "beneficiary",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Taya"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "deployed",
+            "propbank": "deployed.XX",
+            "mentionid": "em-568eb23c_91_1009",
+            "modality": "generic",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-568eb23c_91_399",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "American military snipers deployed abroad in the war on terror"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-568eb23c_91_408",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "American military"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "American"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "war",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_91_1046",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_91_399",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "American military snipers deployed abroad in the war on terror"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "tells",
+            "propbank": "tells.XX",
+            "mentionid": "em-568eb23c_91_1146",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-568eb23c_91_438",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "everyone"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.0cv3w",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Las Vegas"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-568eb23c_91_1185",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sell",
+            "propbank": "sell.01",
+            "mentionid": "em-568eb23c_91_1211",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.05b551",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_91_1236",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "6,267 tickets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-568eb23c_91_1285",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_91_1302",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "tickets"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "tells",
+            "propbank": "tells.XX",
+            "mentionid": "em-568eb23c_91_1341",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Taya"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.0cv3w",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Las Vegas"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-568eb23c_91_1380",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "tells",
+            "propbank": "tells.XX",
+            "mentionid": "em-568eb23c_91_1385",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-568eb23c_91_465",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "everyone watching"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.0cv3w",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Las Vegas"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-568eb23c_91_1424",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "awarded",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_91_1429",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-568eb23c_91_555",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a jury"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Money",
+                "entity": "f-568eb23c_91_1454",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$1.8 million"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her deceased husband"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-568eb23c_91_1468",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "defamation"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-568eb23c_91_1528",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Last year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "awarded",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_91_1635",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kyle"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-568eb23c_91_1660",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "Kyle\u2019s comments on Ventura\u2019s alleged anti-American remarks"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "fine",
+            "lemma": "award",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_91_1816",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kyle"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sue",
+            "lemma": "suit",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_91_1473",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Plaintiff",
+                "entity": "ent-m.0hd1l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jesse Ventura"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her deceased husband"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-568eb23c_91_1505",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "defamation"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-568eb23c_91_1512",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Last year"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-568eb23c_91_555",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a jury"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "knocked down",
+            "propbank": "knocked down.XX",
+            "mentionid": "em-568eb23c_91_1577",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chris Kyle"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.0hd1l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former Minnesota governor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "altercation",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_91_1728",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kyle"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.0hd1l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ventura"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "slight",
+            "propbank": "slight.XX",
+            "mentionid": "em-568eb23c_91_1605",
+            "modality": "actual",
+            "framenet": "fn::Quarreling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chris Kyle"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "remarks",
+            "propbank": "remark.01",
+            "mentionid": "em-568eb23c_91_1686",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.0hd1l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ventura"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "comments",
+            "propbank": "comment.01",
+            "mentionid": "em-568eb23c_91_1663",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kyle"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "cover",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_91_1779",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-568eb23c_91_585",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Kyle\u2019s publishing company"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-m.0hd1l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ventura"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Exchange",
+            "ere": "transfermoney",
+            "lemma": "covered",
+            "propbank": "covered.XX",
+            "mentionid": "em-568eb23c_91_2034",
+            "modality": "actual",
+            "framenet": "fn::Exchange_currency"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-568eb23c_91_585",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "award",
+            "propbank": "award.01",
+            "mentionid": "em-568eb23c_91_1837",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0hd1l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ventura"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kyle"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "awarded",
+            "propbank": "award.01",
+            "mentionid": "em-568eb23c_91_1867",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kyle"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0hd1l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ventura"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "awarded",
+            "propbank": "award.01",
+            "mentionid": "em-568eb23c_91_1902",
+            "modality": "other",
+            "framenet": "fn::Receiving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0hd1l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jesse Ventura"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-568eb23c_91_1927",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$1.8 million"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her deceased husband"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "deceased",
+            "propbank": "decease.01",
+            "mentionid": "em-568eb23c_91_1937",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her deceased husband"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-568eb23c_91_1960",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her husband and former Navy SEAL"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-m.07wg3",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Navy"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_91_1992",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "SEAL"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-568eb23c_91_1997",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-m.04ykg",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Minnesota"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-m.0hd1l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the former Minnesota governor"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_91_2029",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "governor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-568eb23c_91_2064",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Taya"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-568eb23c_91_2089",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$1.3 million"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0hd1l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Ventura"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "raise",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_91_2092",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Recipient",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Taya"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "proceeds",
+            "propbank": "proceeds.XX",
+            "mentionid": "em-568eb23c_91_2115",
+            "modality": "actual",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "get",
+            "propbank": "get.01",
+            "mentionid": "em-568eb23c_91_2291",
+            "modality": "other",
+            "framenet": "fn::Getting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "question",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_91_2192",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL02557",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "My"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-568eb23c_91_2215",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-m.0n9sd9l",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "combat",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_91_2460",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-568eb23c_91_2477",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "one of Chris Kyle\u2019s own combat rifles"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.0hzrl7z",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Chris Kyle"
+            }
+        ]
+    }
+]

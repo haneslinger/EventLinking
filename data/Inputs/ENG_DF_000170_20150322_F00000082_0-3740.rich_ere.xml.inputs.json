@@ -1,0 +1,89 @@
+[
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "death",
+            "propbank": "die.01",
+            "mentionid": "em-568eb23c_1_1072",
+            "modality": "other",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-568eb23c_1_322",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "cash",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_1_1093",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Beneficiary",
+                "entity": "ent-568eb23c_1_234",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Israeli liberals"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-568eb23c_1_588",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the Obama administration"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "holds",
+            "propbank": "holds.XX",
+            "mentionid": "em-568eb23c_1_1143",
+            "modality": "other",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-568eb23c_1_939",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "an Arab country that holds millions in gulags"
+            },
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-568eb23c_1_1009",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "millions"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-568eb23c_1_1018",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "gulags"
+            }
+        ]
+    }
+]

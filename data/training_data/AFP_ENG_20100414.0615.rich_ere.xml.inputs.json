@@ -1,0 +1,622 @@
+[
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "leaves",
+            "propbank": "leave.11",
+            "mentionid": "em-560",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "French far-left killer"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-39",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "jail"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "left",
+            "propbank": "leave.11",
+            "mentionid": "em-614",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Georges Cipriani"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-39",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "prison"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1252",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "left",
+            "propbank": "leave.11",
+            "mentionid": "em-780",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-39",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the prison in Ensisheim in northeastern France"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "left",
+            "propbank": "leave.11",
+            "mentionid": "em-1190",
+            "modality": "actual",
+            "framenet": "fn::Departing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cipriani"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-132",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Ensisheim"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-315",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "an open prison near Strasbourg where the police officer said he was due to do community service including working at a food bank as part of his parole"
+            },
+            {
+                "reo": "reo::ModeOfTransportation",
+                "ere": "instrument",
+                "entity": "f-1226",
+                "entity-ner": "vehicle",
+                "entity-specificity": "UNK",
+                "entity-text": "a police vehicle"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-586",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "A former militant of the French far-left group Action Directe"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-60",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the French far-left group"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "parole",
+            "propbank": "UNK",
+            "mentionid": "em-646",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Georges Cipriani"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-39",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "prison"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1259",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "parole",
+            "propbank": "UNK",
+            "mentionid": "em-1228",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "behind bars",
+            "propbank": "behind bars.XX",
+            "mentionid": "em-680",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Georges Cipriani"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-704",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "two high-profile murders"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "confirmed",
+            "propbank": "confirm.01",
+            "mentionid": "em-708",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-105",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "AFP"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "murders",
+            "propbank": "murders.XX",
+            "mentionid": "em-736",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Georges Cipriani"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murders",
+            "propbank": "murder.01",
+            "mentionid": "em-758",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Georges Cipriani"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-806",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "one of four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-830",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-836",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "life"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-840",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-234",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-864",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-870",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "life"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-874",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-288",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jean-Marc Rouillan"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "George Besse"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1266",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1986"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-932",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-189",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "George Besse"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-288",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jean-Marc Rouillan"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1273",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1986"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-990",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-204",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rene Audran"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-288",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jean-Marc Rouillan"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1280",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "a year earlier"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-1048",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-204",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rene Audran"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-288",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jean-Marc Rouillan"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1287",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "a year earlier"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-1106",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-258",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1294",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2006"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Discharge",
+            "ere": "releaseparole",
+            "lemma": "paroled",
+            "propbank": "paroled.XX",
+            "mentionid": "em-1140",
+            "modality": "actual",
+            "framenet": "fn::Releasing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Captive",
+                "ere": "person",
+                "entity": "ent-273",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1301",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2008"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "behind bars",
+            "propbank": "behind bars.XX",
+            "mentionid": "em-1168",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-288",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jean-Marc Rouillan"
+            }
+        ]
+    }
+]

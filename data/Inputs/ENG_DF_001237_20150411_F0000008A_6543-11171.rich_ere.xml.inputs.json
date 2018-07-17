@@ -1,0 +1,331 @@
+[
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "sending",
+            "propbank": "send.01",
+            "mentionid": "em-56984d0a_37_606",
+            "modality": "actual",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.0f8l9c",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "France"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-56984d0a_37_603",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "doctors"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "destination",
+                "entity": "ent-m.04hzj",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Liberia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Send",
+            "ere": "transportperson",
+            "lemma": "sent",
+            "propbank": "send.01",
+            "mentionid": "em-56984d0a_37_667",
+            "modality": "actual",
+            "framenet": "fn::Sending"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "person",
+                "entity": "ent-56984d0a_37_516",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "far more doctors than anyone else"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endorg",
+            "lemma": "overthrow",
+            "propbank": "UNK",
+            "mentionid": "em-56984d0a_37_1064",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-56984d0a_37_492",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "their former government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "overthrow",
+            "propbank": "UNK",
+            "mentionid": "em-56984d0a_37_1087",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-NIL01469",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-56984d0a_37_492",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "their former government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transaction",
+            "lemma": "provides",
+            "propbank": "provide.01",
+            "mentionid": "em-56984d0a_37_1117",
+            "modality": "generic",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-m.0d04z6",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cuba"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "article",
+            "propbank": "article.XX",
+            "mentionid": "em-56984d0a_37_1163",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-56984d0a_37_1180",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "6 years old"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "talk",
+            "propbank": "UNK",
+            "mentionid": "em-56984d0a_37_1232",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-56984d0a_37_501",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "bloggers",
+            "propbank": "bloggers.XX",
+            "mentionid": "em-56984d0a_37_1278",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-56984d0a_37_878",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "conservative bloggers in the US that have know nothing about Cuba or health care"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.09c7w0",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "US"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "bloggers",
+            "propbank": "bloggers.XX",
+            "mentionid": "em-56984d0a_37_1338",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-56984d0a_37_878",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "random conservative bloggers with no knowledge of the subject matter"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-56984d0a_37_1308",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL01466",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "My"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-56984d0a_37_1333",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2015-04-11"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "respond",
+            "propbank": "UNK",
+            "mentionid": "em-56984d0a_37_1359",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL01468",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "You"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-56984d0a_37_1384",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2015-04-11"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "blog",
+            "propbank": "UNK",
+            "mentionid": "em-56984d0a_37_1389",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.07_m9_",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "another idiot with no knowledge of public health or Cuba"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "article",
+            "propbank": "article.XX",
+            "mentionid": "em-56984d0a_37_1412",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-56984d0a_37_929",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a legitimate medical organization"
+            }
+        ]
+    }
+]

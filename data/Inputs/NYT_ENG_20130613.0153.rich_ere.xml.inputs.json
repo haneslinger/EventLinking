@@ -1,0 +1,437 @@
+[
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-864",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nelson Mandela"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1345",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-8",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "South Africa"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "told",
+            "propbank": "tell.01",
+            "mentionid": "em-885",
+            "modality": "actual",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-112",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Parliament"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-121",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Cape Town"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-924",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Wednesday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "admitted",
+            "propbank": "admitted.XX",
+            "mentionid": "em-938",
+            "modality": "actual",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-82",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a hospital in Pretoria"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-970",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Saturday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportperson",
+            "lemma": "hospitalization",
+            "propbank": "UNK",
+            "mentionid": "em-1376",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "visiting",
+            "propbank": "UNK",
+            "mentionid": "em-973",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "divorce",
+            "lemma": "former",
+            "propbank": "UNK",
+            "mentionid": "em-1005",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-277",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his former wife"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "speech",
+            "propbank": "UNK",
+            "mentionid": "em-1035",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-319",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Gra\u00e7a Machel"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-334",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "London"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-1063",
+            "modality": "actual",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his grandfather"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-367",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the Eastern Cape village where his grandfather was born"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "spoke",
+            "propbank": "spoke.XX",
+            "mentionid": "em-1095",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-406",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "reporters"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-415",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Mandela\u2019s home"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-1130",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mandela"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1155",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "49 years ago Wednesday"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1410",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "treason"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-1160",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-1185",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "life in prison"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Discharge",
+            "ere": "releaseparole",
+            "lemma": "released",
+            "propbank": "release.01",
+            "mentionid": "em-1190",
+            "modality": "actual",
+            "framenet": "fn::Releasing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Captive",
+                "ere": "person",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1215",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1990"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiating",
+            "propbank": "negotiate.01",
+            "mentionid": "em-1220",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-487",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "ANC"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-1250",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mandela"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1275",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1994"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Arrest",
+            "ere": "arrestjail",
+            "lemma": "imprisoned",
+            "propbank": "imprisoned.XX",
+            "mentionid": "em-1301",
+            "modality": "actual",
+            "framenet": "fn::Arrest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Suspect",
+                "ere": "person",
+                "entity": "ent-31",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1326",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "opposing apartheid"
+            }
+        ]
+    }
+]

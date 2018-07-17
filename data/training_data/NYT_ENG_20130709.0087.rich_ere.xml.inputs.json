@@ -1,0 +1,637 @@
+[
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-984",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-1483",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "dental surgeon"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-1005",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1528",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-1248",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-367",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "an embalmer"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1287",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2006"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "charge.06",
+            "mentionid": "em-1290",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1315",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "enterprise corruption, reckless endangerment and body stealing"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-1047",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1064",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "tissue and bone from corpses"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "DIES",
+            "propbank": "die.01",
+            "mentionid": "em-1026",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "MICHAEL MASTROMARINO"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-1075",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1100",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sunday"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-55",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "St. Luke\u2019s Cornwall Hospital"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transaction",
+            "lemma": "supply",
+            "propbank": "supply.01",
+            "mentionid": "em-1110",
+            "modality": "actual",
+            "framenet": "fn::Supply"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mastromarino"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-1165",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-851",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a network of undertakers, whom he paid up to $1,000 per corpse"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1699",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "up to $1,000"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startorg",
+            "lemma": "formed",
+            "propbank": "UNK",
+            "mentionid": "em-1200",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Org",
+                "entity": "ent-37",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "a business"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-1221",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-322",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the British journalist and former host of \u201cMasterpiece Theater,\u201d whose arm and leg bones were taken even though he had had cancer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentenced",
+            "propbank": "UNK",
+            "mentionid": "em-1318",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Sentence",
+                "entity": "f-1343",
+                "entity-ner": "sentence",
+                "entity-specificity": "UNK",
+                "entity-text": "15 to 30 years"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transfermoney",
+            "lemma": "pay",
+            "propbank": "pay.01",
+            "mentionid": "em-1346",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-394",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his wife"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1378",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$4.6 million"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-427",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the victims\u2019 relatives"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-1395",
+            "modality": "actual",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Michael Mastromarino"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-277",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Brooklyn"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1427",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Sept. 16, 1963"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorced",
+            "propbank": "divorce.01",
+            "mentionid": "em-1430",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1451",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-583",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Susan Cooke Kittredge"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "serving",
+            "propbank": "UNK",
+            "mentionid": "em-1533",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-1558",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "sold",
+            "propbank": "sell.01",
+            "mentionid": "em-1619",
+            "modality": "actual",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "profit",
+            "propbank": "profit.01",
+            "mentionid": "em-1649",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1666",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "six figures"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "profit",
+            "propbank": "profit.01",
+            "mentionid": "em-1672",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1689",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "one body"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transfermoney",
+            "lemma": "made",
+            "propbank": "made.XX",
+            "mentionid": "em-1702",
+            "modality": "actual",
+            "framenet": "fn::Taking"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1727",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "$10,000 to $15,000"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Give",
+            "ere": "transferownership",
+            "lemma": "paid",
+            "propbank": "pay.01",
+            "mentionid": "em-1732",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-851",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a network of undertakers, whom he paid up to $1,000 per corpse"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1764",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "corpse"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "made",
+            "propbank": "made.XX",
+            "mentionid": "em-1769",
+            "modality": "actual",
+            "framenet": "fn::Taking"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1794",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "body"
+            }
+        ]
+    }
+]

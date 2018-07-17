@@ -1,0 +1,411 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominated",
+            "propbank": "UNK",
+            "mentionid": "em-935",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a terrorist sympathizer who scrubbed Obama's passport files"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-960",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Director"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-967",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "now"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominated",
+            "propbank": "UNK",
+            "mentionid": "em-970",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a terrorist sympathizer who scrubbed Obama's passport files"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-995",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Director"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1002",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "now"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominated",
+            "propbank": "UNK",
+            "mentionid": "em-1005",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a terrorist sympathizer who scrubbed Obama's passport files"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1030",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Director"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1037",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "now"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominated",
+            "propbank": "UNK",
+            "mentionid": "em-1086",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a terrorist sympathizer who scrubbed Obama's passport files"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1111",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Director"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1118",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "now"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominated",
+            "propbank": "UNK",
+            "mentionid": "em-1121",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a terrorist sympathizer who scrubbed Obama's passport files"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1146",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Director"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1153",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "now"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominated",
+            "propbank": "UNK",
+            "mentionid": "em-1186",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a terrorist sympathizer who scrubbed Obama's passport files"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1211",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Director"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1218",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "now"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominated",
+            "propbank": "UNK",
+            "mentionid": "em-1293",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-45",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a terrorist sympathizer who scrubbed Obama's passport files"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1318",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Director"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-1325",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "now"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "fired",
+            "propbank": "fire.02",
+            "mentionid": "em-1040",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "contractors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Hiring",
+            "ere": "startposition",
+            "lemma": "hired",
+            "propbank": "hire.01",
+            "mentionid": "em-1063",
+            "modality": "actual",
+            "framenet": "fn::Hiring"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-249",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-1156",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-441",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "W"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1181",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "drunk driving"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-1221",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-441",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "W"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1246",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "drunk driving"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "endposition",
+            "lemma": "out",
+            "propbank": "UNK",
+            "mentionid": "em-1328",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-441",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Bush"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "go",
+            "propbank": "go.03",
+            "mentionid": "em-1358",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "your"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-1355",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "home"
+            }
+        ]
+    }
+]

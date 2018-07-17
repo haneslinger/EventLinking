@@ -1,0 +1,89 @@
+[
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "interviewing",
+            "propbank": "interview.01",
+            "mentionid": "em-678",
+            "modality": "actual",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a guy who is part of the on-going occupation of Wall St."
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-731",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "This morning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transferownership",
+            "lemma": "INHERITED",
+            "propbank": "UNK",
+            "mentionid": "em-699",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Thing",
+                "entity": "ent-66",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "TWO NEWSPAPERS IN THE U.K. (Australia)"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Beneficiary",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "HIS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "start",
+            "propbank": "UNK",
+            "mentionid": "em-1166",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-1144",
+                "entity-ner": "ORG",
+                "entity-specificity": "nonspecific",
+                "entity-text": "some local city paper"
+            }
+        ]
+    }
+]

@@ -1,0 +1,584 @@
+[
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "acquit",
+            "lemma": "FOUND NOT GUILTY",
+            "propbank": "find.02",
+            "mentionid": "em-816",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "NIGELLA LAWSON ASSISTANTS"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "acquit",
+            "lemma": "acquitted",
+            "propbank": "acquit.01",
+            "mentionid": "em-867",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Two Italians sisters who spent more than $1 million on celebrity chef Nigella Lawson\u2019s credit cards"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-894",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "fraud charges"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-901",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-67",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a London jury"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-34",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "London"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "spent",
+            "propbank": "spent.XX",
+            "mentionid": "em-837",
+            "modality": "actual",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Two Italians sisters who spent more than $1 million on celebrity chef Nigella Lawson\u2019s credit cards"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-862",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "more than $1 million"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transfermoney",
+            "lemma": "spend",
+            "propbank": "UNK",
+            "mentionid": "em-969",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Giver",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Loan_borrow",
+            "ere": "transfermoney",
+            "lemma": "spent",
+            "propbank": "spent.XX",
+            "mentionid": "em-1270",
+            "modality": "actual",
+            "framenet": "fn::Renting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the sisters"
+            },
+            {
+                "reo": "reo::CostOrCotheme",
+                "ere": "money",
+                "entity": "f-1295",
+                "entity-ner": "money",
+                "entity-specificity": "UNK",
+                "entity-text": "thousands of dollars"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1477",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "over just four months in 2012"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "testified",
+            "propbank": "testified.XX",
+            "mentionid": "em-913",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The sisters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "divorce",
+            "lemma": "former husband",
+            "propbank": "UNK",
+            "mentionid": "em-990",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-133",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "now former husband"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Divorce",
+            "ere": "divorce",
+            "lemma": "divorced",
+            "propbank": "divorce.01",
+            "mentionid": "em-1064",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-196",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The couple"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1089",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "July"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-1022",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-133",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Charles Saatchi"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "email",
+            "propbank": "UNK",
+            "mentionid": "em-1043",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-133",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "gripping",
+            "propbank": "gripping.XX",
+            "mentionid": "em-1113",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-133",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-19",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-223",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "a London restaurant"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "testifying",
+            "propbank": "testifying.XX",
+            "mentionid": "em-1150",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-19",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Lawson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Prosecute",
+            "ere": "trialhearing",
+            "lemma": "case",
+            "propbank": "case.03",
+            "mentionid": "em-1448",
+            "modality": "actual",
+            "framenet": "fn::Trial"
+        },
+        "arguments": [
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1465",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "fraud"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-1194",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-280",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-1362",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "2001"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "statement",
+            "propbank": "UNK",
+            "mentionid": "em-1217",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-19",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Lawson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "told",
+            "propbank": "told.XX",
+            "mentionid": "em-1240",
+            "modality": "actual",
+            "framenet": "fn::Come_together"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-738",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the court"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "trips",
+            "propbank": "trip.04",
+            "mentionid": "em-1298",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Mover",
+                "ere": "person",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the sisters"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-349",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "New York"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Charge",
+            "ere": "chargeindict",
+            "lemma": "charged",
+            "propbank": "charge.06",
+            "mentionid": "em-1328",
+            "modality": "actual",
+            "framenet": "fn::Notification_of_charges"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The Grillos"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1353",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "fraud"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "chargeindict",
+            "lemma": "charges",
+            "propbank": "UNK",
+            "mentionid": "em-1480",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-67",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a London jury"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Two Italians sisters who spent more than $1 million on celebrity chef Nigella Lawson\u2019s credit cards"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-1512",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "fraud"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-1425",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-133",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "testified",
+            "propbank": "testified.XX",
+            "mentionid": "em-941",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The sisters"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "testifying",
+            "propbank": "testifying.XX",
+            "mentionid": "em-1173",
+            "modality": "actual",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-19",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Lawson"
+            }
+        ]
+    }
+]

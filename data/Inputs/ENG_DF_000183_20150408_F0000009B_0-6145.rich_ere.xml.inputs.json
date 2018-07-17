@@ -1,0 +1,917 @@
+[
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-568eb23c_13_1425",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.0157m",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Clinton"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-568eb23c_13_2237",
+            "modality": "other",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.0157m",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_13_2262",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "run for",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1448",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0157m",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Bill Clinton"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_1473",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "VP"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "ran for",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_2209",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0157m",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_2234",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Veep"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "become",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1478",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0157m",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_1503",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Meet",
+            "ere": "meet",
+            "lemma": "meet",
+            "propbank": "meet.03",
+            "mentionid": "em-568eb23c_13_1508",
+            "modality": "generic",
+            "framenet": "fn::Social_event"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Meeting_Parties",
+                "ere": "entity",
+                "entity": "ent-568eb23c_13_558",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The Electors"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-568eb23c_13_573",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their respective states"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1538",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_13_558",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "The Electors"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-568eb23c_13_573",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their respective states"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_1577",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Vice-President"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_591",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "whom"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "votes",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1589",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.059rby",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "NY"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_13_489",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "us"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "votes",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1988",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.059rby",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "New York"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "votes",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_2069",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_756",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "elector"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "voted",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1619",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_627",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the person voted for as President"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_1644",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_13_558",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "voted",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1656",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_13_558",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "their"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_636",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the person voted for as Vice-President"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_1688",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Vice-President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "voted",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1693",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_651",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "all persons voted for as President"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_1718",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_13_558",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "voted",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1730",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_660",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "all persons voted for as Vice-President"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_1755",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Vice-President"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_13_558",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "votes",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1767",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_669",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "each"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_13_558",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "transportartifact",
+            "lemma": "transmit",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1797",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_13_558",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "f-568eb23c_13_1822",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "which lists"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Destination",
+                "entity": "ent-568eb23c_13_684",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the seat of the government of the United States"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Get",
+            "ere": "transferownership",
+            "lemma": "directed to",
+            "propbank": "directed to.XX",
+            "mentionid": "em-568eb23c_13_1834",
+            "modality": "generic",
+            "framenet": "fn::Receiving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-568eb23c_13_693",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the President of the Senate"
+            },
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-568eb23c_13_558",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-568eb23c_13_684",
+                "entity-ner": "GPE",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the seat of the government of the United States"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-568eb23c_13_1873",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "which lists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "votes",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1878",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.059rby",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "NY"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_543",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "both Clintons"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1908",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_13_756",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the electors of NY"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hillary"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.059rby",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "NY"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "vote",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_1951",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-568eb23c_13_756",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0157m",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Bill"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_1983",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "VP"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "Victory",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_2009",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0d06m5",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Clinton"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_2034",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "votes",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_2039",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_771",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a Republican vice president"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_2064",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "vice president"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "as",
+            "propbank": "as.XX",
+            "mentionid": "em-568eb23c_13_2090",
+            "modality": "other",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-m.0157m",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her husband"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_13_2115",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "VP"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "marry",
+            "lemma": "married",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_2140",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_543",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a married couple"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "say",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_2163",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_13_855",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "press"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "ELECTED",
+            "propbank": "elect.01",
+            "mentionid": "em-568eb23c_13_2186",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_13_2203",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "Elected",
+            "propbank": "elect.01",
+            "mentionid": "em-568eb23c_13_2295",
+            "modality": "generic",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-568eb23c_13_2312",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Presidency"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "ask",
+            "propbank": "ask.03",
+            "mentionid": "em-568eb23c_13_2265",
+            "modality": "other",
+            "framenet": "fn::Questioning"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.0157m",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "argue",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_2368",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL01071",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-568eb23c_13_2391",
+            "modality": "generic",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-568eb23c_13_1062",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a person born in Canada"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.0d060g",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Canada"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "running for",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_13_2428",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-568eb23c_13_1062",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a person born in Canada"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-568eb23c_13_2453",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "President"
+            }
+        ]
+    }
+]

@@ -1,0 +1,391 @@
+[
+    {
+        "event": {
+            "reo": "reo::Conversing",
+            "ere": "contact",
+            "lemma": "negotiations",
+            "propbank": "negotiate.01",
+            "mentionid": "em-568eb23c_75_1138",
+            "modality": "generic",
+            "framenet": "fn::Discussion"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.03shp",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Iran"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "start",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_75_1161",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_75_339",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "kickstart",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_75_1226",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-568eb23c_75_531",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "them"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "say",
+            "propbank": "say.01",
+            "mentionid": "em-568eb23c_75_1249",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_75_402",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "Evangelicals"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "explain",
+            "propbank": "explain.01",
+            "mentionid": "em-568eb23c_75_1272",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-568eb23c_75_402",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "wrote",
+            "propbank": "wrote.XX",
+            "mentionid": "em-568eb23c_75_1371",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-568eb23c_75_639",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "John"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "ravings",
+            "propbank": "ravings.XX",
+            "mentionid": "em-568eb23c_75_1588",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-568eb23c_75_639",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a guy who accidentally ate the wrong kind of mushrooms"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "destruction",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_75_1394",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-568eb23c_75_669",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the temple"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-568eb23c_75_1419",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "AD70"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.0430_",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Jerusalem"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "rebuilt",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_75_1438",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-568eb23c_75_669",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "A temple that will never be rebuilt"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "artifact",
+            "lemma": "rebuilding",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_75_1491",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Artifact",
+                "entity": "ent-568eb23c_75_669",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "the temple"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.0430_",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Jerusalem"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "tearing",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_75_1461",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.0hf9d",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "that"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-m.0430_",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Jerusalem"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "nuked",
+            "propbank": "nuked.XX",
+            "mentionid": "em-568eb23c_75_1519",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-m.0430_",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Jerusalem"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "preaching",
+            "propbank": "preach.01",
+            "mentionid": "em-568eb23c_75_1542",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-568eb23c_75_393",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "rumor mongering",
+            "propbank": "rumor mongering.XX",
+            "mentionid": "em-568eb23c_75_1565",
+            "modality": "generic",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-568eb23c_75_789",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "the Dispensationalists"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "sign",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_75_1609",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.03spz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Israel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "sign",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_75_1632",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.03spz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Israel"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "sign",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_75_1653",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.03spz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    }
+]

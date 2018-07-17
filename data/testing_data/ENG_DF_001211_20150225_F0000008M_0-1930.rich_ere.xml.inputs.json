@@ -1,0 +1,477 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "Killing",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_61_320",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.0qtngg8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Reeva Steenkamp"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "Killing",
+            "propbank": "kill.01",
+            "mentionid": "em-568eb23c_61_348",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-m.0qtngg8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Reeva Steenkamp"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "Appeal",
+            "propbank": "appeal.01",
+            "mentionid": "em-568eb23c_61_378",
+            "modality": "actual",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-568eb23c_61_395",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "Killing"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "OSCAR"
+            },
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-m.06mj8k",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "NPA"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "APPEAL",
+            "propbank": "appeal.01",
+            "mentionid": "em-568eb23c_61_415",
+            "modality": "actual",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-m.06mj8k",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "NPA"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Oscar Pistorius"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "appeal",
+            "lemma": "contest",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_61_450",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-568eb23c_61_475",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "culpable homicide"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "appeal",
+            "propbank": "appeal.01",
+            "mentionid": "em-568eb23c_61_712",
+            "modality": "other",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Oscar Pistorius"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-568eb23c_61_737",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "culpable homicide"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "notice",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_61_478",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Audience",
+                "entity": "ent-m.06mj8k",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "NPA"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_61_174",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Oscar Pistorius's lawyers"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "appeal",
+            "propbank": "appeal.01",
+            "mentionid": "em-568eb23c_61_508",
+            "modality": "other",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-568eb23c_61_533",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "culpable homicide"
+            },
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-568eb23c_61_189",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the State"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "appeal",
+            "propbank": "appeal.01",
+            "mentionid": "em-568eb23c_61_603",
+            "modality": "other",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Oscar"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "appeal",
+            "propbank": "appeal.01",
+            "mentionid": "em-568eb23c_61_740",
+            "modality": "other",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-568eb23c_61_189",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the State"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-568eb23c_61_772",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "culpable homicide"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Appeal",
+            "ere": "appeal",
+            "lemma": "appeal",
+            "propbank": "appeal.01",
+            "mentionid": "em-568eb23c_61_840",
+            "modality": "actual",
+            "framenet": "fn::Appeal"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Prosecutor",
+                "ere": "prosecutor",
+                "entity": "ent-568eb23c_61_189",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the State"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-m.04_hdx",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "court"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-568eb23c_61_879",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "culpable homicide"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-568eb23c_61_566",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-568eb23c_61_591",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "culpable homicide"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-568eb23c_61_189",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the State"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-568eb23c_61_775",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-568eb23c_61_800",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "culpable homicide"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-568eb23c_61_189",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the State"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-568eb23c_61_882",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-m.0f1lfn",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-568eb23c_61_907",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "culpable homicide"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-568eb23c_61_189",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "the State"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-568eb23c_61_810",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.06mj8k",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "NPA"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-568eb23c_61_835",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Friday"
+            }
+        ]
+    }
+]

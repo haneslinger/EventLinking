@@ -1,0 +1,223 @@
+[
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "Executes",
+            "propbank": "execute.01",
+            "mentionid": "em-278",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-67",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "China"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-130",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nine Uighurs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "executed",
+            "propbank": "execute.01",
+            "mentionid": "em-336",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-58",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-361",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Execute",
+            "ere": "execute",
+            "lemma": "executed",
+            "propbank": "execute.01",
+            "mentionid": "em-431",
+            "modality": "actual",
+            "framenet": "fn::Execution"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "person",
+                "entity": "ent-130",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nine"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-456",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "Xinjiang riots"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "Executes",
+            "propbank": "executes.XX",
+            "mentionid": "em-306",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-67",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "China"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-130",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nine Uighurs"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "executed",
+            "propbank": "executed.XX",
+            "mentionid": "em-364",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-58",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "executed",
+            "propbank": "executed.XX",
+            "mentionid": "em-491",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-130",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Nine"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-385",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-58",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-408",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-58",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "They"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "riots",
+            "propbank": "riots.XX",
+            "mentionid": "em-459",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-139",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Xinjiang"
+            }
+        ]
+    }
+]

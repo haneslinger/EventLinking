@@ -1,0 +1,179 @@
+[
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "elect",
+            "lemma": "elected",
+            "propbank": "elect.01",
+            "mentionid": "em-512",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-64",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the first Democratic woman ever elected to the Senate"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-537",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "some three decades ago"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "arrived",
+            "propbank": "arrived.XX",
+            "mentionid": "em-477",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-64",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-76",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Senate"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-509",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "some three decades ago"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Begin_leadership_position",
+            "ere": "startposition",
+            "lemma": "represented",
+            "propbank": "represented.XX",
+            "mentionid": "em-542",
+            "modality": "actual",
+            "framenet": "fn::Appointing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-112",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::GovernedEntity",
+                "ere": "entity",
+                "entity": "ent-100",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "U.S. Congress"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-574",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1925"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-581",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Rep."
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_position_with_organization",
+            "ere": "endposition",
+            "lemma": "represented",
+            "propbank": "represented.XX",
+            "mentionid": "em-586",
+            "modality": "actual",
+            "framenet": "fn::Quitting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-100",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "U.S. Congress"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-112",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-618",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Rep."
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-625",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1960"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "remarks",
+            "propbank": "remark.01",
+            "mentionid": "em-680",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-64",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mikulski"
+            }
+        ]
+    }
+]

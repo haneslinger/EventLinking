@@ -1,0 +1,477 @@
+[
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "firebombed",
+            "propbank": "firebombed.XX",
+            "mentionid": "em-1066",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-75",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "One \"clinic\" in Billings"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-84",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Billings"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Marry",
+            "ere": "marry",
+            "lemma": "wedding",
+            "propbank": "wed.01",
+            "mentionid": "em-1087",
+            "modality": "actual",
+            "framenet": "fn::Forming_relationships"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Couple",
+                "ere": "person",
+                "entity": "ent-60",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "came",
+            "propbank": "come.01",
+            "mentionid": "em-1108",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-90",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "home"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Put",
+            "ere": "transportperson",
+            "lemma": "to",
+            "propbank": "to.XX",
+            "mentionid": "em-1129",
+            "modality": "actual",
+            "framenet": "fn::Placing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-24",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-78",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Vancouver"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_reach",
+            "ere": "transportperson",
+            "lemma": "came",
+            "propbank": "come.01",
+            "mentionid": "em-1150",
+            "modality": "actual",
+            "framenet": "fn::Arriving"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-78",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Vancouver"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "meet",
+            "lemma": "visit",
+            "propbank": "UNK",
+            "mentionid": "em-1171",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-60",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-87",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "my town"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-1653",
+            "modality": "actual",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-78",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Vancouver"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "buy",
+            "propbank": "buy.01",
+            "mentionid": "em-1676",
+            "modality": "actual",
+            "framenet": "fn::Commerce_buy"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-51",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "we"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1701",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "some seeds"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-78",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Vancouver"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transfermoney",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-1713",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a bunch of people with ridiculous health complaints"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my stoned ass dad"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-81",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Montana"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1754",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Right now"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Buy_sell",
+            "ere": "transferownership",
+            "lemma": "selling",
+            "propbank": "sell.01",
+            "mentionid": "em-1771",
+            "modality": "generic",
+            "framenet": "fn::Commerce_sell"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "giver",
+                "entity": "ent-8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my stoned ass dad"
+            },
+            {
+                "reo": "reo::Recipient",
+                "ere": "recipient",
+                "entity": "ent-18",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a bunch of people with ridiculous health complaints"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1803",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "weed"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-81",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Montana"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-1817",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Right now"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Accompanied_directed_intrinsic_change_location",
+            "ere": "transportperson",
+            "lemma": "going",
+            "propbank": "go.03",
+            "mentionid": "em-1822",
+            "modality": "other",
+            "framenet": "fn::Cotheme"
+        },
+        "arguments": [
+            {
+                "reo": "reo::AccompaniedTheme",
+                "ere": "person",
+                "entity": "ent-1354",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a guy"
+            },
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-1432",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "home"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "beat",
+            "propbank": "UNK",
+            "mentionid": "em-1852",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-1354",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a guy"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-1369",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "his wife"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Steal",
+            "ere": "transferownership",
+            "lemma": "stealing",
+            "propbank": "steal.01",
+            "mentionid": "em-1882",
+            "modality": "other",
+            "framenet": "fn::Theft"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "giver",
+                "entity": "ent-1378",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someones"
+            },
+            {
+                "reo": "reo::Theme",
+                "ere": "thing",
+                "entity": "f-1907",
+                "entity-ner": "commodity",
+                "entity-specificity": "UNK",
+                "entity-text": "their stereo"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-1387",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someones house"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "recipient",
+                "entity": "ent-1354",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a guy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Caused_leave-Remove",
+            "ere": "transportperson",
+            "lemma": "into",
+            "propbank": "into.XX",
+            "mentionid": "em-1919",
+            "modality": "other",
+            "framenet": "fn::Removing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Destination",
+                "ere": "destination",
+                "entity": "ent-1387",
+                "entity-ner": "FAC",
+                "entity-specificity": "nonspecific",
+                "entity-text": "someones house"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "died",
+            "propbank": "die.01",
+            "mentionid": "em-1990",
+            "modality": "generic",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-1534",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "A lot of kids"
+            }
+        ]
+    }
+]

@@ -1,0 +1,308 @@
+[
+    {
+        "event": {
+            "reo": "reo::Hiring",
+            "ere": "startposition",
+            "lemma": "confirmed",
+            "propbank": "confirmed.XX",
+            "mentionid": "em-339",
+            "modality": "other",
+            "framenet": "fn::Hiring"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "An out lesbian"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-364",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "judge"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-64",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "U.S. Senate"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Hiring",
+            "ere": "startposition",
+            "lemma": "confirmed",
+            "propbank": "confirmed.XX",
+            "mentionid": "em-374",
+            "modality": "other",
+            "framenet": "fn::Hiring"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Elaine Kaplan"
+            },
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-64",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Senate"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-406",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "12:03 p.m. today"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "serve",
+            "propbank": "UNK",
+            "mentionid": "em-453",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "She"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-478",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "judgeship"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominated",
+            "propbank": "UNK",
+            "mentionid": "em-409",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kaplan"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-434",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "judge"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-441",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "March"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-124",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Barack Obama"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominating",
+            "propbank": "UNK",
+            "mentionid": "em-511",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-124",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Obama"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-181",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Patricia Campbell-Smith"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominate",
+            "propbank": "UNK",
+            "mentionid": "em-606",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-124",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-154",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "them"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-638",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "today"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "nominate",
+            "lemma": "nominees",
+            "propbank": "UNK",
+            "mentionid": "em-641",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-154",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "These nominees"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "trialhearing",
+            "lemma": "hear",
+            "propbank": "UNK",
+            "mentionid": "em-481",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-25",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "she"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-145",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "the federal government"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-683",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-124",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Obama"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "startposition",
+            "lemma": "serve",
+            "propbank": "UNK",
+            "mentionid": "em-576",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-154",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    }
+]

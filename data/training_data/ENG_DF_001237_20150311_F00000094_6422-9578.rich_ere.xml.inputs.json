@@ -1,0 +1,985 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "assassination",
+            "propbank": "UNK",
+            "mentionid": "em-569805e8_30_896",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-NIL00086",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the main suspect"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "assassination",
+            "propbank": "UNK",
+            "mentionid": "em-569805e8_30_1016",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-NIL00262",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the man behind the assassination"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-569805e8_30_1079",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.05fz6q",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "it",
+            "propbank": "UNK",
+            "mentionid": "em-569805e8_30_1121",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.02_bnb",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kadyrov"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "assassination",
+            "propbank": "assassinate.01",
+            "mentionid": "em-569805e8_30_919",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-569805e8_30_375",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "some high-ranking people from Ramzan Kadyrov's inner circle"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "assassination",
+            "propbank": "assassinate.01",
+            "mentionid": "em-569805e8_30_1037",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-NIL00262",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the man behind the assassination"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murder",
+            "propbank": "murder.01",
+            "mentionid": "em-569805e8_30_1100",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-m.05fz6q",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "die",
+            "lemma": "it",
+            "propbank": "UNK",
+            "mentionid": "em-569805e8_30_1142",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Agent",
+                "entity": "ent-m.02_bnb",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kadyrov"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "confess",
+            "propbank": "confess.01",
+            "mentionid": "em-569805e8_30_940",
+            "modality": "actual",
+            "framenet": "fn::Reveal_secret"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569805e8_30_405",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "claim",
+            "propbank": "claim.01",
+            "mentionid": "em-569805e8_30_984",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569805e8_30_718",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "Their"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "withheld",
+            "propbank": "withheld.XX",
+            "mentionid": "em-569805e8_30_1058",
+            "modality": "other",
+            "framenet": "fn::Commitment"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569805e8_30_718",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "orders",
+            "propbank": "orders.XX",
+            "mentionid": "em-569805e8_30_1163",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-m.02_bnb",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Kadyrov"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "posted",
+            "propbank": "posted.XX",
+            "mentionid": "em-569805e8_30_1197",
+            "modality": "actual",
+            "framenet": "fn::Communication_means"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL00693",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-569805e8_30_2180",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "yesterday"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Death",
+            "ere": "die",
+            "lemma": "deaths",
+            "propbank": "die.01",
+            "mentionid": "em-569805e8_30_1218",
+            "modality": "actual",
+            "framenet": "fn::Death"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569805e8_30_585",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Putin's major rivals and critics"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "poisoning",
+            "propbank": "UNK",
+            "mentionid": "em-569805e8_30_1248",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.026ndjg",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Instrument",
+                "entity": "f-569805e8_30_2187",
+                "entity-ner": "weapon",
+                "entity-specificity": "UNK",
+                "entity-text": "poisoning"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "accused",
+            "propbank": "accuse.01",
+            "mentionid": "em-569805e8_30_1273",
+            "modality": "actual",
+            "framenet": "fn::Judgment_communication"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.026ndjg",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Alexander Litvinenko"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "referred",
+            "propbank": "referred.XX",
+            "mentionid": "em-569805e8_30_1600",
+            "modality": "actual",
+            "framenet": "fn::Affirm_or_deny"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.026ndjg",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Litvinenko"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "ordering",
+            "propbank": "UNK",
+            "mentionid": "em-569805e8_30_1294",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.08193",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Vladimir Putin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "assassination",
+            "propbank": "UNK",
+            "mentionid": "em-569805e8_30_1317",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-m.08193",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Vladimir Putin"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Target",
+                "entity": "ent-m.05gg5b",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Russian journalist"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "assassination",
+            "propbank": "assassinate.01",
+            "mentionid": "em-569805e8_30_1345",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.08193",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Vladimir Putin"
+            },
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-m.05gg5b",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "the Russian journalist"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "warned",
+            "propbank": "warned.XX",
+            "mentionid": "em-569805e8_30_1417",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-m.05gg5b",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Politkovskaya"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "passing",
+            "propbank": "UNK",
+            "mentionid": "em-569805e8_30_1530",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.03cx0d",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hakamada"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "warned",
+            "propbank": "warned.XX",
+            "mentionid": "em-569805e8_30_1572",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-m.05gg5b",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Politkovskaya"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-569805e8_30_2196",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "more than a year ago"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Intrinsic_leave",
+            "ere": "transportperson",
+            "lemma": "escape",
+            "propbank": "escape.01",
+            "mentionid": "em-569805e8_30_1475",
+            "modality": "other",
+            "framenet": "fn::Escaping"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Theme",
+                "ere": "agent",
+                "entity": "ent-m.05gg5b",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Politkovskaya"
+            },
+            {
+                "reo": "reo::Initial_Location",
+                "ere": "origin",
+                "entity": "ent-m.06bnz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Russia"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "denied",
+            "propbank": "deny.01",
+            "mentionid": "em-569805e8_30_1507",
+            "modality": "actual",
+            "framenet": "fn::Affirm_or_deny"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.03cx0d",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hakamada"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "said",
+            "propbank": "say.01",
+            "mentionid": "em-569805e8_30_1551",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.03cx0d",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hakamada"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "statement",
+            "propbank": "UNK",
+            "mentionid": "em-569805e8_30_1621",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.01ztcq",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Boris Berezovsky"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "claimed",
+            "propbank": "claim.01",
+            "mentionid": "em-569805e8_30_1644",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.01ztcq",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-569805e8_30_1723",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-m.06bnz",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Russian"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-m.05fz6q",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "a former Russian Deputy Prime Minister"
+            },
+            {
+                "reo": "reo::Position",
+                "ere": "position",
+                "entity": "f-569805e8_30_1755",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "Deputy Prime Minister"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "received word",
+            "propbank": "received word.XX",
+            "mentionid": "em-569805e8_30_1762",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-m.03cx0d",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hakamada"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "threatened",
+            "propbank": "threatened.XX",
+            "mentionid": "em-569805e8_30_1790",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-569805e8_30_636",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "like-minded colleagues"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "take in the head",
+            "propbank": "take in the head.XX",
+            "mentionid": "em-569805e8_30_1843",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-569805e8_30_636",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her colleagues"
+            },
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.08193",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Putin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verbal_Communication",
+            "ere": "contact",
+            "lemma": "open the mouth",
+            "propbank": "mouth.01",
+            "mentionid": "em-569805e8_30_1871",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-569805e8_30_639",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "they"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "take in the head",
+            "propbank": "take in the head.XX",
+            "mentionid": "em-569805e8_30_1894",
+            "modality": "other",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569805e8_30_636",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "her colleagues"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.08193",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Putin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombings",
+            "propbank": "bomb.02",
+            "mentionid": "em-569805e8_30_1922",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-569805e8_30_660",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "apartment"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bombings",
+            "propbank": "bomb.02",
+            "mentionid": "em-569805e8_30_2026",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-569805e8_30_660",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "apartment"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "murdered",
+            "propbank": "murdered.XX",
+            "mentionid": "em-569805e8_30_1947",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Target",
+                "ere": "target",
+                "entity": "ent-569805e8_30_639",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "All 4 of those people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "murdered",
+            "propbank": "murder.01",
+            "mentionid": "em-569805e8_30_1968",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-569805e8_30_639",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "All 4 of those people"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Instrument_Communication",
+            "ere": "correspondence",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-569805e8_30_2003",
+            "modality": "actual",
+            "framenet": "fn::Contacting"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Recipient",
+                "ere": "entity",
+                "entity": "ent-NIL00678",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "you"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "killings",
+            "propbank": "killings.XX",
+            "mentionid": "em-569805e8_30_2047",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.08193",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Putin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "killings",
+            "propbank": "kill.01",
+            "mentionid": "em-569805e8_30_2072",
+            "modality": "generic",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-m.08193",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Putin"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "advised",
+            "propbank": "advise.01",
+            "mentionid": "em-569805e8_30_1447",
+            "modality": "actual",
+            "framenet": "fn::Telling"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.05gg5b",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Politkovskaya"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "uttered",
+            "propbank": "uttered.XX",
+            "mentionid": "em-569805e8_30_2234",
+            "modality": "actual",
+            "framenet": "fn::Affirm_or_deny"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.08193",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Putin"
+            }
+        ]
+    }
+]

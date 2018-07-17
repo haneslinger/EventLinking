@@ -1,0 +1,1104 @@
+[
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "pardon",
+            "lemma": "commute",
+            "propbank": "UNK",
+            "mentionid": "em-942",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-43",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a handful of prisoners"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-34",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "governors"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2143",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "Christmas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "sentence",
+            "lemma": "sentences",
+            "propbank": "UNK",
+            "mentionid": "em-970",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Defendant",
+                "entity": "ent-43",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a handful of prisoners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "granted",
+            "propbank": "granted.XX",
+            "mentionid": "em-992",
+            "modality": "other",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Andrew Cuomo"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "commutations",
+            "propbank": "commutations.XX",
+            "mentionid": "em-1014",
+            "modality": "other",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cuomo"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-67",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prisoners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "clemency",
+            "propbank": "clemency.XX",
+            "mentionid": "em-1229",
+            "modality": "other",
+            "framenet": "fn::Clemency"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Andrew Cuomo"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2150",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "this year"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Discharge",
+            "ere": "releaseparole",
+            "lemma": "released",
+            "propbank": "release.01",
+            "mentionid": "em-1042",
+            "modality": "other",
+            "framenet": "fn::Releasing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cuomo"
+            },
+            {
+                "reo": "reo::Captive",
+                "ere": "person",
+                "entity": "ent-67",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prisoners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "pardons",
+            "propbank": "pardon.01",
+            "mentionid": "em-1070",
+            "modality": "other",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cuomo"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-67",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "prisoners"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "nullified",
+            "propbank": "nullified.XX",
+            "mentionid": "em-1120",
+            "modality": "other",
+            "framenet": "fn::Clemency"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cuomo"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "granted clemency",
+            "propbank": "granted clemency.XX",
+            "mentionid": "em-1148",
+            "modality": "actual",
+            "framenet": "fn::Clemency"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-91",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The elder Cuomo"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "granted clemency",
+            "propbank": "granted clemency.XX",
+            "mentionid": "em-1185",
+            "modality": "actual",
+            "framenet": "fn::Clemency"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-112",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Eliot Spitzer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "granted clemency",
+            "propbank": "granted clemency.XX",
+            "mentionid": "em-1207",
+            "modality": "actual",
+            "framenet": "fn::Clemency"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-121",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "David Paterson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "pardon",
+            "lemma": "grant",
+            "propbank": "UNK",
+            "mentionid": "em-1273",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Adjudicator",
+                "entity": "ent-160",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "a governor"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "ask",
+            "propbank": "ask.03",
+            "mentionid": "em-1295",
+            "modality": "generic",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "him"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "said",
+            "propbank": "said.XX",
+            "mentionid": "em-1329",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-178",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Anthony Papa"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "clemency",
+            "propbank": "clemency.XX",
+            "mentionid": "em-1351",
+            "modality": "generic",
+            "framenet": "fn::Clemency"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "used",
+            "propbank": "used.XX",
+            "mentionid": "em-1373",
+            "modality": "other",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "this",
+            "propbank": "this.XX",
+            "mentionid": "em-1395",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-217",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "other governors"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-2157",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "around Christmas"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "added",
+            "propbank": "add.01",
+            "mentionid": "em-1423",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-226",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "John O\u2019Hara"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "convicted",
+            "propbank": "convict.01",
+            "mentionid": "em-1445",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-226",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "John O\u2019Hara"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1469",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "voter fraud"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "pardon",
+            "propbank": "pardon.01",
+            "mentionid": "em-1473",
+            "modality": "other",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-226",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "He"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Verdict",
+            "ere": "convict",
+            "lemma": "conviction",
+            "propbank": "convict.01",
+            "mentionid": "em-1495",
+            "modality": "actual",
+            "framenet": "fn::Verdict"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-178",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Papa"
+            },
+            {
+                "reo": "reo::CrimeOrCause",
+                "ere": "crime",
+                "entity": "f-1519",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "drug"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "commutation",
+            "propbank": "commutation.XX",
+            "mentionid": "em-1523",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-178",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Papa"
+            },
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-307",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "George Pataki"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "serving",
+            "propbank": "UNK",
+            "mentionid": "em-1551",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-178",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Papa"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "arrestjail",
+            "lemma": "serving",
+            "propbank": "UNK",
+            "mentionid": "em-1573",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-337",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Horton"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Crime",
+                "entity": "f-1597",
+                "entity-ner": "crime",
+                "entity-specificity": "UNK",
+                "entity-text": "murder"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Place",
+                "entity": "ent-352",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Massachusetts"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "murder",
+            "propbank": "UNK",
+            "mentionid": "em-1607",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-337",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Horton"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Discharge",
+            "ere": "releaseparole",
+            "lemma": "left",
+            "propbank": "left.XX",
+            "mentionid": "em-1629",
+            "modality": "actual",
+            "framenet": "fn::Releasing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Captive",
+                "ere": "person",
+                "entity": "ent-337",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            },
+            {
+                "reo": "reo::Agent",
+                "ere": "agent",
+                "entity": "ent-367",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Michael Dukakis"
+            },
+            {
+                "reo": "reo::time",
+                "ere": "time",
+                "entity": "f-2164",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1980s"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "robbery",
+            "propbank": "robbery.XX",
+            "mentionid": "em-1657",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-337",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Exchange",
+            "ere": "transaction",
+            "lemma": "robbery",
+            "propbank": "robbery.XX",
+            "mentionid": "em-1679",
+            "modality": "actual",
+            "framenet": "fn::Exchange_currency"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Donor",
+                "ere": "recipient",
+                "entity": "ent-337",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "attack",
+            "lemma": "rape",
+            "propbank": "UNK",
+            "mentionid": "em-1701",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Attacker",
+                "entity": "ent-337",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "he"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "race",
+            "propbank": "UNK",
+            "mentionid": "em-1723",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1747",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "presidential"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-2171",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "1988"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "won",
+            "propbank": "UNK",
+            "mentionid": "em-1751",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-382",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Bush"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "commutation",
+            "propbank": "commutation.XX",
+            "mentionid": "em-1779",
+            "modality": "other",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cuomo"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "elect",
+            "lemma": "contest",
+            "propbank": "UNK",
+            "mentionid": "em-1801",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-52",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cuomo"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Position",
+                "entity": "f-1825",
+                "entity-ner": "title",
+                "entity-specificity": "UNK",
+                "entity-text": "presidential"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Attitudinal",
+            "ere": "contact",
+            "lemma": "agreed",
+            "propbank": "agreed.XX",
+            "mentionid": "em-1829",
+            "modality": "actual",
+            "framenet": "fn::Bragging"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-448",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Jim Murphy"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::End_leadership_position",
+            "ere": "endposition",
+            "lemma": "predecessors",
+            "propbank": "predecessors.XX",
+            "mentionid": "em-1851",
+            "modality": "actual",
+            "framenet": "fn::Change_of_leadership"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Leader",
+                "ere": "person",
+                "entity": "ent-490",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cuomo\u2019s Democratic predecessors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "commutations",
+            "propbank": "commutations.XX",
+            "mentionid": "em-1873",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-490",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cuomo\u2019s Democratic predecessors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "pardons",
+            "propbank": "pardon.01",
+            "mentionid": "em-1895",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-490",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Cuomo\u2019s Democratic predecessors"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "commutations",
+            "propbank": "commutations.XX",
+            "mentionid": "em-1917",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-121",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "David Paterson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "pardons",
+            "propbank": "pardon.01",
+            "mentionid": "em-1939",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-121",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "David Paterson"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "pardon",
+            "propbank": "pardon.01",
+            "mentionid": "em-1961",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-112",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Eliot Spitzer"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "commutations",
+            "propbank": "commutations.XX",
+            "mentionid": "em-1983",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-307",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "George Pataki"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "pardon",
+            "propbank": "pardon.01",
+            "mentionid": "em-2005",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-307",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "George Pataki"
+            },
+            {
+                "reo": "reo::Defendant",
+                "ere": "defendant",
+                "entity": "ent-526",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Lenny Bruce"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Kill",
+            "ere": "die",
+            "lemma": "posthumous",
+            "propbank": "posthumous.XX",
+            "mentionid": "em-2033",
+            "modality": "actual",
+            "framenet": "fn::Killing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Victim",
+                "ere": "victim",
+                "entity": "ent-526",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Lenny Bruce"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "commutations",
+            "propbank": "commutations.XX",
+            "mentionid": "em-2055",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-91",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Mario Cuomo"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "commutations",
+            "propbank": "commutations.XX",
+            "mentionid": "em-2077",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-556",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hugh Carey"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Pardon",
+            "ere": "pardon",
+            "lemma": "pardons",
+            "propbank": "pardon.01",
+            "mentionid": "em-2099",
+            "modality": "actual",
+            "framenet": "fn::Pardon"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Adjudicator",
+                "ere": "adjudicator",
+                "entity": "ent-556",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Hugh Carey"
+            }
+        ]
+    }
+]

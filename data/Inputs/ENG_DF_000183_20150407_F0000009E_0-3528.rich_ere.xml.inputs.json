@@ -1,0 +1,373 @@
+[
+    {
+        "event": {
+            "reo": "reo::Firing",
+            "ere": "endposition",
+            "lemma": "former",
+            "propbank": "former.XX",
+            "mentionid": "em-568eb23c_10_971",
+            "modality": "actual",
+            "framenet": "fn::Firing"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Employer",
+                "ere": "entity",
+                "entity": "ent-m.0fqqnpw",
+                "entity-ner": "ORG",
+                "entity-specificity": "specific",
+                "entity-text": "One Direction"
+            },
+            {
+                "reo": "reo::Employee",
+                "ere": "person",
+                "entity": "ent-m.0h3cltm",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "former One Direction boy bander"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Physical_attack",
+            "ere": "attack",
+            "lemma": "bomber",
+            "propbank": "bomber.XX",
+            "mentionid": "em-568eb23c_10_999",
+            "modality": "actual",
+            "framenet": "fn::Attack"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Attacker",
+                "ere": "attacker",
+                "entity": "ent-m.0t4r0zs",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Boston Marathon bomber"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.01cx_",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "Boston"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Birth",
+            "ere": "beborn",
+            "lemma": "born",
+            "propbank": "born.XX",
+            "mentionid": "em-568eb23c_10_1029",
+            "modality": "actual",
+            "framenet": "fn::Being_born"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Child",
+                "ere": "person",
+                "entity": "ent-m.0h3cltm",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "who"
+            },
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.02jx1",
+                "entity-ner": "GPE",
+                "entity-specificity": "specific",
+                "entity-text": "England"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "show",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_10_1082",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-m.01n4f8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his"
+            },
+            {
+                "reo": "UNK",
+                "ere": "ere::Time",
+                "entity": "f-568eb23c_10_1107",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "last night"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "tell",
+            "propbank": "tell.01",
+            "mentionid": "em-568eb23c_10_1110",
+            "modality": "other",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.01n4f8",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "me"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Protest_conflict",
+            "ere": "demonstrate",
+            "lemma": "protesters",
+            "propbank": "protesters.XX",
+            "mentionid": "em-568eb23c_10_1140",
+            "modality": "actual",
+            "framenet": "fn::Protest"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Protester",
+                "ere": "entity",
+                "entity": "ent-568eb23c_10_516",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "The protesters at Berkeley"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.02zd460",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Berkeley"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Statement",
+            "ere": "contact",
+            "lemma": "remark",
+            "propbank": "remark.01",
+            "mentionid": "em-568eb23c_10_1170",
+            "modality": "actual",
+            "framenet": "fn::Statement"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Agent",
+                "ere": "entity",
+                "entity": "ent-m.01w6mk6",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Rush Limbaugh"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_10_1193",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_10_1419",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "fan"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "releaseparole",
+            "lemma": "Free",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_10_1216",
+            "modality": "other",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Person",
+                "entity": "ent-m.0t4r0zs",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "Dzhokar"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "broadcast",
+            "lemma": "post",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_10_1239",
+            "modality": "generic",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-568eb23c_10_573",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "1D fans"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": false,
+            "ere": "attack",
+            "lemma": "shooting",
+            "propbank": "shoot.02",
+            "mentionid": "em-568eb23c_10_1262",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "reo::place",
+                "ere": "place",
+                "entity": "ent-m.01jswq",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Virginia Tech"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "concert",
+            "propbank": "concert.XX",
+            "mentionid": "em-568eb23c_10_1285",
+            "modality": "other",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-NIL02846",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "my"
+            },
+            {
+                "reo": "reo::Time",
+                "ere": "time",
+                "entity": "f-568eb23c_10_1310",
+                "entity-ner": "time",
+                "entity-specificity": "UNK",
+                "entity-text": "August"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "warned",
+            "propbank": "warned.XX",
+            "mentionid": "em-568eb23c_10_1353",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "audience",
+                "entity": "ent-568eb23c_10_525",
+                "entity-ner": "PER",
+                "entity-specificity": "nonspecific",
+                "entity-text": "ya"
+            },
+            {
+                "reo": "reo::Place",
+                "ere": "place",
+                "entity": "ent-m.02zd460",
+                "entity-ner": "FAC",
+                "entity-specificity": "specific",
+                "entity-text": "Berkeley"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::UNK",
+            "ere": "correspondence",
+            "lemma": "explain",
+            "propbank": "UNK",
+            "mentionid": "em-568eb23c_10_1390",
+            "modality": "actual",
+            "framenet": "UNK"
+        },
+        "arguments": [
+            {
+                "reo": "UNK",
+                "ere": "ere::Entity",
+                "entity": "ent-NIL02837",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "I"
+            }
+        ]
+    },
+    {
+        "event": {
+            "reo": "reo::Lecture",
+            "ere": "broadcast",
+            "lemma": "written",
+            "propbank": "written.XX",
+            "mentionid": "em-568eb23c_10_1429",
+            "modality": "actual",
+            "framenet": "fn::Speak_on_topic"
+        },
+        "arguments": [
+            {
+                "reo": "reo::Audience",
+                "ere": "entity",
+                "entity": "ent-568eb23c_10_741",
+                "entity-ner": "PER",
+                "entity-specificity": "specific",
+                "entity-text": "his writers"
+            }
+        ]
+    }
+]
