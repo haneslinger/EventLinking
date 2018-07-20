@@ -10,7 +10,7 @@ W2V_PATH = '/Users/abhipubali/Public/DropBox/sem2_s18/chenhao_course/word_embedd
 
 LABEL_data_TRAINING = 'cluster/train_separate.cluster'
 label_data_testing = 'cluster/testing1.cluster'
-IND_MODEL_PATH = 'trained_model/model3_mse15000.h5'
+IND_MODEL_PATH = 'trained_model/model_arg_TD_2.h5'
 OUTPUT_KEY = 'output/key'
 CROSS_MODEL_PATH ='cross_doc_model/model3_mse500.h5'
 MODEL_TO_SAVE_AT = [150,500,1000]

@@ -192,6 +192,8 @@ if __name__ == '__main__':
     saved_fname = model.save_model('trained_model')
     print('dimention of input is {} x {}'.format(train_X1.shape[1], 50))
     print('model saved as {}'.format(saved_fname))
+    model.predict(train_X1,arg_X1, train_X2, arg_X2)
+    print(model.model.summary())
     '''
     print('loading model')
     model1 =  My_Model(373, 50)
