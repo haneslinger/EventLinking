@@ -10,11 +10,12 @@ import numpy as np
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 
-realismap ={'actual':0, 'generic':1, 'other':2, 'non-event':4}
+realismap ={'actual':0, 'generic':1, 'other':2, 'non-event':3}
 
 nermap = {'sentence':0, 'commodity':1, 'time':2, 'crime':3, 'LOC':4, 'vehicle':5, 'PER':6, 'money':7, 'GPE':8, 'weapon':9, 'ORG':10, 'title':11, 'FAC':12}
 
 arg_specificity = {'nonspecific': 1, 'specificGroup': 3, 'specific': 0, 'specificIndeterminate': 5, 'specificIndividual': 4, 'UNK': 2}
+
 
 arg_ere= {'ere::Beneficiary': 46, 'adjudicator': 38, 'person': 8, 'ere::Giver': 43, 'ere::Agent': 24, 'destination': 15, 'audience': 17, 'place': 18, 'ere::Destination': 42, 'ere::Audience': 45, 'ere::Adjudicator': 48, 'giver': 36, 'ere::Person': 23, 'defendant': 11, 'ere::Origin': 41, 'ere::Org': 25, 'recipient': 20, 'ere::Defendant': 33, 'ere::Position': 39, 'beneficiary': 40, 'attacker': 6, 'instrument': 7, 'ere::Money': 44, 'ere::Target': 2, 'entity': 9, 'artifact': 28, 'ere::Place': 3, 'target': 14, 'money': 32, 'ere::Victim': 27, 'crime': 19, 'position': 26, 'ere::Crime': 35, 'origin': 22, 'thing': 21, 'victim': 0, 'ere::Entity': 12, 'ere::Thing': 31, 'time': 13, 'prosecutor': 10, 'ere::Prosecutor': 37, 'agent': 1, 'ere::Instrument': 5, 'ere::Attacker': 4, 'ere::Sentence': 34, 'ere::Artifact': 16, 'ere::Recipient': 30, 'ere::Time': 29, 'ere::Plaintiff': 47}
 
@@ -24,15 +25,49 @@ event_reo_map = {'reo::UNK': 0, 'reo::Give': 1, 'reo::Send': 2, 'reo::Physical_a
 
 arg_reo_map = {'UNK': 0, 'reo::Donor': 1, 'reo::Recipient': 2, 'reo::Agent': 3, 'reo::Theme': 4, 'reo::Attacker': 5, 'reo::Target': 6, 'reo::Victim': 7, 'reo::AccompaniedTheme': 8, 'reo::Destination': 9, 'reo::Mover': 10, 'reo::place': 11, 'reo::Place': 12, 'reo::Time': 13, 'reo::time': 14, 'reo::CrimeOrCause': 15, 'reo::Meeting_Parties': 16, 'reo::Audience': 17, 'reo::ModeOfTransportation': 18, 'reo::Initial_Location': 19, 'reo::Suspect': 20, 'reo::Employee': 21, 'reo::Employer': 22, 'reo::Defendant': 23, 'reo::Position': 24, 'reo::CostOrCotheme': 25, 'reo::Adjudicator': 26, 'reo::Captive': 27, 'reo::GovernedEntity': 28, 'reo::Leader': 29, 'reo::Cause': 30, 'reo::Protester': 31, 'reo::Child': 32, 'reo::Weapon': 33, 'reo::Authority': 34, 'reo::Instrument': 35, 'reo::Couple': 36, 'reo::Prosecutor': 37, 'reo::Artifact': 38}
 class Feature:
+    def __init__(self):
+        key_max = max(arg_ere.keys(), key=(lambda k: arg_ere[k]))
+        key_min = min(arg_ere.keys(), key=(lambda k: arg_ere[k]))
+        self.arg_ere_max = arg_ere[key_max] + 1
+        self.arg_ere_min = arg_ere[key_min]
+
+        key_max = max(arg_specificity.keys(), key=(lambda k: arg_specificity[k]))
+        key_min = min(arg_specificity.keys(), key=(lambda k: arg_specificity[k]))
+        self.arg_specificity_max = arg_specificity[key_max] + 1
+        self.arg_specificity_min = arg_specificity[key_min]
+
+        key_max = max(arg_reo_map.keys(), key=(lambda k: arg_reo_map[k]))
+        key_min = min(arg_reo_map.keys(), key=(lambda k: arg_reo_map[k]))
+        self.arg_reo_map_max = arg_reo_map[key_max] + 1
+        self.arg_reo_map_min = arg_reo_map[key_min]
+
+        key_max = max(nermap.keys(), key=(lambda k: nermap[k]))
+        key_min = min(nermap.keys(), key=(lambda k: nermap[k]))
+        self.nermap_max = nermap[key_max] + 1
+        self.nermap_min = nermap[key_min]
+
+        key_max = max(event_ere_map.keys(), key=(lambda k:event_ere_map[k]))
+        key_min = min(event_ere_map.keys(), key=(lambda k: event_ere_map[k]))
+        self.event_ere_map_max = event_ere_map[key_max] + 1
+        self.event_ere_map_min = event_ere_map[key_min]
+
+        key_max = max(event_reo_map.keys(), key=(lambda k: event_reo_map[k]))
+        key_min = min(event_reo_map.keys(), key=(lambda k: event_reo_map[k]))
+        self.event_reo_map_max = event_reo_map[key_max] + 1
+        self.event_reo_map_min = event_reo_map[key_min]
+
+        key_max = max(realismap.keys(), key=(lambda k: realismap[k]))
+        key_min = min(realismap.keys(), key=(lambda k: realismap[k]))
+        self.realismap_max = realismap[key_max] + 1
+        self.realismap_min = realismap[key_min]
+
+        key_max = max(entity_dict.keys(), key=(lambda k: entity_dict[k]))
+        key_min = min(entity_dict.keys(), key=(lambda k: entity_dict[k]))
+        self.entity_dict_max = entity_dict[key_max] + 1
+        self.entity_dict_min = entity_dict[key_min]
+
     def extract_feature(self, event,w2v):
-        #---- event features-----#
-        realis_1hot = [0]*len(realismap)
-        realis_1hot[realismap[event['event']['modality']]]=1
-        #if w2v != None:
-            #word2vec_lemma = w2v.vector(event['event']['lemma'])#w2v[event['event']['lemma']]
-        event_ere_presence = [0]*len(event_ere_map)
-        ev_ere = event['event']['ere']
-        event_ere_presence[event_ere_map[ev_ere]]+=1
+        
         #----- argument features-----#
         args = event['arguments']
         no_of_args = len(args)
@@ -51,12 +86,18 @@ class Feature:
                 ner = a['entity-ner']
                 entity = a['entity']
                 areo = a['reo']
+
+                aere_norm = (arg_ere[ere]+1 - self.arg_ere_min)/(self.arg_ere_max - self.arg_ere_min)
+                areo_norm = (arg_reo_map[areo]+1 - self.arg_reo_map_min)/(self.arg_reo_map_max-self.arg_reo_map_min)
+                asp_norm = (arg_specificity[sp]+1 - self.arg_specificity_min)/(self.arg_specificity_max - self.arg_specificity_min)
+                aner_norm = (nermap[ner]+1 - self.nermap_min)/(self.nermap_max - self.nermap_min)
+                aen_norm = (entity_dict[entity]+1 - self.entity_dict_min)/(self.entity_dict_max - self.entity_dict_min)
                 ## save zero to build zero vector for padding. Hence adding one to all
-                arg_feature.append(arg_ere[ere]+1)
-                arg_feature.append(arg_specificity[sp]+1)
-                arg_feature.append(nermap[ner]+1)
-                arg_feature.append(entity_dict[entity]+1)
-                arg_feature.append(arg_reo_map[areo]+1)
+                arg_feature.append(aere_norm)
+                arg_feature.append(asp_norm )
+                arg_feature.append(aner_norm)
+                arg_feature.append(aen_norm )
+                arg_feature.append(areo_norm )
             else:
                 #zero vector padding
                 arg_feature.append(0)
@@ -66,13 +107,24 @@ class Feature:
                 arg_feature.append(0)
             i = i+1
 
-        #--create the feature---#
+        #--create the event feature---#
+        ev_realis = event['event']['modality']
+        ev_ere = event['event']['ere']
+        ev_reo = event['event']['reo']
+
+        realis_norm = ( realismap[ev_realis]+1 - self.realismap_min)/(self.realismap_max -self.realismap_min)
+        ev_ere_norm = ( event_ere_map[ev_ere]+1 - self.event_ere_map_min)/( self.event_ere_map_max - self.event_ere_map_min)
+        ev_reo_norm = (event_reo_map[ev_reo]+1 - self.event_reo_map_min)/(self.event_reo_map_max - self.event_reo_map_min)
         ev_feature = list()
-        ev_feature.extend(realis_1hot)
+        if no_of_args >5:
+            no_of_args =5
+        noarg_norm = no_of_args/5
+        ev_feature.append(realis_norm)
         #if w2v != None:
             #ere_feature.extend(word2vec_lemma)
-        ev_feature.extend(event_ere_presence)
-        ev_feature.extend([no_of_args])
+        ev_feature.append(ev_ere_norm)
+        ev_feature.append(ev_reo_norm)
+        ev_feature.append(no_of_args)
         feature = [arg_feature,ev_feature]
         #return np.array(feature)
         return [arg_feature,ev_feature]

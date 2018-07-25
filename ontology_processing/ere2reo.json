@@ -1,0 +1,120 @@
+{
+    "ere::Transport-Artifact": [
+        "reo::Accompanied_directed_caused_change_location"
+    ],
+    "ere::Appeal": [
+        "reo::Appeal"
+    ],
+    "ere::Arrest-Jail": [
+        "reo::Arrest"
+    ],
+    "ere::Start-Position": [
+        "reo::Begin_position_with_organization"
+    ],
+    "ere::Be-Born": [
+        "reo::Birth"
+    ],
+    "ere::Manufacture-Artifact": [
+        "reo::Building_practical_objects"
+    ],
+    "ere::Transport-Person": [
+        "reo::Change_location"
+    ],
+    "ere::Transaction-Transaction": [
+        "reo::Change_possession"
+    ],
+    "ere::Transfer-Money": [
+        "reo::Change_possession"
+    ],
+    "ere::Transfer-Ownership": [
+        "reo::Change_possession"
+    ],
+    "ere::Charge-Indict": [
+        "reo::Charge",
+        "reo::Prosecute"
+    ],
+    "ere::Contact-Contact": [
+        "reo::Communication"
+    ],
+    "ere::Correspondence": [
+        "reo::Instrument_Communication"
+    ],
+    "ere::Die": [
+        "reo::Death"
+    ],
+    "ere::Declare-Bankruptcy": [
+        "reo::Declare_bankruptcy"
+    ],
+    "ere::Release-Parole": [
+        "reo::Discharge"
+    ],
+    "ere::Divorce": [
+        "reo::Divorce",
+        "reo::Divorced"
+    ],
+    "ere::Elect": [
+        "reo::Elect"
+    ],
+    "ere::End-Position": [
+        "reo::End_position_with_organization"
+    ],
+    "ere::End-Org": [
+        "reo::End_organization"
+    ],
+    "ere::Execute": [
+        "reo::Execute"
+    ],
+    "ere::Injure": [
+        "reo::Experience_Injury",
+        "reo::Injured"
+    ],
+    "ere::Extradite": [
+        "reo::Extradite"
+    ],
+    "ere::Sentence": [
+        "reo::Sentence"
+    ],
+    "ere::Fine": [
+        "reo::Fine"
+    ],
+    "ere::Start-Org": [
+        "reo::Found_organization"
+    ],
+    "ere::Broadcast": [
+        "reo::Lecture"
+    ],
+    "ere::Marry": [
+        "reo::Married",
+        "reo::Marry"
+    ],
+    "ere::Meet": [
+        "reo::Meet"
+    ],
+    "ere::Merge-Org": [
+        "reo::Merge_organization"
+    ],
+    "ere::Nominate": [
+        "reo::Nominating"
+    ],
+    "ere::Pardon": [
+        "reo::Pardon"
+    ],
+    "ere::Attack": [
+        "reo::Physical_attack"
+    ],
+    "ere::Trial-Hearing": [
+        "reo::Prosecute"
+    ],
+    "ere::Demonstrate": [
+        "reo::Protest_conflict"
+    ],
+    "ere::Sue": [
+        "reo::Sue"
+    ],
+    "ere::Acquit": [
+        "reo::Verdict"
+    ],
+    "ere::Convict": [
+        "reo::Verdict"
+    ]
+}

@@ -1,0 +1,263 @@
+{
+    "reo::Perdurant_entity": {
+        "reo::Eventive_perdurant": {
+            "reo::Affecting_event": {
+                "reo::Other_affecting": {},
+                "reo::Self_affecting": {}
+            },
+            "reo::Change_event": {
+                "reo::Attribute_change": {
+                    "reo::Internal_attribute_change": {
+                        "reo::Biological_state_change": {
+                            "reo::Life_Event": {
+                                "reo::Birth": {},
+                                "reo::Death": {}
+                            },
+                            "reo::Life_Sustaining_Activity": {
+                                "reo::Consumption": {}
+                            }
+                        },
+                        "reo::Degradation": {
+                            "reo::Animate_degradation": {
+                                "reo::Experience_Injury": {},
+                                "reo::Harm": {
+                                    "reo::Cause_Injury": {},
+                                    "reo::Kill": {
+                                        "reo::Execute": {}
+                                    }
+                                }
+                            },
+                            "reo::Inanimate_degradation": {}
+                        },
+                        "reo::Cognitive_event": {
+                            "reo::Appraisal": {},
+                            "reo::Decision": {}
+                        }
+                    },
+                    "reo::Relational_attribute_change": {
+                        "reo::Change_possession": {
+                            "reo::Get": {
+                                "reo::Exchange": {
+                                    "reo::Buy_sell": {},
+                                    "reo::Loan_borrow": {}
+                                },
+                                "reo::Steal": {}
+                            },
+                            "reo::Give": {
+                                "reo::Exchange": {
+                                    "reo::Buy_sell": {},
+                                    "reo::Loan_borrow": {}
+                                }
+                            }
+                        },
+                        "reo::Motion": {
+                            "reo::Change_location": {
+                                "reo::Caused_change_location": {
+                                    "reo::Directed_caused_change_location": {
+                                        "reo::Accompanied_directed_caused_change_location": {},
+                                        "reo::Caused_leave-Remove": {},
+                                        "reo::Caused_reach": {
+                                            "reo::Put": {},
+                                            "reo::Send": {
+                                                "reo::Extradite": {}
+                                            }
+                                        },
+                                        "reo::Trajectory_focused_caused_change_location": {
+                                            "reo::Caused_cross": {},
+                                            "reo::Caused_follow": {}
+                                        }
+                                    },
+                                    "reo::Undirected_caused_change_location": {}
+                                },
+                                "reo::Intrinsic_change_location": {
+                                    "reo::Directed_intrinsic_change_location": {
+                                        "reo::Accompanied_directed_intrinsic_change_location": {},
+                                        "reo::Intrinsic_leave": {},
+                                        "reo::Intrinsic_reach": {},
+                                        "reo::Trajectory_focused_intrinsic_change_location": {
+                                            "reo::Intrinsic_Cross": {},
+                                            "reo::Intrinsic_Follow": {}
+                                        }
+                                    },
+                                    "reo::Undirected_intrinsic_change_location": {
+                                        "reo::Accompanied_undirected_change_location": {},
+                                        "reo::Non-accompanied_undirected_change_location": {}
+                                    }
+                                }
+                            },
+                            "reo::Motion_in_place": {
+                                "reo::Change_extent": {
+                                    "reo::Caused_change_extent": {}
+                                },
+                                "reo::Change_positioning": {}
+                            }
+                        },
+                        "reo::Organizational_process": {
+                            "reo::Begin_position_with_organization": {
+                                "reo::Begin_leadership_position": {
+                                    "reo::Elect": {},
+                                    "reo::Install-coup": {}
+                                },
+                                "reo::Demotion": {},
+                                "reo::Hiring": {},
+                                "reo::Hiring_on": {},
+                                "reo::Promotion": {}
+                            },
+                            "reo::Declare_bankruptcy": {},
+                            "reo::End_organization": {},
+                            "reo::End_position_with_organization": {
+                                "reo::End_leadership_position": {},
+                                "reo::Firing": {},
+                                "reo::quitting": {}
+                            },
+                            "reo::Found_organization": {},
+                            "reo::Merge_organization": {},
+                            "reo::Nominating": {}
+                        },
+                        "reo::Physical_contact": {
+                            "reo::Caused_physical_contact": {},
+                            "reo::Intrinsic_physical_contact": {}
+                        },
+                        "reo::Social_Interaction": {
+                            "reo::Authority": {
+                                "reo::Confine_Involuntarily": {
+                                    "reo::Incarcerate": {}
+                                },
+                                "reo::Punish": {
+                                    "reo::Execute": {}
+                                }
+                            },
+                            "reo::Change_social_role": {
+                                "reo::Divorce": {},
+                                "reo::Marry": {}
+                            },
+                            "reo::Communication": {
+                                "reo::Gesture": {},
+                                "reo::Verbal_Communication": {
+                                    "reo::Conversing": {},
+                                    "reo::Illocution": {
+                                        "reo::Attitudinal": {},
+                                        "reo::Declarational": {}
+                                    },
+                                    "reo::Instrument_Communication": {
+                                        "reo::Creating_text": {}
+                                    },
+                                    "reo::Lecture": {},
+                                    "reo::Question": {},
+                                    "reo::Response": {},
+                                    "reo::Statement": {}
+                                }
+                            },
+                            "reo::Conflict": {
+                                "reo::Attack_conflict": {
+                                    "reo::Non-physical_attack": {},
+                                    "reo::Physical_attack": {}
+                                },
+                                "reo::Protest_conflict": {
+                                    "reo::Non-violent_protest": {},
+                                    "reo::Violent_protest": {}
+                                },
+                                "reo::Reciprocal_conflict": {
+                                    "reo::Argue_reciprocal": {},
+                                    "reo::Battle_reciprocal": {}
+                                }
+                            },
+                            "reo::Legal_Action": {
+                                "reo::Appeal": {},
+                                "reo::Arrest": {},
+                                "reo::Declare_bankruptcy": {},
+                                "reo::Discharge": {},
+                                "reo::Divorce": {},
+                                "reo::Execute": {},
+                                "reo::Extradite": {},
+                                "reo::Incarcerate": {},
+                                "reo::Judicial_Process_Action": {
+                                    "reo::Charge": {},
+                                    "reo::Sentence": {
+                                        "reo::Fine": {},
+                                        "reo::Jailtime": {}
+                                    },
+                                    "reo::Trial": {},
+                                    "reo::Verdict": {}
+                                },
+                                "reo::Marry": {},
+                                "reo::Pardon": {},
+                                "reo::Prosecute": {},
+                                "reo::Sue": {}
+                            },
+                            "reo::Meet": {},
+                            "reo::Mobilize_social_movement": {}
+                        }
+                    }
+                },
+                "reo::Creating": {
+                    "reo::Creating_artifacts": {
+                        "reo::Building_practical_objects": {
+                            "reo::Manufacturing": {}
+                        },
+                        "reo::Cooking_creation": {},
+                        "reo::Creating_physical_art": {},
+                        "reo::Creating_text": {}
+                    },
+                    "reo::Creating_concepts": {
+                        "reo::Creating_physical_art_concepts": {},
+                        "reo::Creating_product_designs": {},
+                        "reo::Creating_recipes": {},
+                        "reo::Creating_text_concepts": {}
+                    },
+                    "reo::Performing": {}
+                }
+            }
+        },
+        "reo::Stative_perdurant": {
+            "reo::Attribute_state": {
+                "reo::InternalAttribute": {
+                    "reo::Biological": {
+                        "reo::Alive": {},
+                        "reo::Dead": {},
+                        "reo::Injured": {},
+                        "reo::Sick": {}
+                    },
+                    "reo::Cognitive": {},
+                    "reo::Material": {},
+                    "reo::Able_state": {}
+                },
+                "reo::RelationalAttribute": {
+                    "reo::Contact": {},
+                    "reo::Organizational": {},
+                    "reo::Possession": {},
+                    "reo::Social": {
+                        "reo::Have_social_role": {
+                            "reo::Have_family_role": {},
+                            "reo::Have_organizational_role": {
+                                "reo::Be_member": {},
+                                "reo::Employed": {},
+                                "reo::Have_official_organizational_role": {}
+                            },
+                            "reo::Marriage_status": {
+                                "reo::Divorced": {},
+                                "reo::Engaged": {},
+                                "reo::Married": {},
+                                "reo::Unmarried": {},
+                                "reo::Widowed": {}
+                            },
+                            "reo::Group_identity": {}
+                        },
+                        "reo::Judgment": {
+                            "reo::Take_side": {
+                                "reo::Accord": {},
+                                "reo::Discord": {}
+                            }
+                        },
+                        "reo::Grievance": {}
+                    },
+                    "reo::Spatial": {
+                        "reo::Location": {},
+                        "reo::Position": {}
+                    }
+                }
+            },
+            "reo::Existence": {}
+        }
+    }
+}

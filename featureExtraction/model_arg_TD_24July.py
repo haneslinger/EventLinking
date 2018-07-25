@@ -24,7 +24,7 @@ class My_Model:
         ##---projection layer-----##
         ## assume each argument is of size 5 and 5 arguments per event. hence ip1 is 20x1. so is ip2self.
         ## after conv each argument will have 5 channles(dimention)
-        self.projection1 = Conv1D(5, 4, strides=5, padding='valid', activation='tanh')#(Dropout(0.5)(Dense(1500, activation='relu')))
+        self.projection1 = Conv1D(5, 4, strides=5, padding='valid', activation='elu')#(Dropout(0.5)(Dense(1500, activation='relu')))
         self.sh_projection1_op1 = self.projection1(self.arg_ip1)
         self.sh_projection1_op2 = self.projection1(self.arg_ip2)
 
@@ -52,7 +52,7 @@ class My_Model:
         print(self.ev_ip1.shape)
         #self.ev_vec = Reshape((2,int(self.ev_ip1.shape[1])))(concatenate([self.ev_ip1, self.ev_ip2]))
         #self.ev_projection = TimeDistributed(Dense(8,activation='relu'), input_shape=(self.ev_vec.shape[1], self.ev_vec.shape[2]))(self.ev_vec)
-        self.ev_projection = Dense(8,activation='softmax')
+        self.ev_projection = Dense(8,activation='elu')
         self.ev1 = self.ev_projection(self.ev_ip1)
         self.ev2 = self.ev_projection(self.ev_ip2)
         print(self.ev1.shape)

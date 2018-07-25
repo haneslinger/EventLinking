@@ -7,10 +7,11 @@ import json
 import os
 import numpy as np
 #import  .word_vector.word_vec_wrapper
+from .ontology_processing.reo_handling import Reo
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 
-realismap ={'actual':0, 'generic':1, 'other':2, 'non-event':4}
+realismap ={'actual':0, 'generic':1, 'other':2, 'non-event':3}
 
 nermap = {'sentence':0, 'commodity':1, 'time':2, 'crime':3, 'LOC':4, 'vehicle':5, 'PER':6, 'money':7, 'GPE':8, 'weapon':9, 'ORG':10, 'title':11, 'FAC':12}
 
@@ -24,21 +25,57 @@ event_reo_map = {'reo::UNK': 0, 'reo::Give': 1, 'reo::Send': 2, 'reo::Physical_a
 
 arg_reo_map = {'UNK': 0, 'reo::Donor': 1, 'reo::Recipient': 2, 'reo::Agent': 3, 'reo::Theme': 4, 'reo::Attacker': 5, 'reo::Target': 6, 'reo::Victim': 7, 'reo::AccompaniedTheme': 8, 'reo::Destination': 9, 'reo::Mover': 10, 'reo::place': 11, 'reo::Place': 12, 'reo::Time': 13, 'reo::time': 14, 'reo::CrimeOrCause': 15, 'reo::Meeting_Parties': 16, 'reo::Audience': 17, 'reo::ModeOfTransportation': 18, 'reo::Initial_Location': 19, 'reo::Suspect': 20, 'reo::Employee': 21, 'reo::Employer': 22, 'reo::Defendant': 23, 'reo::Position': 24, 'reo::CostOrCotheme': 25, 'reo::Adjudicator': 26, 'reo::Captive': 27, 'reo::GovernedEntity': 28, 'reo::Leader': 29, 'reo::Cause': 30, 'reo::Protester': 31, 'reo::Child': 32, 'reo::Weapon': 33, 'reo::Authority': 34, 'reo::Instrument': 35, 'reo::Couple': 36, 'reo::Prosecutor': 37, 'reo::Artifact': 38}
 class Feature:
+    def __init__(self):
+        key_max = max(arg_ere.keys(), key=(lambda k: arg_ere[k]))
+        key_min = min(arg_ere.keys(), key=(lambda k: arg_ere[k]))
+        self.arg_ere_max = arg_ere[key_max] + 1
+        self.arg_ere_min = arg_ere[key_min]
+
+        key_max = max(arg_specificity.keys(), key=(lambda k: arg_specificity[k]))
+        key_min = min(arg_specificity.keys(), key=(lambda k: arg_specificity[k]))
+        self.arg_specificity_max = arg_specificity[key_max] + 1
+        self.arg_specificity_min = arg_specificity[key_min]
+
+        key_max = max(arg_reo_map.keys(), key=(lambda k: arg_reo_map[k]))
+        key_min = min(arg_reo_map.keys(), key=(lambda k: arg_reo_map[k]))
+        self.arg_reo_map_max = arg_reo_map[key_max] + 1
+        self.arg_reo_map_min = arg_reo_map[key_min]
+
+        key_max = max(nermap.keys(), key=(lambda k: nermap[k]))
+        key_min = min(nermap.keys(), key=(lambda k: nermap[k]))
+        self.nermap_max = nermap[key_max] + 1
+        self.nermap_min = nermap[key_min]
+
+        key_max = max(event_ere_map.keys(), key=(lambda k:event_ere_map[k]))
+        key_min = min(event_ere_map.keys(), key=(lambda k: event_ere_map[k]))
+        self.event_ere_map_max = event_ere_map[key_max] + 1
+        self.event_ere_map_min = event_ere_map[key_min]
+
+        key_max = max(event_reo_map.keys(), key=(lambda k: event_reo_map[k]))
+        key_min = min(event_reo_map.keys(), key=(lambda k: event_reo_map[k]))
+        self.event_reo_map_max = event_reo_map[key_max] + 1
+        self.event_reo_map_min = event_reo_map[key_min]
+
+        key_max = max(realismap.keys(), key=(lambda k: realismap[k]))
+        key_min = min(realismap.keys(), key=(lambda k: realismap[k]))
+        self.realismap_max = realismap[key_max] + 1
+        self.realismap_min = realismap[key_min]
+
+        key_max = max(entity_dict.keys(), key=(lambda k: entity_dict[k]))
+        key_min = min(entity_dict.keys(), key=(lambda k: entity_dict[k]))
+        self.entity_dict_max = entity_dict[key_max] + 1
+        self.entity_dict_min = entity_dict[key_min]
+
     def extract_feature(self, event,w2v):
-        #---- event features-----#
-        realis_1hot = [0]*len(realismap)
-        realis_1hot[realismap[event['event']['modality']]]=1
+
         #if w2v != None:
             #word2vec_lemma = w2v.vector(event['event']['lemma'])#w2v[event['event']['lemma']]
-        event_ere_presence = [0]*len(event_ere_map)
-        ev_ere = event['event']['ere']
-        event_ere_presence[event_ere_map[ev_ere]]+=1
+
+
         #----- argument features-----#
         args = event['arguments']
         no_of_args = len(args)
-        arg_ere_presence = [0]*len(arg_ere)
-        arg_specificity_presence = [0]*len(arg_specificity)
-        arg_ner_presence = [0]*len(nermap)
+
         #arg_entity_presence = [0]*len(entity_dict)
         i=0
         arg_feature = list()
@@ -51,12 +88,18 @@ class Feature:
                 ner = a['entity-ner']
                 entity = a['entity']
                 areo = a['reo']
+
+                aere_norm = (arg_ere[ere]+1 - self.arg_ere_min)/(self.arg_ere_max - self.arg_ere_min)
+                areo_norm = (arg_reo_map[areo]+1 - self.arg_reo_map_min)/(self.arg_reo_map_max-self.arg_reo_map_min)
+                asp_norm = (arg_specificity[sp]+1 - self.arg_specificity_min)/(self.arg_specificity_max - self.arg_specificity_min)
+                aner_norm = (nermap[ner]+1 - self.nermap_min)/(self.nermap_max - self.nermap_min)
+                aen_norm = (entity_dict[entity]+1 - self.entity_dict_min)/(self.entity_dict_max - self.entity_dict_min)
                 ## save zero to build zero vector for padding. Hence adding one to all
-                arg_feature.append(arg_ere[ere]+1)
-                arg_feature.append(arg_specificity[sp]+1)
-                arg_feature.append(nermap[ner]+1)
-                arg_feature.append(entity_dict[entity]+1)
-                arg_feature.append(arg_reo_map[areo]+1)
+                arg_feature.append(aere_norm)
+                arg_feature.append(asp_norm )
+                arg_feature.append(aner_norm)
+                arg_feature.append(aen_norm )
+                arg_feature.append(areo_norm )
             else:
                 #zero vector padding
                 arg_feature.append(0)
@@ -66,16 +109,47 @@ class Feature:
                 arg_feature.append(0)
             i = i+1
 
-        #--create the feature---#
-        ev_feature = list()
-        ev_feature.extend(realis_1hot)
-        #if w2v != None:
-            #ere_feature.extend(word2vec_lemma)
-        ev_feature.extend(event_ere_presence)
-        ev_feature.extend([no_of_args])
+        
         feature = [arg_feature,ev_feature]
         #return np.array(feature)
         return [arg_feature,ev_feature]
+
+    def ontology_similarity(self, ev1,ev2,reo):
+        ev1_ere = ev1['event']['ere']
+        ev1_reo = ev1['event']['reo']
+        ev1_realis = realismap[ev1['event']['modality']]
+        if ev1_reo.find('unknown')>0:# make it case insensative
+            ev1_reo = reo.findreo(ev1_ere)
+
+        ev2_ere = ev2['event']['ere']
+        ev2_reo = ev2['event']['reo']
+        ev2_realis = realismap[ev2['event']['modality']]
+        if ev2_reo.find('unknown')>0:# make it case insensative
+            ev2_reo = reo.findreo(ev2_ere)
+
+
+        r1 = max(ev1_realis, ev2_realis)
+        r2 = min(ev1_realis, ev2_realis)
+        r12 = 10*r1+r2
+
+        vec =[-1]*6
+        no_arg1 = len(ev1['arguments']) if len(ev1['arguments'])<5 else 5
+        no_arg2 = len(ev2['arguments']) if len(ev2['arguments'])<5 else 5
+        diff_val =no_arg1 - no_arg2
+        vec[5] = 0.4*(diff_val) -1 #normalise in (-1,1) https://stats.stackexchange.com/questions/70801/how-to-normalize-data-to-0-1-range
+        if vec[5]<0:
+            vec[5] = vec[5]*-1
+        if ev1_reo == ev2_reo:
+            vec[0]= 1
+        else:
+            a,c,dist = reo.get_ancestor_distance(ev1_reo, ev2_reo)
+            s,cp,d1,d2 = reo.get_siblings(ev1_reo, ev2_reo)
+            vec[1]= dist
+            vec[2]= s
+            vec[3]= d1
+            vec[4]= d2
+        vec.append(r12)
+        return vec
 
 if __name__ == '__main__':
     testfileName='/Users/abhipubali/Public/DropBox/AIDA_Paper/work/data/Inputs/010aaf594ae6ef20eb28e3ee26038375.rich_ere.xml.inputs.json'
