@@ -7,7 +7,7 @@ import json
 import os
 import numpy as np
 #import  .word_vector.word_vec_wrapper
-from .ontology_processing.reo_handling import Reo
+#from ..ontology_processing.reo_handling import Reo
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 
@@ -109,7 +109,24 @@ class Feature:
                 arg_feature.append(0)
             i = i+1
 
-        
+        #--create the event feature---#
+        ev_realis = event['event']['modality']
+        ev_ere = event['event']['ere']
+        ev_reo = event['event']['reo']
+
+        realis_norm = ( realismap[ev_realis]+1 - self.realismap_min)/(self.realismap_max -self.realismap_min)
+        ev_ere_norm = ( event_ere_map[ev_ere]+1 - self.event_ere_map_min)/( self.event_ere_map_max - self.event_ere_map_min)
+        ev_reo_norm = (event_reo_map[ev_reo]+1 - self.event_reo_map_min)/(self.event_reo_map_max - self.event_reo_map_min)
+        ev_feature = list()
+        if no_of_args >5:
+            no_of_args =5
+        noarg_norm = no_of_args/5
+        ev_feature.append(realis_norm)
+        #if w2v != None:
+            #ere_feature.extend(word2vec_lemma)
+        ev_feature.append(ev_ere_norm)
+        ev_feature.append(ev_reo_norm)
+        ev_feature.append(no_of_args)
         feature = [arg_feature,ev_feature]
         #return np.array(feature)
         return [arg_feature,ev_feature]
@@ -118,37 +135,48 @@ class Feature:
         ev1_ere = ev1['event']['ere']
         ev1_reo = ev1['event']['reo']
         ev1_realis = realismap[ev1['event']['modality']]
-        if ev1_reo.find('unknown')>0:# make it case insensative
-            ev1_reo = reo.findreo(ev1_ere)
+
 
         ev2_ere = ev2['event']['ere']
         ev2_reo = ev2['event']['reo']
         ev2_realis = realismap[ev2['event']['modality']]
-        if ev2_reo.find('unknown')>0:# make it case insensative
+
+        #print('finding relation between {} and {}'.format(ev1_reo,ev2_reo))
+        if not ev2_reo:
+            ev2_reo = 'reo::UNK'
+        if not ev1_reo:
+            ev1_reo = 'reo::UNK'
+
+        if ev1_reo.find('unknown')>0 or ev1_reo.find('UNK')>0 :# make it case insensative
+            ev1_reo = reo.findreo(ev1_ere)
+        if ev2_reo.find('unknown')> 0 or ev2_reo.find('UNK')>0:# make it case insensative
             ev2_reo = reo.findreo(ev2_ere)
 
+        #print('\t after change {} and {}'.format(ev1_reo,ev2_reo))
 
         r1 = max(ev1_realis, ev2_realis)
         r2 = min(ev1_realis, ev2_realis)
         r12 = 10*r1+r2
 
-        vec =[-1]*6
+        vec =[-1]*5
+
         no_arg1 = len(ev1['arguments']) if len(ev1['arguments'])<5 else 5
         no_arg2 = len(ev2['arguments']) if len(ev2['arguments'])<5 else 5
-        diff_val =no_arg1 - no_arg2
-        vec[5] = 0.4*(diff_val) -1 #normalise in (-1,1) https://stats.stackexchange.com/questions/70801/how-to-normalize-data-to-0-1-range
-        if vec[5]<0:
-            vec[5] = vec[5]*-1
+        diff_val = (no_arg1 - no_arg2)/5
+        if diff_val <0:
+            diff_val = diff_val *-1
+        vec.append(diff_val/5)
+
         if ev1_reo == ev2_reo:
             vec[0]= 1
         else:
             a,c,dist = reo.get_ancestor_distance(ev1_reo, ev2_reo)
             s,cp,d1,d2 = reo.get_siblings(ev1_reo, ev2_reo)
-            vec[1]= dist
-            vec[2]= s
-            vec[3]= d1
-            vec[4]= d2
-        vec.append(r12)
+            vec[1]= (dist+1)/2 #normalize in 0,1
+            vec[2]= (s+1)/2
+            vec[3]= d1/12
+            vec[4]= d2/12
+        #vec.append(r12)
         return vec
 
 if __name__ == '__main__':

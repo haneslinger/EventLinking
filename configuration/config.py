@@ -15,3 +15,6 @@ OUTPUT_KEY = 'output/key'
 CROSS_MODEL_PATH ='cross_doc_model/model3_mse500.h5'
 MODEL_TO_SAVE_AT = [150,500,1000]
 epch = 500
+
+REO = 'ontology_processing/reo.json'
+ERE2REO = 'ontology_processing/ere2reo.json'
