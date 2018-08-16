@@ -1,15 +1,12 @@
-#import sys
-#sys.path.append("..")
+import sys
+sys.path.append("..")
 #from ..fileReading import Data
 from .entity_dic import entity_dict
-import gensim
 import json
 import os
 import numpy as np
 #import  .word_vector.word_vec_wrapper
 #from ..ontology_processing.reo_handling import Reo
-from gensim.models import Word2Vec
-from gensim.models import KeyedVectors
 
 realismap ={'actual':0, 'generic':1, 'other':2, 'non-event':3}
 
@@ -66,7 +63,7 @@ class Feature:
         self.entity_dict_max = entity_dict[key_max] + 1
         self.entity_dict_min = entity_dict[key_min]
 
-    def extract_feature(self, event,w2v):
+    def extract_feature(self, event):
 
         #if w2v != None:
             #word2vec_lemma = w2v.vector(event['event']['lemma'])#w2v[event['event']['lemma']]
@@ -180,13 +177,12 @@ class Feature:
         return vec
 
 if __name__ == '__main__':
-    testfileName='/Users/abhipubali/Public/DropBox/AIDA_Paper/work/data/Inputs/010aaf594ae6ef20eb28e3ee26038375.rich_ere.xml.inputs.json'
+    testfileName='/Users/Hannah/eclipse-workspace/Event_Clustering_Argument_Focused/data/training_data/d7369ce92ed0b6327412c705dbbab654.rich_ere.xml.inputs.json'
     with open(testfileName) as json_data:
         data= json.load(json_data)
     ev= data[0]
     print(ev)
     feat = Feature()
-    #w2v = KeyedVectors.load_word2vec_format('/Users/abhipubali/Public/DropBox/sem2_s18/chenhao_course/word_embeddings_benchmarks/scripts/word2vec_wikipedia/wiki_w2v_300.txt', binary=False)
     f= feat.extract_feature(ev, None)
     #print(f.shape)
     print(f)

@@ -18,8 +18,8 @@ data_folders= ['']
 label_data_training = cfg.LABEL_data_TRAINING
 label_data_testing = 'cluster/testing1.cluster'
 testfileName='/Users/abhipubali/Public/DropBox/AIDA_Paper/work/data/010aaf594ae6ef20eb28e3ee26038375.rich_ere.xml.inputs.json'
-#w2v = word_vec_wrapper('/Users/abhipubali/Public/DropBox/sem2_s18/chenhao_course/word_embeddings_benchmarks/scripts/word2vec_wikipedia/wiki_w2v_300.txt')
-#w2v = word_vec_wrapper(cfg.W2V_PATH ,nlp)
+w2v = word_vec_wrapper('/Users/abhipubali/Public/DropBox/sem2_s18/chenhao_course/word_embeddings_benchmarks/scripts/word2vec_wikipedia/wiki_w2v_300.txt')
+w2v = word_vec_wrapper(cfg.W2V_PATH ,nlp)
 w2v = None
 def read_lable_data(file):
     list_line = list()
@@ -238,7 +238,11 @@ if __name__ == '__main__':
     train_set,oC,zC =data_augmentation(train_set)# sampler(train_ones, train_zeros)
     train_set = sampler2(train_set,oC+ones, zC+zeros)
     print('extracting features for training')
+    
+    
     train_X1, arg_X1, train_X2, arg_X2, train_Y = feature_extraction_caller(train_set,1)
+    
+    
     #train_Y = to_categorical(train_Y)
     model = My_Model(train_X1.shape[1],arg_X1.shape[1], 50)
     model.train_model(train_X1,arg_X1, train_X2, arg_X2, train_Y,epch=cfg.epch)

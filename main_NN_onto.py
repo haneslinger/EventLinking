@@ -1,27 +1,29 @@
-from featureExtraction.feature_new import Feature
+
 from featureExtraction.model_arg_onto import My_Model
 from ontology_processing.reo_handling import Reo
-from word_vector import word_vec_wrapper
+#from word_vector import word_vec_wrapper
 from training_pair_preparation.classes import Pair
+from featureExtraction.feature_new import Feature
 import json
-import spacy
+#import spacy
 import os
 import random
 import numpy as np
-import tensorflow as tf
+#import tensorflow as tf
 import configuration.config as cfg
-from keras.utils import to_categorical
+#from keras.utils import to_categorical
 
-nlp = spacy.load('en')
+#nlp = spacy.load('en')
 #label_data_path = 'cluster/all.cluster'
-data_folders= ['']
-label_data_training = cfg.LABEL_data_TRAINING
-label_data_testing = 'cluster/testing1.cluster'
-testfileName='/Users/abhipubali/Public/DropBox/AIDA_Paper/work/data/010aaf594ae6ef20eb28e3ee26038375.rich_ere.xml.inputs.json'
+#data_folders= ['']
+
+#label_data_testing = 'cluster/testing1.cluster'
+#testfileName='/Users/abhipubali/Public/DropBox/AIDA_Paper/work/data/010aaf594ae6ef20eb28e3ee26038375.rich_ere.xml.inputs.json'
 #w2v = word_vec_wrapper('/Users/abhipubali/Public/DropBox/sem2_s18/chenhao_course/word_embeddings_benchmarks/scripts/word2vec_wikipedia/wiki_w2v_300.txt')
 #w2v = word_vec_wrapper(cfg.W2V_PATH ,nlp)
-w2v = None
-def read_lable_data(file):
+#w2v = None
+
+def read_labe_data(file):
     list_line = list()
     list_pairs = list()
     with open(file) as f:
@@ -34,6 +36,14 @@ def read_lable_data(file):
         #print(tokens[0])
         list_pairs.append(Pair(str(tokens[1]),str(tokens[2]),str(tokens[3]),str(tokens[0])))
         #list_pairs.append(Pair(str(tokens[2]),str(tokens[4]),str(tokens[6]),str(tokens[0])))
+    return list_pairs
+
+def read_lable_data(file):
+    list_pairs = list()
+    with open(file) as f:
+        for line in f.readlines():
+            tokens = line.split()
+            list_pairs.append(Pair(str(tokens[1]),str(tokens[2]),str(tokens[3]),str(tokens[0])))
     return list_pairs
 
 def read_events_pairs(filepath, list_of_pair, augmentation =0):
@@ -63,7 +73,12 @@ def read_events_pairs(filepath, list_of_pair, augmentation =0):
         else:
             zero_count = zero_count+1
             event_pairs_zeros.append(newp)
-    print('no of zero={}, num of ones ={}'.format(zero_count, one_count))
+    print('--------------------')
+    print('| PRE AUGMENTATION |')
+    print('--------------------')
+    print('zero count: {}'.format(zero_count))
+    print('one count: {}'.format(one_count))
+    print('--------------------')
     return actual_event_pairs,one_count, zero_count# event_pairs_ones,event_pairs_zeros
 
 def data_augmentation(list_pair):
@@ -96,7 +111,12 @@ def data_augmentation(list_pair):
                 aug_zero_count = aug_zero_count +1
                 new_pair.append(newp)
     list_pair.extend(new_pair)
-    print(' augOne={}, augZero={}'.format( aug_one_count, aug_zero_count))
+    print('--------------------')
+    print('| POST AUGMENTATION |')
+    print('--------------------')
+    print('zero count: {}'.format(aug_zero_count))
+    print('one count: {}'.format(aug_one_count))
+    print('--------------------')
     return list_pair, aug_one_count, aug_zero_count
 
 def train_test_split(actual_event_pairs):
@@ -178,8 +198,8 @@ def feature_extraction_caller(event_pair_list, npa):
 
     for p in event_pair_list:
         Y.append(p.same)
-        f1= feat.extract_feature(p.ev1, w2v)
-        f2= feat.extract_feature(p.ev2, w2v)
+        f1= feat.extract_feature(p.ev1)
+        f2= feat.extract_feature(p.ev2)
         l1 = p.ev1['event']['lemma']
         l2 = p.ev2['event']['lemma']
         onto = feat.ontology_similarity(p.ev1, p.ev2, reo)
@@ -206,31 +226,37 @@ def feature_extraction_caller(event_pair_list, npa):
 
 if __name__ == '__main__':
 
-    print('processing .cluster files for training')
-    list_of_pair_train = read_lable_data(label_data_training )
-    #print(list_of_pair[0].fname)
-    actual_event_pairs,ones, zeros = read_events_pairs(cfg.TRAINING_json_DATA, list_of_pair_train)
+    print('processing .cluster files for training filenames...')
+    list_of_pair_train = read_lable_data(cfg.LABEL_data_TRAINING)
+        
+    # get the actual training data
+    print('gathering actual train...')
+    actual_event_pairs, ones, zeros = read_events_pairs(cfg.TRAINING_json_DATA, list_of_pair_train)
 
-    print('processing input files for training')
-    #train_ones, train_zeros = read_events_pairs(cfg.TRAINING_json_DATA, list_of_pair_train)
-
-
-    #train_ones = data_augmentation(train_ones)
-    #train_zeors = data_augmentation(train_zeros)
-    train_set = actual_event_pairs
-    train_set,oC,zC =data_augmentation(train_set)# sampler(train_ones, train_zeros)
+    print('augmenting data...')
+    train_set, oC, zC = data_augmentation(actual_event_pairs)
+    
+   
     train_set = sampler2(train_set,oC+ones, zC+zeros)
     print('extracting features for training')
-    train_X1, arg_X1, train_X2, arg_X2, onto_sim,train_Y = feature_extraction_caller(train_set,1)
+    train_X1, arg_X1, train_X2, arg_X2, onto_sim, train_Y = feature_extraction_caller(train_set,1)
+    
+    
     #train_Y = to_categorical(train_Y)
+    
     model = My_Model(train_X1.shape[1],arg_X1.shape[1],onto_sim.shape[1], 50)
     model.train_model(train_X1,arg_X1, train_X2, arg_X2, onto_sim, train_Y,epch=cfg.epch)
+    
+    print('done!')
+    '''
     if not os.path.exists('trained_model'):
         os.makedirs('trained_model')
     saved_fname = model.save_model('trained_model')
+    
+
     print('dimention of input is {} x {}'.format(train_X1.shape[1], 50))
     print('model saved as {}'.format(saved_fname))
-    '''
+    ''''''
     print('loading model')
     model1 =  My_Model(373, 50)
     model1.load_model('trained_model/model_2.h5')

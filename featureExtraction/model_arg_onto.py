@@ -80,7 +80,7 @@ class My_Model:
         return self.model.predict([test_x1, arg_x1, test_x2, arg_x2,onto_ip])
 
     def evaluate(self,X1,A1, X2, A2, ontoip, y):
-        return self.model.evaluate([X1,A1,X2,A2,ontoip,y)
+        return self.model.evaluate([X1,A1,X2,A2,ontoip, y])
 
     def save_Model_separately(self, path):
         weights_file = os.path.join(path,'weight.h5')
