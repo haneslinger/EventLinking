@@ -1,6 +1,6 @@
 import os
 #PASCAL_PATH =os.path.join(DATA_PATH, 'pascal_voc')
-TRAINING_json_DATA = 'data/training_data'
+TRAINING_json_DATA = '../ECAJsonData/training_data'
 TESTING_json_DATA = 'data/testing_data'#'data/Inputs'
 
 TRAINING_key_DATA = 'key_ori/trining_keys'

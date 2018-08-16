@@ -1,5 +1,5 @@
 
-from featureExtraction.model_arg_onto import My_Model
+#from featureExtraction.model_arg_onto import My_Model
 from ontology_processing.reo_handling import Reo
 #from word_vector import word_vec_wrapper
 from training_pair_preparation.classes import Pair
@@ -56,6 +56,7 @@ def read_events_pairs(filepath, list_of_pair, augmentation =0):
     aug_zero_count =0
     for p in list_of_pair:
         fname = p.fname + '.inputs.json'
+        print(fname)
         fname = os.path.join(filepath, fname)
         with open(fname) as json_data:
             data= json.load(json_data)
